@@ -121,10 +121,9 @@ def figure1(cfg: dict[str, Any], out_dir: Path) -> tuple[list[Path], dict[str, A
     ax.legend(
         [handles["discovery"], handles["confirmatory"]],
         [f1["run_labels"]["discovery"], f1["run_labels"]["confirmatory"]],
-        loc="upper left",
-        bbox_to_anchor=(1.01, 1.0),
+        loc="lower right",
         handletextpad=0.4,
-        borderaxespad=0.0,
+        borderaxespad=0.3,
     )
     ax.set_title(_wrap(f1["title"], 88), loc="left", pad=10)
     _tidy(ax, style)
@@ -160,9 +159,12 @@ def figure2_data() -> dict[str, Any]:
     records = table[["persona_key", "name", "discovery_twin_adjusted_pp", "confirmatory_twin_adjusted_pp"]].to_dict(orient="records")
     for r in records:
         r["role"] = roles.get(r["persona_key"]) if roles else None
+    same_sign = int((np.sign(table.discovery_twin_adjusted_pp) == np.sign(table.confirmatory_twin_adjusted_pp)).sum())
     return {
         "identities": records,
         "spearman": summary["spearman_discovery_vs_confirmatory_twin_adjusted"],
+        "same_sign_in_both_runs": same_sign,
+        "n_identities": int(len(table)),
         "role_coding_available": roles is not None,
     }
 
@@ -191,7 +193,7 @@ def _label_points(ax: plt.Axes, labelled: pd.DataFrame, all_points: pd.DataFrame
 
     x_col, y_col = "discovery_twin_adjusted_pp", "confirmatory_twin_adjusted_pp"
     texts = [
-        ax.text(row[x_col], row[y_col], row["name"], fontsize=style["annotation_size"] - 0.5, color=style["text_primary"], zorder=6)
+        ax.text(row[x_col], row[y_col], row["name"], fontsize=style["annotation_size"] - 1.5, color=style["text_secondary"], zorder=6)
         for _, row in labelled.iterrows()
     ]
     adjust_text(
@@ -199,13 +201,14 @@ def _label_points(ax: plt.Axes, labelled: pd.DataFrame, all_points: pd.DataFrame
         x=all_points[x_col].to_numpy(),
         y=all_points[y_col].to_numpy(),
         ax=ax,
-        expand=(1.6, 1.9),
+        expand=(1.7, 2.0),
         force_text=(0.7, 1.0),
-        force_points=(0.9, 1.1),
-        force_static=(0.9, 1.1),
+        force_points=(1.0, 1.2),
+        force_static=(1.0, 1.2),
         only_move={"text": "xy", "static": "xy", "explode": "xy", "pull": "xy"},
-        arrowprops={"arrowstyle": "-", "color": leader_color, "lw": 0.8, "shrinkA": 0, "shrinkB": 3},
-        min_arrow_len=4,
+        ensure_inside_axes=True,
+        arrowprops={"arrowstyle": "-", "color": leader_color, "lw": 0.5, "shrinkA": 0, "shrinkB": 3},
+        min_arrow_len=2,
     )
 
 
@@ -243,16 +246,27 @@ def figure2(cfg: dict[str, Any], out_dir: Path) -> tuple[list[Path], dict[str, A
     ax.set_ylim(-lim, lim)
     _label_points(ax, labelled, frame, style, f2.get("leader_color", style["axis"]))
     rho = data["spearman"]
-    ax.text(0.02, 0.97, f2["rho_template"].format(rho=rho["rho"], lo=rho["ci95"][0], hi=rho["ci95"][1]) + f"\n(n = {rho['n_identities']} identities)", transform=ax.transAxes, ha="left", va="top", fontsize=style["annotation_size"], color=style["text_primary"], bbox={"boxstyle": "round,pad=0.3", "fc": style["surface"], "ec": style["grid"]})
+    ax.text(
+        0.02,
+        0.97,
+        f"n = {rho['n_identities']} identities, one point each\nsame sign in both runs: {data['same_sign_in_both_runs']} of {data['n_identities']}\n{f2['box_note']}",
+        transform=ax.transAxes,
+        ha="left",
+        va="top",
+        fontsize=style["annotation_size"] - 0.5,
+        color=style["text_primary"],
+        bbox={"boxstyle": "round,pad=0.3", "fc": style["surface"], "ec": style["grid"]},
+    )
     ax.set_aspect("equal")
     ax.set_xlabel(f2["x_label"])
     ax.set_ylabel(f2["y_label"])
     title = f2["title_template"].format(rho=rho["rho"], lo=rho["ci95"][0], hi=rho["ci95"][1])
-    ax.set_title(_wrap(title, 66) + "\n" + f2["subtitle"], loc="left", pad=10)
+    ax.set_title(_wrap(title, 62), loc="left", pad=22)
+    ax.text(0.0, 1.015, f2["subtitle"], transform=ax.transAxes, ha="left", va="bottom", fontsize=style["annotation_size"], color=style["text_secondary"])
     ax.grid(color=style["grid"], lw=0.5, zorder=0)
     ax.set_axisbelow(True)
     _tidy(ax, style)
-    caption = f2["coded_caption"] if coded else f2["pending_caption"]
+    caption = (f2["coded_caption"] if coded else f2["pending_caption"]) + " " + f2["caption_common"]
     fig.text(0.0, -0.13, _wrap(caption, 95), ha="left", va="top", fontsize=style["annotation_size"], color=style["text_secondary"], transform=ax.transAxes)
     paths = _save(fig, out_dir, f2["file"], cfg)
     return paths, data, caption
@@ -289,8 +303,8 @@ def figure3(cfg: dict[str, Any], out_dir: Path) -> tuple[list[Path], dict[str, A
         item = data[panel["key"]]
         ax.axvline(0, color=style["zero_line"], lw=0.8, zorder=1)
         if panel["key"] == "yes_rate":
-            ax.axvline(reference, color=style["axis"], lw=0.8, ls=(0, (3, 2)), zorder=1)
-            ax.text(reference, -0.5, f"dashed: confidence effect\n({reference:+.2f}), not excluded", ha="center", va="top", fontsize=style["annotation_size"] - 1.0, color=style["text_secondary"], bbox=halo, zorder=4)
+            ax.axvline(reference, color=style["text_secondary"], lw=1.0, ls=(0, (3, 2)), zorder=1)
+            ax.text(reference, -0.42, f"confidence effect ({reference:+.2f})\nnot excluded", ha="center", va="top", fontsize=style["annotation_size"] - 1.0, color=style["text_secondary"], bbox=halo, zorder=4)
         ax.plot(item["ci95"], [0, 0], color=color, lw=style["line_width"], solid_capstyle="butt", zorder=2)
         ax.plot(item["point"], 0, marker="o", ms=style["marker_size"], color=color, mec=style["surface"], mew=style["surface_ring"], ls="none", zorder=3)
         ax.text(item["point"], 0.13, f"{item['point']:+.2f}", ha="center", va="bottom", fontsize=style["annotation_size"], color=style["text_primary"], bbox=halo, zorder=4)
@@ -300,10 +314,10 @@ def figure3(cfg: dict[str, Any], out_dir: Path) -> tuple[list[Path], dict[str, A
             grey = pal["roles"]["other"]
             ax.plot(m["ci95"], [-0.5, -0.5], color=grey, lw=1.2, zorder=2)
             ax.plot(m["point"], -0.5, marker="o", ms=style["marker_size"], mfc=style["surface"], mec=grey, mew=1.4, ls="none", zorder=3)
-            ax.text(m["ci95"][1] + 0.12, -0.5, f"{m['point']:+.2f} [{m['ci95'][0]:+.2f}, {m['ci95'][1]:+.2f}]\n{f3['matched_label']}", ha="left", va="center", fontsize=style["annotation_size"] - 1.5, color=style["text_secondary"], bbox=halo, zorder=4)
+            ax.text(m["point"], -0.6, f"{m['point']:+.2f} [{m['ci95'][0]:+.2f}, {m['ci95'][1]:+.2f}]\n{f3['matched_label']}", ha="center", va="top", fontsize=style["annotation_size"] - 1.5, color=style["text_secondary"], bbox=halo, zorder=4)
         if f3["shared_x_range"]:
             ax.set_xlim(all_lo - pad, all_hi + pad)
-        ax.set_ylim(-0.85, 0.45)
+        ax.set_ylim(-1.05, 0.45)
         ax.set_yticks([])
         ax.set_xlabel(f"{panel['label']}\n({panel['unit']})")
         ax.grid(axis="x", color=style["grid"], lw=0.6, zorder=0)

@@ -104,7 +104,40 @@ credential was found. No `.env` exists on this machine.
 
 ## Judge rounds
 
-(see the section appended below)
+Backend: local Claude Code CLI (`claude -p`, model alias `opus`) with only file reading and the crop
+command allowed, because no Anthropic API key exists on this machine; the API backend with a
+tool-use crop loop is implemented in `judge_plots.py` and is selected automatically when a key is
+set. Each round cost about $0.9 to $2.0 of Claude usage. Logs: `outputs/judge/<figure>/round_<n>.json`.
+
+| Figure | Round | Numbers consistent | Requests | Applied | Rejected |
+|---|---:|---|---:|---:|---:|
+| 1 | 1 | no: caption gave one row count for both runs | 6 | 3 | 3 |
+| 1 | 2 | yes | 6 | 4 | 3 |
+| 1 | 3 | yes | 4 | 1 | 4 |
+| 2 | 1 | yes | 6 | 5 | 1 |
+| 2 | 2 | yes | 6 | 6 | 1 |
+| 2 | 3 | yes | 5 | 3 | 2 |
+| 3 | 1 | yes | 5 | 6 | 1 |
+| 3 | 2 | yes | 3 | 2 | 1 |
+| 3 | 3 | yes | 4 | 3 | 1 |
+
+The one number-consistency failure (Figure 1, round 1) was a caption bug: it stated the
+confirmatory row count as if it applied to both runs. It was fixed in the plotting code and did not
+recur. Changes applied across rounds: per-run row counts and identity counts in captions; spelled-out
+row labels; distinct marker shapes and end caps for the two runs; larger and darker caption and tick
+text; legend inside the axes; a reference line at the confidence effect inside the yes-rate panel
+with a caption sentence saying the yes-rate interval does not exclude it; the same-answer matched
+estimate drawn in grey with its interval and labeled descriptive; the adjustment method named in the
+Figure 3 caption; the number of bootstrap resamples stated; Figure 2's title changed to state the
+lesson with rho and its interval, a y = x line, marker transparency, label repulsion with leader
+lines, and caption sentences on the labeling rule and the absence of per-identity intervals.
+
+Rejected in every round, with the reason logged: rewording the specified titles of Figures 1 and
+3 (the judge holds that Figure 1's first clause claims component effects whose intervals include
+zero, and that Figure 3's first clause reads as evidence of absence); putting the SD-unit magnitude
+on an axis instead of in the caption; adding the F−G row to Figure 1; labeling more than the eight
+most extreme identities in Figure 2. These are the author's decisions and are listed under open
+questions. No round ended with zero change requests, so every figure used all three rounds.
 
 ## Open questions and assumptions
 

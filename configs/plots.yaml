@@ -54,13 +54,15 @@ figure1:
 figure2:
   file: fig2_identities
   size_in: [5.6, 5.4]
-  title_template: "Per-identity effects correlate moderately across runs (ρ = {rho:.2f} [{lo:.2f}, {hi:.2f}])"
+  title_template: "Per-identity effects reproduce only weakly and imprecisely across runs (ρ = {rho:.2f}, 95% CI [{lo:.2f}, {hi:.2f}])"
   subtitle: "Twin-adjusted effect of each famous-AI identity, discovery versus confirmatory run"
+  box_note: "labels: the 8 points farthest from the origin"
+  caption_common: "Each point is a single estimate without a per-identity interval, so individual placements are not reliable identity-level effects. The eight named identities are the eight farthest from the origin. The dashed line is y = x."
   x_label: "Discovery run: famous AI − twin (pp)"
   y_label: "Confirmatory run: famous AI − twin (pp)"
   point_alpha: 0.75
   identity_line: true
-  leader_color: "#8a8985"
+  leader_color: "#b5b4af"
   n_labels: 8
   point_size: 24
   centroid_size: 90
@@ -87,4 +89,4 @@ figure3:
   matched_label: "same-answer matched\n(descriptive, same-answer cells only)"
   shared_x_range: true
   x_pad: 0.25
-  caption_template: "Each panel shows the four-group interaction (famous AI − unknown twin) − (famous non-AI − general population) with its 95% crossed identity-and-dilemma bootstrap interval ({reps:,} resamples) on the confirmatory run. The grey hollow marker is the same-answer matched estimate, a descriptive quantity computed only on cells where both members of a pair gave the same yes/no answer. The dashed line in the first panel marks the size of the confidence effect: the yes-rate interval does not exclude an answer shift of that size."
+  caption_template: "Each panel shows the four-group interaction (famous AI − unknown twin) − (famous non-AI − general population) with its 95% crossed identity-and-dilemma bootstrap interval ({reps:,} resamples) on the confirmatory run. The third panel standardizes each population's confidence over its yes and no answers with the pooled yes-rate as the weight (direct standardization; units stay percentage points). The grey hollow marker is the same-answer matched estimate, a descriptive quantity computed only on cells where both members of a pair gave the same yes/no answer. The dashed line in the first panel marks the size of the confidence effect: the yes-rate interval does not exclude an answer shift of that size."
