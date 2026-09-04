@@ -153,13 +153,53 @@ def cmd_analyze(args, task, control) -> int:
         profile = np.nanmean(cube["model_assessment"] - cube["neutral"], axis=0)
     profile_frame = pd.DataFrame({"stimulus": stimuli, "model_assessment_minus_neutral_pp": profile})
     write_csv(args.output_root / "per_dilemma_model_assessment.csv", profile_frame)
+    result["condition_means_pp"] = {c: float(np.nanmean(cube[c])) for c in control["conditions"]}
+    result["valid_rows_by_condition"] = {c: int(np.isfinite(cube[c]).sum()) for c in control["conditions"]}
+    # Descriptive cross-run comparison: the neutral block against the confirmatory run's general-population rows
+    # (same identities and dilemmas, different run and no block). Not a within-run contrast.
+    task_conf = load_yaml("task.yaml")
+    try:
+        from glm53.io import load_raw_scores, load_roster
+        from glm53.measure import build_matrices
+
+        conf = build_matrices(load_raw_scores("confirmatory", task_conf), load_roster(task_conf))
+        genpop = conf.matrices["genpop"]
+        cols = [conf.stimuli.index(s) for s in stimuli]
+        rows_idx = [conf.personas["genpop"].index(i) for i in identities]
+        baseline = genpop[rows_idx][:, cols]
+        diff = cube["neutral"] - baseline
+        with np.errstate(invalid="ignore"):
+            point = float(np.nanmean(np.nanmean(diff, axis=1)))
+        draws = np.empty(reps)
+        for rep in range(reps):
+            ii = rng.integers(0, diff.shape[0], size=diff.shape[0])
+            jj = rng.integers(0, diff.shape[1], size=diff.shape[1])
+            with np.errstate(invalid="ignore"):
+                draws[rep] = float(np.nanmean(np.nanmean(diff[ii][:, jj], axis=1)))
+        result["neutral_block_minus_confirmatory_genpop_pp"] = {"point_pp": point, "ci95_pp": percentile_interval(draws), "role": "descriptive_cross_run"}
+    except Exception as exc:  # noqa: BLE001
+        result["neutral_block_minus_confirmatory_genpop_pp"] = f"not computed: {type(exc).__name__}: {exc}"
     scrutiny_path = repo_path(control["analysis"]["correlate_with"])
     if scrutiny_path.exists():
         from scipy.stats import spearmanr
 
         scrutiny = pd.read_csv(scrutiny_path)
         joined = profile_frame.merge(scrutiny, on="stimulus")
-        result["correlation_with_scrutiny_profile"] = {"spearman_rho": float(spearmanr(joined.iloc[:, 1], joined["twin_adjusted_pp"]).statistic), "n_dilemmas": int(len(joined))}
+        x = joined["model_assessment_minus_neutral_pp"].to_numpy()
+        y = joined["twin_adjusted_pp"].to_numpy()
+        rho = float(spearmanr(x, y).statistic)
+        rng_c = np.random.default_rng(int(control["analysis"]["bootstrap"]["seed"]) + 7)
+        rho_draws = np.empty(reps)
+        for rep in range(reps):
+            jj = rng_c.integers(0, len(x), size=len(x))
+            rho_draws[rep] = spearmanr(x[jj], y[jj]).statistic
+        result["correlation_with_scrutiny_profile"] = {
+            "spearman_rho": rho,
+            "ci95_dilemma_bootstrap": percentile_interval(rho_draws[np.isfinite(rho_draws)]),
+            "n_dilemmas": int(len(joined)),
+            "scrutiny_profile": str(scrutiny_path.relative_to(REPO_ROOT)).replace("\\", "/"),
+            "note": "x = model_assessment minus neutral per dilemma (genpop identities); y = famous scrutiny identity minus twin per dilemma (confirmatory run)",
+        }
     else:
         result["correlation_with_scrutiny_profile"] = "pending: outputs/identities/per_dilemma_scrutiny_profile.csv does not exist yet (needs merged role coding)"
     result["provenance"] = provenance([args.output_root / "schedule_manifest.json"], [REPO_ROOT / "configs/positive_control.yaml"])

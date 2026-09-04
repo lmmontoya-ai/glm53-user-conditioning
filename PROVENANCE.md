@@ -88,3 +88,11 @@ not copied.
 Copied data and provenance files (manifests, audit packets, transcript rows, judge rows) still
 contain the absolute paths of the machines that produced them. They were left as they are. No
 user-facing document in this repository contains them.
+
+## Positive control (run 2026-09-04)
+
+`data/positive_control/` holds the rows extracted from the run's Inspect logs (`raw_scores.jsonl`,
+21,000 rows), the analysis output, the schedule manifest, the run state, and a manifest with file
+hashes. The Inspect eval logs themselves (300 shards) are kept locally under
+`outputs/positive_control/eval_logs/` and are not tracked; the extractor in `src/glm53/run_task.py`
+reproduces `raw_scores.jsonl` from them.

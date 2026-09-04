@@ -1,0 +1,2710 @@
+{
+  "connections_per_shard": 40,
+  "parallel_shards": 5,
+  "schema_version": "glm53_transluce_exact_run_state_v1",
+  "shards": {
+    "model_assessment__offset000__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset000__limit001\\2026-09-04T16-35-24-00-00_pmisaligned-context_jyqTaFi82y2GFnzTjrEaN8.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:36:36.384360+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:35:16.233235+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset000__limit001.log"
+    },
+    "model_assessment__offset001__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset001__limit001\\2026-09-04T16-35-42-00-00_pmisaligned-context_8PcoryweqepfE6fEYttDXJ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:36:56.029876+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:35:34.904254+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset001__limit001.log"
+    },
+    "model_assessment__offset002__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset002__limit001\\2026-09-04T16-36-07-00-00_pmisaligned-context_iuP2x7eCJmdt8DseVh8cG5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:37:06.635010+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:35:59.374141+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset002__limit001.log"
+    },
+    "model_assessment__offset003__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset003__limit001\\2026-09-04T16-36-25-00-00_pmisaligned-context_XceB7cKNbFwcr4NsPb9RGz.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:37:21.722950+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:36:17.586973+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset003__limit001.log"
+    },
+    "model_assessment__offset004__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset004__limit001\\2026-09-04T16-36-37-00-00_pmisaligned-context_Q7ixemgsv3WVpgCSWtcuom.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:38:14.603783+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:36:29.217383+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset004__limit001.log"
+    },
+    "model_assessment__offset005__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset005__limit001\\2026-09-04T16-36-44-00-00_pmisaligned-context_A27tYTXJLYZYwbNRvowp9h.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:37:25.931415+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:36:36.391410+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset005__limit001.log"
+    },
+    "model_assessment__offset006__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset006__limit001\\2026-09-04T16-37-04-00-00_pmisaligned-context_2a7xPRHXNCewDYpnpJZeJ7.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:50.126031+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:36:56.037020+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset006__limit001.log"
+    },
+    "model_assessment__offset007__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset007__limit001\\2026-09-04T16-37-14-00-00_pmisaligned-context_nvbUt8r8YRth2ZYiTGX9QD.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:38:02.219453+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:37:06.647592+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset007__limit001.log"
+    },
+    "model_assessment__offset008__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset008__limit001\\2026-09-04T16-37-29-00-00_pmisaligned-context_8mH29vkN2jGRzq75rXmTjU.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:39:01.654725+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:37:21.738467+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset008__limit001.log"
+    },
+    "model_assessment__offset009__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset009__limit001\\2026-09-04T16-37-33-00-00_pmisaligned-context_TD8JnS264qVmhbXwPutmg2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:38:31.482299+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:37:25.938414+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset009__limit001.log"
+    },
+    "model_assessment__offset010__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset010__limit001\\2026-09-04T16-38-09-00-00_pmisaligned-context_4UT6AxfsPPNc8sHW8WhgB2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:38:58.794820+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:38:02.231982+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset010__limit001.log"
+    },
+    "model_assessment__offset011__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset011__limit001\\2026-09-04T16-38-22-00-00_pmisaligned-context_Jqh77dtXQP98PqmFEHk5Ma.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:39:11.807128+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:38:14.616368+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset011__limit001.log"
+    },
+    "model_assessment__offset012__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset012__limit001\\2026-09-04T16-38-39-00-00_pmisaligned-context_WkLt2m9maXjhCLzby2sN7Q.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:39:45.404775+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:38:31.491272+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset012__limit001.log"
+    },
+    "model_assessment__offset013__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset013__limit001\\2026-09-04T16-39-06-00-00_pmisaligned-context_6QMbXoqDXfcLjQo7hwKZVn.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:00.789831+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:38:58.807319+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset013__limit001.log"
+    },
+    "model_assessment__offset014__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset014__limit001\\2026-09-04T16-39-09-00-00_pmisaligned-context_CMXNJiZeS3nXUDQGtyZ5Ey.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:10.382216+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:39:01.666853+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset014__limit001.log"
+    },
+    "model_assessment__offset015__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset015__limit001\\2026-09-04T16-39-19-00-00_pmisaligned-context_nQ5w4GzZbzCASRfWWNfEvr.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:11.249132+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:39:11.819238+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset015__limit001.log"
+    },
+    "model_assessment__offset016__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset016__limit001\\2026-09-04T16-39-53-00-00_pmisaligned-context_PBpD3bXWrgFbCvV4foEdMJ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:34.601572+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:39:45.418171+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset016__limit001.log"
+    },
+    "model_assessment__offset017__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset017__limit001\\2026-09-04T16-40-08-00-00_pmisaligned-context_YAwVSMpM33eKX5sNEsrNHB.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:57.757455+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:00.796667+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset017__limit001.log"
+    },
+    "model_assessment__offset018__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset018__limit001\\2026-09-04T16-40-18-00-00_pmisaligned-context_AH8njqPt4pEiK4KYzVHik5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:40:58.117868+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:10.389216+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset018__limit001.log"
+    },
+    "model_assessment__offset019__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset019__limit001\\2026-09-04T16-40-19-00-00_pmisaligned-context_W9ZtusLkhZhcTWuhTHUeuy.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:41:01.629518+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:11.261647+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset019__limit001.log"
+    },
+    "model_assessment__offset020__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset020__limit001\\2026-09-04T16-40-42-00-00_pmisaligned-context_HYLxULaJ8dmkQCXFBvMAHb.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:41:25.837173+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:34.616100+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset020__limit001.log"
+    },
+    "model_assessment__offset021__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset021__limit001\\2026-09-04T16-40-58-00-00_pmisaligned-context_D843L5bzbDQxBFHXkU8L48.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:42:35.459437+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:50.137784+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset021__limit001.log"
+    },
+    "model_assessment__offset022__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset022__limit001\\2026-09-04T16-41-05-00-00_pmisaligned-context_fLtmMqnNxFSseBa6Q8sP8c.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:42:12.587109+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:57.769771+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset022__limit001.log"
+    },
+    "model_assessment__offset023__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset023__limit001\\2026-09-04T16-41-06-00-00_pmisaligned-context_hxvjZMi8LDNpisybf8kHJA.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:42:01.008836+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:40:58.127664+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset023__limit001.log"
+    },
+    "model_assessment__offset024__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset024__limit001\\2026-09-04T16-41-09-00-00_pmisaligned-context_kyk7BqjDCoHCoPvZhdcfTs.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:42:05.328940+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:41:01.642832+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset024__limit001.log"
+    },
+    "model_assessment__offset025__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset025__limit001\\2026-09-04T16-41-35-00-00_pmisaligned-context_iULicyUHYkwFozzxyYLt2a.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:42:31.022786+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:41:25.850513+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset025__limit001.log"
+    },
+    "model_assessment__offset026__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset026__limit001\\2026-09-04T16-42-08-00-00_pmisaligned-context_J38cU6YkZu5qaodzxzzDzt.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:43:45.331887+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:42:01.022122+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset026__limit001.log"
+    },
+    "model_assessment__offset027__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset027__limit001\\2026-09-04T16-42-13-00-00_pmisaligned-context_iabR5FeAar4FtkY8brXziF.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:43:29.693605+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:42:05.341835+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset027__limit001.log"
+    },
+    "model_assessment__offset028__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset028__limit001\\2026-09-04T16-42-20-00-00_pmisaligned-context_hREWE8H5rhBVdBKVeExXA8.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:43:25.079766+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:42:12.600099+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset028__limit001.log"
+    },
+    "model_assessment__offset029__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset029__limit001\\2026-09-04T16-42-40-00-00_pmisaligned-context_JQdJSUVEg7dRzvk9j88R3U.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:43:46.613306+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:42:31.036714+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset029__limit001.log"
+    },
+    "model_assessment__offset030__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset030__limit001\\2026-09-04T16-42-44-00-00_pmisaligned-context_R8uMyEUTLmYNYaBT7Dd5o5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:07.683639+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:42:35.477309+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset030__limit001.log"
+    },
+    "model_assessment__offset031__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset031__limit001\\2026-09-04T16-43-32-00-00_pmisaligned-context_knhX3LMJMPSMsgM3igwu5H.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:44:23.308706+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:43:25.087706+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset031__limit001.log"
+    },
+    "model_assessment__offset032__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset032__limit001\\2026-09-04T16-43-37-00-00_pmisaligned-context_PRK7EehCowdjGb95PRtcJj.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:44:33.686193+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:43:29.707017+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset032__limit001.log"
+    },
+    "model_assessment__offset033__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset033__limit001\\2026-09-04T16-43-53-00-00_pmisaligned-context_FHgZiGyEhAz24KQZ67KCs2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:44:52.905262+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:43:45.345370+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset033__limit001.log"
+    },
+    "model_assessment__offset034__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset034__limit001\\2026-09-04T16-43-54-00-00_pmisaligned-context_hv2WiSAhP5FDEs6gZ2ce5R.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:44:37.716296+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:43:46.627184+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset034__limit001.log"
+    },
+    "model_assessment__offset035__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset035__limit001\\2026-09-04T16-44-31-00-00_pmisaligned-context_Z5v3Ysv4bjfKycWAc7rnan.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:45:10.308141+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:44:23.320998+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset035__limit001.log"
+    },
+    "model_assessment__offset036__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset036__limit001\\2026-09-04T16-44-41-00-00_pmisaligned-context_Tbu5gcGSkNVJCyCY5jaPQm.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:45:30.791263+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:44:33.694554+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset036__limit001.log"
+    },
+    "model_assessment__offset037__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset037__limit001\\2026-09-04T16-44-46-00-00_pmisaligned-context_cfsuWQokJHM6pbSfnPyqVt.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:45:27.799014+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:44:37.730701+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset037__limit001.log"
+    },
+    "model_assessment__offset038__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset038__limit001\\2026-09-04T16-45-01-00-00_pmisaligned-context_iiJ8QsFvnauToDEWqa2VJ9.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:15.996697+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:44:52.917713+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset038__limit001.log"
+    },
+    "model_assessment__offset039__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset039__limit001\\2026-09-04T16-45-17-00-00_pmisaligned-context_a53bBsZS35VrQruDnSEyQT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:07.361025+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:45:10.315995+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset039__limit001.log"
+    },
+    "model_assessment__offset040__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset040__limit001\\2026-09-04T16-45-35-00-00_pmisaligned-context_kPzXfmE5x7aSRBeDUjs8B6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:14.019717+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:45:27.811092+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset040__limit001.log"
+    },
+    "model_assessment__offset041__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset041__limit001\\2026-09-04T16-45-38-00-00_pmisaligned-context_gKaqWSUAt2zJNFtUjMo8mT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:16.331202+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:45:30.798524+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset041__limit001.log"
+    },
+    "model_assessment__offset042__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset042__limit001\\2026-09-04T16-46-14-00-00_pmisaligned-context_g8vCDRMHHqM9xZs9humBJe.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:51.109849+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:07.373641+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset042__limit001.log"
+    },
+    "model_assessment__offset043__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset043__limit001\\2026-09-04T16-46-15-00-00_pmisaligned-context_BjcyquzdX64Bb6z8S8vRKp.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:47:00.844975+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:07.695986+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset043__limit001.log"
+    },
+    "model_assessment__offset044__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset044__limit001\\2026-09-04T16-46-21-00-00_pmisaligned-context_MHb5J6gbqaH9XRG4TMiq9e.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:47:00.604078+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:14.033317+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset044__limit001.log"
+    },
+    "model_assessment__offset045__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset045__limit001\\2026-09-04T16-46-23-00-00_pmisaligned-context_GGQZmvTCjndSnhCfFSNpcs.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:46:59.804340+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:16.009808+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset045__limit001.log"
+    },
+    "model_assessment__offset046__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset046__limit001\\2026-09-04T16-46-24-00-00_pmisaligned-context_jRmGePzjaNtqMghfGwrQRw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:47:14.695693+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:16.345969+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset046__limit001.log"
+    },
+    "model_assessment__offset047__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset047__limit001\\2026-09-04T16-46-58-00-00_pmisaligned-context_jU88dKJktC6tZmufq5TwkP.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:48:08.465403+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:51.116865+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset047__limit001.log"
+    },
+    "model_assessment__offset048__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset048__limit001\\2026-09-04T16-47-07-00-00_pmisaligned-context_gx4FxRqJ9pzDLcbs93pp9U.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:47:58.187799+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:46:59.817145+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset048__limit001.log"
+    },
+    "model_assessment__offset049__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset049__limit001\\2026-09-04T16-47-08-00-00_pmisaligned-context_7uNt56kofV3YQekZe8G2NH.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:48:25.493607+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:47:00.617154+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset049__limit001.log"
+    },
+    "model_assessment__offset050__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset050__limit001\\2026-09-04T16-47-08-00-00_pmisaligned-context_6yn2T96Q3AFpdv3B7UVs5x.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:47:55.487821+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:47:00.857136+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset050__limit001.log"
+    },
+    "model_assessment__offset051__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset051__limit001\\2026-09-04T16-47-23-00-00_pmisaligned-context_gXGsHmLH2JXpnocevy3CXm.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:49:36.293035+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:47:14.707425+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset051__limit001.log"
+    },
+    "model_assessment__offset052__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset052__limit001\\2026-09-04T16-48-03-00-00_pmisaligned-context_6g9dne2nbjHzHA9T6Vt5uH.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:49:15.890914+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:47:55.501154+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset052__limit001.log"
+    },
+    "model_assessment__offset053__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset053__limit001\\2026-09-04T16-48-06-00-00_pmisaligned-context_PCxWqLBfUDgH3aX2McyzoB.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:49:00.871840+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:47:58.201177+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset053__limit001.log"
+    },
+    "model_assessment__offset054__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset054__limit001\\2026-09-04T16-48-16-00-00_pmisaligned-context_Tiwek7m2VpBGnkvyLcHkEM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:49:05.513232+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:48:08.478753+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset054__limit001.log"
+    },
+    "model_assessment__offset055__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset055__limit001\\2026-09-04T16-48-33-00-00_pmisaligned-context_FswWktHM2WNHLquDXPCeB2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:52:44.850966+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:48:25.509058+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset055__limit001.log"
+    },
+    "model_assessment__offset056__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset056__limit001\\2026-09-04T16-49-08-00-00_pmisaligned-context_jmDaoigmefwsfbDQiBjCub.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:49:48.740788+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:49:00.885752+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset056__limit001.log"
+    },
+    "model_assessment__offset057__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset057__limit001\\2026-09-04T16-49-13-00-00_pmisaligned-context_ReS7qjrVdTM3JexSAErSJR.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:50:07.098836+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:49:05.527199+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset057__limit001.log"
+    },
+    "model_assessment__offset058__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset058__limit001\\2026-09-04T16-49-23-00-00_pmisaligned-context_2AuBgwosDpgnvt9RwTC5N3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:50:06.559016+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:49:15.904149+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset058__limit001.log"
+    },
+    "model_assessment__offset059__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset059__limit001\\2026-09-04T16-49-43-00-00_pmisaligned-context_X6TQoCAbacpsy3Zj9kfrgz.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:50:38.116332+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:49:36.307526+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset059__limit001.log"
+    },
+    "model_assessment__offset060__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset060__limit001\\2026-09-04T16-49-56-00-00_pmisaligned-context_cWfEHMa5qPaKApDpUNeHZ6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:50:35.609316+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:49:48.754959+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset060__limit001.log"
+    },
+    "model_assessment__offset061__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset061__limit001\\2026-09-04T16-50-14-00-00_pmisaligned-context_PQSL8EKzBesus3TfBphHyq.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:53:08.531739+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:50:06.574149+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset061__limit001.log"
+    },
+    "model_assessment__offset062__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset062__limit001\\2026-09-04T16-50-14-00-00_pmisaligned-context_DSzUxpasmMUcgczqJnq5iK.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:51:10.373958+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:50:07.112851+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset062__limit001.log"
+    },
+    "model_assessment__offset063__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset063__limit001\\2026-09-04T16-50-43-00-00_pmisaligned-context_gbp5zZiTKCrxfpzD7HPF5E.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:51:28.530996+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:50:35.623739+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset063__limit001.log"
+    },
+    "model_assessment__offset064__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset064__limit001\\2026-09-04T16-50-45-00-00_pmisaligned-context_9B5WAPaPTgovN9k6EjhkBS.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:51:35.395476+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:50:38.129956+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset064__limit001.log"
+    },
+    "model_assessment__offset065__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset065__limit001\\2026-09-04T16-51-17-00-00_pmisaligned-context_NtzhL4AxmmT453qZAwrUQn.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:52:19.339960+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:51:10.382961+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset065__limit001.log"
+    },
+    "model_assessment__offset066__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset066__limit001\\2026-09-04T16-51-36-00-00_pmisaligned-context_HTXqYT8d2Q4EbcE7EzUBbp.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:52:26.192052+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:51:28.544345+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset066__limit001.log"
+    },
+    "model_assessment__offset067__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset067__limit001\\2026-09-04T16-51-42-00-00_pmisaligned-context_7fezQFwtykiiN9HwM3NtKT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:52:19.194702+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:51:35.408043+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset067__limit001.log"
+    },
+    "model_assessment__offset068__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset068__limit001\\2026-09-04T16-52-26-00-00_pmisaligned-context_2khnUL535yhcQbsPwkFJQu.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:53:22.901790+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:52:19.207606+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset068__limit001.log"
+    },
+    "model_assessment__offset069__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset069__limit001\\2026-09-04T16-52-26-00-00_pmisaligned-context_bP7EFagabVciAwJ9Fnx2ds.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:53:14.333628+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:52:19.348725+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset069__limit001.log"
+    },
+    "model_assessment__offset070__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset070__limit001\\2026-09-04T16-52-33-00-00_pmisaligned-context_DzcYHEJDsz5LM4r6BVi83P.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:53:16.104991+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:52:26.205358+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset070__limit001.log"
+    },
+    "model_assessment__offset071__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset071__limit001\\2026-09-04T16-52-52-00-00_pmisaligned-context_hVfUabTzMnrgMFcmjGKbGV.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:53:47.749891+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:52:44.864847+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset071__limit001.log"
+    },
+    "model_assessment__offset072__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset072__limit001\\2026-09-04T16-53-16-00-00_pmisaligned-context_W6yK9SiCo9eGjBdf8ua4RQ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:53:58.181488+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:53:08.548021+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset072__limit001.log"
+    },
+    "model_assessment__offset073__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset073__limit001\\2026-09-04T16-53-22-00-00_pmisaligned-context_mpdJ3H5jJrW8XLVX63iveW.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:54:15.321447+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:53:14.346592+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset073__limit001.log"
+    },
+    "model_assessment__offset074__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset074__limit001\\2026-09-04T16-53-23-00-00_pmisaligned-context_5YfGvwm6P7VtVVNGKbacXF.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:54:14.504882+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:53:16.112027+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset074__limit001.log"
+    },
+    "model_assessment__offset075__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset075__limit001\\2026-09-04T16-53-31-00-00_pmisaligned-context_8zxBhcUeCZkWCcjrQVCQCN.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:54:26.320890+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:53:22.909436+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset075__limit001.log"
+    },
+    "model_assessment__offset076__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset076__limit001\\2026-09-04T16-53-55-00-00_pmisaligned-context_6GmTtcC5MPAPihg2jmkY7G.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:54:33.354288+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:53:47.758371+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset076__limit001.log"
+    },
+    "model_assessment__offset077__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset077__limit001\\2026-09-04T16-54-05-00-00_pmisaligned-context_8SYQQqW4p8dUknkBff4QXM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:54:59.645833+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:53:58.193397+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset077__limit001.log"
+    },
+    "model_assessment__offset078__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset078__limit001\\2026-09-04T16-54-22-00-00_pmisaligned-context_2awoTrUQRKZbbjjQe9wYye.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:55:18.448719+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:54:14.513571+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset078__limit001.log"
+    },
+    "model_assessment__offset079__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset079__limit001\\2026-09-04T16-54-23-00-00_pmisaligned-context_oVhyz9RNghtpePFBtYLcuw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:55:22.218587+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:54:15.335147+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset079__limit001.log"
+    },
+    "model_assessment__offset080__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset080__limit001\\2026-09-04T16-54-34-00-00_pmisaligned-context_b77GURBCxj8p8xaNDHY6o2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:55:10.991442+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:54:26.333525+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset080__limit001.log"
+    },
+    "model_assessment__offset081__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset081__limit001\\2026-09-04T16-54-41-00-00_pmisaligned-context_2J5cUgvn79QdQ5JqwAG6w3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:55:27.934447+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:54:33.368279+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset081__limit001.log"
+    },
+    "model_assessment__offset082__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset082__limit001\\2026-09-04T16-55-07-00-00_pmisaligned-context_m9cqziHcRkh3dpxw7vUxG6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:56:45.932803+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:54:59.653549+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset082__limit001.log"
+    },
+    "model_assessment__offset083__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset083__limit001\\2026-09-04T16-55-19-00-00_pmisaligned-context_XnXUUnJowMTM436WonavJL.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:56:32.158851+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:55:11.005920+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset083__limit001.log"
+    },
+    "model_assessment__offset084__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset084__limit001\\2026-09-04T16-55-26-00-00_pmisaligned-context_KtrRt8edMJTvWSGNdAu72o.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:56:12.439177+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:55:18.461685+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset084__limit001.log"
+    },
+    "model_assessment__offset085__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset085__limit001\\2026-09-04T16-55-30-00-00_pmisaligned-context_S22ov3pXTisdooPHMVZjsY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:58:44.366677+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:55:22.232306+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset085__limit001.log"
+    },
+    "model_assessment__offset086__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset086__limit001\\2026-09-04T16-55-35-00-00_pmisaligned-context_3ySvDYF7NSVNJBukTrMkmb.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:56:21.940044+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:55:27.948567+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset086__limit001.log"
+    },
+    "model_assessment__offset087__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset087__limit001\\2026-09-04T16-56-20-00-00_pmisaligned-context_MFiCJY2gkKMwJ5FkseUuZn.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:57:13.454724+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:56:12.453569+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset087__limit001.log"
+    },
+    "model_assessment__offset088__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset088__limit001\\2026-09-04T16-56-29-00-00_pmisaligned-context_kCiu8QHVsNibwXUTgy7Udh.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:56:59.710327+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:56:21.953523+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset088__limit001.log"
+    },
+    "model_assessment__offset089__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset089__limit001\\2026-09-04T16-56-39-00-00_pmisaligned-context_4xfyc3HhaRHqjnNbJReikj.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:57:20.084425+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:56:32.173262+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset089__limit001.log"
+    },
+    "model_assessment__offset090__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset090__limit001\\2026-09-04T16-56-53-00-00_pmisaligned-context_e6GaVXe5KpDhmjLR4fikWt.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:57:50.355889+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:56:45.941095+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset090__limit001.log"
+    },
+    "model_assessment__offset091__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset091__limit001\\2026-09-04T16-57-07-00-00_pmisaligned-context_iSCnNvdukPbyamoxkqais9.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:58:09.066531+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:56:59.724336+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset091__limit001.log"
+    },
+    "model_assessment__offset092__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset092__limit001\\2026-09-04T16-57-21-00-00_pmisaligned-context_DEnHsAmcQjDZVMUUmoR3pW.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:58:53.919591+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:57:13.462917+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset092__limit001.log"
+    },
+    "model_assessment__offset093__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset093__limit001\\2026-09-04T16-57-28-00-00_pmisaligned-context_5GvJbuYraZodSExbm584ho.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:59:18.939307+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:57:20.095829+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset093__limit001.log"
+    },
+    "model_assessment__offset094__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset094__limit001\\2026-09-04T16-57-58-00-00_pmisaligned-context_QSk6tPvXqSYVJ3yGgJCHyA.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:58:33.609767+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:57:50.370322+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset094__limit001.log"
+    },
+    "model_assessment__offset095__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset095__limit001\\2026-09-04T16-58-16-00-00_pmisaligned-context_2xx4br8JazQ8v4eCA32NtY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:59:01.619961+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:58:09.074871+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset095__limit001.log"
+    },
+    "model_assessment__offset096__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset096__limit001\\2026-09-04T16-58-41-00-00_pmisaligned-context_LJ8LzXAhdf4UVL5mEHgpSd.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:59:35.196208+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:58:33.618448+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset096__limit001.log"
+    },
+    "model_assessment__offset097__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset097__limit001\\2026-09-04T16-58-51-00-00_pmisaligned-context_5EPbDAo4tmtGDEaMvhLECp.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:59:27.070711+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:58:44.379758+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset097__limit001.log"
+    },
+    "model_assessment__offset098__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset098__limit001\\2026-09-04T16-59-01-00-00_pmisaligned-context_jWJnoH9cUbbtbg3PcZrJVv.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:59:57.143213+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:58:53.933744+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset098__limit001.log"
+    },
+    "model_assessment__offset099__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\model_assessment__offset099__limit001\\2026-09-04T16-59-09-00-00_pmisaligned-context_niibyMyXS8Tnu6LpxduqF6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:59:56.142457+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:59:01.634614+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\model_assessment__offset099__limit001.log"
+    },
+    "neutral__offset000__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset000__limit001\\2026-09-04T15-45-09-00-00_pmisaligned-context_d3HVwarTPDUcaadCpF68t6.eval",
+      "expected_rows": 70,
+      "status": "skipped_success"
+    },
+    "neutral__offset001__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset001__limit001\\2026-09-04T15-47-21-00-00_pmisaligned-context_QaxVrGvy6zPP7US4DqAtfG.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:48:23.334371+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:47:12.526103+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset001__limit001.log"
+    },
+    "neutral__offset002__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset002__limit001\\2026-09-04T15-47-21-00-00_pmisaligned-context_2xZVjWJoDooNsqRw9fpsNw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:48:29.997383+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:47:12.532349+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset002__limit001.log"
+    },
+    "neutral__offset003__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset003__limit001\\2026-09-04T15-47-21-00-00_pmisaligned-context_Cd4vF2fLwVzcpLaRuJkBcs.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:48:36.285736+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:47:12.533592+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset003__limit001.log"
+    },
+    "neutral__offset004__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset004__limit001\\2026-09-04T15-47-21-00-00_pmisaligned-context_X4RsqSdwBXZqkzZe2XrALA.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:48:47.306732+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:47:12.534593+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset004__limit001.log"
+    },
+    "neutral__offset005__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset005__limit001\\2026-09-04T15-47-21-00-00_pmisaligned-context_8i47chBYYbiLGirBNxKDtr.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:48:26.777374+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:47:12.580816+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset005__limit001.log"
+    },
+    "neutral__offset006__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset006__limit001\\2026-09-04T15-48-32-00-00_pmisaligned-context_UCaJJKD2bsxnGRbM6NGjRB.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:49:21.379352+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:48:23.344850+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset006__limit001.log"
+    },
+    "neutral__offset007__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset007__limit001\\2026-09-04T15-48-36-00-00_pmisaligned-context_FP5uQH3bQYgVRcQogtNik3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:49:18.250170+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:48:26.787768+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset007__limit001.log"
+    },
+    "neutral__offset008__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset008__limit001\\2026-09-04T15-48-41-00-00_pmisaligned-context_DFqytWFMdL8JxNyG6xdwAa.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:49:43.697086+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:48:30.007387+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset008__limit001.log"
+    },
+    "neutral__offset009__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset009__limit001\\2026-09-04T15-48-47-00-00_pmisaligned-context_6dpjpFumRY4s8pzYT7LEcU.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:49:42.018737+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:48:36.295748+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset009__limit001.log"
+    },
+    "neutral__offset010__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset010__limit001\\2026-09-04T15-48-59-00-00_pmisaligned-context_BMWjihYwxF2uzhfLJCF5i6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:52:07.454265+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:48:47.311732+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset010__limit001.log"
+    },
+    "neutral__offset011__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset011__limit001\\2026-09-04T15-49-26-00-00_pmisaligned-context_hyhPv6hdkiZwfoYXR5UHYL.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:50:21.223012+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:49:18.259413+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset011__limit001.log"
+    },
+    "neutral__offset012__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset012__limit001\\2026-09-04T15-49-29-00-00_pmisaligned-context_QRnhSU9nkABKS49cp3yVcy.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:50:30.362869+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:49:21.382881+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset012__limit001.log"
+    },
+    "neutral__offset013__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset013__limit001\\2026-09-04T15-49-51-00-00_pmisaligned-context_5GfmBNwL2dYMy5TSntTbbm.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:50:36.712428+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:49:42.027838+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset013__limit001.log"
+    },
+    "neutral__offset014__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset014__limit001\\2026-09-04T15-49-52-00-00_pmisaligned-context_i54gqXy2GXaemF6W76FVVd.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:50:50.620950+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:49:43.706185+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset014__limit001.log"
+    },
+    "neutral__offset015__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset015__limit001\\2026-09-04T15-50-29-00-00_pmisaligned-context_bipxdzN48anCmQ67hjoNCH.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:51:18.413735+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:50:21.232173+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset015__limit001.log"
+    },
+    "neutral__offset016__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset016__limit001\\2026-09-04T15-50-38-00-00_pmisaligned-context_ZjdAPM37QtEh9Um2UT5zzK.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:51:16.644764+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:50:30.372020+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset016__limit001.log"
+    },
+    "neutral__offset017__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset017__limit001\\2026-09-04T15-50-44-00-00_pmisaligned-context_NoXMnDWvPZo9hQx6EqXf2G.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:51:44.394026+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:50:36.721400+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset017__limit001.log"
+    },
+    "neutral__offset018__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset018__limit001\\2026-09-04T15-50-59-00-00_pmisaligned-context_hayinG6Dxt8tgMZjaLHdEw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:51:44.651600+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:50:50.629873+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset018__limit001.log"
+    },
+    "neutral__offset019__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset019__limit001\\2026-09-04T15-51-24-00-00_pmisaligned-context_EfJocEFEAZrMw4etJs9CDU.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:52:27.022616+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:51:16.648708+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset019__limit001.log"
+    },
+    "neutral__offset020__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset020__limit001\\2026-09-04T15-51-26-00-00_pmisaligned-context_SqGhnPEmdzXNdcwi98Dn5z.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:52:37.758234+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:51:18.423155+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset020__limit001.log"
+    },
+    "neutral__offset021__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset021__limit001\\2026-09-04T15-51-53-00-00_pmisaligned-context_KceoiBmZFWpN7f3ox4xVpS.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:52:54.474041+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:51:44.404988+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset021__limit001.log"
+    },
+    "neutral__offset022__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset022__limit001\\2026-09-04T15-51-53-00-00_pmisaligned-context_i2ZkLxstG6NV99cijmcUP3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:53:51.238893+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:51:44.656712+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset022__limit001.log"
+    },
+    "neutral__offset023__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset023__limit001\\2026-09-04T15-52-16-00-00_pmisaligned-context_J2vpYeEC3ekNFcAKdWgWqi.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:53:10.337946+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:52:07.464506+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset023__limit001.log"
+    },
+    "neutral__offset024__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset024__limit001\\2026-09-04T15-52-35-00-00_pmisaligned-context_REb4BZVfme77Br2TNodvVr.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:53:49.953400+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:52:27.031979+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset024__limit001.log"
+    },
+    "neutral__offset025__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset025__limit001\\2026-09-04T15-52-46-00-00_pmisaligned-context_fCCb9a7bpPRsc3aUGrgr2e.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:53:37.912283+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:52:37.762613+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset025__limit001.log"
+    },
+    "neutral__offset026__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset026__limit001\\2026-09-04T15-53-02-00-00_pmisaligned-context_kKdd77LuJCe23uPJ5tNQ4T.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:54:02.473918+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:52:54.484249+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset026__limit001.log"
+    },
+    "neutral__offset027__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset027__limit001\\2026-09-04T15-53-18-00-00_pmisaligned-context_YsR94LpZLuF7MBuLxhWz4d.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:54:17.674070+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:53:10.342112+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset027__limit001.log"
+    },
+    "neutral__offset028__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset028__limit001\\2026-09-04T15-53-45-00-00_pmisaligned-context_RSf9RTFHFcBaHiQH6zdhft.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:54:34.766937+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:53:37.921589+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset028__limit001.log"
+    },
+    "neutral__offset029__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset029__limit001\\2026-09-04T15-53-59-00-00_pmisaligned-context_iCvqTaTv6qfoQksVRZ2zxY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:54:59.729749+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:53:49.958565+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset029__limit001.log"
+    },
+    "neutral__offset030__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset030__limit001\\2026-09-04T15-54-00-00-00_pmisaligned-context_CZe5DagC5EfpUVPGNtrpRS.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:55:14.442404+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:53:51.241902+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset030__limit001.log"
+    },
+    "neutral__offset031__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset031__limit001\\2026-09-04T15-54-10-00-00_pmisaligned-context_jk88zXgJsL7fL3xwPporyN.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:55:02.182157+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:54:02.484754+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset031__limit001.log"
+    },
+    "neutral__offset032__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset032__limit001\\2026-09-04T15-54-26-00-00_pmisaligned-context_gVAiQBBRjQrtAra4jWmvDX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:55:27.916696+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:54:17.683750+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset032__limit001.log"
+    },
+    "neutral__offset033__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset033__limit001\\2026-09-04T15-54-43-00-00_pmisaligned-context_RNEkCtG3yLFy7ncGDDkMzB.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:55:52.411833+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:54:34.776811+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset033__limit001.log"
+    },
+    "neutral__offset034__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset034__limit001\\2026-09-04T15-55-08-00-00_pmisaligned-context_QkNUBZu5T3wYkVH2hfBAgP.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:55:58.401104+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:54:59.740857+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset034__limit001.log"
+    },
+    "neutral__offset035__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset035__limit001\\2026-09-04T15-55-10-00-00_pmisaligned-context_SLaKC9TCdWtPLDiUKuFtox.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:55:59.540381+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:55:02.187162+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset035__limit001.log"
+    },
+    "neutral__offset036__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset036__limit001\\2026-09-04T15-55-23-00-00_pmisaligned-context_iqNHSvcMj4EGU5u8qnsZvi.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:56:33.311857+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:55:14.446647+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset036__limit001.log"
+    },
+    "neutral__offset037__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset037__limit001\\2026-09-04T15-55-36-00-00_pmisaligned-context_eSa5atvJdn4hgM2e9JcPFk.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:56:24.590026+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:55:27.925947+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset037__limit001.log"
+    },
+    "neutral__offset038__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset038__limit001\\2026-09-04T15-56-01-00-00_pmisaligned-context_kdYNqaj7C4q4fkLFXXog7g.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:57:24.877969+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:55:52.421750+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset038__limit001.log"
+    },
+    "neutral__offset039__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset039__limit001\\2026-09-04T15-56-07-00-00_pmisaligned-context_BrqMsRhg9zbAxNKvwrYwh8.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:57:00.907283+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:55:58.410863+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset039__limit001.log"
+    },
+    "neutral__offset040__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset040__limit001\\2026-09-04T15-56-08-00-00_pmisaligned-context_Y2awfM6A63bdgnRDBk9AQM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:57:13.535074+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:55:59.545798+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset040__limit001.log"
+    },
+    "neutral__offset041__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset041__limit001\\2026-09-04T15-56-33-00-00_pmisaligned-context_KxHLPSpmtkzQ5qsg3pr7uX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:57:12.183918+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:56:24.600876+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset041__limit001.log"
+    },
+    "neutral__offset042__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset042__limit001\\2026-09-04T15-56-42-00-00_pmisaligned-context_beVQrqtCDwnHi736ALjJGi.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:57:24.161570+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:56:33.322755+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset042__limit001.log"
+    },
+    "neutral__offset043__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset043__limit001\\2026-09-04T15-57-10-00-00_pmisaligned-context_2ncarN5HASQRiUmYLSQcjX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:57:58.580211+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:57:00.917233+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset043__limit001.log"
+    },
+    "neutral__offset044__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset044__limit001\\2026-09-04T15-57-20-00-00_pmisaligned-context_jQiMkZwD4wAgjHq2pfm2n5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:58:43.130411+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:57:12.193694+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset044__limit001.log"
+    },
+    "neutral__offset045__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset045__limit001\\2026-09-04T15-57-21-00-00_pmisaligned-context_dS5JXBEJ6LaYoQ5CBhQPB4.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:58:05.101242+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:57:13.544611+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset045__limit001.log"
+    },
+    "neutral__offset046__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset046__limit001\\2026-09-04T15-57-33-00-00_pmisaligned-context_6BoxUw7uWjtWAXkVGSRpzf.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:58:42.364515+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:57:24.170664+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset046__limit001.log"
+    },
+    "neutral__offset047__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset047__limit001\\2026-09-04T15-57-33-00-00_pmisaligned-context_Tqsew57HjxebvuWmLAhatz.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:58:53.713546+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:57:24.888103+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset047__limit001.log"
+    },
+    "neutral__offset048__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset048__limit001\\2026-09-04T15-58-07-00-00_pmisaligned-context_5FaL4txKdQ6rm9iCUhXtxX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:58:53.850909+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:57:58.589766+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset048__limit001.log"
+    },
+    "neutral__offset049__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset049__limit001\\2026-09-04T15-58-14-00-00_pmisaligned-context_QDaLpeqySpdmmEunrNvqvT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:59:05.795950+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:58:05.112895+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset049__limit001.log"
+    },
+    "neutral__offset050__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset050__limit001\\2026-09-04T15-58-50-00-00_pmisaligned-context_2Pc8KEcSbaBwgDDapxqPEt.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:59:47.596293+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:58:42.369322+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset050__limit001.log"
+    },
+    "neutral__offset051__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset051__limit001\\2026-09-04T15-58-51-00-00_pmisaligned-context_FVGfmu7gULVEnQA9xwZyzT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T15:59:57.018001+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:58:43.135403+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset051__limit001.log"
+    },
+    "neutral__offset052__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset052__limit001\\2026-09-04T15-59-01-00-00_pmisaligned-context_bMmQvoMx8yzoiRp7LwU3tV.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:00:28.436327+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:58:53.722806+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset052__limit001.log"
+    },
+    "neutral__offset053__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset053__limit001\\2026-09-04T15-59-02-00-00_pmisaligned-context_KXxFeV8VSch7ckpvqBmpZt.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:00:11.646324+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:58:53.854266+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset053__limit001.log"
+    },
+    "neutral__offset054__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset054__limit001\\2026-09-04T15-59-15-00-00_pmisaligned-context_AfBTos773VQmLutoEVLMcA.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:00:11.478338+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:59:05.805489+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset054__limit001.log"
+    },
+    "neutral__offset055__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset055__limit001\\2026-09-04T15-59-55-00-00_pmisaligned-context_5Vh4RxLgz8ZkzGaAp9p4r6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:05:00.259257+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:59:47.601036+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset055__limit001.log"
+    },
+    "neutral__offset056__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset056__limit001\\2026-09-04T16-00-05-00-00_pmisaligned-context_gJPoqHpEfYPxmBubbYu3SF.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:00:56.861024+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T15:59:57.027344+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset056__limit001.log"
+    },
+    "neutral__offset057__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset057__limit001\\2026-09-04T16-00-21-00-00_pmisaligned-context_SjQqnTKGojpaSPJjuGWz64.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:01:27.540367+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:00:11.488841+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset057__limit001.log"
+    },
+    "neutral__offset058__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset058__limit001\\2026-09-04T16-00-21-00-00_pmisaligned-context_jTPJknzekJA5faqL9PVsjh.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:01:24.306267+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:00:11.650327+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset058__limit001.log"
+    },
+    "neutral__offset059__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset059__limit001\\2026-09-04T16-00-37-00-00_pmisaligned-context_eoNThZcMVW4iCM9rszjqsa.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:01:49.666659+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:00:28.447308+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset059__limit001.log"
+    },
+    "neutral__offset060__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset060__limit001\\2026-09-04T16-01-05-00-00_pmisaligned-context_kf2oFhVc3JLAnujRtyr2WM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:02:24.320308+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:00:56.871746+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset060__limit001.log"
+    },
+    "neutral__offset061__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset061__limit001\\2026-09-04T16-01-32-00-00_pmisaligned-context_CjUuP3cJFUfrNid5ZvWqoG.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:02:53.075363+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:01:24.315748+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset061__limit001.log"
+    },
+    "neutral__offset062__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset062__limit001\\2026-09-04T16-01-35-00-00_pmisaligned-context_NYeSwz8YkP3V4FYPxLeDsP.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:02:18.065026+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:01:27.552067+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset062__limit001.log"
+    },
+    "neutral__offset063__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset063__limit001\\2026-09-04T16-01-58-00-00_pmisaligned-context_WFt4Bn34YXbeDcELorBSco.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:02:52.957107+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:01:49.671693+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset063__limit001.log"
+    },
+    "neutral__offset064__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset064__limit001\\2026-09-04T16-02-26-00-00_pmisaligned-context_LckYMu4sVDe25nwa4WDUuq.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:03:42.792337+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:02:18.075998+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset064__limit001.log"
+    },
+    "neutral__offset065__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset065__limit001\\2026-09-04T16-02-33-00-00_pmisaligned-context_D8ArRz3PVojbR22cJbaFdY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:03:26.559923+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:02:24.331848+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset065__limit001.log"
+    },
+    "neutral__offset066__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset066__limit001\\2026-09-04T16-03-01-00-00_pmisaligned-context_9QUwxKPDFA3yReVKutQ5Sm.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:04:05.609830+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:02:52.967658+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset066__limit001.log"
+    },
+    "neutral__offset067__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset067__limit001\\2026-09-04T16-03-01-00-00_pmisaligned-context_aneXNVXby6gcKpnFYQVQkg.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:04:03.396964+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:02:53.081990+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset067__limit001.log"
+    },
+    "neutral__offset068__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset068__limit001\\2026-09-04T16-03-35-00-00_pmisaligned-context_hVWxsPWUvJhW943autfgKB.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:04:09.091777+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:03:26.564921+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset068__limit001.log"
+    },
+    "neutral__offset069__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset069__limit001\\2026-09-04T16-03-51-00-00_pmisaligned-context_aVQdRjBTiKsscsgMJePke4.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:04:55.361280+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:03:42.804032+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset069__limit001.log"
+    },
+    "neutral__offset070__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset070__limit001\\2026-09-04T16-04-11-00-00_pmisaligned-context_aTEUvtjWFGAbiJmpnSvFsb.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:05:13.187373+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:04:03.403511+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset070__limit001.log"
+    },
+    "neutral__offset071__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset071__limit001\\2026-09-04T16-04-14-00-00_pmisaligned-context_N2zvExgVQE9gAkkxsddoPk.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:05:27.920700+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:04:05.620636+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset071__limit001.log"
+    },
+    "neutral__offset072__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset072__limit001\\2026-09-04T16-04-17-00-00_pmisaligned-context_Ta8AdxiFKZKcdHEUjR6uZn.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:05:09.183426+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:04:09.105419+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset072__limit001.log"
+    },
+    "neutral__offset073__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset073__limit001\\2026-09-04T16-05-03-00-00_pmisaligned-context_e9kfaS6bW4tZZFenvmRukq.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:06:05.834739+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:04:55.373277+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset073__limit001.log"
+    },
+    "neutral__offset074__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset074__limit001\\2026-09-04T16-05-08-00-00_pmisaligned-context_S9ANMCzbrNiSRbxG8uRfpG.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:06:16.813094+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:05:00.269842+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset074__limit001.log"
+    },
+    "neutral__offset075__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset075__limit001\\2026-09-04T16-05-17-00-00_pmisaligned-context_ef5zgMLSYWVBhcEXxDFAjw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:06:18.976064+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:05:09.195390+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset075__limit001.log"
+    },
+    "neutral__offset076__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset076__limit001\\2026-09-04T16-05-21-00-00_pmisaligned-context_DDrgsSwPURAUWyYW8eMuHY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:06:23.460605+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:05:13.201078+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset076__limit001.log"
+    },
+    "neutral__offset077__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset077__limit001\\2026-09-04T16-05-37-00-00_pmisaligned-context_UHo2FdVhd8QGLvMXpFADdv.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:06:44.112113+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:05:27.927174+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset077__limit001.log"
+    },
+    "neutral__offset078__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset078__limit001\\2026-09-04T16-06-13-00-00_pmisaligned-context_VEoJQqrZUbcZSPW5MQ9HSq.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:07:55.730709+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:06:05.844708+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset078__limit001.log"
+    },
+    "neutral__offset079__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset079__limit001\\2026-09-04T16-06-24-00-00_pmisaligned-context_dXHHmRWmBEBc2pUR9qLGki.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:07:39.807034+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:06:16.822410+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset079__limit001.log"
+    },
+    "neutral__offset080__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset080__limit001\\2026-09-04T16-06-26-00-00_pmisaligned-context_CUyF9oQauubGJe5DDP5u8S.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:07:30.125803+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:06:18.985604+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset080__limit001.log"
+    },
+    "neutral__offset081__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset081__limit001\\2026-09-04T16-06-31-00-00_pmisaligned-context_EmXAfyMzM3uJMTaQLsT9pn.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:07:23.897294+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:06:23.472909+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset081__limit001.log"
+    },
+    "neutral__offset082__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset082__limit001\\2026-09-04T16-06-52-00-00_pmisaligned-context_6zL45fufeRwJ9HgD8SBSic.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:08:08.478944+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:06:44.118130+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset082__limit001.log"
+    },
+    "neutral__offset083__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset083__limit001\\2026-09-04T16-07-32-00-00_pmisaligned-context_8UcNZZCNnCTBpZ2KBdZeRD.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:08:53.448264+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:07:23.908229+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset083__limit001.log"
+    },
+    "neutral__offset084__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset084__limit001\\2026-09-04T16-07-38-00-00_pmisaligned-context_U4X74vcfeD5s43PKfhHYL6.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:08:18.614614+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:07:30.135888+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset084__limit001.log"
+    },
+    "neutral__offset085__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset085__limit001\\2026-09-04T16-07-48-00-00_pmisaligned-context_D2EGR4USnVb6sfhHJRoi34.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:08:30.059245+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:07:39.817649+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset085__limit001.log"
+    },
+    "neutral__offset086__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset086__limit001\\2026-09-04T16-08-04-00-00_pmisaligned-context_XBJQnc3zC2UvVvAF34zb6Z.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:09:02.535747+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:07:55.740829+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset086__limit001.log"
+    },
+    "neutral__offset087__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset087__limit001\\2026-09-04T16-08-16-00-00_pmisaligned-context_dg2eDTTGqF9ojCoCXNt9t7.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:09:33.654227+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:08:08.490461+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset087__limit001.log"
+    },
+    "neutral__offset088__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset088__limit001\\2026-09-04T16-08-26-00-00_pmisaligned-context_QCvHS4UHCc4gQfR6RYSvBq.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:09:11.262220+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:08:18.625911+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset088__limit001.log"
+    },
+    "neutral__offset089__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset089__limit001\\2026-09-04T16-08-38-00-00_pmisaligned-context_UTsaEAPyDFddmmUz9LiDdN.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:11:50.326002+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:08:30.071266+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset089__limit001.log"
+    },
+    "neutral__offset090__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset090__limit001\\2026-09-04T16-09-01-00-00_pmisaligned-context_UtLN5JjfB8rfurgRcGmx94.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:10:16.652345+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:08:53.459531+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset090__limit001.log"
+    },
+    "neutral__offset091__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset091__limit001\\2026-09-04T16-09-10-00-00_pmisaligned-context_CY6tuuPjK7EenCkUpRxwXM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:10:34.061177+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:09:02.547180+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset091__limit001.log"
+    },
+    "neutral__offset092__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset092__limit001\\2026-09-04T16-09-19-00-00_pmisaligned-context_XsMhMdXmwmu6PjtbYjbPcG.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:10:28.447542+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:09:11.272547+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset092__limit001.log"
+    },
+    "neutral__offset093__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset093__limit001\\2026-09-04T16-09-42-00-00_pmisaligned-context_2eLNCJwigqkHoj8xbCGSh4.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:11:04.449445+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:09:33.666134+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset093__limit001.log"
+    },
+    "neutral__offset094__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset094__limit001\\2026-09-04T16-10-27-00-00_pmisaligned-context_FBYGpW9uittKgARUVcZVmi.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:11:14.653219+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:10:16.659369+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset094__limit001.log"
+    },
+    "neutral__offset095__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset095__limit001\\2026-09-04T16-10-37-00-00_pmisaligned-context_evQtt24N3mCmUhyDwcpvUR.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:11:20.968545+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:10:28.459130+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset095__limit001.log"
+    },
+    "neutral__offset096__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset096__limit001\\2026-09-04T16-10-42-00-00_pmisaligned-context_fc9NwGjwGEwUcFv8MVrDJv.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:11:27.560750+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:10:34.073408+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset096__limit001.log"
+    },
+    "neutral__offset097__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset097__limit001\\2026-09-04T16-11-12-00-00_pmisaligned-context_MKR8EbQvvk59EhoA7gjnXF.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:11:57.212405+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:11:04.460543+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset097__limit001.log"
+    },
+    "neutral__offset098__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset098__limit001\\2026-09-04T16-11-22-00-00_pmisaligned-context_FGQWPkEgrQRZKduEX9NzTd.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:12:28.292110+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:11:14.660483+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset098__limit001.log"
+    },
+    "neutral__offset099__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\neutral__offset099__limit001\\2026-09-04T16-11-29-00-00_pmisaligned-context_nv3HVNEeJAauNbybAEemTc.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:12:23.591482+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:11:20.980512+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\neutral__offset099__limit001.log"
+    },
+    "operational_use__offset000__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset000__limit001\\2026-09-04T16-11-36-00-00_pmisaligned-context_fXPa4dvjzahiodryA4Dmtf.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:12:27.119329+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:11:27.573710+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset000__limit001.log"
+    },
+    "operational_use__offset001__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset001__limit001\\2026-09-04T16-11-59-00-00_pmisaligned-context_9hfv8a3cfZDpzS2Qjophqg.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:13:00.336588+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:11:50.337692+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset001__limit001.log"
+    },
+    "operational_use__offset002__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset002__limit001\\2026-09-04T16-12-06-00-00_pmisaligned-context_DHiG7SEaJBbHWpxTHVJBFz.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:15:15.502527+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:11:57.225843+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset002__limit001.log"
+    },
+    "operational_use__offset003__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset003__limit001\\2026-09-04T16-12-32-00-00_pmisaligned-context_nmAxozvsDmUQTfDp6KAsRk.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:13:29.430047+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:12:23.598003+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset003__limit001.log"
+    },
+    "operational_use__offset004__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset004__limit001\\2026-09-04T16-12-36-00-00_pmisaligned-context_Mh5UREaWP8KuwEbWVncbzg.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:13:49.948384+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:12:27.133869+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset004__limit001.log"
+    },
+    "operational_use__offset005__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset005__limit001\\2026-09-04T16-12-37-00-00_pmisaligned-context_UB9ye5rpKsU7swgkUZ6KMs.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:13:26.615356+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:12:28.304124+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset005__limit001.log"
+    },
+    "operational_use__offset006__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset006__limit001\\2026-09-04T16-13-09-00-00_pmisaligned-context_4LBU58LfzRbMLEj246p3No.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:16:51.105216+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:13:00.342139+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset006__limit001.log"
+    },
+    "operational_use__offset007__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset007__limit001\\2026-09-04T16-13-35-00-00_pmisaligned-context_PXZPR9HGd5ooGkd2zBerwr.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:14:27.051253+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:13:26.629646+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset007__limit001.log"
+    },
+    "operational_use__offset008__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset008__limit001\\2026-09-04T16-13-38-00-00_pmisaligned-context_g2fSkNQUULCNihu8UqtZPM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:14:24.261886+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:13:29.442004+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset008__limit001.log"
+    },
+    "operational_use__offset009__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset009__limit001\\2026-09-04T16-13-58-00-00_pmisaligned-context_fa2zXVq78mHkDZFtEcAKiC.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:14:35.720202+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:13:49.959040+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset009__limit001.log"
+    },
+    "operational_use__offset010__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset010__limit001\\2026-09-04T16-14-32-00-00_pmisaligned-context_XKUW45e7h8z2FvDi2Wsadv.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:15:07.448306+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:14:24.268405+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset010__limit001.log"
+    },
+    "operational_use__offset011__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset011__limit001\\2026-09-04T16-14-35-00-00_pmisaligned-context_hP8pxFsgh2TP36iuB3fnQU.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:15:14.629598+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:14:27.057810+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset011__limit001.log"
+    },
+    "operational_use__offset012__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset012__limit001\\2026-09-04T16-14-43-00-00_pmisaligned-context_8GDPPcK9kwawsysjd6Y9xw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:15:29.848563+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:14:35.731720+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset012__limit001.log"
+    },
+    "operational_use__offset013__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset013__limit001\\2026-09-04T16-15-16-00-00_pmisaligned-context_SE9f2mYgipwfmaqSiGitga.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:16:03.602457+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:15:07.459957+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset013__limit001.log"
+    },
+    "operational_use__offset014__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset014__limit001\\2026-09-04T16-15-22-00-00_pmisaligned-context_bZZpaASNwbzGFHrubiThVX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:16:39.227538+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:15:14.635906+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset014__limit001.log"
+    },
+    "operational_use__offset015__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset015__limit001\\2026-09-04T16-15-23-00-00_pmisaligned-context_JZaEoCPXfRtftSDLiP7V7i.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:16:20.562501+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:15:15.514753+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset015__limit001.log"
+    },
+    "operational_use__offset016__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset016__limit001\\2026-09-04T16-15-38-00-00_pmisaligned-context_EaAoaUVwYR4mRB7Api3LqM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:16:22.445733+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:15:29.861471+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset016__limit001.log"
+    },
+    "operational_use__offset017__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset017__limit001\\2026-09-04T16-16-12-00-00_pmisaligned-context_EccFFrdnqjp4ofiWGj38fP.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:17:46.526249+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:16:03.612846+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset017__limit001.log"
+    },
+    "operational_use__offset018__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset018__limit001\\2026-09-04T16-16-28-00-00_pmisaligned-context_RZBLj5e4RZUkGrmL24YwBm.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:17:38.312678+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:16:20.572735+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset018__limit001.log"
+    },
+    "operational_use__offset019__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset019__limit001\\2026-09-04T16-16-30-00-00_pmisaligned-context_4oDWZ2HdKCFCQkZMCPVspC.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:17:16.953585+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:16:22.458467+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset019__limit001.log"
+    },
+    "operational_use__offset020__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset020__limit001\\2026-09-04T16-16-47-00-00_pmisaligned-context_nko3NXEJDMnRGGUaFpdGgu.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:17:37.004960+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:16:39.233336+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset020__limit001.log"
+    },
+    "operational_use__offset021__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset021__limit001\\2026-09-04T16-16-59-00-00_pmisaligned-context_3oCoqdEFKkvm9vKGiiywe5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:18:29.904961+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:16:51.118156+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset021__limit001.log"
+    },
+    "operational_use__offset022__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset022__limit001\\2026-09-04T16-17-24-00-00_pmisaligned-context_bWWCpxx52vdmKkqDofoXT3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:18:39.593224+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:17:16.964611+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset022__limit001.log"
+    },
+    "operational_use__offset023__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset023__limit001\\2026-09-04T16-17-45-00-00_pmisaligned-context_VpZiCkjuZe99XahoBZnBTL.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:19:18.362473+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:17:37.015525+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset023__limit001.log"
+    },
+    "operational_use__offset024__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset024__limit001\\2026-09-04T16-17-46-00-00_pmisaligned-context_brXXJNRt2AfbmT7v67sC7S.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:18:51.317661+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:17:38.323000+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset024__limit001.log"
+    },
+    "operational_use__offset025__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset025__limit001\\2026-09-04T16-17-54-00-00_pmisaligned-context_cxbTYELqTxi8C3uKMM7gtX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:18:59.412987+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:17:46.534303+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset025__limit001.log"
+    },
+    "operational_use__offset026__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset026__limit001\\2026-09-04T16-18-37-00-00_pmisaligned-context_7n7mjA9hDxgXRBN4LExgAv.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:19:16.407365+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:18:29.915956+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset026__limit001.log"
+    },
+    "operational_use__offset027__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset027__limit001\\2026-09-04T16-18-47-00-00_pmisaligned-context_VbEiZPnHDBaKpE5LUDDRSc.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:19:31.353457+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:18:39.603980+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset027__limit001.log"
+    },
+    "operational_use__offset028__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset028__limit001\\2026-09-04T16-18-59-00-00_pmisaligned-context_9WsnunSoxvZfeKG8MdArZe.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:19:48.256463+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:18:51.324062+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset028__limit001.log"
+    },
+    "operational_use__offset029__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset029__limit001\\2026-09-04T16-19-08-00-00_pmisaligned-context_a8NL5yCki8ZAaMEN9pfcgK.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:19:54.838451+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:18:59.421098+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset029__limit001.log"
+    },
+    "operational_use__offset030__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset030__limit001\\2026-09-04T16-19-25-00-00_pmisaligned-context_Zh2NvpKRHzKHFxCWJrzgWU.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:20:25.263509+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:19:16.418878+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset030__limit001.log"
+    },
+    "operational_use__offset031__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset031__limit001\\2026-09-04T16-19-27-00-00_pmisaligned-context_RCXrQqXrkbPfY46pExLCQY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:20:42.627032+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:19:18.373590+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset031__limit001.log"
+    },
+    "operational_use__offset032__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset032__limit001\\2026-09-04T16-19-39-00-00_pmisaligned-context_TdRzkcAvVPkRQ5Bf3TYPNz.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:21:03.549310+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:19:31.365031+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset032__limit001.log"
+    },
+    "operational_use__offset033__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset033__limit001\\2026-09-04T16-19-56-00-00_pmisaligned-context_Sue3Viv7RDwUZjGLr9XpkN.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:21:17.019366+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:19:48.268325+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset033__limit001.log"
+    },
+    "operational_use__offset034__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset034__limit001\\2026-09-04T16-20-03-00-00_pmisaligned-context_TFoD7AzxLrtExNQkjJb7PR.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:20:47.085006+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:19:54.851287+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset034__limit001.log"
+    },
+    "operational_use__offset035__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset035__limit001\\2026-09-04T16-20-33-00-00_pmisaligned-context_UE8npBpBbedwjYgyZXuTbQ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:21:29.552272+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:20:25.275085+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset035__limit001.log"
+    },
+    "operational_use__offset036__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset036__limit001\\2026-09-04T16-20-50-00-00_pmisaligned-context_EYBiPu4i2wkCBGhNrJe3sR.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:21:26.341235+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:20:42.638998+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset036__limit001.log"
+    },
+    "operational_use__offset037__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset037__limit001\\2026-09-04T16-20-55-00-00_pmisaligned-context_5kqCWSke9qnad5bCjYSCaT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:21:40.746116+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:20:47.096870+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset037__limit001.log"
+    },
+    "operational_use__offset038__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset038__limit001\\2026-09-04T16-21-12-00-00_pmisaligned-context_9oT34agkGDFVsa4rzdwefX.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:22:21.655039+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:21:03.555593+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset038__limit001.log"
+    },
+    "operational_use__offset039__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset039__limit001\\2026-09-04T16-21-25-00-00_pmisaligned-context_AJWyW5YJ6QW8fRkF3Amyd8.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:22:20.394594+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:21:17.024445+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset039__limit001.log"
+    },
+    "operational_use__offset040__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset040__limit001\\2026-09-04T16-21-35-00-00_pmisaligned-context_kGD284Piq385mSG5WNDoaF.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:23:04.905938+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:21:26.352987+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset040__limit001.log"
+    },
+    "operational_use__offset041__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset041__limit001\\2026-09-04T16-21-38-00-00_pmisaligned-context_WvtqBmniJHYRKPvyJFSTG5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:22:16.244170+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:21:29.560823+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset041__limit001.log"
+    },
+    "operational_use__offset042__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset042__limit001\\2026-09-04T16-21-49-00-00_pmisaligned-context_QmfscsYJn2LVGLXsG46WUM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:22:28.414864+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:21:40.756416+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset042__limit001.log"
+    },
+    "operational_use__offset043__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset043__limit001\\2026-09-04T16-22-24-00-00_pmisaligned-context_9pafVnS4h9VWcVaaPqj8Rb.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:22:57.253410+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:22:16.255642+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset043__limit001.log"
+    },
+    "operational_use__offset044__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset044__limit001\\2026-09-04T16-22-28-00-00_pmisaligned-context_VrRaMtWMigJWfWQUziaMHg.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:23:37.314177+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:22:20.406006+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset044__limit001.log"
+    },
+    "operational_use__offset045__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset045__limit001\\2026-09-04T16-22-29-00-00_pmisaligned-context_Wfvrd7D9bmJJ8wDPFASPN5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:23:08.687067+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:22:21.665622+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset045__limit001.log"
+    },
+    "operational_use__offset046__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset046__limit001\\2026-09-04T16-22-36-00-00_pmisaligned-context_CgGEJs5eebhaN9FqBF5RXS.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:23:32.409335+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:22:28.426345+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset046__limit001.log"
+    },
+    "operational_use__offset047__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset047__limit001\\2026-09-04T16-23-05-00-00_pmisaligned-context_UjEXMu3Ygc6AY95vwgPJPK.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:24:04.334479+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:22:57.264994+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset047__limit001.log"
+    },
+    "operational_use__offset048__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset048__limit001\\2026-09-04T16-23-12-00-00_pmisaligned-context_HEJwst8kk5qpp2aPN3Zddk.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:23:55.742435+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:23:04.911472+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset048__limit001.log"
+    },
+    "operational_use__offset049__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset049__limit001\\2026-09-04T16-23-16-00-00_pmisaligned-context_2WrA4TdonpfJRaQMK66fjr.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:23:55.456554+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:23:08.697847+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset049__limit001.log"
+    },
+    "operational_use__offset050__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset050__limit001\\2026-09-04T16-23-40-00-00_pmisaligned-context_Y83rk8GBRgoy9FFFM84EPC.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:24:17.261039+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:23:32.420909+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset050__limit001.log"
+    },
+    "operational_use__offset051__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset051__limit001\\2026-09-04T16-23-45-00-00_pmisaligned-context_PzYs886iJEpjzZHW2MWiGg.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:24:31.110602+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:23:37.320405+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset051__limit001.log"
+    },
+    "operational_use__offset052__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset052__limit001\\2026-09-04T16-24-04-00-00_pmisaligned-context_kw6qrpDPafYoeBx3qz2y2b.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:25:34.463713+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:23:55.467639+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset052__limit001.log"
+    },
+    "operational_use__offset053__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset053__limit001\\2026-09-04T16-24-04-00-00_pmisaligned-context_2qHAJ6znGefBEwMb7NT4Lq.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:24:38.669391+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:23:55.753399+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset053__limit001.log"
+    },
+    "operational_use__offset054__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset054__limit001\\2026-09-04T16-24-12-00-00_pmisaligned-context_grSeb4uD4SL6uzyW49W8YT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:24:55.856084+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:24:04.342432+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset054__limit001.log"
+    },
+    "operational_use__offset055__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset055__limit001\\2026-09-04T16-24-25-00-00_pmisaligned-context_jTBGUJeTZxPSZwUX269WUS.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:29:45.068132+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:24:17.270178+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset055__limit001.log"
+    },
+    "operational_use__offset056__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset056__limit001\\2026-09-04T16-24-40-00-00_pmisaligned-context_KX6WTfHSKCbEtSVWo6tUCJ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:25:23.489674+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:24:31.123513+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset056__limit001.log"
+    },
+    "operational_use__offset057__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset057__limit001\\2026-09-04T16-24-47-00-00_pmisaligned-context_ee4zE29BunHDzovQT8NXg2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:25:38.896335+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:24:38.683121+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset057__limit001.log"
+    },
+    "operational_use__offset058__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset058__limit001\\2026-09-04T16-25-04-00-00_pmisaligned-context_6uCcAhmFtPBXiQu5uAPFT3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:25:48.898626+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:24:55.868497+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset058__limit001.log"
+    },
+    "operational_use__offset059__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset059__limit001\\2026-09-04T16-25-32-00-00_pmisaligned-context_PoqJnioDeNYMkd8VERtQwk.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:26:30.116764+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:25:23.503538+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset059__limit001.log"
+    },
+    "operational_use__offset060__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset060__limit001\\2026-09-04T16-25-42-00-00_pmisaligned-context_9FTJETWULc7b3aURuEaer7.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:26:29.651324+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:25:34.469716+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset060__limit001.log"
+    },
+    "operational_use__offset061__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset061__limit001\\2026-09-04T16-25-47-00-00_pmisaligned-context_4QQo44f7PBMbXZKSsUs2yu.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:26:56.671020+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:25:38.902343+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset061__limit001.log"
+    },
+    "operational_use__offset062__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset062__limit001\\2026-09-04T16-25-57-00-00_pmisaligned-context_65CHyAZm9nXQEtRaaPN6cQ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:27:00.080161+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:25:48.910992+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset062__limit001.log"
+    },
+    "operational_use__offset063__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset063__limit001\\2026-09-04T16-26-37-00-00_pmisaligned-context_B8WfEa6Ef8XBFtotreG7dY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:27:17.821554+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:26:29.664272+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset063__limit001.log"
+    },
+    "operational_use__offset064__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset064__limit001\\2026-09-04T16-26-38-00-00_pmisaligned-context_inp5ADANe9fsEfuHnddsTK.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:27:35.645088+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:26:30.128780+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset064__limit001.log"
+    },
+    "operational_use__offset065__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset065__limit001\\2026-09-04T16-27-05-00-00_pmisaligned-context_2Sdnkb3SFSbV6a2jjYdGmR.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:27:53.187398+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:26:56.677639+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset065__limit001.log"
+    },
+    "operational_use__offset066__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset066__limit001\\2026-09-04T16-27-08-00-00_pmisaligned-context_JYzFL8oPzB7ABpVCgWfVSb.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:28:00.442838+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:27:00.093247+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset066__limit001.log"
+    },
+    "operational_use__offset067__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset067__limit001\\2026-09-04T16-27-25-00-00_pmisaligned-context_APz3e2xzLjbKdXai3qGRnz.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:28:04.827208+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:27:17.833458+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset067__limit001.log"
+    },
+    "operational_use__offset068__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset068__limit001\\2026-09-04T16-27-43-00-00_pmisaligned-context_H3cfXQWHcafVJBS6VSeaAM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:28:19.966049+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:27:35.656062+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset068__limit001.log"
+    },
+    "operational_use__offset069__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset069__limit001\\2026-09-04T16-28-01-00-00_pmisaligned-context_VA7nitAnx3BZ7sew6bkWT2.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:29:02.143571+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:27:53.200169+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset069__limit001.log"
+    },
+    "operational_use__offset070__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset070__limit001\\2026-09-04T16-28-08-00-00_pmisaligned-context_aRFAqyAdfUUskFnK5BBWDV.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:29:02.805668+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:28:00.454049+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset070__limit001.log"
+    },
+    "operational_use__offset071__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset071__limit001\\2026-09-04T16-28-13-00-00_pmisaligned-context_LSJ5P2U78xH5eNG6BTdp5e.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:29:15.730261+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:28:04.833925+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset071__limit001.log"
+    },
+    "operational_use__offset072__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset072__limit001\\2026-09-04T16-28-28-00-00_pmisaligned-context_EG3j6kU4ZkgucS6vvH6CgQ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:29:07.298337+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:28:19.977419+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset072__limit001.log"
+    },
+    "operational_use__offset073__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset073__limit001\\2026-09-04T16-29-09-00-00_pmisaligned-context_NZ69cXBUVtdyMp8JxWp984.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:30:04.632293+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:29:02.150577+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset073__limit001.log"
+    },
+    "operational_use__offset074__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset074__limit001\\2026-09-04T16-29-10-00-00_pmisaligned-context_VjUDHKx2vucuzGfo8iGzpm.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:30:27.512412+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:29:02.816785+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset074__limit001.log"
+    },
+    "operational_use__offset075__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset075__limit001\\2026-09-04T16-29-15-00-00_pmisaligned-context_YnLDQ5fADyEVzaSVjXGo3g.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:30:07.604956+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:29:07.310458+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset075__limit001.log"
+    },
+    "operational_use__offset076__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset076__limit001\\2026-09-04T16-29-23-00-00_pmisaligned-context_STT8Ld5j35vkB2Te8bgeA5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:30:19.879411+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:29:15.737357+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset076__limit001.log"
+    },
+    "operational_use__offset077__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset077__limit001\\2026-09-04T16-29-53-00-00_pmisaligned-context_YXfJL2YxYNcfFUW9GDYiFZ.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:30:42.996139+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:29:45.081060+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset077__limit001.log"
+    },
+    "operational_use__offset078__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset078__limit001\\2026-09-04T16-30-12-00-00_pmisaligned-context_oBKncqzrcGNpDpzkexSiWx.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:34:01.545980+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:30:04.645193+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset078__limit001.log"
+    },
+    "operational_use__offset079__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset079__limit001\\2026-09-04T16-30-16-00-00_pmisaligned-context_ko8WAKoi6kgkWWRXh3YaRw.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:31:24.672939+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:30:07.612953+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset079__limit001.log"
+    },
+    "operational_use__offset080__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset080__limit001\\2026-09-04T16-30-28-00-00_pmisaligned-context_GMiHGAyHjxe3Xj2uZ8Gosa.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:31:06.905651+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:30:19.891717+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset080__limit001.log"
+    },
+    "operational_use__offset081__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset081__limit001\\2026-09-04T16-30-36-00-00_pmisaligned-context_7EHDMS23thJ9KkULGqzpba.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:31:17.639875+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:30:27.523676+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset081__limit001.log"
+    },
+    "operational_use__offset082__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset082__limit001\\2026-09-04T16-30-51-00-00_pmisaligned-context_6gt55YRN86ATPTftCET4fo.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:32:12.471829+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:30:43.003075+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset082__limit001.log"
+    },
+    "operational_use__offset083__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset083__limit001\\2026-09-04T16-31-15-00-00_pmisaligned-context_8MGpJqPpXZHZv3Erb7iHJD.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:33:36.258610+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:31:06.919838+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset083__limit001.log"
+    },
+    "operational_use__offset084__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset084__limit001\\2026-09-04T16-31-25-00-00_pmisaligned-context_3fHHYNFrpCRJYtVaoozWwF.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:32:09.344253+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:31:17.651660+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset084__limit001.log"
+    },
+    "operational_use__offset085__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset085__limit001\\2026-09-04T16-31-32-00-00_pmisaligned-context_A4wJYsrGYhWZUgQNtub4Xu.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:32:14.064977+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:31:24.684804+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset085__limit001.log"
+    },
+    "operational_use__offset086__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset086__limit001\\2026-09-04T16-32-17-00-00_pmisaligned-context_AeQGATAuQPZEt2YCnjDRUM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:33:27.801108+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:32:09.355757+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset086__limit001.log"
+    },
+    "operational_use__offset087__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset087__limit001\\2026-09-04T16-32-20-00-00_pmisaligned-context_e9a2bNxY9k5ykiWeY5RPiT.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:33:01.688210+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:32:12.483805+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset087__limit001.log"
+    },
+    "operational_use__offset088__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset088__limit001\\2026-09-04T16-32-22-00-00_pmisaligned-context_digDDdJKEC4svoMwikDgo8.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:33:03.178921+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:32:14.079275+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset088__limit001.log"
+    },
+    "operational_use__offset089__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset089__limit001\\2026-09-04T16-33-10-00-00_pmisaligned-context_kpJGBg96fhfNSSxNbDFjhh.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:34:14.785295+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:33:01.695212+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset089__limit001.log"
+    },
+    "operational_use__offset090__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset090__limit001\\2026-09-04T16-33-11-00-00_pmisaligned-context_hWAEXYwi24iNtiTLSCecZp.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:34:09.596771+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:33:03.190437+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset090__limit001.log"
+    },
+    "operational_use__offset091__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset091__limit001\\2026-09-04T16-33-36-00-00_pmisaligned-context_ZqTRD49bQ9hmjestpWuhd5.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:34:24.911753+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:33:27.813467+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset091__limit001.log"
+    },
+    "operational_use__offset092__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset092__limit001\\2026-09-04T16-33-44-00-00_pmisaligned-context_FRZvSmB2zA4LXyuuPCV2a3.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:34:26.867443+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:33:36.266800+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset092__limit001.log"
+    },
+    "operational_use__offset093__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset093__limit001\\2026-09-04T16-34-10-00-00_pmisaligned-context_jB6mbgGFs69HVhcD9fYyud.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:36:29.203615+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:34:01.553795+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset093__limit001.log"
+    },
+    "operational_use__offset094__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset094__limit001\\2026-09-04T16-34-18-00-00_pmisaligned-context_V7RSAm9AwL8tahvPvycXHM.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:34:56.814390+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:34:09.606775+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset094__limit001.log"
+    },
+    "operational_use__offset095__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset095__limit001\\2026-09-04T16-34-23-00-00_pmisaligned-context_hzKN2nWGiXfvyM5oagyvvU.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:35:34.892439+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:34:14.797756+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset095__limit001.log"
+    },
+    "operational_use__offset096__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset096__limit001\\2026-09-04T16-34-34-00-00_pmisaligned-context_Z7xjB5RWNzgXX4dEk9kM3i.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:35:16.221520+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:34:24.925734+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset096__limit001.log"
+    },
+    "operational_use__offset097__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset097__limit001\\2026-09-04T16-34-35-00-00_pmisaligned-context_7dF7pHmUECi3ycojhc5epa.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:35:14.602984+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:34:26.879894+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset097__limit001.log"
+    },
+    "operational_use__offset098__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset098__limit001\\2026-09-04T16-35-04-00-00_pmisaligned-context_hZ4UcsKDUnhQjm2qnX4UZf.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:35:59.362584+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:34:56.827533+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset098__limit001.log"
+    },
+    "operational_use__offset099__limit001": {
+      "eval_log": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\eval_logs\\operational_use__offset099__limit001\\2026-09-04T16-35-22-00-00_pmisaligned-context_gPyq5mq7ffHEyhVapjtkZY.eval",
+      "expected_rows": 70,
+      "finished_at_utc": "2026-09-04T16:36:17.574448+00:00",
+      "return_code": 0,
+      "started_at_utc": "2026-09-04T16:35:14.614969+00:00",
+      "status": "success",
+      "transcript": "D:\\research\\mats\\neel_2026\\glm53-user-conditioning\\outputs\\positive_control\\orchestration\\operational_use__offset099__limit001.log"
+    }
+  },
+  "summary": {
+    "failed_or_incomplete": 0,
+    "selected_shards": 300,
+    "successful_or_previously_successful": 300
+  },
+  "total_connection_cap": 200,
+  "updated_at_utc": "2026-09-04T16:59:57.158184+00:00"
+}

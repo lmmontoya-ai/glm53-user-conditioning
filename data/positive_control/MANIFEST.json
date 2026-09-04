@@ -1,0 +1,12 @@
+{
+  "rows": 21000,
+  "valid": 20993,
+  "eval_logs": "outputs/positive_control/eval_logs (local only, not tracked)",
+  "files": {
+    "analysis.json": "c48d88335af7f0d2c6413b936b973ae8d26be1bd77595727ade471597343b8a7",
+    "per_dilemma_model_assessment.csv": "b5ef67564f0c8275e28ad5a90a2c4a1fef34bef4d39613f6c85eed0066533f86",
+    "raw_scores.jsonl": "805f61e4d58882b8f69d76c808bc9b8bae19c155dae38ccf433d7905f3a89435",
+    "run_state.json": "7b28ab561c1b41da12c4ec890090ede677f5f9a635917dc98af2871b359d0ddd",
+    "schedule_manifest.json": "d660e53de0796308f7bd982e81c85769f3cff245b6dcc6e430b26d8565b0c1a1"
+  }
+}

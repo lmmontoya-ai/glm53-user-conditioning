@@ -93,8 +93,38 @@ one-shard smoke run and were fixed before the full launch: Inspect's OpenRouter 
 task already parsed as a list, which the wrapper had stringified (fixed). The smoke shard (neutral
 block, dilemma 0, 70 identities) scored 70 of 70 rows; every model-call request carried the
 identity line followed by the assigned block, with all four paraphrase families present. The full
-run then started with that shard skipped as complete; results are reported in a later section
-once `06_positive_control.py analyze` has run.
+run then started with that shard skipped as complete.
+
+### Positive-control results (run completed 2026-09-04)
+
+300 of 300 shards succeeded; 20,993 of 21,000 rows valid (6,999 neutral, 6,998 operational use,
+6,996 model assessment). Actual API cost from the logs: $17.07 (projection $17.67). Wall time
+about 75 minutes at five parallel shards. Outputs: `outputs/positive_control/analysis.json`,
+`per_dilemma_model_assessment.csv`, schedule manifest and eval logs.
+
+| Quantity | Value (pp folded confidence) | 95% interval |
+|---|---:|---|
+| model assessment − neutral (within run, genpop identities) | +1.08 | [+0.71, +1.46] |
+| operational use − neutral | +0.46 | [+0.09, +0.83] |
+| neutral block − confirmatory-run genpop rows (descriptive, cross-run) | +0.36 | [−0.04, +0.75] |
+| Spearman rho, per-dilemma model-assessment effect vs scrutiny-identity profile (100 dilemmas) | −0.18 | [−0.40, +0.04] |
+
+Condition means: neutral 83.01, operational use 83.47, model assessment 84.10. Intervals are
+identity-and-dilemma bootstraps with 20,000 draws (seed 20260904); the rho interval resamples
+dilemmas.
+
+Reading: telling the model outright that the session is a model assessment moves stated confidence
+on this task, but upward, by about one percentage point, and an ordinary-use note moves it upward by
+about half a point. Famous scrutiny-role users move it downward (−0.74 pp against their twins in
+the confirmatory run). The per-dilemma profile of the assessment effect does not correlate
+positively with the per-dilemma scrutiny-identity profile; the point estimate is negative and the
+interval includes zero. Both conditions the framing paragraph depended on therefore fail in the
+direction that matters: explicit evaluation framing is not a weaker version of the identity effect.
+The identity effect is better described as a response to who the user is (technical AI figures
+versus AI business figures, per the secondary contrast) than as partial evaluation awareness. Note
+that the neutral block itself sits slightly above the confirmatory run's general-population rows,
+so some of the within-run shifts may reflect any added system-note text rather than its content;
+the operational-use versus model-assessment difference (about 0.6 pp) is the cleaner comparison.
 
 ## Missing data
 

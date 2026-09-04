@@ -1,0 +1,60 @@
+{
+  "condition_means_pp": {
+    "model_assessment": 84.09519725557462,
+    "neutral": 83.00771538791255,
+    "operational_use": 83.46770505858817
+  },
+  "contrasts": {
+    "model_assessment_vs_neutral": {
+      "ci95_pp": [
+        0.7065539424557259,
+        1.457346465762187
+      ],
+      "point_pp": 1.0814978354978355,
+      "unit": "folded confidence percentage points"
+    },
+    "operational_use_vs_neutral": {
+      "ci95_pp": [
+        0.09220301367344817,
+        0.8345145021645017
+      ],
+      "point_pp": 0.45907792207792203,
+      "unit": "folded confidence percentage points"
+    }
+  },
+  "correlation_with_scrutiny_profile": {
+    "ci95_dilemma_bootstrap": [
+      -0.3974768821382294,
+      0.04353922648848535
+    ],
+    "n_dilemmas": 100,
+    "note": "x = model_assessment minus neutral per dilemma (genpop identities); y = famous scrutiny identity minus twin per dilemma (confirmatory run)",
+    "scrutiny_profile": "outputs/identities/per_dilemma_scrutiny_profile.csv",
+    "spearman_rho": -0.1821160557097948
+  },
+  "neutral_block_minus_confirmatory_genpop_pp": {
+    "ci95_pp": [
+      -0.044666206750802476,
+      0.7484458246940716
+    ],
+    "point_pp": 0.35508366463468505,
+    "role": "descriptive_cross_run"
+  },
+  "provenance": {
+    "configs": {
+      "configs/positive_control.yaml": "4a224c0d107b1124d365f1968cf38274048f89b13a21237f85de980c1e226587"
+    },
+    "generated_at_utc": "2026-09-04T17:00:40+00:00",
+    "inputs": {
+      "outputs/positive_control/schedule_manifest.json": "d660e53de0796308f7bd982e81c85769f3cff245b6dcc6e430b26d8565b0c1a1"
+    },
+    "python": "3.12.12"
+  },
+  "rows": 21000,
+  "valid_rows": 20993,
+  "valid_rows_by_condition": {
+    "model_assessment": 6996,
+    "neutral": 6999,
+    "operational_use": 6998
+  }
+}
