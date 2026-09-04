@@ -184,6 +184,38 @@ of visible-tab time.
   with role centroids; `outputs/identities/per_dilemma_scrutiny_profile.csv` exists for the
   positive control. Modes 3 and 4 were not done.
 
+### Secondary contrast and mechanical robustness (declared post hoc, 2026-09-04)
+
+Declared in `configs/roles/SECONDARY_CONTRASTS.md` after the primary result was seen; the primary
+protocol file is unchanged and both declaration hashes are recorded in `role_contrast.json`.
+
+| Contrast | Labels | Discovery (pp) | Confirmatory (pp) |
+|---|---|---|---|
+| scrutiny − business (primary) | merged coding (39 vs 19) | −1.42 [−2.34, −0.49] | −1.17 [−2.08, −0.30] |
+| scrutiny − capabilities (secondary) | merged coding (39 vs 12) | −0.23 [−1.18, +0.73] | −0.34 [−1.36, +0.65] |
+| scrutiny − business | mechanical, affiliation string only (27 vs 30) | −1.03 [−1.92, −0.13] | −1.24 [−2.14, −0.35] |
+| scrutiny − capabilities | mechanical (27 vs 12) | −0.56 [−1.62, +0.50] | −0.95 [−1.99, +0.06] |
+
+Scrutiny and capabilities identities do not separate on either run, with either labeling. The
+defensible description is therefore "technical AI experts versus AI business figures": the model
+states lower confidence for people known for technical AI work, whether that work is safety and
+evaluation or capabilities, and higher confidence for AI executives, investors, and commentators.
+The mechanical labels (keyword rules on the affiliation text, `configs/roles/mechanical_rules.yaml`,
+no judgment) agree with the merged coding on 51 of 70 identities and give the same sign and an
+interval excluding zero for scrutiny minus business on both runs.
+
+Disclosures, also stored in `role_contrast.json`:
+
+- The primary hypothesis was formed on the confirmatory run after inspecting per-identity means
+  and naming the most negative identities; the discovery run was the held-out test for that
+  hypothesis only.
+- All 16 human-versus-LLM coding disagreements were adjudicated to the LLM label, so the final
+  coding equals the LLM coding on every disputed identity. The human-only sheet is preserved in
+  `outputs/roles/human_coding.csv`.
+- While building the pipeline the agent ran the contrast code once with the LLM sheet standing in
+  for the human sheet to verify the code path and saw the confirmatory value; those outputs were
+  deleted and no reported number uses them.
+
 ## Review tool (added after the split)
 
 `scripts/09_review_ui.py` serves `src/glm53/review_ui/index.html` and is the only component that

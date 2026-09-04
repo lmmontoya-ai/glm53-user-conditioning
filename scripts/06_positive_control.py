@@ -105,7 +105,8 @@ def cmd_execute(args, task, control) -> int:
         return 2
     args.output_root.mkdir(parents=True, exist_ok=True)
     write_json(args.output_root / "schedule_manifest.json", manifest(task, control, shards, root) | {"projection": proj})
-    state = run(task, control, shards, root=root, output_root=args.output_root, parallel=int(control["sharding"]["parallel_shards"]), connections=int(control["sharding"]["connections_per_shard"]))
+    selected = shards[: args.max_shards] if args.max_shards else shards
+    state = run(task, control, selected, root=root, output_root=args.output_root, parallel=int(control["sharding"]["parallel_shards"]), connections=int(control["sharding"]["connections_per_shard"]))
     print(json.dumps(state["summary"], indent=2))
     return 0 if state["summary"]["failed_or_incomplete"] == 0 else 1
 
@@ -172,9 +173,16 @@ def main() -> int:
     parser.add_argument("command", nargs="?", default="plan", choices=("plan", "execute", "analyze"))
     parser.add_argument("--execute", action="store_true", help="required together with execute: true in the config to make API calls")
     parser.add_argument("--source-root", type=Path, help="pinned Transluce checkout (default from configs/task.yaml)")
+    parser.add_argument("--max-shards", type=int, help="run only the first N pending shards (smoke test); completed shards are skipped on rerun")
+    parser.add_argument("--env-file", type=Path, help="untracked file providing OPENROUTER_API_KEY; only that variable is read")
     args = parser.parse_args()
     task = load_yaml("task.yaml")
     control = load_yaml("positive_control.yaml")
+    if args.env_file and args.env_file.exists():
+        for line in args.env_file.read_text(encoding="utf-8").splitlines():
+            key, sep, value = line.strip().partition("=")
+            if sep and key.strip() == task["subject"]["credential_env"] and not os.environ.get(key.strip()):
+                os.environ[key.strip()] = value.strip().strip("'\"")
     return {"plan": cmd_plan, "execute": cmd_execute, "analyze": cmd_analyze}[args.command](args, task, control)
 
 

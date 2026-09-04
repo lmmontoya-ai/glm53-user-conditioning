@@ -309,6 +309,44 @@ def cmd_contrast(args, task, analysis) -> int:
         swapped = swapped_labels(merged)
         sens_swap = category_contrast(run, swapped, reps=reps, seed=seed + 20 + i)
         result["runs"][run_name] = {"primary": main, "sensitivity_drop_other": sens_drop, "sensitivity_swap_ambiguous": sens_swap}
+    # Secondary and robustness contrasts declared in configs/roles/SECONDARY_CONTRASTS.md (post hoc).
+    secondary_doc = REPO_ROOT / "configs/roles/SECONDARY_CONTRASTS.md"
+    rules_path = REPO_ROOT / "configs/roles/mechanical_rules.yaml"
+    if secondary_doc.exists() and rules_path.exists():
+        from glm53.io import sha256_file
+        from glm53.roles import mechanical_labels
+
+        rules = load_yaml("roles/mechanical_rules.yaml")
+        mech = mechanical_labels(roster, rules)
+        agreement = {k: mech.get(k) == v for k, v in labels.items()}
+        result["secondary_post_hoc"] = {
+            "declaration_sha256": sha256_file(secondary_doc),
+            "contrast": "scrutiny_minus_capabilities",
+            "runs": {
+                run_name: category_contrast(runs[run_name], labels, reps=reps, seed=seed + 30 + i, positive="scrutiny", negative="capabilities")
+                for i, run_name in enumerate(("discovery", "confirmatory"))
+            },
+        }
+        result["mechanical_robustness"] = {
+            "declaration_sha256": sha256_file(secondary_doc),
+            "rules_sha256": sha256_file(rules_path),
+            "labels_sha256": label_hash(mech),
+            "category_counts": {c: sum(1 for v in mech.values() if v == c) for c in CATEGORIES},
+            "agreement_with_merged": {"n_agree": int(sum(agreement.values())), "n": len(agreement)},
+            "labels": mech,
+            "runs": {
+                run_name: {
+                    "scrutiny_minus_business": category_contrast(runs[run_name], mech, reps=reps, seed=seed + 40 + i),
+                    "scrutiny_minus_capabilities": category_contrast(runs[run_name], mech, reps=reps, seed=seed + 50 + i, positive="scrutiny", negative="capabilities"),
+                }
+                for i, run_name in enumerate(("discovery", "confirmatory"))
+            },
+        }
+        result["disclosures"] = [
+            "Primary hypothesis formed on the confirmatory run after inspecting per-identity means; the discovery run is the held-out test for that hypothesis only.",
+            "All 16 human-versus-LLM coding disagreements were adjudicated to the LLM label, so the final coding equals the LLM coding on every disputed identity.",
+            "The agent ran the contrast code once with the LLM sheet standing in for the human sheet to verify the code path and saw the confirmatory value; those outputs were deleted.",
+        ]
     scrutiny_idx = [i for i, k in enumerate(runs["confirmatory"].personas["famous_ai"]) if labels.get(k) == "scrutiny"]
     for run_name, run in runs.items():
         write_csv(out_root / f"per_dilemma_scrutiny_profile_{run_name}.csv", per_dilemma_profile(run, scrutiny_idx))

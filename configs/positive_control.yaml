@@ -4,7 +4,7 @@
 # experiment was stopped for lack of power and these blocks were never run.
 schema_version: glm53_user_conditioning_positive_control_v1
 
-execute: false                 # --execute on the CLI is also required; this flag alone never runs calls
+execute: true                  # set 2026-09-04 by author instruction; --execute on the CLI is still required
 cost_cap_usd: 25.0
 context_blocks_file: configs/context_blocks_v1.json
 conditions: [neutral, operational_use, model_assessment]

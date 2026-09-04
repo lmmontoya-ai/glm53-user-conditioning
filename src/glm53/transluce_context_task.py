@@ -71,6 +71,7 @@ _task.PERSONAS = _personas.PERSONAS
 @task
 def pmisaligned_context(personas: str = "", **kwargs):
     """The pinned task with synthetic persona keys carrying a context block."""
-    keys = [k for k in str(personas).split(",") if k]
+    raw = personas if isinstance(personas, (list, tuple)) else str(personas).split(",")
+    keys = [str(k).strip() for k in raw if str(k).strip()]
     register(keys)
     return _task.pmisaligned(personas=",".join(keys), **kwargs)

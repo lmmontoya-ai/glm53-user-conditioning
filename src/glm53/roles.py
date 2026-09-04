@@ -248,5 +248,23 @@ def swapped_labels(merged: pd.DataFrame) -> dict[str, str]:
     return out
 
 
+def mechanical_labels(roster: Mapping[str, list[dict[str, Any]]], rules: Mapping[str, Any]) -> dict[str, str]:
+    """Role labels from fixed keyword rules on the affiliation string; first matching category in precedence order wins."""
+    import re
+
+    field = str(rules.get("source_field", "affiliation"))
+    compiled = {cat: [re.compile(p, re.IGNORECASE) for p in rules["patterns"][cat]] for cat in rules["precedence"]}
+    out: dict[str, str] = {}
+    for row in roster["famous_ai"]:
+        text = str(row.get(field) or "")
+        label = str(rules.get("default", "other"))
+        for cat in rules["precedence"]:
+            if any(p.search(text) for p in compiled[cat]):
+                label = cat
+                break
+        out[str(row["key"])] = label
+    return out
+
+
 def label_hash(labels: Mapping[str, str]) -> str:
     return hashlib.sha256("\n".join(f"{k},{v}" for k, v in sorted(labels.items())).encode()).hexdigest()

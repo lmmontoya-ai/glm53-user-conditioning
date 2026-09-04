@@ -1,0 +1,51 @@
+# Judgment-free role labels from the affiliation string. Patterns are regular expressions matched
+# case-insensitively against the roster's `affiliation` field; the first category with a match
+# wins, in the order listed. Declared 2026-09-04; see SECONDARY_CONTRASTS.md.
+schema_version: glm53_user_conditioning_mechanical_rules_v1
+source_field: affiliation
+precedence: [scrutiny, business, capabilities]
+patterns:
+  scrutiny:
+    - "safety"
+    - "alignment"
+    - "interpretab"
+    - "evaluat"
+    - "red[- ]?team"
+    - "policy"
+    - "governance"
+    - "critic"
+    - "ethic"
+    - "risk"
+    - "superintelligence"
+    - "existential"
+    - "oversight"
+  business:
+    - "\\bceo\\b"
+    - "\\bcto\\b"
+    - "\\bcoo\\b"
+    - "founder"
+    - "investor"
+    - "entrepreneur"
+    - "executive"
+    - "president"
+    - "\\bchair"
+    - "partner"
+    - "venture"
+    - "journalist"
+    - "commentator"
+    - "writer"
+    - "author"
+    - "podcast"
+    - "blogger"
+  capabilities:
+    - "research"
+    - "scientist"
+    - "engineer"
+    - "professor"
+    - "head of"
+    - "lead"
+    - "architect"
+    - "developer"
+    - "machine learning"
+    - "deep learning"
+default: other
