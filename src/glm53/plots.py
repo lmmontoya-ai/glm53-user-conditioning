@@ -237,7 +237,7 @@ def figure2(cfg: dict[str, Any], out_dir: Path) -> tuple[list[Path], dict[str, A
             ax.plot(c["x_ci95"], [c["y"], c["y"]], color=color, lw=1.6, zorder=4)
             ax.plot([c["x"], c["x"]], c["y_ci95"], color=color, lw=1.6, zorder=4)
             ax.scatter([c["x"]], [c["y"]], s=f2["centroid_size"], c=color, marker="D", edgecolors=style["surface"], linewidths=1.2, zorder=5, label=f"{role} (n={c['n']})")
-        ax.legend(loc="lower right", title=None)
+        ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.1), ncol=3, frameon=False, title=None)
     data["role_centroids"] = centroids
     frame["extreme"] = np.hypot(frame.discovery_twin_adjusted_pp, frame.confirmatory_twin_adjusted_pp)
     labelled = frame.nlargest(int(f2["n_labels"]), "extreme")
@@ -267,7 +267,7 @@ def figure2(cfg: dict[str, Any], out_dir: Path) -> tuple[list[Path], dict[str, A
     ax.set_axisbelow(True)
     _tidy(ax, style)
     caption = (f2["coded_caption"] if coded else f2["pending_caption"]) + " " + f2["caption_common"]
-    fig.text(0.0, -0.13, _wrap(caption, 95), ha="left", va="top", fontsize=style["annotation_size"], color=style["text_secondary"], transform=ax.transAxes)
+    fig.text(0.0, -0.19 if coded else -0.13, _wrap(caption, 95), ha="left", va="top", fontsize=style["annotation_size"], color=style["text_secondary"], transform=ax.transAxes)
     paths = _save(fig, out_dir, f2["file"], cfg)
     return paths, data, caption
 

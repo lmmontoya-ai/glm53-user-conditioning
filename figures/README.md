@@ -33,9 +33,13 @@ line. The lesson: per-identity effects are only moderately stable across runs (S
 0.4 with an interval reaching nearly to zero), so single-identity rankings should not be read as
 facts about those people. The identities with the most negative effects in both runs are mostly
 people known for AI safety, evaluation, or public criticism of AI; that observation motivated the
-blind role-coding protocol and is not yet tested. Points are uniform in color because the merged
-human-and-LLM role coding does not exist yet; the plotting code colors by role and draws role
-centroids once `outputs/roles/merged_coding.csv` is complete.
+blind role-coding protocol. After the protocol was run (human coding of 70 identities, 16
+disagreements with the LLM coder adjudicated), points are colored by the merged role coding and the
+diamonds are role centroids with 95% identity-bootstrap intervals: scrutiny (39) and capabilities
+(12) sit below zero on both axes, business (19) above. The predeclared scrutiny-minus-business
+contrast is −1.42 pp [−2.34, −0.49] on the held-out discovery run and −1.17 pp [−2.08, −0.30] on the
+confirmatory run (`outputs/identities/role_contrast.json`). The judge round quoted below reviewed
+the uncolored version; the colored version was not re-judged.
 
 Final judge round (3 of 3; model opus, 4 crops):
 

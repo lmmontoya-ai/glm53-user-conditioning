@@ -158,6 +158,32 @@ questions. No round ended with zero change requests, so every figure used all th
   for the judge. The API backends are implemented and selected automatically when
   `ANTHROPIC_API_KEY` is set.
 
+## Human review results (2026-09-04)
+
+Modes 1 and 2 of the review tool were completed by the author; timers recorded 0.04 h and 0.16 h
+of visible-tab time.
+
+- Extraction audit: 40 of 40 rows, 8 per group, judged correct on both the yes/no answer and the
+  confidence; no exceptions. Paste sentence in `outputs/review/summary.md`.
+- Role coding: 70 of 70 identities coded blind (human sheet: scrutiny 31, business 22,
+  capabilities 14, other 3, none marked ambiguous). Merge with the LLM sheet found 16 disagreements;
+  all 16 were adjudicated in the tool and in every case the final category matched the LLM label.
+  Final counts: scrutiny 39, business 19, capabilities 12, other 0.
+- Predeclared contrast, mean twin-adjusted effect for scrutiny minus business, crossed
+  identity-and-dilemma bootstrap, 20,000 draws (`outputs/identities/role_contrast.json`):
+
+| Run | Primary (pp) | 95% interval | Drop `other` | Swap ambiguous to alternative |
+|---|---:|---|---|---|
+| Discovery (held-out test) | −1.416 | [−2.340, −0.493] | −1.416 [−2.347, −0.488] | −0.877 [−1.932, +0.159] |
+| Confirmatory | −1.169 | [−2.082, −0.298] | −1.169 [−2.077, −0.288] | −1.033 [−1.972, −0.114] |
+
+  Category means of the twin-adjusted effect, confirmatory run: scrutiny −0.74, capabilities −0.39,
+  business +0.43 pp. The "swap ambiguous" sensitivity moves the 20 identities the LLM coder flagged
+  as ambiguous to their alternative category (the human sheet flagged none); on the held-out
+  discovery run that variant's interval includes zero. Figure 2 is now colored by the merged coding
+  with role centroids; `outputs/identities/per_dilemma_scrutiny_profile.csv` exists for the
+  positive control. Modes 3 and 4 were not done.
+
 ## Review tool (added after the split)
 
 `scripts/09_review_ui.py` serves `src/glm53/review_ui/index.html` and is the only component that
