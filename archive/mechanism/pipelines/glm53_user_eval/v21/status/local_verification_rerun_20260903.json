@@ -1,0 +1,31 @@
+{
+  "schema_version": "glm53_v21_local_verification_rerun_v1",
+  "run_id": "glm53-v21-hua-20260903T150057Z-6fc53150",
+  "recomputed_decision": "no_resolved_deployment_attenuation",
+  "passed": true,
+  "checks": {
+    "baseline": true,
+    "bootstrap_ci": true,
+    "decision": true,
+    "empirical_p": true,
+    "full_arms": true,
+    "full_keys_unique": true,
+    "full_rows": true,
+    "null_arms": true,
+    "null_keys_unique": true,
+    "null_points": true,
+    "null_rows": true,
+    "pilot_candidate": true,
+    "points": true
+  },
+  "independent_candidate_ci95_pp": [-1.0558277365916762, 1.6741150978823283],
+  "inputs": {
+    "full_rows_sha256": "ea44d579097437be3b2f2415f31117874f55fd6c1fd1ce34eedb9efab29bcd8d",
+    "null_rows_sha256": "31c2d2e03a036c5f8e49f890eca60a81f1bb61e341c47806962bf140d658946d",
+    "analysis_sha256": "6e46334514aefbf6b816f9085b45284d73bdf8c2dbc7c25852f2ec4a4e0310ca"
+  },
+  "bootstrap": {
+    "reps": 20000,
+    "seed": 20261022
+  }
+}

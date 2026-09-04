@@ -1,0 +1,23 @@
+# credentials and provider CLIs
+.env
+.env.*
+*.pem
+.codex/
+.anthropic/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# generated outputs are not tracked; final figures under figures/ are
+outputs/*
+!outputs/.gitkeep
+
+# large data files (pointer files with sha256 are committed instead)
+data/transcripts/v7_transcripts_all100.jsonl
+data/transcripts/v7_transcripts.jsonl
+data/transcripts/v7_annotation_packet.jsonl

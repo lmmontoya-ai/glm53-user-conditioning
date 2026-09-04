@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "entry_count": true,
+    "group_means": true,
+    "person_means": true,
+    "valid_counts": true
+  },
+  "passed": true,
+  "report": {
+    "entry_count": 339,
+    "max_person_mean_error": 2.220446049250313e-15,
+    "valid_100_counts": {
+      "famous_ai": 43,
+      "famous_ai_real": 44,
+      "famous_nonai": 44,
+      "genpop": 48,
+      "unknown_ai": 44
+    },
+    "valid_100_group_means": {
+      "famous_ai": -1.4054885820790375,
+      "famous_ai_real": -1.692269766011384,
+      "famous_nonai": 0.12250296126134347,
+      "genpop": 0.043222658231040455,
+      "unknown_ai": -0.600451584193202
+    }
+  },
+  "schema_version": "glm53_transluce_reproduction_v1",
+  "source_commit": "d1b9c3573470f50495202795c044bd72f72ee6e5",
+  "source_file": "D:\\research\\mats\\neel_2026\\reference\\transluce-user-awareness\\cache\\aggregates\\s2glm52_deltas_conf.json",
+  "source_sha256": "8ee12cf5438f0aa18388f43c78dbff5117f3f695a94868aa29765bfe39f2a1d6"
+}

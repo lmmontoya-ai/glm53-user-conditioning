@@ -1,0 +1,58 @@
+schema_version: glm53_user_eval_operational_amendment_v5_1
+project_id: glm53_user_eval_shared_direction_v1
+created_on: 2026-08-29
+supersedes_operationally: glm53_user_eval_prereg_v5
+
+timing:
+  original_ledger_rows_before_amendment: 2811
+  unique_discovery_rows_before_amendment: 1741
+  duplicate_rows_excluded_before_amendment: 1070
+  completed_errors_before_amendment: 0
+  effects_inspected: false
+  applied_before_any_call_above_concurrency_32: true
+
+reason: >-
+  The first-party subject and judge routes remained valid with no recorded row failures
+  through 2,325 discovery rows at concurrency 32. Available rate limits permit higher
+  throughput. This amendment changes orchestration and crash recovery only.
+
+frozen_science:
+  parent_preregistration: pipelines/glm53_user_eval/configs/prereg_v5_roster.yaml
+  parent_preregistration_sha256: ab1d759563ef1a80e45a5d1f344600deac58ab8ac50e5bb6d4ee59c6a90d24d2
+  unchanged:
+    - identity_roster_and_conditions
+    - discovery_and_confirmation_task_splits
+    - schedule_rows_and_order
+    - prompt_bytes
+    - subject_and_judge_models
+    - first_party_provider_routes
+    - generation_configuration
+    - estimands_thresholds_and_decision_rules
+    - api_hard_cap_usd_20
+
+execution:
+  previous_concurrency: 32
+  smoke_concurrency: 64
+  smoke_additional_rows: 256
+  production_concurrency: 96
+  fallback_concurrency: 64
+  maximum_concurrency: 96
+  single_writer_process_per_run_root: true
+  os_backed_single_writer_lock: true
+  route_audit_after_smoke: true
+  inspect_scientific_effects_during_smoke: false
+
+resumption_contract:
+  results_jsonl_append_and_fsync_per_completed_row: true
+  raw_response_atomic_write_per_completed_row: true
+  checkpoint_each_of_four_api_turns: true
+  checkpoint_inputs_must_equal_exact_schedule_and_prompt: true
+  reuse_only_validated_openai_response_objects: true
+  duplicate_schedule_or_result_ids_fail_closed: true
+  bounded_resume_counts_only_intersection_with_bounded_schedule: true
+  transport_retries_do_not_create_scientific_samples: true
+
+rollback:
+  on_route_or_error_failure: stop_and_preserve_all_artifacts
+  on_rate_limit_instability: resume_at_concurrency_64
+  never_run_multiple_writers_against_one_results_file: true

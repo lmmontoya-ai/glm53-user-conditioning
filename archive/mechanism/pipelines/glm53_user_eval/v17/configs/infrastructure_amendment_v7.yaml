@@ -1,0 +1,24 @@
+schema_version: glm53_v17_infrastructure_amendment_v7
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T22:30:00Z"
+runtime_amendment:
+  tag: glm53-user-eval-v17-runtime-v3
+  commit: 23b3e9d13f45a923ecbd380309e63eb5ccccc28f
+amendment:
+  scope: pinned_transformers_source_transport_only
+  scientific_contract_changed: false
+  failed_run_id: glm53-v17-hua-20260902T220248Z-044c2a78
+  failed_run_terminal_state: bootstrap_or_science_exited
+  failed_run_checkpoint_staged: false
+  failed_run_model_forwards: 0
+  failed_run_scientific_rows: 0
+  failure: public_github_transformers_checkout_required_credentials_on_paid_host
+  correction: install_hash_bound_transformers_source_archive_from_signed_s3_input
+  transformers_commit: 805a9e939fa8c1bff8d8ffdf041c051b71a914aa
+  transformers_source_sha256: 17890f68cae495a88b51db8105fd9bca43d5357f671fce925e3fe1f63c3cac0a
+retry:
+  permitted_attempts: 1
+  budget_hard_cap_usd: 15.00
+  minimum_reserve_usd: 8.00
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

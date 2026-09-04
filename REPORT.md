@@ -1,0 +1,145 @@
+# Report: split of the GLM-5.3-Flash user-conditioning study into its own repository
+
+Date: 2026-09-03. Source: `Non-verbal-Eval-Awareness` at tag `glm53-user-eval-v23-final`, commit
+`92fb062`. Target: `D:\research\mats\neel_2026\glm53-user-conditioning` (no remote; not pushed).
+
+## Tree
+
+```
+glm53-user-conditioning/
+  README.md  PROVENANCE.md  REPORT.md  pyproject.toml  uv.lock  .gitignore
+  configs/    task.yaml  analysis.yaml  positive_control.yaml  context_blocks_v1.json  plots.yaml
+              roles/PROTOCOL.md  roles/taxonomy.yaml
+  data/       confirmatory/  discovery/  transcripts/  judgments/  audits/  power/
+  src/glm53/  io.py  measure.py  bootstrap.py  decompose.py  roles.py  transcripts.py
+              run_task.py  transluce_context_task.py  plots.py  judge_plots.py
+  scripts/    01_reproduce.py  02_estimands.py  03_decompose.py  04_identities.py
+              05_transcripts.py  06_positive_control.py  07_plots.py  08_judge_plots.py
+              crop_tool.py  _common.py
+  tests/      test_reproduce.py  test_decompose_and_transcripts.py
+  outputs/    (generated; ignored)   figures/  (PNG + SVG + README.md)
+  archive/mechanism/   unchanged copy of src, pipelines, tests, results, infra, source locks
+  docs/       preregistrations/ (unchanged)   analysis_notes.md
+```
+
+History was not rewritten: `git filter-repo` is not installed. Files were copied and every copy
+verified byte-identical to its source by sha256 (4,879 files, 0 mismatches). `PROVENANCE.md`
+carries the path and version-label map.
+
+## Reproduction
+
+Every committed number reproduced from the committed raw scores with the new `measure.py`,
+`bootstrap.py`, and `decompose.py`. Tolerances: 1e-9 on points, 1e-6 on interval endpoints.
+
+| Stage | Checks | Failures | Largest absolute diff |
+|---|---:|---:|---|
+| 1 reproduce (confirmatory: interaction, components, group means, both CI endpoints of four contrasts, address effect, leave-one-out, dilemma splits; discovery: interaction, group means, five group CIs, paired F−U and its CI, medians and Mann-Whitney z) | 50 | 0 | 4.4e-16 |
+| 3 decompose (choice, folded, choice-standardized points and CIs; matched estimate and retained cell counts) | 12 | 0 | 4.4e-16 |
+| 5 transcripts (confidence-turn token and sentence interactions with CIs; evaluation-language and deference kappas, points, CIs) | 14 | 0 | < 1e-9 |
+
+One discrepancy was found and fixed during stage 3, not by loosening tolerances: the committed
+decomposition treats the yes/no answer and the stated confidence as valid independently (43 rows
+have an answer but no confidence; 55 have a confidence but no usable answer). My first
+implementation required both, which moved the choice interaction by 0.016 pp and the folded
+interaction by 4e-5 pp. The rule is now documented in `decompose.outcome_matrices`.
+
+Tests: `uv run pytest` runs 10 tests in about 17 s and pins the values above.
+
+New numbers with no committed reference (labeled as such in outputs): the crossed-bootstrap
+interval of the discovery interaction, −0.831 pp [−1.404, −0.257] (seed 20260829); the interval of
+the same-answer matched estimate, −0.735 pp [−1.299, −0.160]; the Spearman correlations below.
+
+## Stage outputs
+
+- Estimands CSV (`outputs/estimands/estimands.csv`): six estimands per run with intervals,
+  bootstrap p-values, Mann-Whitney p-values for F−G and Freal−G, identity and row counts.
+- Identities: 129 famous-AI profiles (70 constructed, 59 published) with effects and twin-adjusted
+  effects in both runs. Spearman rho of twin-adjusted effects, discovery versus confirmatory:
+  0.41 [0.01, 0.56], n = 70. Constructed versus published address within the confirmatory run:
+  0.56 [0.29, 0.75], n = 59.
+- Role coding: protocol frozen first (`configs/roles/PROTOCOL.md`, sha256
+  `dec630d0…380011`, recorded in every role output). The LLM coder ran on name and public role
+  text only; result: scrutiny 38, business 20, capabilities 12, other 0, ambiguous 20. The blank
+  human sheet is `outputs/roles/human_coding_template.csv`. `merge` refuses to proceed until each
+  disagreement has a recorded resolution; `contrast` refuses without a merged sheet.
+- Transcripts: confidence-turn replies are longer for famous AI figures in the four-group
+  interaction by 12.0 visible tokens [5.3, 18.9] and 0.39 sentences [0.10, 0.67]. Explicit
+  evaluation language: −0.013 [−0.131, 0.113] as a fraction of transcripts, kappa 0.894. Deference:
+  0.010 [−0.035, 0.058] on a 0 to 2 scale, kappa 0.173 (passes the frozen rule only through 96.7%
+  exact agreement). Caution and impression-management dimensions are listed as dropped. Six blinded
+  matched sets were written for human reading (`outputs/transcripts/sample/`).
+- Figures: three figures from stage outputs only, PNG at 300 dpi and SVG.
+
+## Positive control (built, dry-run only, not executed)
+
+| Item | Value |
+|---|---|
+| Rows | 21,000 (3 conditions × 70 general-population identities × 100 dilemmas) |
+| Shards | 300 (one per condition and dilemma, so each identity gets one paraphrase family per dilemma) |
+| Per-row cost | $0.000841 (confirmatory run: $28.94 over 34,400 rows, subject and judge calls) |
+| Projected | $17.67, or $18.55 with a 5% retry allowance |
+| Cap | $25.00 in `configs/positive_control.yaml` |
+| Pinned checkout | commit and all six file hashes verified |
+
+Execution needs `--execute`, `execute: true` in the config, and `OPENROUTER_API_KEY`; it aborts before
+the first call if the projection exceeds the cap. The context block is appended to the pinned
+system prompt through a wrapper task that registers synthetic persona keys and wraps the pinned
+prompt builder; the wrapper was verified offline (system prompt text, sample ids, script shape).
+
+## Missing data
+
+No file listed in the request was missing. Not copied by choice: the Inspect eval logs of both runs
+(about 344 MB each), the judge event logs under `attempts/` (88 MB), and the `behavior_api/` pilots.
+Three transcript files above 50 MB are present locally but untracked, with sha256 pointers in
+`data/transcripts/POINTERS.md`.
+
+## Secret scan
+
+`detect-secrets` over the tree (excluding the virtual environment and lock file): 25,681 hex
+high-entropy findings, all sha256 hashes in manifests, decision files, and data; 5 base64 findings
+(an image digest, a run id, a storage path, and two fixture placeholders); 1 "secret keyword", a
+placeholder key `sk-or-v1-abcdef…` in an archived test fixture. A regex pass for OpenRouter,
+Anthropic, Hugging Face, RunPod, AWS, and GitHub key formats matched only those two fixtures. No
+credential was found. No `.env` exists on this machine.
+
+## Judge rounds
+
+(see the section appended below)
+
+## Open questions and assumptions
+
+- Target path: the request used a placeholder; I created the repository beside the source checkout.
+- Twin-adjusted effect: computed as the identity's effect minus its twin's effect (difference of
+  identity means over valid dilemmas), which equals the mean paired difference when both are
+  complete.
+- Positive-control paraphrase assignment follows the drafted design (hash of condition, identity,
+  and dilemma), which requires one shard per condition and dilemma; the alternative, hashing
+  condition and identity only, would allow five-dilemma shards.
+- Figure 1 title: the judge argued it overclaims because both component intervals cross zero in the
+  confirmatory run. I kept the specified title and added the qualification to the caption; this is
+  the author's call.
+- Discovery run as held-out test for the role contrast: the discovery run was also used for judge
+  rubric development in the original study, so it is held out for this hypothesis only.
+- Role-coder and figure-judge backend: no Anthropic key exists here, so both ran through the local
+  Claude Code CLI with all tools disabled for the coder and only file reading plus the crop command
+  for the judge. The API backends are implemented and selected automatically when
+  `ANTHROPIC_API_KEY` is set.
+
+## Follow-ups noticed but not done
+
+- Human steps (TODO for the author): fill `outputs/roles/human_coding_template.csv` and save it as
+  `human_coding.csv` before looking at `outputs/identities/identities.csv`; then run `merge`,
+  resolve disagreements in `merged_coding.csv`, and run `contrast`. Read the 40-row confirmatory
+  packet and the 160-row decomposition packet in `data/audits/`; read
+  `outputs/transcripts/sample/reading_blinded.md`. Decide whether to run the positive control.
+- A scratch run of `merge` and `contrast` was executed with a copy of the LLM sheet as the human
+  sheet to verify the code path; its outputs were deleted. This means the LLM-only contrast on
+  both runs was computed once and its confirmatory value was seen on screen. The protocol forbids
+  using the LLM-only sheet for any reported figure or contrast, and none does.
+- The original checkout's `.venv` was modified once by a `uv sync` that ran in the wrong working
+  directory; it removed ad hoc packages, and I reinstalled `inspect-ai==0.3.223` and `statsmodels`.
+  No tracked file in the checkout changed (`git status` clean for `pyproject.toml` and `uv.lock`).
+- The archive's `v10/analysis.py` imports `src.probe.sequence_linear` from the paper repository;
+  it will not run from the archive.
+- The v6 development judge rows (`data/judgments/v6_development_v2/`) are copied but unused.
+- Removal of the study from the paper repository is left to the author.

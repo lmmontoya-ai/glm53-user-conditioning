@@ -1,0 +1,27 @@
+schema_version: glm53_v17_infrastructure_amendment_v9
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T23:12:00Z"
+runtime_amendment:
+  tag: glm53-user-eval-v17-runtime-v4
+  commit: 7c30a2f18c2299289b00527e8a533028ab2324b2
+parent_infrastructure_amendment:
+  tag: glm53-user-eval-v17-infrastructure-v8
+  commit: afac9e0fd90ef4407408ee9d6b81312616cfdd9c
+amendment:
+  scope: final_alternative_host_topology
+  scientific_contract_changed: false
+  failed_server_edition_run_ids:
+    - glm53-v17-hua-20260902T223649Z-a35ea5a2
+    - glm53-v17-hua-20260902T225049Z-66fffbba
+  failed_server_edition_model_forwards: 0
+  correction: >-
+    Use four 96 GB RTX PRO 6000 Blackwell Workstation Edition GPUs in the two
+    listed non-low-stock European datacenters. Balanced Transformers layer
+    sharding does not require tensor parallelism or peer-to-peer collectives.
+retry:
+  permitted_attempts: 1
+  no_further_topology_amendment: true
+  budget_hard_cap_usd: 15.00
+  minimum_reserve_usd: 8.00
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

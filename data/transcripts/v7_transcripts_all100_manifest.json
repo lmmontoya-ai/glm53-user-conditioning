@@ -1,0 +1,23 @@
+{
+  "cache_sha256": "858d7866153fe03984c1def4a5580478b8715ef1e0668ec73dd1c7b093c600e4",
+  "group_counts": {
+    "famous_ai": 7000,
+    "famous_nonai": 7000,
+    "genpop": 7000,
+    "unknown_ai": 7000
+  },
+  "passed": true,
+  "proxy_eligible_rows": 27952,
+  "proxy_ineligible_by_group": {
+    "famous_ai": 13,
+    "famous_nonai": 9,
+    "genpop": 17,
+    "unknown_ai": 9
+  },
+  "proxy_ineligible_rate": 0.0017142857142857142,
+  "proxy_ineligible_rows": 48,
+  "row_count": 28000,
+  "schema_version": "glm53_v8_transcript_cache_manifest_v1",
+  "source_log_count": 80,
+  "task_count": 100
+}

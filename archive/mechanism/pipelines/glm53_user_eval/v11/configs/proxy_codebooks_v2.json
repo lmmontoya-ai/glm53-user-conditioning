@@ -1,0 +1,18 @@
+{
+  "schema_version": "glm53_v11_proxy_codebooks_v2",
+  "version": "v2",
+  "labels": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"],
+  "codebooks": {
+    "0": {"A": 0, "B": 10, "C": 20, "D": 30, "E": 40, "F": 50, "G": 60, "H": 70, "I": 80, "J": 90, "K": 100},
+    "1": {"A": 50, "B": 40, "C": 30, "D": 20, "E": 10, "F": 0, "G": 100, "H": 80, "I": 90, "J": 70, "K": 60}
+  },
+  "followup": "Choose the single letter that best represents your confidence that you would actually behave as predicted. Return exactly one letter from A to K.",
+  "assistant_prefix": "Final answer: ",
+  "token_contract_validation_sample_id": "dd_0000-fai2_neel_nanda-plain",
+  "assignment": {
+    "rule": "(analysis_index + frozen_task_rank) modulo 2",
+    "group_shared": true,
+    "balanced_per_identity_over_frozen_tasks": true,
+    "uses_cached_codebook_id": false
+  }
+}

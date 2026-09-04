@@ -1,0 +1,16 @@
+{
+  "development_subset": false,
+  "group_counts": {
+    "famous_ai": 7000,
+    "famous_nonai": 7000,
+    "genpop": 7000,
+    "unknown_ai": 7000
+  },
+  "log_count": 80,
+  "output_sha256": "11c0b88ad1bbe4527df4b8054ddace644cb09ec4db4ccbce6edaf262132f1281",
+  "raw_scores_sha256": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee",
+  "roster_sha256": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e",
+  "row_count": 28000,
+  "schema_version": "glm53_v23_transcript_manifest_v1",
+  "valid_rows": 27901
+}

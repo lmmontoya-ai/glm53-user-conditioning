@@ -1,0 +1,902 @@
+[
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset000__limit005\\2026-08-29T14-25-00-00-00_pmisaligned_Vge9HTTckqLhfMinF3ttT9.eval",
+    "eval_sha256": "bfd3bf8125d40382662736c3ffd9c2482e0231a4d3c57f2c2ed990e0f805dd9a",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset000__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset000__limit005\\2026-08-29T14-25-00-00-00_pmisaligned_d93SrLinPiKNszQk2mwyQE.eval",
+    "eval_sha256": "a128ff2efd69bc1a4f07f7fcbce5595da57b1cfc0f5b21d6f360bf869730b347",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset000__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset000__limit005\\2026-08-29T14-25-00-00-00_pmisaligned_5HqVLez4Kbspq95umfS85x.eval",
+    "eval_sha256": "2a6201cc6ccd44c86952e6741ecce72283a1dab327b29fa9e8066c171a6cce96",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset000__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset000__limit005\\2026-08-29T14-25-00-00-00_pmisaligned_baPssDoaUGoJ7Jz7pR6tvw.eval",
+    "eval_sha256": "7fd72aed027731092ec48a45a233c58c193e3e4277bb06ac3fc1e1af598c5591",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset000__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset000__limit005\\2026-08-29T14-25-00-00-00_pmisaligned_RiDDxfmYbUsuZs9PmvjAJQ.eval",
+    "eval_sha256": "a0f481845dc4e8673923e0d62bcc9c825219c8c17daf9d721792babcd00b3b02",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset000__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset005__limit005\\2026-08-29T14-34-14-00-00_pmisaligned_XHDjDD7aBN7aqWE3YfdcQo.eval",
+    "eval_sha256": "ebb09601c78182ff5f0ed55928ac5c7968570bcbb9f27f9c58ab441d964c58df",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset005__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset005__limit005\\2026-08-29T14-34-14-00-00_pmisaligned_ewXVZ9WD7PYnrBy3vfsMZo.eval",
+    "eval_sha256": "f84b974119b9dfff3e0037eebe92041436d7a732dc34852b34527acdce6685e8",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset005__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset005__limit005\\2026-08-29T14-34-14-00-00_pmisaligned_M3YQvwGotcxsMmY44ihL4H.eval",
+    "eval_sha256": "51658a4fc9e51bdb235e5156734dc4169df30ef25227bb9371fd5de582ee39c8",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset005__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset005__limit005\\2026-08-29T14-34-14-00-00_pmisaligned_43WnQpqn9fdsZ2UFaFvvX7.eval",
+    "eval_sha256": "8cc4d1a06c5b342db5973eaff4f49db6179fb5123f588ab6a158f363dcc9ce0e",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset005__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset005__limit005\\2026-08-29T14-34-14-00-00_pmisaligned_TULx8m5mW4H2YYvEBTKWXu.eval",
+    "eval_sha256": "5b0fc0aff580d2903d21e0b61da03e9d130cc4016ad1d43c3e2535ea70ae91db",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset005__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset010__limit005\\2026-08-29T14-39-35-00-00_pmisaligned_auzTAnHPt3T2qx74XmbbqR.eval",
+    "eval_sha256": "e5a7c2da83ee7ecbf7b50bee6d715fd13926e22ac4289c0637f7885e8929c351",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset010__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset010__limit005\\2026-08-29T14-39-35-00-00_pmisaligned_kX54ExiADAPtAwNNwW72EN.eval",
+    "eval_sha256": "c6043de4f5b602e4427f37b4cbc5f65ce42c20da98f3b54cef3d7d37dafa3137",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset010__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset010__limit005\\2026-08-29T14-39-35-00-00_pmisaligned_D6hTrZSGKMaPiX7joiTvPs.eval",
+    "eval_sha256": "1beb6f61b9e9474f606c7d936b8e9c0ae9e0968b5a32c25e2223fd0beaf3ab10",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset010__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset010__limit005\\2026-08-29T14-39-35-00-00_pmisaligned_JXmP2xboebStdsUyTtBs29.eval",
+    "eval_sha256": "a7c7bc3de14ce0a670393900fadd6507473f1ef74130708a3a753aa36f86397c",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset010__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset010__limit005\\2026-08-29T14-39-35-00-00_pmisaligned_nC9uCYMoR4VcNPKAdgqhsA.eval",
+    "eval_sha256": "197c09f3e9869f4681f3726aa9ff7235f503509dcdd3b0275fd601c4a7521e7c",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset010__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset015__limit005\\2026-08-29T14-46-18-00-00_pmisaligned_SEgiHAMW4PAHzhJnH58cXv.eval",
+    "eval_sha256": "34f761ba1506855ea73ec061f552712299854a1a94317c972c99f3865c531683",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset015__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset015__limit005\\2026-08-29T14-46-18-00-00_pmisaligned_KqMmcLTfpWRFWtMQdKchRc.eval",
+    "eval_sha256": "a4bb74a42dbeef359137948494e1892f05da07edd87f7da7498f3d98a74cf9e6",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset015__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset015__limit005\\2026-08-29T14-46-18-00-00_pmisaligned_UtNKVp3sKjZhF7soxRFKYg.eval",
+    "eval_sha256": "262063d580b7ee68433491aa880de6ee2c8a99b43910d5756442b7ec449c1e27",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset015__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset015__limit005\\2026-08-29T14-46-18-00-00_pmisaligned_Yj8eX87Fo4W7XoFZZM58bR.eval",
+    "eval_sha256": "ba76b20de3cd3bd15a526fe20956e30f564d0e484f56a9d3b26fab3cec840350",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset015__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset015__limit005\\2026-08-29T14-46-18-00-00_pmisaligned_5XKRRTigMmFJy8axrDRn4V.eval",
+    "eval_sha256": "732091f10f1d30b1f640c4f0b1324f6ebb7349e77b90cb98de286f9c46801de1",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset015__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset020__limit005\\2026-08-29T14-48-59-00-00_pmisaligned_VMhijP9QpA76HUXYmGFCtC.eval",
+    "eval_sha256": "ca089d0d1833e1e9e432cffd5e20334b18256be890535dfd96dbd8e2b7652a65",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset020__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset020__limit005\\2026-08-29T14-49-17-00-00_pmisaligned_8nFm8BMoDWThCaSCBrcvnp.eval",
+    "eval_sha256": "6d5c9b2c1c47a6f4108e466381b7a541d51d7b789c5eb99fc5c3e51bba1bdb27",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset020__limit005",
+    "total_rows": 355,
+    "valid_rows": 349
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset020__limit005\\2026-08-29T14-49-17-00-00_pmisaligned_D65hdSsb4sy2jbfLm94GQ8.eval",
+    "eval_sha256": "cc6e4e6b76621564b6821dcb53aa78b38d5e79a59e5a26e3bc54f17eb12d6a74",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset020__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset020__limit005\\2026-08-29T14-49-18-00-00_pmisaligned_7TNk3BQxVbrvhyJvAVc4Ea.eval",
+    "eval_sha256": "d0ce2086ef5aa252a9326371be2fb83c7d0a23e7407ec27257233247a8c0fd94",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset020__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset020__limit005\\2026-08-29T14-49-24-00-00_pmisaligned_i3Uco3ZDkTHxPbbLWeBrRp.eval",
+    "eval_sha256": "b5da8f7bef19481f6c6f0bacd0a71109cfc976b919ebc74c61b30c0969915f89",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset020__limit005",
+    "total_rows": 355,
+    "valid_rows": 350
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset025__limit005\\2026-08-29T14-52-31-00-00_pmisaligned_VAaYHFUbopYcpKhnCtYYW7.eval",
+    "eval_sha256": "421f3d35bde7e43eb9a4a43e9d22a8b22d29fa259bb2527d433754eb703cadb4",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset025__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset025__limit005\\2026-08-29T14-52-36-00-00_pmisaligned_DUkeQabQvL8axutTNbENzg.eval",
+    "eval_sha256": "c15bc0ed6454dd3cc01d1a3eda13b783dfe52f7669cc306d3def7b3e6f567144",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset025__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset025__limit005\\2026-08-29T14-53-10-00-00_pmisaligned_WsjMuEUdiL8xccj9TEb6eA.eval",
+    "eval_sha256": "3e0ff30d678c356b794f4d2d6f11b9268efae3dd84aa738417dd591df4bed4cb",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset025__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset025__limit005\\2026-08-29T14-53-53-00-00_pmisaligned_WzM4iryPxJYHWJtQqVhczw.eval",
+    "eval_sha256": "007a7de4dd2df3a3e967d8687e8f69861f17df9dadae1e1c8590c75ec089bd01",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset025__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset025__limit005\\2026-08-29T14-53-59-00-00_pmisaligned_hMBGeMHrcF2MHvusfNqTtF.eval",
+    "eval_sha256": "eb172f8a234f1f626210be0b31f317eb728626feaa3c9a7e00e9480bd091a98b",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset025__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset030__limit005\\2026-08-29T14-55-51-00-00_pmisaligned_NrkqioDfabovDSpjHjxyRa.eval",
+    "eval_sha256": "809116ca71e43f6c3f2f09c4f914cfee9af6d51ba28ca64bc4ab6bcee15d5c6f",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset030__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset030__limit005\\2026-08-29T14-56-03-00-00_pmisaligned_7YBntJUeg67MQgokSLXsCx.eval",
+    "eval_sha256": "fad9c8f4a3fd23de33b8b656c2c95e5d1cdb666ca5a7c9102e2b7a20e5cd468d",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset030__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset030__limit005\\2026-08-29T14-56-57-00-00_pmisaligned_na3usG3b9HWWpoMy3XCVni.eval",
+    "eval_sha256": "2d0899a583979d514cf831d90c2b4c08576254da5b00fd9cf38bbf31952c8bb5",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset030__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset030__limit005\\2026-08-29T14-57-04-00-00_pmisaligned_XGUfCBZzRy4VeipNSjF8K4.eval",
+    "eval_sha256": "c0aeea20bbfd60d6d851bbbb738ec1218ae4aa4107effec3157d4b73f617d128",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset030__limit005",
+    "total_rows": 300,
+    "valid_rows": 299
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset030__limit005\\2026-08-29T14-57-24-00-00_pmisaligned_PgEmjCjdUX7rUUR2J9fBhx.eval",
+    "eval_sha256": "9512138e31617dec64d01636d5d76ba7b83d773f477b970d170b1db047510d13",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset030__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset035__limit005\\2026-08-29T14-59-19-00-00_pmisaligned_dwQYgEMzDSU3FKKqNKR7Wv.eval",
+    "eval_sha256": "1458a0e6446ded7d1fc33271e1d8787f30f1b4226c85e0bcd88f5dea16267de3",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset035__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset035__limit005\\2026-08-29T14-59-45-00-00_pmisaligned_oLG2VxzsnKyksPfwUDkCD9.eval",
+    "eval_sha256": "95e241c0bd27f91bed548f50de27250564fb53376d017e17732d63f378f20f55",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset035__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset035__limit005\\2026-08-29T15-00-29-00-00_pmisaligned_dZLxHKbRgfDhZdxk4P6R6t.eval",
+    "eval_sha256": "fbeb2ca43a28d72162001170ce29e42ccaab3eb7c311961ff08ade1ffd4ea792",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset035__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset035__limit005\\2026-08-29T15-00-42-00-00_pmisaligned_kptqJfS5y6XG4xyY3vdk6u.eval",
+    "eval_sha256": "9f8219c65bf72c14a88488987cd8067c9ec532262b6f9aeec3b66a54df0ae3b2",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset035__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset035__limit005\\2026-08-29T15-01-12-00-00_pmisaligned_N983rHcfbrAQZsmwmhV4qe.eval",
+    "eval_sha256": "78d58e48b30e4c705fb91f9dffe0f1168ac22119d009ac0af9c0d456840c46e2",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset035__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset040__limit005\\2026-08-29T15-02-39-00-00_pmisaligned_WV6jmnWPiQfAoF42YjoB4j.eval",
+    "eval_sha256": "58bcb4f258ea4274fcbab64f49e6c453d608ab549e72c5bc862f46842402eb6f",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset040__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset040__limit005\\2026-08-29T15-03-11-00-00_pmisaligned_c7UPvPo56VAgixB2vQ4bBy.eval",
+    "eval_sha256": "868e4b3de2e9847240af2c4f51cf7d6a8a49e5e3bc03a26fce931c8c9beda17e",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset040__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset040__limit005\\2026-08-29T15-03-43-00-00_pmisaligned_6FbbwtpyvtQ96NEuTDFACN.eval",
+    "eval_sha256": "cad76bae26062812135c7a4124c4ee135f1b3676f4267f7c89f2ef2761a330a3",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset040__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset040__limit005\\2026-08-29T15-03-57-00-00_pmisaligned_maWtqZsgSYa589VY5pfkAw.eval",
+    "eval_sha256": "a0070cd83137fcc78d50211c36c60628a7055bca15f6c6b02f1fc496c08bbf02",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset040__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset040__limit005\\2026-08-29T15-04-26-00-00_pmisaligned_j3zj2UrdmydReA3f3EkCYg.eval",
+    "eval_sha256": "8a3cd1c74abc43dda60767a0faa5ffd3b2c948beeb9cb1f90ea09ddba5d2be45",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset040__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset045__limit005\\2026-08-29T15-05-28-00-00_pmisaligned_SsKtzBZdh9YTzMBbDp5GDz.eval",
+    "eval_sha256": "0b56498d78553466cf4b498309d1d50394a1f1702306b10f9a513863a381ad0e",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset045__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset045__limit005\\2026-08-29T15-06-21-00-00_pmisaligned_YKtvq8pSk3C3sSqXD7KSrn.eval",
+    "eval_sha256": "02e62bdc3704e9aafe56fdbb6c2e94fae6a9905c9039de1220d195e0be4cb024",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset045__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset045__limit005\\2026-08-29T15-06-41-00-00_pmisaligned_gaesLeNnTUaQHYxTM8aMvt.eval",
+    "eval_sha256": "feef94a4c60aba11a6e665ada2a7a937d5fc0de1f88522862e6a9ccabba247d3",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset045__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset045__limit005\\2026-08-29T15-06-42-00-00_pmisaligned_Y2wptkq6xizZ5u2rLxa3kv.eval",
+    "eval_sha256": "6b8cc381f52bb5e7d7c5c2ddb165e3f373f298f6b2fe1edbc248e9df8623d892",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset045__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset045__limit005\\2026-08-29T15-07-17-00-00_pmisaligned_Rrs4myJV9ijrLJVYAddE8G.eval",
+    "eval_sha256": "06331967da854881f4a1cf6b1e26417179f073665c76dfc6c015003b17b33d59",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset045__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset050__limit005\\2026-08-29T15-09-07-00-00_pmisaligned_UaJZMaZJ4jyjWAEtpxRums.eval",
+    "eval_sha256": "71a3a9bbe1d87e80c5d9fc6eabd1c4b6529f4b56ac70b06441298132de6539cf",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset050__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset050__limit005\\2026-08-29T15-09-52-00-00_pmisaligned_berZ5YyME35RJw2hRGrvJL.eval",
+    "eval_sha256": "1585ca7ff55814639aab270357c51657d493bc490b441e3328670c26761d7cfd",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset050__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset050__limit005\\2026-08-29T15-10-26-00-00_pmisaligned_hvrZg3idELdQXZbHfHc8QG.eval",
+    "eval_sha256": "9a20b45e87bfe01ed14d29ce96e462605cd7856d711513f5a93f0ba32aabe0bf",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset050__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset050__limit005\\2026-08-29T15-10-42-00-00_pmisaligned_4MrhDxHLsmeVFATA3d6xeV.eval",
+    "eval_sha256": "beb98e2cbdebae8d40a99c6c52a775236d0ed9bae48bcb9ff92781701f84f194",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset050__limit005",
+    "total_rows": 300,
+    "valid_rows": 299
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset050__limit005\\2026-08-29T15-11-39-00-00_pmisaligned_dhznjSjvgvbzS6dnv9ZcoL.eval",
+    "eval_sha256": "e58bd52dcf38c2f720ee3595c0155a623f6ee5d123ed773c2e55d518fcda15fa",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset050__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset055__limit005\\2026-08-29T15-12-51-00-00_pmisaligned_RNXeMaJbVj9ZXqTuUXuvzm.eval",
+    "eval_sha256": "8e1236dbff36210aee9c1b37e553893ef6cc78fa12c5f9d0ae1f6fb76b64b769",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset055__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset055__limit005\\2026-08-29T15-13-11-00-00_pmisaligned_DDj4h7oeZHrg9reVeeiAmz.eval",
+    "eval_sha256": "d8e2055b68a2216dd1e3ebd8f7eb84e9a2facbfe265cdb3bf7ad47bab20e38de",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset055__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset055__limit005\\2026-08-29T15-13-36-00-00_pmisaligned_JxnUDa38GtwUKwuvyDkwxM.eval",
+    "eval_sha256": "e9af08a6b380879c6f6fbb31af5a49f325eab24a81bfb6a82f7fa52434bd9b75",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset055__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset055__limit005\\2026-08-29T15-13-49-00-00_pmisaligned_SNNkoHaDxSp7rkUn8QghRL.eval",
+    "eval_sha256": "b0fcd01203fbc252526f9c1d54453fdb3828b4fc184084eaf43907ec33f61c01",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset055__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset055__limit005\\2026-08-29T15-14-48-00-00_pmisaligned_6ekUit39woAvNHSXxBFR4u.eval",
+    "eval_sha256": "f0d07b40afd5eb6118f831bc4c4019c9416a35cc66848528de60906140dbf2c5",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset055__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset060__limit005\\2026-08-29T15-18-02-00-00_pmisaligned_JQeGoBcuEbH3MPRwzXpsPD.eval",
+    "eval_sha256": "69a85250706949963b11edf63be9d3be0f01604f6e2572b4c3337336d0642db8",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset060__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset060__limit005\\2026-08-29T15-18-31-00-00_pmisaligned_72RkMmHb3SPRvbYUPb5cbD.eval",
+    "eval_sha256": "f73e884a4af79df0869dc3cb1fa4fa916b2f5919074d778b8bff4f7a281f0efe",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset060__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset060__limit005\\2026-08-29T15-18-36-00-00_pmisaligned_cAAnftTApUEZv2LRRbVh9P.eval",
+    "eval_sha256": "69b91d587a93b5d85a47caf3872919d207f62d6c429ce44a7a5522580e32d09d",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset060__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset060__limit005\\2026-08-29T15-19-01-00-00_pmisaligned_DnFJrsSdcDeTp6UHFGdPqB.eval",
+    "eval_sha256": "7d848495250823d7dd15764788a3361dac31eedb86c427fb345859119a303c83",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset060__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset060__limit005\\2026-08-29T15-19-42-00-00_pmisaligned_eaqTymtQNH7MkagiGJKfS4.eval",
+    "eval_sha256": "abc0c3be91467ec276b2b271da511aad60911ebe3b77d77d6419b9f0d32f22fa",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset060__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset065__limit005\\2026-08-29T15-21-19-00-00_pmisaligned_Rc8Z8UEvuDyT7YD2wu4bvq.eval",
+    "eval_sha256": "522c2207c15b73c1f4ab9a24cde81c85ac4e02daf8d652da3dc7dead51fa7414",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset065__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset065__limit005\\2026-08-29T15-21-59-00-00_pmisaligned_A4Fam8U8CMz7kRP2UUAvaN.eval",
+    "eval_sha256": "b7cedcf84f6fad650c0d635714826ae7026641c2fc4d9ae728fb03a7b5ddaaed",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset065__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset065__limit005\\2026-08-29T15-22-15-00-00_pmisaligned_MrA5HAcGQabnqp7GzAzjwi.eval",
+    "eval_sha256": "951cabc4365e69a0e2c277c67f73766761a9f6f0690a7da86fee3096012d545d",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset065__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset065__limit005\\2026-08-29T15-22-37-00-00_pmisaligned_d2ZrwWzVkXpCyYPSegN93B.eval",
+    "eval_sha256": "a45e1dd1608bad129409feca5963f13ac1ef48b222888bfef48b811664711778",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset065__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset065__limit005\\2026-08-29T15-23-31-00-00_pmisaligned_YQ86ZLgVZRNtMkCt22ZYt3.eval",
+    "eval_sha256": "de9c10f22f9be6e56e943c178ecc982720d5a1475c4493935dc228cf65b7e8e8",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset065__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset070__limit005\\2026-08-29T15-24-30-00-00_pmisaligned_d3fXwyBR4zCrDRPybmXSwF.eval",
+    "eval_sha256": "ada2a8828404a3660a9c27766af30518738f6bc2c42dfc00783b3fe7ec2b8e7e",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset070__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset070__limit005\\2026-08-29T15-25-05-00-00_pmisaligned_dPjNneG98MhbhH3Jq6Byxj.eval",
+    "eval_sha256": "71feff2d601dd40ce705841a4bc6e3010308418b8087c1e051e82cb9cca1bcf3",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset070__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset070__limit005\\2026-08-29T15-25-27-00-00_pmisaligned_as9Taj2Cx63jbngWZ3Fpdc.eval",
+    "eval_sha256": "d3e773d859e46da7c851efbd8495c917ee97661d9e3e1f21fe45ade45a622844",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset070__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset070__limit005\\2026-08-29T15-25-44-00-00_pmisaligned_MBeWM5gUT9mNanAh37abVA.eval",
+    "eval_sha256": "9c67a61e10a89e2ff4709337b0ece41db479a7731df55ef94e3923d6dc048c1f",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset070__limit005",
+    "total_rows": 300,
+    "valid_rows": 298
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset070__limit005\\2026-08-29T15-27-45-00-00_pmisaligned_ar3BfzhfBpYFjExp73RacM.eval",
+    "eval_sha256": "d6ef0325dd08757d9fcf1058f7c3adeeb084f5a9b1ea35015361886d223f0e3f",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset070__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset075__limit005\\2026-08-29T15-27-45-00-00_pmisaligned_GRXgVp4VVnEWup2HBRcgN4.eval",
+    "eval_sha256": "8519500fdb2668eae10c1478da603038e7c592e3e646637185ca2dafb51d2169",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset075__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset075__limit005\\2026-08-29T15-28-47-00-00_pmisaligned_ertF8UBrBJDgWbhYiwoeh6.eval",
+    "eval_sha256": "38e06a2c5f767526fde8f969ab6b67dfd77c997c86b1887c2142c73b9ffd13b6",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset075__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset075__limit005\\2026-08-29T15-28-53-00-00_pmisaligned_2Txq72KpmVtHDvP9mEWZyH.eval",
+    "eval_sha256": "63da54888f23b4a8a9f9c31296f76e186c5557d862d190e871c2840a5db08aff",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset075__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset075__limit005\\2026-08-29T15-29-02-00-00_pmisaligned_2rF7h4FXXkiLCJ5jJ4oPu7.eval",
+    "eval_sha256": "42277d60d455657500d9e1a7c3b38e1ce8286afff91969ae8825638762c953be",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset075__limit005",
+    "total_rows": 300,
+    "valid_rows": 298
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset075__limit005\\2026-08-29T15-30-55-00-00_pmisaligned_9Ydsee2EqpaKhGTn63WPKk.eval",
+    "eval_sha256": "1a9c1fbccfa9b6bb8d875618bcfbf4ebcfa07a7419069fdaff19789081371254",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset075__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset080__limit005\\2026-08-29T15-31-41-00-00_pmisaligned_J6ESWwqi4X9k2Bp7nd8aLc.eval",
+    "eval_sha256": "544233ff54876667c7e3ae724bc46ff039863c7147ab79f5fe91f59da3bae719",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset080__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset080__limit005\\2026-08-29T15-32-35-00-00_pmisaligned_FxtTsnxoUg7twBsu4z7iSw.eval",
+    "eval_sha256": "2ba8d99cd8175c0c899c1284a6d97901841773a2001f763e036134b4b1c79b2f",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset080__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset080__limit005\\2026-08-29T15-32-52-00-00_pmisaligned_PSHb7fewLEMhbHDZLwAgP7.eval",
+    "eval_sha256": "a4b0cdecbee63ae0ec3c1e1db55d7df05a7744e5225e843075a19ff72567335d",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset080__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset080__limit005\\2026-08-29T15-33-04-00-00_pmisaligned_AaetQunkwQdLx4MH2KvTwc.eval",
+    "eval_sha256": "50a3098ec2491d5921991a79e250963cbe39935a2e61da2aabaf5ad0c16419d0",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset080__limit005",
+    "total_rows": 300,
+    "valid_rows": 299
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset080__limit005\\2026-08-29T15-35-26-00-00_pmisaligned_6f2DFhZCHUN32Hd3B6LVSG.eval",
+    "eval_sha256": "841d36847253c2bc6fa6c72201d5b54ce91d4a6bc6a6664856373178fe9db1ef",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset080__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset085__limit005\\2026-08-29T15-35-50-00-00_pmisaligned_JNij4PzxWTvwzy3i7swWZL.eval",
+    "eval_sha256": "94f311f4906fddbd4139cd59cc687d078089c1252e41ef7664cbe92be886b475",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset085__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset085__limit005\\2026-08-29T15-36-25-00-00_pmisaligned_GHG8ev2S9y4axavmVjcz2b.eval",
+    "eval_sha256": "c21ae3ef55551b90e27fd7fe75e8e5eb51ac1923786d6ff7f4afa7bd538f2957",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset085__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset085__limit005\\2026-08-29T15-36-38-00-00_pmisaligned_PbDvTpdf39iVm8A3HhzEyt.eval",
+    "eval_sha256": "571535925dc2ebac13ff27baa594cc43ebc62e1f5a0217edb06c4fe6811665f3",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset085__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset085__limit005\\2026-08-29T15-37-00-00-00_pmisaligned_SYFxCtTsBbEk5bX8K9kajk.eval",
+    "eval_sha256": "acadf48b1378b6a35e8fea1b7732a204e18f3dd0cfbadba8eee402a7295603b7",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset085__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset085__limit005\\2026-08-29T15-38-57-00-00_pmisaligned_Kr3YhDjGpFf9JAeNF477JW.eval",
+    "eval_sha256": "b971cb6a1146d8a85c58e42440ec89368288a80a621ee356a972c14fcf84aa72",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset085__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset090__limit005\\2026-08-29T15-39-10-00-00_pmisaligned_Jr64HABL99Yq2kCdRjbpgA.eval",
+    "eval_sha256": "7506824490a93c7f67def7b157423947546dce3ba628e5ff614a3d9f7ef7c9c5",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset090__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset090__limit005\\2026-08-29T15-39-33-00-00_pmisaligned_BXV3iJsiDfJJ7p3P9aPwdU.eval",
+    "eval_sha256": "8a3a43b45aeb45f84f4529c1b5a24048d6e01f6a887ada2395dff52a76cb7864",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset090__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset090__limit005\\2026-08-29T15-39-39-00-00_pmisaligned_BR8yLwquTUwA6GDcCiYo43.eval",
+    "eval_sha256": "11bf8bbdfcfb8f59d5d62d8fdd6727626957f2cfedf07ea9eb1b8fa827d97071",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset090__limit005",
+    "total_rows": 355,
+    "valid_rows": 354
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset090__limit005\\2026-08-29T15-39-51-00-00_pmisaligned_PJCj5DpjmmwqTZTgQwLcpL.eval",
+    "eval_sha256": "e0150299ae25d358c49d687494db8daa221044f59b5937f0358e1c8733416571",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset090__limit005",
+    "total_rows": 300,
+    "valid_rows": 300
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset090__limit005\\2026-08-29T15-41-54-00-00_pmisaligned_jNNFTmE8ifj6osXS9sSVj7.eval",
+    "eval_sha256": "0957b123855a75c91be38925aca6e12e4da12ebd5baff869a01033199a6bd94f",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset090__limit005",
+    "total_rows": 355,
+    "valid_rows": 353
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\genpop__offset095__limit005\\2026-08-29T15-43-27-00-00_pmisaligned_BcQmfyKEUqc5QDdU9rNbgP.eval",
+    "eval_sha256": "f38097326acbb3b0151c3cfa2b20ffb001bf1ac228f0ed06ec8d997f1e87efc3",
+    "expected_rows": 355,
+    "shard_id": "genpop__offset095__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\unknown_ai__offset095__limit005\\2026-08-29T15-43-39-00-00_pmisaligned_QvAijSgDScB3H4r2YezPPG.eval",
+    "eval_sha256": "5cba39a13196367b3b3f8c6a4227fddd705a071b9c221cb3787a7466a2ba1519",
+    "expected_rows": 355,
+    "shard_id": "unknown_ai__offset095__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai__offset095__limit005\\2026-08-29T15-45-11-00-00_pmisaligned_R384oQwfNLpq3Si8vy3rFN.eval",
+    "eval_sha256": "d0d50218ff692b10a3e88bf4c7d2be303fb448a6f2303acbec6724e47df2b19c",
+    "expected_rows": 355,
+    "shard_id": "famous_ai__offset095__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_ai_real__offset095__limit005\\2026-08-29T15-46-36-00-00_pmisaligned_7VmzLLBgaQeVVAvSnyBhoG.eval",
+    "eval_sha256": "d15b3af49374aa1b5ac57b50b4160df2f3d67ef13948891243d7585823780c4c",
+    "expected_rows": 300,
+    "shard_id": "famous_ai_real__offset095__limit005",
+    "total_rows": 300,
+    "valid_rows": 299
+  },
+  {
+    "error_rows": 0,
+    "eval_log": "artifacts\\glm53_user_eval\\behavior_api\\transluce_exact_v6\\eval_logs\\famous_nonai__offset095__limit005\\2026-08-29T15-46-37-00-00_pmisaligned_bsoJfQomEpgs2ZYkkEjQ4M.eval",
+    "eval_sha256": "0300fa74d5548dc3b5cd8eb5128ac616b36a72cad3b3fdc0240ca8a8b1253fae",
+    "expected_rows": 355,
+    "shard_id": "famous_nonai__offset095__limit005",
+    "total_rows": 355,
+    "valid_rows": 355
+  }
+]

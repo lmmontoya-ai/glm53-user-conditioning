@@ -1,0 +1,42 @@
+{
+  "schema_version": "glm53_roster_v5_final_audit_v1",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "run_id": "glm53-g3-roster-v5-final",
+  "checks": {
+    "preregistration_committed_before_calls": true,
+    "discovery_schedule_frozen": true,
+    "confirmation_schedule_frozen": true,
+    "discovery_rows_complete": true,
+    "confirmation_rows_complete": true,
+    "discovery_ids_unique": true,
+    "confirmation_ids_unique": true,
+    "discovery_route_audit_passed": true,
+    "confirmation_route_audit_passed": true,
+    "first_party_zai_route_only": true,
+    "reasoning_observed_all_rows": true,
+    "manual_audit_discovery_40": true,
+    "manual_audit_confirmation_40": true,
+    "independent_discovery_recompute_matches": true,
+    "independent_confirmation_recompute_matches": true,
+    "independent_combined_recompute_matches": true,
+    "prior_four_identity_null_preserved": true,
+    "concurrent_writer_incident_disclosed": true,
+    "original_incident_ledger_preserved": true,
+    "transient_confirmation_failure_resumed": true,
+    "full_glm53_test_suite_passed": true,
+    "git_diff_check_passed": true,
+    "python_compileall_passed": true,
+    "credential_patterns_absent_from_tracked_project_paths": true,
+    "api_budget_cap_passed": true,
+    "machine_decision_generated": true
+  },
+  "test_result": {
+    "command": "uv run --with pytest pytest -q tests/glm53_user_eval",
+    "passed": 134,
+    "failed": 0,
+    "duration_seconds": 55.47
+  },
+  "lint_note": "A latest-version repository-wide Ruff diagnostic reported 44 existing style/security-rule findings. No broad post-result rewrite was made; runtime correctness is covered by the 134-test suite, compileall, diff check, and evidence audits.",
+  "decision": "ambiguous_roster_result_stop_and_report_heterogeneity",
+  "passed": true
+}

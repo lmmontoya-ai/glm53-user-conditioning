@@ -1,0 +1,11 @@
+{
+  "schema_version": "glm53_v8_direction_splits_v1",
+  "dataset_id": "contrastive_prompts_v2",
+  "samples_sha256": "10e7e11016f913884a4729ce81b117c96c1b606b377f4bebdd5c6f6a146bab60",
+  "splits_sha256": "816f8df208e9c10b359bfd35728229f01095dd409679b5ebbe91001a2cd4feb5",
+  "summary_sha256": "7f9c138d845b05d87d2feb6b61dfe594f6e78aa4bb73dcf2838f87ec129b31cb",
+  "split_counts": {"train": 192, "val": 32, "test": 32, "steering_anchor": 32, "holdout_hardneg": 64, "holdout_realism": 32, "holdout_mats_aux": 64},
+  "layer_selection": ["validation_family_auroc", "realism_holdout_auroc", "hard_negative_fpr_at_80_tpr", "earliest_layer"],
+  "c_grid": [0.01, 0.1, 1.0, 10.0],
+  "shuffle_reps": 100
+}

@@ -1,0 +1,214 @@
+schema_version: glm53_v16_runtime_v1
+project_id: glm53_user_eval_source_activation_v16
+
+model:
+  model_path: /workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0
+  local_stage_path: /runpod-local/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0
+  model_id: zai-org/GLM-5.3-Flash
+  revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  precision: fp8
+  weight_shards: 62
+  weight_bytes: 328337455672
+  shard_manifest_path: artifacts/glm53_user_eval/runtime/g2/model_stage.json
+  shard_manifest_sha256: 28d8a5842d8be519fb23d031ddd9b91d0a814b7e679b748f0ea7fd46f03434ca
+  static_file_sha256:
+    config.json: bb8f01c42cb92a52ca72e65afb4d5bd8d11aef083cd210e8de25dfb904f23e9f
+    processor_config.json: aae38374c94b08cc9b0547c6e64f05b951bd9735cea571c6988f5ed552bed3ed
+    tokenizer_config.json: 98b1271574f41abf89427ae2dda030d94dc9478f0edc5a8bd240db213c6fd5fc
+    tokenizer.json: 19e773648cb4e65de8660ea6365e10acca112d42a854923df93db4a6f333a82d
+    chat_template.jinja: 34d5ee66b12fa6446cdae131c352b8f68cd85369e0e6fda115583805fada3891
+  full_rehash_before_load: true
+  trust_remote_code: false
+  low_cpu_mem_usage: true
+  torch_dtype: auto
+  device_map: balanced
+  initialization_seed: 20260927
+
+software:
+  image: runpod/pytorch@sha256:f40e33a190d6823439541d1dde52003fbed66539a7af998f38e29f499ca5bdd6
+  python: '3.12'
+  torch: 2.13.0+cu130
+  cuda: '13.0'
+  triton: 3.7.1
+  torchvision: 0.28.0+cu130
+  torchaudio_installed: false
+  transformers_commit: 805a9e939fa8c1bff8d8ffdf041c051b71a914aa
+  uv: 0.9.26
+  uv_sync_frozen: true
+
+architecture:
+  text_layers: 45
+  hidden_size: 4096
+  hc_mult: 4
+  layer_output_shape_suffix: [4, 4096]
+  collapsed_representation: mean_over_hc_streams
+  linear_attention_layers: 34
+  sparse_attention_layers: 11
+  forget_gate_scale_inv_tensors: 68
+  require_all_fp8_scales_finite: true
+
+rendering:
+  reasoning_effort: high
+  clear_thinking: true
+  add_generation_prompt: true
+  add_special_tokens: false
+  exact_processor_chat_template: true
+
+forward:
+  use_cache: false
+  logits_to_keep: 1
+  expected_logits_shape_suffix: [1, vocab_size]
+  primary_batch_size: 1
+  batching_policy: frozen_batch_one_from_the_passing_v9_b300_runtime
+  minimum_free_vram_fraction: 0.10
+  nan_or_inf_allowed: false
+  hooks_removed_after_normal_run: true
+  hooks_removed_after_exception: true
+
+extraction:
+  dataset_id: contrastive_prompts_v5
+  dataset_path: artifacts/datasets/contrastive_prompts_v5/samples.jsonl
+  dataset_manifest_path: artifacts/datasets/contrastive_prompts_v5/manifest.json
+  tokenizer_audit_path: artifacts/datasets/contrastive_prompts_v5/tokenizer_audit_v16.json
+  expected_rows: 576
+  layers: all
+  views:
+    - shared_task_suffix_mean
+    - prompt_final
+    - masked_prompt_mean
+    - decisive_fact_token_mean
+  primary_view: shared_task_suffix_mean
+  activation_dtype_gpu: model_native
+  activation_dtype_cpu: float32
+  activation_dtype_disk: float16
+  retain_full_gpu_layer_outputs: false
+  save_token_ids_and_position_metadata: true
+  checkpoint_rows: 1
+  completed_row_requires_data_and_manifest: true
+  atomic_writes: true
+  resume_requires_hash_match: true
+  duplicate_sample_ids_allowed: false
+  output_root: artifacts/glm53_user_eval/v16/features/source
+
+runtime_checks:
+  exact_snapshot: true
+  expected_cuda_devices: 2
+  expected_gpu_name: NVIDIA B300 SXM6 AC
+  exact_layer_count: true
+  exact_mhc_shape: true
+  exact_stream_mean_collapse: true
+  prompt_hash_stable: true
+  final_nonpadding_index_padding_safe: true
+  alpha_zero_logits_exact: true
+  alpha_zero_features_exact: true
+  hook_count_unchanged: true
+  no_model_forward_before_offline_gate: true
+
+throughput_gate:
+  benchmark_rows: 32
+  include_short_median_and_long_prompts: true
+  selected_batch_must_pass_numerical_equivalence: true
+  observed_v9_batch1_prompts_per_second: 2.729354710496984
+  projection_headroom_multiplier: 1.30
+  backup_reserve_seconds: 600
+  permutation_worker_candidates: [16, 32]
+  permutation_benchmark_reps_per_candidate: 32
+  conditional_downstream_planning_seconds: 2700
+  source_final_analysis_allowance_seconds: 180
+  continue_rule: >-
+    elapsed_seconds plus projected_remaining_seconds times 1.30 plus 600 backup
+    seconds must be no greater than the earlier wall-clock or live-budget
+    deadline.
+  stop_if_full_source_extraction_does_not_fit: true
+  conditional_downstream_may_be_skipped_for_time: true
+
+runpod:
+  cloud_type: SECURE
+  gpu_id: NVIDIA B300 SXM6 AC
+  gpu_count: 2
+  aggregate_gpu_memory_gb: 576
+  allow_gpu_type_fallback: false
+  data_center_ids: []
+  network_volume_attached: false
+  network_volume_id: null
+  container_disk_gb: 450
+  volume_gb: 0
+  ports:
+    - 22/tcp
+  aggregate_gpu_rate_cap_usd_per_hour: 16.50
+  observed_v9_all_in_rate_usd_per_hour: 16.3035
+  compute_hard_cap_usd: 25.00
+  wall_clock_hard_cap_minutes: 94
+  minimum_uncommitted_balance_usd: 15.00
+  storage_allowance_usd: 0.10
+  effective_compute_cap_rule: min(25.00, live_balance - 15.00 - storage_allowance)
+  balance_floor_rule: launch_balance_minus_effective_compute_cap
+  audited_balance_usd: 44.8329412483
+  audited_balance_time_utc: '2026-08-31T21:55:00Z'
+  balance_floor_at_audited_balance_usd: 19.8329412483
+  retained_storage_rate_usd_per_hour: 0.049
+  confirm_spend_flag_required: true
+  no_existing_pod_or_endpoint_required: true
+  created_pod_rate_must_not_exceed_cap: true
+  external_watchdog_required: true
+  pod_scoped_api_key_required: true
+  independent_on_pod_deadline_delete_required: true
+  normal_terminal_self_delete_required: true
+  internal_heartbeat_seconds: 60
+  missing_heartbeat_delete_after_seconds: 600
+  delete_on_terminal_decision: true
+  capture_predelete_state: true
+  verify_no_pods_after_delete: true
+
+model_staging:
+  source: huggingface_hub_xet
+  network_volume_model_source_allowed: false
+  hf_xet_high_performance: true
+  download_workers: 8
+  partial_files_are_not_complete: true
+  verify_size_and_sha256_before_atomic_rename: true
+  runtime_symlink: /workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0
+
+artifact_transport:
+  primary: runpod_s3_https
+  network_volume_mounted: false
+  endpoint_url: https://s3api-us-ks-2.runpod.io/
+  bucket: a9diryunoj
+  result_prefix: glm53-v11-results
+  credential_session_attestation_required: true
+  credential_read_write_probe_required: true
+  credential_rotation_required_after_terminal_cleanup: true
+  credentials_may_be_logged_or_written: false
+  upload_after_each_gate: true
+  roundtrip_manifest_hash_check: true
+  persistent_s3_copy_with_verified_manifest_satisfies_pod_backup_gate: true
+  workstation_copy_required_before_network_volume_deletion: true
+  workstation_hash_verification_required_before_network_volume_deletion: true
+  fallback_transport: ssh_rsync
+
+paid_scope:
+  mandatory:
+    - runtime_revalidation
+    - source_feature_extraction
+    - source_instrument_decision
+  conditional_after_machine_pass:
+    - local_proxy_parity
+    - frozen_user_recruitment
+  prohibited:
+    - steering
+    - intervention_search
+    - early_cot_generation
+    - full_autoregressive_confidence_generation
+    - unplanned_model_reload
+    - alternate_gpu_topology_debugging
+
+failure_rules:
+  b300_unavailable: stop_without_fallback
+  created_rate_above_cap: delete_immediately
+  snapshot_hash_mismatch: delete_after_evidence_backup
+  runtime_check_failure: delete_after_evidence_backup
+  text_gate_missing_or_failed: refuse_launch
+  source_gate_failure: backup_and_delete_without_user_transfer
+  projected_deadline_overrun: backup_current_gate_and_delete
+  balance_floor_reached: delete
+  workstation_disconnect: continue_only_with_fresh_s3_heartbeat_and_deadline_watchdog

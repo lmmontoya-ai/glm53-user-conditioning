@@ -1,0 +1,35 @@
+schema_version: glm53_user_eval_audit_amendment_v6_3
+project_id: glm53_user_eval_transluce_exact_v6
+created_at_utc: "2026-08-29T16:23:00Z"
+
+timing:
+  scientific_calls_complete: true
+  production_scores_inspected: 0
+  applied_before_outcome_analysis: true
+
+reason: >
+  The first all-log technical audit treated every Inspect model event as a completed model
+  response. Inspect also preserves failed transport attempts before its source-configured
+  retries. Twenty-seven subject samples and one judge call contained a failed attempt with
+  call.error=true, no response model, and no provider, followed by the expected successful
+  turns. The original auditor therefore falsely reported extra turns and missing Novita
+  metadata. Audit v6.3 counts only successful response events toward the turn contract and
+  records failed attempts separately as transport retries.
+
+preserves:
+  - all_100_immutable_eval_logs
+  - all_34400_scientific_rows
+  - subject_and_judge_outputs
+  - prompts_and_scores
+  - source_retry_policy
+  - preregistered_analysis
+
+corrected_contract:
+  successful_subject_responses_per_row: 2
+  successful_judge_responses_per_row: source_expected_from_nonempty_generations
+  failed_attempt_requirement:
+    - call_error_is_present
+    - response_model_is_absent
+    - response_provider_is_absent
+    - requested_model_matches_the_expected_subject_or_judge
+  failed_attempts_are_not_new_scientific_samples: true

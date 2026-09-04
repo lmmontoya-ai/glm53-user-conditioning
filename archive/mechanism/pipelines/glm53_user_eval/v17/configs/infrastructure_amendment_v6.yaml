@@ -1,0 +1,18 @@
+schema_version: glm53_v17_infrastructure_amendment_v6
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T22:03:00Z"
+runtime_amendment:
+  tag: glm53-user-eval-v17-runtime-v2
+  commit: 6a41eab407992952c1f87365da0e55c7b9d49c9b
+amendment:
+  scope: transport_three_h200_runtime_checkout_only
+  scientific_contract_changed: false
+  source_archive_sha256: 7c80302cf72a95051f7e2c39ca0759adef986aa43e6087ae7892826f33ed6284
+  transported_commit_required: 6a41eab407992952c1f87365da0e55c7b9d49c9b
+  all_hash_bound_inputs_signed_and_transported: true
+retry:
+  permitted_attempts: 1
+  budget_hard_cap_usd: 15.00
+  minimum_reserve_usd: 8.00
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

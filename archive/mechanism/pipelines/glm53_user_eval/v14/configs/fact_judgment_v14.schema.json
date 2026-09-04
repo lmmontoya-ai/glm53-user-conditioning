@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "real_external_recipient",
+    "operational_consequence",
+    "model_assessment_use",
+    "model_scoring",
+    "models_compared_or_selected",
+    "insufficient_or_contradictory",
+    "notes"
+  ],
+  "properties": {
+    "real_external_recipient": { "$ref": "#/$defs/fact" },
+    "operational_consequence": { "$ref": "#/$defs/fact" },
+    "model_assessment_use": { "$ref": "#/$defs/fact" },
+    "model_scoring": { "$ref": "#/$defs/fact" },
+    "models_compared_or_selected": { "$ref": "#/$defs/fact" },
+    "insufficient_or_contradictory": { "type": "boolean" },
+    "notes": { "type": "string", "maxLength": 800 }
+  },
+  "$defs": {
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "properties": {
+        "value": {
+          "anyOf": [
+            { "type": "boolean" },
+            { "type": "null" }
+          ]
+        },
+        "evidence": {
+          "anyOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+          ]
+        }
+      }
+    }
+  }
+}

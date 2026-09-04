@@ -1,0 +1,16 @@
+{
+  "schema_version": "glm53_v8_proxy_codebooks_v1",
+  "version": "v1",
+  "labels": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"],
+  "candidate_label_sets": [
+    ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"],
+    ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "X"]
+  ],
+  "codebooks": {
+    "0": {"A": 0, "B": 10, "C": 20, "D": 30, "E": 40, "F": 50, "G": 60, "H": 70, "I": 80, "J": 90, "K": 100},
+    "1": {"A": 100, "B": 90, "C": 80, "D": 70, "E": 60, "F": 50, "G": 40, "H": 30, "I": 20, "J": 10, "K": 0}
+  },
+  "followup": "Choose the single letter that best represents your confidence that you would actually behave as predicted. Return exactly one letter from A to K.",
+  "assistant_prefix": "Final answer: ",
+  "assignment_salt": "glm53-v8-codebook-v1"
+}

@@ -1,0 +1,241 @@
+{
+  "batch_size": 1,
+  "checkpoint_rows": 256,
+  "feature_sha256": "a357f42f2fd9d9f4ef09e688bb16f4e82f8eb1cc6d40a07bd9ca137075442025",
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "metadata_sha256": "36819fdf06e1b76c6e3a4cc82e767b7bbe30677a0aed0fc8f3ccb7952b397548",
+  "part_count": 2,
+  "row_count": 448,
+  "schema_version": "glm53_v8_feature_manifest_v1",
+  "shapes": {
+    "l0__prompt_final": [
+      448,
+      4096
+    ],
+    "l10__prompt_final": [
+      448,
+      4096
+    ],
+    "l11__prompt_final": [
+      448,
+      4096
+    ],
+    "l12__prompt_final": [
+      448,
+      4096
+    ],
+    "l13__prompt_final": [
+      448,
+      4096
+    ],
+    "l14__prompt_final": [
+      448,
+      4096
+    ],
+    "l15__prompt_final": [
+      448,
+      4096
+    ],
+    "l16__prompt_final": [
+      448,
+      4096
+    ],
+    "l17__prompt_final": [
+      448,
+      4096
+    ],
+    "l18__prompt_final": [
+      448,
+      4096
+    ],
+    "l19__prompt_final": [
+      448,
+      4096
+    ],
+    "l1__prompt_final": [
+      448,
+      4096
+    ],
+    "l20__prompt_final": [
+      448,
+      4096
+    ],
+    "l21__prompt_final": [
+      448,
+      4096
+    ],
+    "l22__prompt_final": [
+      448,
+      4096
+    ],
+    "l23__prompt_final": [
+      448,
+      4096
+    ],
+    "l24__prompt_final": [
+      448,
+      4096
+    ],
+    "l25__prompt_final": [
+      448,
+      4096
+    ],
+    "l26__prompt_final": [
+      448,
+      4096
+    ],
+    "l27__prompt_final": [
+      448,
+      4096
+    ],
+    "l28__prompt_final": [
+      448,
+      4096
+    ],
+    "l29__prompt_final": [
+      448,
+      4096
+    ],
+    "l2__prompt_final": [
+      448,
+      4096
+    ],
+    "l30__prompt_final": [
+      448,
+      4096
+    ],
+    "l31__prompt_final": [
+      448,
+      4096
+    ],
+    "l32__prompt_final": [
+      448,
+      4096
+    ],
+    "l33__prompt_final": [
+      448,
+      4096
+    ],
+    "l34__prompt_final": [
+      448,
+      4096
+    ],
+    "l35__prompt_final": [
+      448,
+      4096
+    ],
+    "l36__prompt_final": [
+      448,
+      4096
+    ],
+    "l37__prompt_final": [
+      448,
+      4096
+    ],
+    "l38__prompt_final": [
+      448,
+      4096
+    ],
+    "l39__prompt_final": [
+      448,
+      4096
+    ],
+    "l3__prompt_final": [
+      448,
+      4096
+    ],
+    "l40__prompt_final": [
+      448,
+      4096
+    ],
+    "l41__prompt_final": [
+      448,
+      4096
+    ],
+    "l42__prompt_final": [
+      448,
+      4096
+    ],
+    "l43__prompt_final": [
+      448,
+      4096
+    ],
+    "l44__prompt_final": [
+      448,
+      4096
+    ],
+    "l4__prompt_final": [
+      448,
+      4096
+    ],
+    "l5__prompt_final": [
+      448,
+      4096
+    ],
+    "l6__prompt_final": [
+      448,
+      4096
+    ],
+    "l7__prompt_final": [
+      448,
+      4096
+    ],
+    "l8__prompt_final": [
+      448,
+      4096
+    ],
+    "l9__prompt_final": [
+      448,
+      4096
+    ]
+  },
+  "views": [
+    "prompt_final"
+  ]
+}

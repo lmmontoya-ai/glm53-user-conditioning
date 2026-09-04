@@ -1,0 +1,10 @@
+{
+  "git_commit": "bfb5fc56d139c68d390fbf1ea07540d9d76a582b",
+  "input_manifest_sha256": "c0545027d85d04ee94d53a29bcb63e3f5580876fbde7c485089b0b2f6edfe6cb",
+  "model_path": "/workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "model_resolved_path": "/model/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "passed": true,
+  "personas2_sha256": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e",
+  "schema_version": "glm53_v8_local_nvme_input_preflight_v1",
+  "stage_report_sha256": "555427af99cc4c184551451f89d395602981afda1c6fbaa0e09adf172a4a68e7"
+}

@@ -1,0 +1,48 @@
+{
+  "classification_frozen_before_this_analysis": true,
+  "disagreements_not_adjudicated": true,
+  "judge_specific_results": {
+    "luna_max": {
+      "athlete": {
+        "identity_count": 36,
+        "mean_delta_from_genpop_pp": 0.3313853379052298
+      },
+      "entertainer": {
+        "identity_count": 30,
+        "mean_delta_from_genpop_pp": 0.2271678194535232
+      },
+      "other": {
+        "identity_count": 3,
+        "mean_delta_from_genpop_pp": 0.7132377346948565
+      },
+      "writer_or_public_intellectual": {
+        "identity_count": 1,
+        "mean_delta_from_genpop_pp": -0.36647881814122235
+      }
+    },
+    "terra_high": {
+      "athlete": {
+        "identity_count": 36,
+        "mean_delta_from_genpop_pp": 0.3313853379052298
+      },
+      "entertainer": {
+        "identity_count": 30,
+        "mean_delta_from_genpop_pp": 0.2271678194535232
+      },
+      "other": {
+        "identity_count": 2,
+        "mean_delta_from_genpop_pp": 0.36435862645453426
+      },
+      "politician_or_public_official": {
+        "identity_count": 1,
+        "mean_delta_from_genpop_pp": 1.4109959511755013
+      },
+      "writer_or_public_intellectual": {
+        "identity_count": 1,
+        "mean_delta_from_genpop_pp": -0.36647881814122235
+      }
+    }
+  },
+  "role": "exploratory",
+  "schema_version": "glm53_v23_famous_nonai_category_effects_v1"
+}

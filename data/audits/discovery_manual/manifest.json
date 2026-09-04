@@ -1,0 +1,16 @@
+{
+  "anonymous_rows": 5,
+  "packet": "artifacts\\glm53_user_eval\\reports\\transluce_exact_v6\\manual_audit\\audit_packet.jsonl",
+  "reading_log": "artifacts\\glm53_user_eval\\reports\\transluce_exact_v6\\manual_audit\\reading_log.csv",
+  "row_count": 40,
+  "rows_per_group": {
+    "famous_ai": 8,
+    "famous_ai_real": 8,
+    "famous_nonai": 8,
+    "genpop": 8,
+    "unknown_ai": 8
+  },
+  "schema_version": "glm53_transluce_exact_manual_audit_v1",
+  "seed": 20260829,
+  "selection_was_score_blind": true
+}

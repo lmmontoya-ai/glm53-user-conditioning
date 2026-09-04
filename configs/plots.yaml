@@ -1,0 +1,90 @@
+# Figure specifications. Numbers plotted come from stage outputs only.
+schema_version: glm53_user_conditioning_plots_v1
+
+output:
+  dir: figures
+  dpi: 300
+  formats: [png, svg]
+
+style:
+  font_family: DejaVu Sans
+  font_size: 9.5
+  title_size: 10.5
+  label_size: 10
+  tick_size: 9.5
+  annotation_size: 9
+  surface: "#fcfcfb"
+  text_primary: "#0b0b0b"
+  text_secondary: "#52514e"
+  grid: "#e6e5e1"
+  axis: "#c8c7c2"
+  zero_line: "#52514e"
+  line_width: 1.8
+  marker_size: 7
+  cap_size: 3
+  surface_ring: 1.4
+
+palette:
+  # Categorical slots from the validated reference palette (light mode).
+  discovery: "#eb6834"      # slot 2, orange
+  confirmatory: "#2a78d6"   # slot 1, blue
+  roles:
+    scrutiny: "#2a78d6"
+    business: "#eb6834"
+    capabilities: "#1baf7a"
+    other: "#9a9891"
+  uniform: "#2a78d6"
+  hollow_edge: "#2a78d6"
+
+figure1:
+  file: fig1_estimands
+  size_in: [7.2, 3.7]
+  title: "AI fame and non-AI fame shift stated confidence in opposite directions; the difference replicated on fresh data"
+  estimand_order: ["U-G", "F-U", "FN-G", "interaction"]
+  estimand_labels:
+    U-G: "Unknown AI twin −\ngeneral population"
+    F-U: "Famous AI −\nunknown AI twin"
+    FN-G: "Famous non-AI −\ngeneral population"
+    interaction: "Interaction:\n(famous AI − twin) −\n(famous non-AI − general)"
+  run_labels: {discovery: "Discovery run", confirmatory: "Confirmatory run"}
+  x_label: "Change in folded confidence (percentage points)"
+  run_offset: 0.18
+  caption_template: "Points are equal-weight means over identities of per-identity mean centered folded confidence; bars are 95% crossed identity-and-dilemma bootstrap intervals ({reps:,} draws). The confirmatory interaction of {interaction:.2f} pp is {sd_units:.2f} of the response-level SD ({sd:.1f} pp). Valid rows in the four populations: {n_rows_disc:,} (discovery), {n_rows_conf:,} (confirmatory); 70 identities per population."
+
+figure2:
+  file: fig2_identities
+  size_in: [5.6, 5.4]
+  title_template: "Per-identity effects correlate moderately across runs (ρ = {rho:.2f} [{lo:.2f}, {hi:.2f}])"
+  subtitle: "Twin-adjusted effect of each famous-AI identity, discovery versus confirmatory run"
+  x_label: "Discovery run: famous AI − twin (pp)"
+  y_label: "Confirmatory run: famous AI − twin (pp)"
+  point_alpha: 0.75
+  identity_line: true
+  leader_color: "#8a8985"
+  n_labels: 8
+  point_size: 24
+  centroid_size: 90
+  role_bootstrap_reps: 5000
+  role_bootstrap_seed: 20260905
+  pending_caption: "Role coding is pending: points are uniform because the merged human-and-LLM role sheet does not exist yet. Colors will follow the frozen taxonomy once outputs/roles/merged_coding.csv is complete."
+  coded_caption: "Colors follow the merged human-and-LLM role coding; large markers are role centroids with 95% identity-bootstrap intervals."
+  rho_template: "Spearman ρ = {rho:.2f} [{lo:.2f}, {hi:.2f}]"
+
+figure3:
+  file: fig3_decomposition
+  size_in: [8.4, 3.0]
+  title: "No shift in the predicted answer was detected; the confidence shift survives adjustment for the answer"
+  panels:
+    - key: yes_rate
+      label: "Predicted answer (yes-rate)"
+      unit: "percentage points"
+    - key: folded
+      label: "Stated confidence (folded)"
+      unit: "percentage points"
+    - key: standardized
+      label: "Confidence adjusted for answer"
+      unit: "percentage points"
+  matched_label: "same-answer matched\n(descriptive, same-answer cells only)"
+  shared_x_range: true
+  x_pad: 0.25
+  caption_template: "Each panel shows the four-group interaction (famous AI − unknown twin) − (famous non-AI − general population) with its 95% crossed identity-and-dilemma bootstrap interval ({reps:,} resamples) on the confirmatory run. The grey hollow marker is the same-answer matched estimate, a descriptive quantity computed only on cells where both members of a pair gave the same yes/no answer. The dashed line in the first panel marks the size of the confidence effect: the yes-rate interval does not exclude an answer shift of that size."

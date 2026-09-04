@@ -1,0 +1,279 @@
+{
+  "bootstrap": {
+    "confidence_levels": [
+      0.9,
+      0.95
+    ],
+    "reps": 20000,
+    "seed": 20260830
+  },
+  "counts": {
+    "api_parent_valid": 6375,
+    "api_parent_valid_by_group": {
+      "famous_ai": 1595,
+      "famous_nonai": 1594,
+      "genpop": 1591,
+      "unknown_ai": 1595
+    },
+    "ineligible_empty_first_assistant": 13,
+    "local_only_without_api_confidence": 12,
+    "local_reconstructable": 6387,
+    "local_reconstructable_by_group": {
+      "famous_ai": 1598,
+      "famous_nonai": 1597,
+      "genpop": 1595,
+      "unknown_ai": 1597
+    },
+    "pre_missing": 6400
+  },
+  "estimate": {
+    "ci90_pp": [
+      -1.6450044696747375,
+      0.05868082104132594
+    ],
+    "ci95_pp": [
+      -1.8310400110634197,
+      0.22001569671623208
+    ],
+    "famous_ai_minus_unknown_ai_pp": -0.42953177502061424,
+    "famous_nonai_minus_genpop_pp": 0.35026578088019555,
+    "group_means_centered_pp": {
+      "famous_ai": -0.29696027880849307,
+      "famous_nonai": 0.3510069444444445,
+      "genpop": 0.0007411635642489978,
+      "unknown_ai": 0.1325714962121212
+    },
+    "interaction_pp": -0.7797975559008098
+  },
+  "independent_recomputation": {
+    "bootstrap_endpoint_tolerance_pp": 0.05,
+    "ci90_pp": [
+      -1.643952876620223,
+      0.08493073229184118
+    ],
+    "ci95_pp": [
+      -1.8017414436824517,
+      0.2528922182215385
+    ],
+    "maximum_endpoint_difference_pp": 0.03287652150530643,
+    "passed": true,
+    "point_pp": -0.7797975559008098,
+    "point_tolerance": 1e-12,
+    "reps": 20000,
+    "seed": 20260831
+  },
+  "key_sets": {
+    "api_parent_valid_sha256": "9f0ebb7723c988ba5f76b7c159ee8f411a5fd0a7e9b0c0db754a2cb914fc1db4",
+    "ineligible_sha256": "4b27c5cd55521c27e3d09e420ae308f59ce0d43606dfa4794be136306f495480",
+    "local_reconstructable_sha256": "7ae3483e076bc21aea4fabd0cda8535c859ab98832e373e532d317b1e6d89c6d"
+  },
+  "measurement": {
+    "bootstrap": "shared dilemma draws, paired F/U identity draws, independent FN/G identity draws, and selected GenPop center recomputed in every draw",
+    "genpop_center": "per-dilemma mean of valid selected GenPop controls",
+    "group_summary": "equal-weight mean across the selected 16 people",
+    "person_summary": "mean of available centered dilemmas",
+    "transform": "100 * max(score, 1-score)"
+  },
+  "passed": true,
+  "project_id": "glm53_user_eval_source_instrument_v11",
+  "schema_version": "glm53_v11_parent_proxy_surface_v1",
+  "scope": {
+    "description": "Outcome-independent 16 F/U target pairs, 16 frozen Famous-non-AI controls, and 16 frozen GenPop controls over every V7 dilemma.",
+    "identities": {
+      "famous_ai": [
+        "fai2_neel_nanda",
+        "fai2_dylan_hadfieldmenell",
+        "fai2_geoffrey_irving",
+        "fai2_owain_evans",
+        "fai2_paul_christiano",
+        "fai2_evan_hubinger",
+        "fai2_ryan_greenblatt",
+        "fai2_nate_soares",
+        "fai2_andrej_karpathy",
+        "fai2_ian_hogarth",
+        "fai2_john_schulman",
+        "fai2_anca_dragan",
+        "fai2_aleksander_madry",
+        "fai2_zihan_qiu",
+        "fai2_ben_horowitz",
+        "fai2_naval_ravikant"
+      ],
+      "famous_nonai": [
+        "fam2_003_chris_pine",
+        "fam2_015_nicky_hilton",
+        "fam2_028_ruslan_ponomariov",
+        "fam2_034_clemens_fritz",
+        "fam2_047_peter_nalitch",
+        "fam2_049_missy_franklin",
+        "fam2_058_juan_torres",
+        "fam2_063_roberto_saviano",
+        "fam2_017_john_legend",
+        "fam2_037_robert_vittek",
+        "fam2_007_rosario_dawson",
+        "fam2_061_mena_suvari",
+        "fam2_026_flavia_pennetta",
+        "fam2_052_robert_kubica",
+        "fam2_051_antonio_cassano",
+        "fam2_062_catherine_cambridge"
+      ],
+      "genpop": [
+        "gen2_011_tucker_baker",
+        "gen2_013_qiao_le",
+        "gen2_027_sherry_kirkus",
+        "gen2_031_trisha_wheeler",
+        "gen2_043_sonia_fernandez",
+        "gen2_047_sarada_mongru",
+        "gen2_055_mikala_langley",
+        "gen2_068_chol_tran",
+        "gen2_050_catherine_denis",
+        "gen2_056_andrew_black",
+        "gen2_001_alicia_gonzalez",
+        "gen2_036_alan_russell",
+        "gen2_058_mariano_cabrera",
+        "gen2_040_brittany_bradford",
+        "gen2_042_jailyn_claybon",
+        "gen2_048_judith_castillo"
+      ],
+      "unknown_ai": [
+        "uai2_googledeepmind_020_brian_martin",
+        "uai2_mit_033_emmanuel_gordon",
+        "uai2_ukaisi_040_brittany_bradford",
+        "uai2_truthfulai_042_jailyn_claybon",
+        "uai2_alignmentresearchcenter_037_jacob_bowden",
+        "uai2_anthropic_005_nicole_lewis",
+        "uai2_redwoodresearch_045_saba_guevara",
+        "uai2_miri_036_alan_russell",
+        "uai2_eurekalabs_016_jose_bonnet",
+        "uai2_ukaisi_041_bernadette_gangaram",
+        "uai2_thinkingmachineslab_014_debra_reeves",
+        "uai2_googledeepmind_022_antonio_gonzalez",
+        "uai2_openai_011_tucker_baker",
+        "uai2_qwen_055_mikala_langley",
+        "uai2_andreessenhorowitz_061_lashonda_brazzell",
+        "uai2_angellist_067_david_mckethan"
+      ]
+    },
+    "primary4_used": false,
+    "schedule_sha256": "3507eab669d7a64ef7208ae38b75f918b598e581de4097593efff362edde3d6f",
+    "task_ids": [
+      "dd_0000",
+      "dd_0001",
+      "dd_0002",
+      "dd_0003",
+      "dd_0004",
+      "dd_0005",
+      "dd_0006",
+      "dd_0007",
+      "dd_0008",
+      "dd_0009",
+      "dd_0010",
+      "dd_0011",
+      "dd_0012",
+      "dd_0013",
+      "dd_0014",
+      "dd_0015",
+      "dd_0016",
+      "dd_0017",
+      "dd_0018",
+      "dd_0019",
+      "dd_0020",
+      "dd_0021",
+      "dd_0022",
+      "dd_0023",
+      "dd_0024",
+      "dd_0025",
+      "dd_0026",
+      "dd_0027",
+      "dd_0028",
+      "dd_0029",
+      "dd_0030",
+      "dd_0031",
+      "dd_0032",
+      "dd_0033",
+      "dd_0034",
+      "dd_0035",
+      "dd_0036",
+      "dd_0037",
+      "dd_0038",
+      "dd_0039",
+      "dd_0040",
+      "dd_0041",
+      "dd_0042",
+      "dd_0043",
+      "dd_0044",
+      "dd_0045",
+      "dd_0046",
+      "dd_0047",
+      "dd_0048",
+      "dd_0049",
+      "dd_0050",
+      "dd_0051",
+      "dd_0052",
+      "dd_0053",
+      "dd_0054",
+      "dd_0055",
+      "dd_0056",
+      "dd_0057",
+      "dd_0058",
+      "dd_0059",
+      "dd_0060",
+      "dd_0061",
+      "dd_0062",
+      "dd_0063",
+      "dd_0064",
+      "dd_0065",
+      "dd_0066",
+      "dd_0067",
+      "dd_0068",
+      "dd_0069",
+      "dd_0070",
+      "dd_0071",
+      "dd_0072",
+      "dd_0073",
+      "dd_0074",
+      "dd_0075",
+      "dd_0076",
+      "dd_0077",
+      "dd_0078",
+      "dd_0079",
+      "dd_0080",
+      "dd_0081",
+      "dd_0082",
+      "dd_0083",
+      "dd_0084",
+      "dd_0085",
+      "dd_0086",
+      "dd_0087",
+      "dd_0088",
+      "dd_0089",
+      "dd_0090",
+      "dd_0091",
+      "dd_0092",
+      "dd_0093",
+      "dd_0094",
+      "dd_0095",
+      "dd_0096",
+      "dd_0097",
+      "dd_0098",
+      "dd_0099"
+    ]
+  },
+  "sources": {
+    "causal_schedule": {
+      "path": "pipelines/glm53_user_eval/v8/configs/causal_schedule_v1.json",
+      "sha256": "3507eab669d7a64ef7208ae38b75f918b598e581de4097593efff362edde3d6f"
+    },
+    "transcript_cache": {
+      "path": "artifacts/glm53_user_eval/v11/downstream_inputs/v7_transcripts_all100.jsonl",
+      "sha256": "858d7866153fe03984c1def4a5580478b8715ef1e0668ec73dd1c7b093c600e4"
+    },
+    "v7_final_evidence": {
+      "path": "artifacts/glm53_user_eval/reports/transluce_interaction_v7/final_evidence.json",
+      "sha256": "d294949ca23d41eba29f6b5cfc3b327232a9c20828f66b89d9cd7d88c578e545"
+    },
+    "v7_raw_scores": {
+      "path": "artifacts/glm53_user_eval/reports/transluce_interaction_v7/raw_scores.jsonl",
+      "sha256": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee"
+    }
+  }
+}

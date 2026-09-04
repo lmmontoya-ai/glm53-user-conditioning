@@ -1,0 +1,30 @@
+schema_version: glm53_v17_infrastructure_amendment_v4
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T21:22:00Z"
+scientific_preregistration:
+  tag: glm53-user-eval-v17-preregistered
+  commit: 27717a7adccbcf588c6918416f8871edbb9ed2e9
+prior_infrastructure_amendment:
+  tag: glm53-user-eval-v17-infrastructure-v3
+  commit: bf426a0e052be89563a6084b631d264ec306b7a4
+failed_attempt:
+  run_id: glm53-v17-hua-20260902T211736Z-5bf2a2bf
+  pod_id: 3bbfftkt58i0fl
+  terminal_exit_code: 1
+  scientific_forwards_completed: 0
+  model_staging_started: false
+  cause: remaining_hash_bound_inputs_used_git_normalized_instead_of_frozen_workstation_bytes
+amendment:
+  scope: infrastructure_transport_only
+  scientific_contract_changed: false
+  transport_all_hash_bound_inputs: true
+  signed_manifest_hmac_required: true
+  exact_sha256_verification_required: true
+  git_skip_worktree_scope: transported_hash_bound_inputs_only
+  code_files_modified_in_scientific_checkout: false
+retry:
+  permitted_attempts: 1
+  budget_caps_unchanged: true
+  hardware_unchanged: true
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

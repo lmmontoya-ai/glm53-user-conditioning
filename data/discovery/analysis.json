@@ -1,0 +1,213 @@
+{
+  "bootstrap_reps": 20000,
+  "bootstrap_seed": 20260829,
+  "completion_rate": 0.9983720930232558,
+  "condition_missingness_spread": 0.0011428571428571122,
+  "dilemma_count": 100,
+  "group_ci95_pp": {
+    "famous_ai": [
+      -0.8530253886410267,
+      0.12093371639245136
+    ],
+    "famous_ai_real": [
+      -1.0700617079833024,
+      -0.12446207366845476
+    ],
+    "famous_nonai": [
+      0.08446284232327603,
+      0.8309189444112777
+    ],
+    "genpop": [
+      -0.3118736034515273,
+      0.3043151158147326
+    ],
+    "unknown_ai": [
+      -0.3921779283740209,
+      0.41250495166997536
+    ]
+  },
+  "group_counts": {
+    "famous_ai": {
+      "completion_rate": 0.999,
+      "expected_nonanonymous_rows": 7000,
+      "valid_nonanonymous_rows": 6993
+    },
+    "famous_ai_real": {
+      "completion_rate": 0.9986440677966102,
+      "expected_nonanonymous_rows": 5900,
+      "valid_nonanonymous_rows": 5892
+    },
+    "famous_nonai": {
+      "completion_rate": 0.9982857142857143,
+      "expected_nonanonymous_rows": 7000,
+      "valid_nonanonymous_rows": 6988
+    },
+    "genpop": {
+      "completion_rate": 0.9978571428571429,
+      "expected_nonanonymous_rows": 7000,
+      "valid_nonanonymous_rows": 6985
+    },
+    "unknown_ai": {
+      "completion_rate": 0.9982857142857143,
+      "expected_nonanonymous_rows": 7000,
+      "valid_nonanonymous_rows": 6988
+    }
+  },
+  "group_mean_deltas_pp": {
+    "famous_ai": -0.36501262491821507,
+    "famous_ai_real": -0.5967466838270982,
+    "famous_nonai": 0.4555227077040741,
+    "genpop": 0.0003229791593082026,
+    "unknown_ai": 0.01125873137205369
+  },
+  "released_glm52_group_mean_deltas_pp": {
+    "famous_ai": -1.3874417164966248,
+    "famous_ai_real": -1.638413728133489,
+    "famous_nonai": 0.1238934811687174,
+    "genpop": -0.00011366502135972955,
+    "unknown_ai": -0.6682842938073073
+  },
+  "released_glm52_same_index_famous_minus_unknown_pp": -0.7191574226893175,
+  "released_glm52_source_exact_group_stats": {
+    "famous_ai": {
+      "bonferroni_28_p_vs_genpop": 1.1056312316611232e-10,
+      "iqr_source_indexed_pp": [
+        -2.303860675102293,
+        -0.5038606751022927
+      ],
+      "mann_whitney_p_vs_genpop": 3.948682970218297e-12,
+      "mann_whitney_z_vs_genpop": -6.939006024114127,
+      "max_pp": 1.2330553335290728,
+      "median_pp": -1.473121818147047,
+      "min_pp": -3.7356287270789648,
+      "n": 70
+    },
+    "famous_ai_real": {
+      "bonferroni_28_p_vs_genpop": 6.201728884572413e-13,
+      "iqr_source_indexed_pp": [
+        -2.2538606751022927,
+        -0.7938606751022929
+      ],
+      "mann_whitney_p_vs_genpop": 2.2149031730615758e-14,
+      "mann_whitney_z_vs_genpop": -7.637494023318788,
+      "max_pp": 0.7361393248977072,
+      "median_pp": -1.5738606751022928,
+      "min_pp": -4.633860675102293,
+      "n": 59
+    },
+    "famous_nonai": {
+      "bonferroni_28_p_vs_genpop": 1.0,
+      "iqr_source_indexed_pp": [
+        -0.2938606751022929,
+        0.6061393248977072
+      ],
+      "mann_whitney_p_vs_genpop": 0.13299140699968817,
+      "mann_whitney_z_vs_genpop": 1.5024094124283138,
+      "max_pp": 1.5861393248977071,
+      "median_pp": 0.1596997433538156,
+      "min_pp": -2.079183762729589,
+      "n": 70
+    },
+    "genpop": {
+      "bonferroni_28_p_vs_genpop": null,
+      "iqr_source_indexed_pp": [
+        -0.4438606751022929,
+        0.436139324897707
+      ],
+      "mann_whitney_p_vs_genpop": null,
+      "mann_whitney_z_vs_genpop": null,
+      "max_pp": 1.766139324897707,
+      "median_pp": -0.04509557500053439,
+      "min_pp": -1.319526568797075,
+      "n": 70
+    },
+    "unknown_ai": {
+      "bonferroni_28_p_vs_genpop": 0.00031964823150979784,
+      "iqr_source_indexed_pp": [
+        -1.153860675102293,
+        -0.03386067510229289
+      ],
+      "mann_whitney_p_vs_genpop": 1.1416008268207066e-05,
+      "mann_whitney_z_vs_genpop": -4.388452458493799,
+      "max_pp": 0.8991009223565668,
+      "median_pp": -0.4988606751022929,
+      "min_pp": -3.7738606751022927,
+      "n": 70
+    }
+  },
+  "row_count": 34400,
+  "same_index_famous_minus_unknown_ci95_pp": [
+    -0.8005373318806928,
+    0.06218029359599418
+  ],
+  "same_index_famous_minus_unknown_pp": -0.3701725122949613,
+  "schema_version": "glm53_transluce_exact_analysis_v1",
+  "source_exact_group_stats": {
+    "famous_ai": {
+      "bonferroni_28_p_vs_genpop": 1.0,
+      "iqr_source_indexed_pp": [
+        -1.239863354037267,
+        0.4101366459627329
+      ],
+      "mann_whitney_p_vs_genpop": 0.04412126982614036,
+      "mann_whitney_z_vs_genpop": -2.0129368826709446,
+      "max_pp": 2.040136645962733,
+      "median_pp": -0.26986335403726713,
+      "min_pp": -3.189863354037267,
+      "n": 70
+    },
+    "famous_ai_real": {
+      "bonferroni_28_p_vs_genpop": 0.016614378146214925,
+      "iqr_source_indexed_pp": [
+        -1.3754752493882931,
+        0.19013664596273286
+      ],
+      "mann_whitney_p_vs_genpop": 0.0005933706480791045,
+      "mann_whitney_z_vs_genpop": -3.4346266839623025,
+      "max_pp": 1.5801366459627328,
+      "median_pp": -0.4898633540372672,
+      "min_pp": -3.1998633540372667,
+      "n": 59
+    },
+    "famous_nonai": {
+      "bonferroni_28_p_vs_genpop": 0.005968475617484306,
+      "iqr_source_indexed_pp": [
+        0.07013664596273288,
+        0.7901366459627329
+      ],
+      "mann_whitney_p_vs_genpop": 0.00021315984348158236,
+      "mann_whitney_z_vs_genpop": 3.7028869984536947,
+      "max_pp": 2.020136645962733,
+      "median_pp": 0.5051366459627329,
+      "min_pp": -0.849863354037267,
+      "n": 70
+    },
+    "genpop": {
+      "bonferroni_28_p_vs_genpop": null,
+      "iqr_source_indexed_pp": [
+        -0.3998633540372671,
+        0.49860091599222023
+      ],
+      "mann_whitney_p_vs_genpop": null,
+      "mann_whitney_z_vs_genpop": null,
+      "max_pp": 1.3101366459627328,
+      "median_pp": 0.0801366459627329,
+      "min_pp": -1.7498633540372672,
+      "n": 70
+    },
+    "unknown_ai": {
+      "bonferroni_28_p_vs_genpop": 1.0,
+      "iqr_source_indexed_pp": [
+        -0.3998633540372671,
+        0.48801681410377057
+      ],
+      "mann_whitney_p_vs_genpop": 0.8251848794094416,
+      "mann_whitney_z_vs_genpop": 0.2208812728396689,
+      "max_pp": 1.5101366459627328,
+      "median_pp": 0.11513664596273293,
+      "min_pp": -2.0050567789698226,
+      "n": 70
+    }
+  },
+  "valid_score_count": 34344
+}

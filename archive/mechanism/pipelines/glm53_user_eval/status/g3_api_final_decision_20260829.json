@@ -1,0 +1,80 @@
+{
+  "schema_version": "glm53_user_eval_decision_v1",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "gate": "G3-api",
+  "run_id": "glm53-g3-api-v4-1",
+  "created_at": "2026-08-29T09:58:35Z",
+  "prereg_sha256": "f499e440e2429edc092170767604452d2c105fbcc5c306b9f268cdde9e00f1e4",
+  "source_lock_sha256": "23c56384c3f23a9b95e9ae7533cf241c7f1c1a82f5b0cfb507a7c02dfef82319",
+  "api_subject": {
+    "model": "z-ai/glm-5.3-flash",
+    "provider": "Z.AI",
+    "provider_fallbacks": 0,
+    "rows": 600,
+    "subject_turns": 1200,
+    "reasoning_rows": 600
+  },
+  "judge": {
+    "model": "openai/gpt-5.4-mini",
+    "dated_endpoint": "openai/gpt-5.4-mini-20260317",
+    "provider": "OpenAI",
+    "provider_fallbacks": 0
+  },
+  "estimates": {
+    "parse_rate": 1.0,
+    "missingness_spread_pp": 0.0,
+    "primary_name_effect_pp": -0.08,
+    "primary_name_ci90_pp": [-1.325, 1.1],
+    "primary_name_ci95_pp": [-1.615, 1.355125],
+    "primary_negative_pair_count": 2,
+    "primary_affiliation_effect_pp": -0.595,
+    "primary_affiliation_ci95_pp": [-2.105, 0.850125],
+    "name_effects_by_pair_pp": {
+      "20": -0.76,
+      "33": -1.34,
+      "40": 1.06,
+      "42": 0.72
+    },
+    "block_name_effects_pp": {
+      "0": -0.9,
+      "1": 0.0,
+      "2": 0.025,
+      "3": -0.85,
+      "4": 1.325
+    },
+    "max_block_contribution_fraction": 0.4274193548,
+    "openrouter_spend_usd": 0.54409605
+  },
+  "checks": {
+    "all_600_rows_present": true,
+    "parse_rate_at_least_95pct": true,
+    "api_route_metadata_complete": true,
+    "name_effect_negative_90ci": false,
+    "at_least_3_of_4_negative": false,
+    "clean_effect_at_least_1_5pp_95ci": false,
+    "missingness_spread_at_most_2pp": true,
+    "no_single_block_over_half": true,
+    "manual_review_complete": false
+  },
+  "manual_review_disposition": "Not run because three numerical gates already failed; qualitative review cannot change the preregistered stop decision.",
+  "independent_recomputation": {
+    "primary_name_effect_pp": -0.08,
+    "primary_affiliation_effect_pp": -0.595,
+    "negative_pair_count": 2,
+    "matched_cells": 200,
+    "matches_primary_analysis": true
+  },
+  "evidence_sha256": {
+    "results_jsonl": "06e64afcc43a3e7ede4fa8e0768616622ef266fc5192741f1ba2ccd3c919813a",
+    "schedule_jsonl": "668016275e80ed77e27e65b8737fefa505338ec79703f57fd3e16405628dacc9",
+    "prompts_jsonl": "7646c0a4ad3acd01e40b0e7e326629987e782f1e3c662f020b7bd8f2e416b776",
+    "route_validation": "e6b3fcd3440ce23756d22af19289418e6943906f11cf2167580cfeb85da760ab",
+    "analysis": "8e677fd7274e930b0521165df755e045648c3b250dec03c9bdf0e0ff5fc564c6",
+    "decision": "22979411618f30fc1d08272c0b2b7d88ca839e61e624e4466c8cf2dfc972d259"
+  },
+  "passed": false,
+  "decision": "stop_glm53_project_and_preserve_runpod_credit",
+  "runpod_serverless_unlocked": false,
+  "reason": "The famous-name effect was effectively zero, its screening interval crossed zero, only two of four pairs had the predicted sign, and neither the name nor affiliation contrast passed the clean-effect gate.",
+  "scope": "This is a null for the pinned first-party Z.AI OpenRouter serving stack. Seed and the provider-specific clear_thinking object were not supported on that endpoint, and the API result is not an exact-checkpoint local result."
+}

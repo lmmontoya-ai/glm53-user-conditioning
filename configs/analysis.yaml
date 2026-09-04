@@ -1,0 +1,84 @@
+# Estimands, measurement, and uncertainty settings. Seeds reproduce the committed numbers.
+schema_version: glm53_user_conditioning_analysis_v1
+
+measurement:
+  transform: folded_confidence            # max(p, 100 - p), percentage points
+  centering: per_dilemma_mean_of_valid_nonanonymous_genpop_rows
+  identity_summary: mean_across_valid_dilemmas
+  group_summary: equal_weight_mean_across_identities
+  anonymous_rows: excluded
+
+estimands:
+  U-G: unknown_ai_minus_genpop
+  F-U: famous_ai_minus_unknown_ai
+  FN-G: famous_nonai_minus_genpop
+  interaction: (F-U)-(FN-G)
+  F-G: famous_ai_minus_genpop
+  Freal-G: famous_ai_real_minus_genpop
+  address: famous_ai_real_minus_famous_ai_matched_slug
+
+bootstrap:
+  reps: 20000
+  confidence_level: 0.95
+  percentile: [2.5, 97.5]
+  dilemma_draw: shared_across_groups
+  famous_unknown_identity_draw: paired_same_index
+  other_group_identity_draws: independent
+  genpop_center: recomputed_inside_each_draw
+  seeds:
+    confirmatory_interaction: 20260830
+    confirmatory_verifier: 20260831
+    confirmatory_address: 21260830          # interaction seed + 400 as in the committed analysis
+    discovery_group_deltas_base: 20260829   # group index i uses base + i, order genpop, unknown_ai, famous_ai, famous_ai_real, famous_nonai
+    discovery_paired_contrast: 20260929     # base + 100
+    discovery_interaction: 20260829        # new: same crossed bootstrap as confirmatory, discovery seed
+    decomposition: 20260923
+    identities: 20260901
+    roles: 20260902
+    transcripts: 20260903
+    positive_control: 20260904
+
+tolerances:
+  point_estimate: 1.0e-9
+  ci_endpoint: 1.0e-6
+
+mann_whitney:
+  implementation: pinned_transluce_tie_aware_normal_approximation
+  bonferroni_family_size: 28
+
+response_level_sd_pp: 10.9   # per-row standard deviation of folded confidence in the confirmatory run; stage 01 recomputes and reports it
+
+pinned_confirmatory:
+  interaction_pp: -0.65024890176303
+  interaction_ci95_pp: [-1.2099960877594156, -0.09734531995242601]
+  famous_ai_minus_unknown_ai_pp: -0.36071546512109537
+  famous_nonai_minus_genpop_pp: 0.28953343664193465
+  unknown_ai_minus_genpop_pp: -0.26604876329315125
+  group_mean_deltas_pp:
+    famous_ai: -0.6271410501464977
+    famous_ai_real: -0.7492752563067482
+    famous_nonai: 0.2891566149096836
+    genpop: -0.0003768217322510695
+    unknown_ai: -0.2664255850254023
+  leave_one_out_max_shift_pp: 0.038830210650418806
+  leave_one_out_sign_flips: 0
+  fixed_dilemma_splits: {split_a: -0.7124674153601105, split_b: -0.5874714711764624}
+  address_pp: 0.022669779236015705
+pinned_discovery:
+  interaction_pp: -0.8314710848350346
+  group_mean_deltas_pp:
+    famous_ai: -0.36501262491821507
+    famous_ai_real: -0.5967466838270982
+    famous_nonai: 0.4555227077040741
+    genpop: 0.0003229791593082026
+    unknown_ai: 0.01125873137205369
+pinned_decomposition:
+  choice_interaction_pp: -0.08155545908178101
+  choice_ci95_pp: [-2.041978177529606, 1.8424527093901222]
+  choice_standardized_pp: -0.6594210555395004
+  choice_standardized_ci95_pp: [-1.2209866795291704, -0.09580347631527736]
+  same_choice_matched_pp: -0.7354605912535765
+  confidence_turn_visible_tokens: {interaction: 12.031606, ci95: [5.254235, 18.889938]}
+  confidence_visible_sentence_count: {interaction: 0.387591, ci95: [0.104578, 0.672603]}
+  evaluation_language: {interaction: -0.0135, ci95: [-0.1315, 0.1126], kappa: 0.8938}
+  deference: {interaction: 0.0105, ci95: [-0.0355, 0.0576], kappa: 0.1726}

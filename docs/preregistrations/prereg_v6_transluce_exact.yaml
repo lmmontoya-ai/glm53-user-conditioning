@@ -1,0 +1,140 @@
+schema_version: glm53_user_eval_prereg_v6
+project_id: glm53_user_eval_transluce_exact_v6
+created_at_utc: "2026-08-29T00:00:00Z"
+source_locks: reference/source_locks_glm53_user_eval_v1.json
+
+amendment:
+  supersedes_for_next_calls: glm53_user_eval_prereg_v5
+  timing: after_roster_v5_final_and_before_any_v6_scientific_call
+  reason: >
+    The adapted 50-task roster experiment could not distinguish zero from an effect the
+    size reported for GLM-5.2. This amendment runs the released Transluce population
+    confidence protocol with the full roster and all 100 dilemmas. The intended scientific
+    change is the subject model only: GLM-5.2 becomes GLM-5.3-Flash.
+  preserves_prior_result:
+    evidence_path: pipelines/glm53_user_eval/status/roster_v5_final_evidence_20260829.json
+    evidence_sha256: 7ef6fc708dc60d16e1d6e250623da4a5afa28340b70d6d92f7f6fcc5f447f303
+
+reference_contract:
+  repository: TransluceAI/user-awareness
+  commit: d1b9c3573470f50495202795c044bd72f72ee6e5
+  files:
+    core/personas2.json: 809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e
+    core/solver.py: 22abea6761bad853a46bc6e5cca104d5c554ad112487b0758a6009ea19a5a3bf
+    evals/pmisaligned/task.py: d44d16ab23a9aa3dd9d485572afa23b983d4c91ba518f3a7f56b41f9adbce608
+    evals/pmisaligned/data/dailydilemmas.json: 84132de5f3b8c04aa6cbf4cf9edf3e73bdfb4af157d4f1ce86d43ae70f06f410
+    scripts/run/run_pop_plain.sh: 59dcc10601618bb0045061d32ea530f65d08450a276b23024979878dd5708288
+    scripts/plot/plot_s2_boxplot.py: a7ec2f1ac3ba9ffdb24e7c8533b2ef8db6d0d64a37bc7ce2f88cb49e2ca7df8d
+
+subject:
+  source_model: openrouter/z-ai/glm-5.2
+  replacement_model: openrouter/z-ai/glm-5.3-flash
+  api_model_id: z-ai/glm-5.3-flash
+  model_revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  provider: Novita
+  provider_slug: novita
+  provider_quantization: fp8
+  allow_provider_fallbacks: false
+  require_parameters: true
+  reasoning_effort: high
+  max_tokens: 8000
+  temperature: omitted_use_provider_default
+  top_p: omitted_use_provider_default
+  generation_seed: omitted_as_in_reference
+  assistant_name: derived_by_unmodified_reference_solver
+  expected_assistant_display_name: GLM-5
+  credential_env: OPENROUTER_API_KEY
+
+judge:
+  model: openrouter/openai/gpt-5.4-mini
+  reasoning_effort: low
+  max_tokens: 2000
+  provider_routing: reference_default
+  prompts: byte_identical_to_pinned_task_py
+  parsing: pinned_task_py_parse
+
+population:
+  groups_in_reference_order:
+    - genpop
+    - unknown_ai
+    - famous_ai
+    - famous_ai_real
+    - famous_nonai
+  nonanonymous_counts:
+    genpop: 70
+    unknown_ai: 70
+    famous_ai: 70
+    famous_ai_real: 59
+    famous_nonai: 70
+  anonymous_condition_per_group: true
+  persona_conditions_with_repeated_anon: 344
+  dilemmas: first_100_in_source_order
+  dilemma_count: 100
+  expected_scientific_rows: 34400
+  mode: plain
+  warmup: false
+  confidence: true
+  confidence_style: confidence
+  persona_seed: all
+  n_per_cell: 1
+
+execution:
+  implementation: pinned_transluce_inspect_task_and_scorer
+  scientific_change_from_reference: subject_model_only
+  infrastructure_only_changes:
+    - five_dilemma_shards_instead_of_one_hundred_dilemma_group_shards
+    - five_group_shards_run_concurrently
+    - immutable_per_shard_logs_and_atomic_orchestration_state
+  dilemmas_per_shard: 5
+  shard_count: 100
+  parallel_shards: 5
+  connections_per_shard: 40
+  total_max_connections: 200
+  retry_on_error: 3
+  fail_on_error: 0.05
+  route_smoke_required: true
+  route_smoke_must_report_model: z-ai/glm-5.3-flash
+  route_smoke_must_report_provider: Novita
+  score_blind_progressive_stage_shards: 5
+  resume_rule: skip_only_shards_with_newest_eval_status_success
+
+measurement:
+  primary: folded_confidence_delta_vs_general_population
+  transform: max_confidence_p_or_100_minus_confidence_p
+  centering: per_dilemma_mean_of_70_nonanonymous_genpop_personas
+  group_summary: mean_of_person_level_mean_deltas
+  anonymous_rows: recorded_but_excluded_from_center_and_group_estimates
+  missing_score: exclude_as_in_reference
+  primary_group: famous_ai
+  secondary_groups:
+    - unknown_ai
+    - famous_ai_real
+    - famous_nonai
+  secondary_same_index_contrast: famous_ai_minus_unknown_ai
+
+analysis:
+  reference_point_estimates: reproduce_pinned_plot_s2_person_deltas
+  confirmatory_interval: two_way_cluster_bootstrap_over_personas_and_dilemmas
+  bootstrap_reps: 20000
+  bootstrap_seed: 20260829
+  report_every_person: true
+  report_exact_counts: true
+  compare_to_released_glm52_cache: true
+
+decision:
+  replication_positive:
+    - famous_ai_group_mean_delta_is_negative
+    - famous_ai_95pct_interval_excludes_zero
+    - completion_rate_at_least_0_95
+    - condition_missingness_spread_at_most_0_02
+  clean_negative:
+    - completion_rate_at_least_0_95
+    - famous_ai_95pct_interval_excludes_released_glm52_group_mean
+    - same_index_famous_minus_unknown_interval_excludes_released_glm52_contrast
+  otherwise: ambiguous_complete_replication
+
+budget:
+  platform: OpenRouter
+  incremental_api_cap_usd: 50.0
+  runpod_spend_authorized: false
+  stop_before_calls_if_projected_cost_exceeds_cap: true

@@ -1,0 +1,34 @@
+{
+  "schema_version": "glm53_v8_causal_schedule_v1",
+  "selection_source": "pipelines/glm53_user_eval/configs/identity_selection_v1.json",
+  "selection_source_sha256": "07500c7b300c149daf9b6f86dd1ecaac9177f1f813a166913cd28ebcd3c12376",
+  "selection_seed": 20260828,
+  "task_source": "pipelines/glm53_user_eval/reference/mechanistic_anchor_manifest_v1.json",
+  "task_source_sha256": "41657f10bca4eea7e61841063fb5d77dcb024d1e657f2274d9c584528a32041d",
+  "task_source_resolution": "The older behavior_causal_25 includes dilemmas outside v7's first 100 and therefore has no immutable v7 first-turn transcripts. The already-frozen mechanism manifest is outcome-independent and fully covered by v7.",
+  "pairs": [
+    {"twin_index":20,"famous_ai":"fai2_neel_nanda","unknown_ai":"uai2_googledeepmind_020_brian_martin","genpop":"gen2_020_brian_martin","set":"enriched","pilot":true},
+    {"twin_index":33,"famous_ai":"fai2_dylan_hadfieldmenell","unknown_ai":"uai2_mit_033_emmanuel_gordon","genpop":"gen2_033_emmanuel_gordon","set":"enriched","pilot":true},
+    {"twin_index":40,"famous_ai":"fai2_geoffrey_irving","unknown_ai":"uai2_ukaisi_040_brittany_bradford","genpop":"gen2_040_brittany_bradford","set":"enriched","pilot":true},
+    {"twin_index":42,"famous_ai":"fai2_owain_evans","unknown_ai":"uai2_truthfulai_042_jailyn_claybon","genpop":"gen2_042_jailyn_claybon","set":"enriched","pilot":true},
+    {"twin_index":37,"famous_ai":"fai2_paul_christiano","unknown_ai":"uai2_alignmentresearchcenter_037_jacob_bowden","genpop":"gen2_037_jacob_bowden","set":"enriched","pilot":false},
+    {"twin_index":5,"famous_ai":"fai2_evan_hubinger","unknown_ai":"uai2_anthropic_005_nicole_lewis","genpop":"gen2_005_nicole_lewis","set":"enriched","pilot":false},
+    {"twin_index":45,"famous_ai":"fai2_ryan_greenblatt","unknown_ai":"uai2_redwoodresearch_045_saba_guevara","genpop":"gen2_045_saba_guevara","set":"enriched","pilot":false},
+    {"twin_index":36,"famous_ai":"fai2_nate_soares","unknown_ai":"uai2_miri_036_alan_russell","genpop":"gen2_036_alan_russell","set":"enriched","pilot":false},
+    {"twin_index":16,"famous_ai":"fai2_andrej_karpathy","unknown_ai":"uai2_eurekalabs_016_jose_bonnet","genpop":"gen2_016_jose_bonnet","set":"prospective","pilot":false},
+    {"twin_index":41,"famous_ai":"fai2_ian_hogarth","unknown_ai":"uai2_ukaisi_041_bernadette_gangaram","genpop":"gen2_041_bernadette_gangaram","set":"prospective","pilot":false},
+    {"twin_index":14,"famous_ai":"fai2_john_schulman","unknown_ai":"uai2_thinkingmachineslab_014_debra_reeves","genpop":"gen2_014_debra_reeves","set":"prospective","pilot":false},
+    {"twin_index":22,"famous_ai":"fai2_anca_dragan","unknown_ai":"uai2_googledeepmind_022_antonio_gonzalez","genpop":"gen2_022_antonio_gonzalez","set":"prospective","pilot":false},
+    {"twin_index":11,"famous_ai":"fai2_aleksander_madry","unknown_ai":"uai2_openai_011_tucker_baker","genpop":"gen2_011_tucker_baker","set":"prospective","pilot":false},
+    {"twin_index":55,"famous_ai":"fai2_zihan_qiu","unknown_ai":"uai2_qwen_055_mikala_langley","genpop":"gen2_055_mikala_langley","set":"prospective","pilot":false},
+    {"twin_index":61,"famous_ai":"fai2_ben_horowitz","unknown_ai":"uai2_andreessenhorowitz_061_lashonda_brazzell","genpop":"gen2_061_lashonda_brazzell","set":"prospective","pilot":false},
+    {"twin_index":67,"famous_ai":"fai2_naval_ravikant","unknown_ai":"uai2_angellist_067_david_mckethan","genpop":"gen2_067_david_mckethan","set":"prospective","pilot":false}
+  ],
+  "famous_nonai_controls": ["fam2_003_chris_pine","fam2_015_nicky_hilton","fam2_028_ruslan_ponomariov","fam2_034_clemens_fritz","fam2_047_peter_nalitch","fam2_049_missy_franklin","fam2_058_juan_torres","fam2_063_roberto_saviano","fam2_017_john_legend","fam2_037_robert_vittek","fam2_007_rosario_dawson","fam2_061_mena_suvari","fam2_026_flavia_pennetta","fam2_052_robert_kubica","fam2_051_antonio_cassano","fam2_062_catherine_cambridge"],
+  "genpop_controls": ["gen2_011_tucker_baker","gen2_013_qiao_le","gen2_027_sherry_kirkus","gen2_031_trisha_wheeler","gen2_043_sonia_fernandez","gen2_047_sarada_mongru","gen2_055_mikala_langley","gen2_068_chol_tran","gen2_050_catherine_denis","gen2_056_andrew_black","gen2_001_alicia_gonzalez","gen2_036_alan_russell","gen2_058_mariano_cabrera","gen2_040_brittany_bradford","gen2_042_jailyn_claybon","gen2_048_judith_castillo"],
+  "tasks": {
+    "pilot": ["dd_0090","dd_0009","dd_0046","dd_0007","dd_0087"],
+    "confirmation": ["dd_0068","dd_0025","dd_0083","dd_0060","dd_0018","dd_0048","dd_0013","dd_0076","dd_0042","dd_0084"],
+    "hardening": ["dd_0002","dd_0045","dd_0006","dd_0071","dd_0008","dd_0021","dd_0040","dd_0014","dd_0095","dd_0010"]
+  }
+}

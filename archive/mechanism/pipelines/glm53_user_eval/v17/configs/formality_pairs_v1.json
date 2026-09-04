@@ -1,0 +1,23 @@
+{
+  "schema_version": "glm53_v17_formality_pairs_v1",
+  "orientation": "formal_minus_casual",
+  "status_semantics": "none",
+  "pairs": [
+    {"pair_id":"formality_01","formal":"Please provide a concise response to the following request:","casual":"Give me a quick answer to this:"},
+    {"pair_id":"formality_02","formal":"Kindly address the following question:","casual":"Can you answer this:"},
+    {"pair_id":"formality_03","formal":"Please consider the following matter:","casual":"Take a look at this:"},
+    {"pair_id":"formality_04","formal":"Provide your response to the following inquiry:","casual":"Tell me what you think about this:"},
+    {"pair_id":"formality_05","formal":"Please complete the following task:","casual":"Do this for me:"},
+    {"pair_id":"formality_06","formal":"Kindly explain the following point:","casual":"Explain this to me:"},
+    {"pair_id":"formality_07","formal":"Please review the following information:","casual":"Check this out:"},
+    {"pair_id":"formality_08","formal":"Provide a brief answer to the following:","casual":"Give me a short answer to this:"},
+    {"pair_id":"formality_09","formal":"Please assist with the following request:","casual":"Help me with this:"},
+    {"pair_id":"formality_10","formal":"Kindly summarize the following material:","casual":"Sum this up:"},
+    {"pair_id":"formality_11","formal":"Please rewrite the following sentence:","casual":"Rewrite this:"},
+    {"pair_id":"formality_12","formal":"Provide the requested classification below:","casual":"Pick the right category here:"},
+    {"pair_id":"formality_13","formal":"Please calculate the following value:","casual":"Work this out:"},
+    {"pair_id":"formality_14","formal":"Kindly identify the correct option:","casual":"Choose the right one:"},
+    {"pair_id":"formality_15","formal":"Please answer the question presented below:","casual":"Answer this question:"},
+    {"pair_id":"formality_16","formal":"Provide a clear response to the following prompt:","casual":"Reply clearly to this:"}
+  ]
+}

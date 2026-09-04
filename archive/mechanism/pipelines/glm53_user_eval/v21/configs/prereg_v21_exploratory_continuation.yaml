@@ -1,0 +1,126 @@
+schema_version: glm53_user_eval_v21_prereg_v1
+project_id: glm53_user_eval_hua_exploratory_continuation_v21
+created_at_utc: '2026-09-03T15:00:00Z'
+title: Exploratory completion of the frozen V20 Hua intervention ladder
+
+status:
+  confirmatory: false
+  reason: >-
+    V20 stopped at its preregistered local-parity gate after the Famous-non-AI
+    minus GenPop component was -0.143938 pp rather than nonnegative. The overall
+    interaction, both codebooks, API-matched interaction, retained magnitude,
+    and output-integrity checks passed. After seeing those aggregate V20 results,
+    the user explicitly authorized completion of the untouched intervention
+    ladder. V21 preserves the V20 failure and treats every new result as
+    exploratory.
+  prohibited_claims:
+    - preregistered_confirmatory_v20_success
+    - local_parity_passed
+    - causal_mediation
+    - representation_identity
+    - provider_internal_mechanism
+
+parent_v20:
+  prereg_tag: glm53-user-eval-v20-preregistered
+  prereg_commit: e25d9b864b318456f194152d60ce2d0b0e3c9d52
+  runtime_tag: glm53-user-eval-v20-runtime-r3
+  runtime_commit: 1ffb57881ff52421a5901d890d0cd0f191d1ed16
+  run_id: glm53-v20-hua-20260903T134930Z-3eb64df2
+  decision: stop_local_parity_failed
+  failed_check: components
+  observed_before_v21:
+    interaction_pp: -0.40161448429552615
+    api_matched_interaction_pp: -0.4036885058676997
+    famous_ai_minus_unknown_ai_pp: -0.545552810530052
+    famous_nonai_minus_genpop_pp: -0.1439383262345259
+    codebook_0_interaction_pp: -0.328404158106492
+    codebook_1_interaction_pp: -0.4324108458388893
+
+immutable_inputs:
+  v20_prereg:
+    path: pipelines/glm53_user_eval/v20/configs/prereg_v20_direct_user_hua.yaml
+    sha256: d920f091ae775628e7bffaf862611852b76cd74dcf92d4054127fc38f29aec83
+  v20_design:
+    path: pipelines/glm53_user_eval/v20/configs/design_v20.json
+    sha256: e61fdb5cf848d7e193df205dffb8957678a5baef3b14cfc0081ba62025a8f5d9
+  v20_null_signs:
+    path: pipelines/glm53_user_eval/v20/configs/null_signs_v20.json
+    sha256: 99c67269cc38f01f935ec6691d2d245fb3549ebb4766e60e65a32800ec278db9
+  v20_runtime:
+    path: pipelines/glm53_user_eval/v20/configs/runtime_v20.yaml
+    sha256: db665bb25655a9b2eddea3604bb8f4f759a75dd3569f2eed7148bcb1c01bc150
+  baseline_raw_scores:
+    path: artifacts/glm53_user_eval/v20/recovered/glm53-v20-hua-20260903T134930Z-3eb64df2/artifacts/run/local_proxy/raw_scores.jsonl
+    sha256: 91702099d664bf19626c1f3f944e667e26f5e6bb379a9284dbc14a7449af2ce3
+    rows: 1404
+  baseline_analysis:
+    path: artifacts/glm53_user_eval/v20/recovered/glm53-v20-hua-20260903T134930Z-3eb64df2/artifacts/run/local_proxy/analysis.json
+    sha256: 2eff94a13fecce590ad60419318c2b349ea040f81d3ae77d7d28eddb2291d65b
+  baseline_decision:
+    path: artifacts/glm53_user_eval/v20/recovered/glm53-v20-hua-20260903T134930Z-3eb64df2/artifacts/run/local_proxy/decision.json
+    sha256: 46e1af89ed7b396301f1d2510acc6b381390201523664e0b5f7f6884f2a3a2de
+  baseline_verification:
+    path: artifacts/glm53_user_eval/v20/recovered/glm53-v20-hua-20260903T134930Z-3eb64df2/artifacts/run/local_proxy/verification.json
+    sha256: 8699a4c1d7cd4f8bf50d8fa7da657b3a964ec7ccc921ecde4da230284f13e9d4
+  v19_directions:
+    path: artifacts/glm53_user_eval/v19/recovered/glm53-v19-hua-20260903T054118Z-941c61df/artifacts/run/positive_control/directions.npz
+    sha256: c163d8cb09b741ebb24df7c9028778fa5987c8c248752532907dbce2caf5ef56
+  downstream_manifest:
+    path: pipelines/glm53_user_eval/v17/configs/downstream_manifest_v17.json
+    sha256: 406841847d3686b065fb9209901e9f3a8c93230c38558d0bb07d3ce58db28b18
+  model_stage:
+    path: artifacts/glm53_user_eval/runtime/g2/model_stage.json
+    sha256: 28d8a5842d8be519fb23d031ddd9b91d0a814b7e679b748f0ea7fd46f03434ca
+
+subject:
+  model_id: zai-org/GLM-5.3-Flash
+  revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  precision: official_fp8
+  layers: 45
+  hidden_size: 4096
+  mhc_streams: 4
+
+intervention:
+  inherited_without_change_from_v20: true
+  layers: [10, 14, 18, 22, 26, 30]
+  all16_deployment_alpha: 0.6
+  all16_evaluation_alpha: -0.6
+  scope: user_content_only
+  full_arms:
+    - all16_deploy
+    - all16_eval
+    - status_deploy
+    - actor_deploy
+    - formality
+  signflip_controls: 20
+  signflip_rows_per_control: 80
+  outcome_conditioned_selection: false
+
+execution:
+  baseline_rows_reused_without_rescoring: 1404
+  new_full_arm_evaluations: 7020
+  new_signflip_evaluations: 1600
+  total_new_prompt_evaluations: 8620
+  batch_size: 1
+  prior_measured_prompts_per_second: 1.3529594093263992
+  atomic_resume: true
+  score_interim_results_visible: false
+
+statistics:
+  inherited_from_v20: true
+  bootstrap_reps: 20000
+  primary_seed: 20261021
+  independent_seed: 20261022
+
+interpretation:
+  machine_classification_uses_v20_rules: true
+  result_label: exploratory_post_failed_local_parity_gate
+  no_manual_override: true
+
+budget:
+  hardware: 2x NVIDIA B300 SXM6 AC
+  aggregate_rate_cap_usd_per_hour: 16.00
+  compute_hard_cap_usd: 45.00
+  minimum_post_run_balance_usd: 8.00
+  wall_clock_hard_cap_minutes: 170
+  backup_reserve_minutes: 10

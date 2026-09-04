@@ -1,0 +1,20 @@
+{
+  "aggregate_hourly_rate_usd": 13.77,
+  "created_at_utc": "2026-08-30T19:19:17.966945+00:00",
+  "error": "The current `device_map` had weights offloaded to the disk, which needed to be re-saved. This is either because the weights are not in `safetensors` format, or because the model uses an internal weight format different than the one saved (i.e. most MoE models). Please provide an `offload_folder` for them in `from_pretrained`.",
+  "error_type": "ValueError",
+  "finegrained_fp8_kernel_revision": "29083040812e244b390757d6198e2889fe551d13",
+  "finished_at_utc": "2026-08-30T19:21:49.892817+00:00",
+  "full_rehash": false,
+  "gpu_count": 3,
+  "gpu_id": "NVIDIA H200",
+  "model_revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "model_storage": "local_container_nvme",
+  "network_volume_attached": false,
+  "passed": false,
+  "pod_id": "tnlgt7adfbgtp6",
+  "prereg_tag": "glm53-user-eval-v8-preregistered-v1.10",
+  "rehash_reuse_reason": "same_pod_exact_62_shard_v1_8_rehash",
+  "schema_version": "glm53_v8_ordinary_pod_invocation_v1",
+  "traceback": "Traceback (most recent call last):\n  File \"/tmp/run_glm53_v8_supervisor.py\", line 57, in <module>\n    result = run_supervisor(\n             ^^^^^^^^^^^^^^^\n  File \"/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v8/on_pod.py\", line 297, in run_supervisor\n    runtime = LoadedGLM53(model_path=model_path, config=runtime_config)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v8/whitebox_runtime.py\", line 67, in __init__\n    self.model = AutoModelForMultimodalLM.from_pretrained(\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py\", line 402, in from_pretrained\n    return model_class.from_pretrained(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4393, in from_pretrained\n    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4536, in _load_pretrained_model\n    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/core_model_loading.py\", line 1766, in convert_and_load_state_dict_in_model\n    disk_offload_index = offload_and_maybe_resave_param(\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/core_model_loading.py\", line 1401, in offload_and_maybe_resave_param\n    disk_offload_index = offload_weight(param, target_name, disk_offload_folder, disk_offload_index)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/integrations/accelerate.py\", line 531, in offload_weight\n    raise ValueError(\nValueError: The current `device_map` had weights offloaded to the disk, which needed to be re-saved. This is either because the weights are not in `safetensors` format, or because the model uses an internal weight format different than the one saved (i.e. most MoE models). Please provide an `offload_folder` for them in `from_pretrained`.\n"
+}

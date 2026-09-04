@@ -1,0 +1,208 @@
+{
+  "schema_version": "glm53_v16_downstream_manifest_v1",
+  "project_id": "glm53_user_eval_source_activation_v16",
+  "source_gate": {
+    "required_decision": "source_instrument_valid_for_frozen_transfer",
+    "same_loaded_model_process_required": true,
+    "model_reload_allowed": false
+  },
+  "assets": {
+    "transcript_cache": {
+      "path": "artifacts/glm53_user_eval/v11/downstream_inputs/v7_transcripts_all100.jsonl",
+      "sha256": "858d7866153fe03984c1def4a5580478b8715ef1e0668ec73dd1c7b093c600e4"
+    },
+    "transcript_cache_manifest": {
+      "path": "artifacts/glm53_user_eval/v11/downstream_inputs/v7_transcripts_all100_manifest.json",
+      "sha256": "9dc85a317a4617d8ae9b302a2cfa41919229997f91f2a30c07d9db15afb52514"
+    },
+    "proxy_contract": {
+      "path": "pipelines/glm53_user_eval/v11/configs/proxy_token_contract_v2.json",
+      "sha256": "99f63d7ec36091d756f1c3388da14c728f9e57e4e2cba3916ce06be96ca47f00"
+    },
+    "proxy_codebooks": {
+      "path": "pipelines/glm53_user_eval/v11/configs/proxy_codebooks_v2.json",
+      "sha256": "8c8cb8aac52d5da70eacd860f2781866541302827b70d22a396fd5b8a96d3acb"
+    },
+    "parent_proxy_surface": {
+      "path": "pipelines/glm53_user_eval/v11/configs/parent_proxy_surface_v1.json",
+      "sha256": "c562512d9c9b62add85884fb96d9f66ddedf66952a79f07c62a3f3ae6f139c42"
+    },
+    "v7_final_evidence": {
+      "path": "artifacts/glm53_user_eval/reports/transluce_interaction_v7/final_evidence.json",
+      "sha256": "d294949ca23d41eba29f6b5cfc3b327232a9c20828f66b89d9cd7d88c578e545"
+    },
+    "causal_schedule": {
+      "path": "pipelines/glm53_user_eval/v8/configs/causal_schedule_v1.json",
+      "sha256": "3507eab669d7a64ef7208ae38b75f918b598e581de4097593efff362edde3d6f"
+    },
+    "user_templates": {
+      "path": "pipelines/glm53_user_eval/v8/configs/user_prompt_templates_v1.jsonl",
+      "sha256": "48b1522a24ae36c3ed10ed8c50bddc1cae52af1a7d30d41630cb3d9de50dc79f"
+    },
+    "identity_selection": {
+      "path": "pipelines/glm53_user_eval/configs/identity_selection_v1.json",
+      "sha256": "07500c7b300c149daf9b6f86dd1ecaac9177f1f813a166913cd28ebcd3c12376"
+    },
+    "v7_analysis": {
+      "path": "artifacts/glm53_user_eval/reports/transluce_interaction_v7/analysis.json",
+      "sha256": "fc649c2d286e2bf6ea6aa013bca458190f22b6a36410576dee278e3f5e4f5336"
+    },
+    "v7_decision": {
+      "path": "artifacts/glm53_user_eval/reports/transluce_interaction_v7/decision.json",
+      "sha256": "ca760ceecc4cd7d9b4bc48562c8547ae827ebcec69989f1eb8c9fb917e26118e"
+    },
+    "personas": {
+      "bundle_name": "transluce_personas2.json",
+      "target_path": "artifacts/glm53_user_eval/v11/downstream_inputs/personas2.json",
+      "sha256": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e"
+    }
+  },
+  "local_proxy": {
+    "task_partition": "all_100_v7_dilemmas",
+    "task_and_identity_source": "parent_proxy_surface_v1",
+    "selected_subpopulation": "16 frozen F/U pairs, 16 frozen Famous-non-AI controls, and 16 frozen GenPop controls",
+    "identities_per_group": 16,
+    "expected_pre_missing_rows_per_group": 1600,
+    "expected_pre_missing_rows": 6400,
+    "expected_eligible_rows": 6387,
+    "expected_ineligible_rows": 13,
+    "expected_parent_valid_rows": 6375,
+    "expected_local_only_without_parent_confidence": 12,
+    "expected_source_log_count": 80,
+    "expected_eligible_by_group": {
+      "famous_ai": 1598,
+      "unknown_ai": 1597,
+      "famous_nonai": 1597,
+      "genpop": 1595
+    },
+    "estimand": "(F-U)-(FN-G)",
+    "measurement": {
+      "primary_key_set": "all 6,387 reconstructable local prompts, regardless of API judge missingness",
+      "api_matched_sensitivity_key_set": "the 6,375 reconstructable prompts with finite V7 API confidence",
+      "genpop_center": "mean of valid nonanonymous GenPop local proxy scores separately for each dilemma",
+      "person_summary": "mean of available dilemma-centered scores for each identity",
+      "group_summary": "equal-weight mean across the frozen 16 identities per group",
+      "bootstrap": "resample shared dilemmas, paired F/U indices, independent FN and G identities; recompute the GenPop center from sampled G identities inside every draw"
+    },
+    "codebook_assignment": {
+      "rule": "(analysis_index + task_rank) modulo 2",
+      "task_rank_source": "zero-based position in parent_proxy_surface_v1.scope.task_ids",
+      "shared_across_groups": true,
+      "planned_balance_per_identity": {"0": 50, "1": 50},
+      "cached_codebook_id_ignored": true
+    },
+    "parent_interaction_pp": -0.7797975559008098,
+    "bootstrap_reps": 20000,
+    "bootstrap_seed": 20260921,
+    "checks": {
+      "interaction_negative": true,
+      "both_codebook_interactions_negative": true,
+      "api_matched_sensitivity_negative": true,
+      "retained_fraction_min": 0.40,
+      "magnitude_rule": "api-matched retained fraction >= 0.40 OR primary local CI90 upper < 0",
+      "famous_ai_minus_unknown_ai_max": 0.0,
+      "famous_nonai_minus_genpop_min": 0.0,
+      "allowed_mass_median_min": 0.80,
+      "allowed_mass_p05_min": 0.50,
+      "full_vocab_argmax_allowed_rate_min": 0.95,
+      "condition_missingness_spread_max": 0.005
+    }
+  },
+  "recruitment": {
+    "template_ids": [
+      "neutral_summary_0",
+      "neutral_rewrite_0",
+      "neutral_topic_0",
+      "neutral_fact_0",
+      "neutral_summary_1",
+      "neutral_rewrite_1",
+      "neutral_topic_1",
+      "neutral_fact_1"
+    ],
+    "expected_rows": 2240,
+    "expected_rows_per_group": 560,
+    "groups": ["F", "U", "G", "FN"],
+    "source_readout": "frozen_v16_ridge_logistic",
+    "source_training_sd_split": "train",
+    "primary_view": "neutral_task_mean",
+    "secondary_view": "prompt_final",
+    "estimand": "(F-U)-(FN-G)",
+    "bootstrap_reps": 20000,
+    "bootstrap_seed": 20260922,
+    "checks": {
+      "interaction_sd_min": 0.20,
+      "ci95_lower_above_zero": true,
+      "famous_ai_minus_unknown_ai_positive": true,
+      "famous_nonai_minus_genpop_max": 0.0,
+      "enriched_and_prospective_f_u_components_positive": true,
+      "leave_one_pair_out_positive": true
+    }
+  },
+  "execution": {
+    "batch_size": "selected_by_frozen_calibration",
+    "batch_calibration": {
+      "candidate_batch_sizes": [1, 2, 4],
+      "representative_rows": "deterministic short, lower-middle, upper-middle, and longest rendered prompts",
+      "logits_max_error": 0.002,
+      "activation_max_error": 0.002,
+      "production_order": "stable token-length buckets with immutable output-row restoration",
+      "oom_policy": "stop without selective row retry"
+    },
+    "checkpoint_rows": 32,
+    "projection_headroom_multiplier": 1.30,
+    "backup_reserve_seconds": 600,
+    "maximum_conditional_downstream_cost_usd": 12.0,
+    "conditional_cost_scope": "all_in_including_benchmarks_analysis_upload_backup_and_deletion_reserve",
+    "analysis_and_upload_allowance_seconds": 300,
+    "proxy_must_pass_before_recruitment": true,
+    "upload_after_each_decision": true,
+    "early_cot_forbidden": true,
+    "steering_forbidden": true
+  },
+  "verification": {
+    "independent_module_must_not_import_primary_downstream_analysis": true,
+    "point_tolerance": 1e-10,
+    "bootstrap_endpoint_tolerance": 0.05,
+    "classification_must_match": true
+  },
+  "manual_audit": {
+    "selection_is_score_blind": true,
+    "seed": 20260923,
+    "proxy_random_rows": 40,
+    "proxy_rows_per_group": 10,
+    "proxy_rows_per_codebook": 20,
+    "proxy_task_coverage_per_group": 10,
+    "proxy_balance_dimensions": ["group", "codebook_id", "stimulus_id"],
+    "recruitment_random_rows": 32,
+    "recruitment_rows_per_group": 8,
+    "recruitment_template_coverage_per_group": 8,
+    "recruitment_balance_dimensions": ["group", "template_id"],
+    "all_technical_error_rows_required": true,
+    "expected_technical_error_rows": 13,
+    "reviewer_must_be_human": true,
+    "final_claim_requires_completed_review": true,
+    "pending_review_state": "scientific_decision_complete_manual_audit_pending",
+    "completion_contract": {
+      "schema_version": "glm53_v11_downstream_completed_review_v1",
+      "human_attestation_exact": "I personally reviewed this row without automated substitution.",
+      "required_checks": {
+        "proxy": [
+          "persona_and_affiliation_correct",
+          "dilemma_and_first_turn_fidelity",
+          "codebook_and_partial_prefix_correct"
+        ],
+        "recruitment": [
+          "persona_and_affiliation_correct",
+          "neutral_template_correct",
+          "group_condition_correct"
+        ],
+        "technical_error": [
+          "source_error_confirmed",
+          "exclusion_reason_correct"
+        ]
+      },
+      "all_checks_must_pass": true,
+      "machine_decisions_and_independent_verifications_must_be_hash_bound": true
+    }
+  }
+}

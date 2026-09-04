@@ -1,0 +1,16 @@
+{
+  "authorization": {
+    "fresh_judge_calls": false,
+    "fresh_subject_calls": false,
+    "manipulation_check_calls": false
+  },
+  "decision": "stop_before_scientific_calls_insufficient_power",
+  "maximum_candidate_power": 0.13738,
+  "passed": false,
+  "project_id": "glm53_user_eval_deployment_screening_v22",
+  "schema_version": "glm53_v22_power_decision_v1",
+  "selected_dilemma_count": null,
+  "smallest_meaningful_effect_pp": 0.325,
+  "stop_reason": "No candidate with at most 100 dilemmas reached 80% power for +0.325 pp.",
+  "target_power": 0.8
+}

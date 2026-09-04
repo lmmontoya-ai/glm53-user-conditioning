@@ -1,0 +1,28 @@
+schema_version: glm53_serving_config_v1
+engine: vllm_openai
+deployment: self_hosted_runpod
+image: vllm/vllm-openai@sha256:2e771fa615452282cc331eb418b3ef21636fce355bea0491fca89e6d362ab703
+image_architecture: amd64
+model_path: /workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0
+served_model_name: zai-org/GLM-5.3-Flash
+tensor_parallel_size: 4
+max_model_len: 16384
+gpu_memory_utilization: 0.90
+safetensors_load_strategy: eager
+kv_cache_dtype: auto
+enable_mtp_speculation: false
+tool_call_parser: glm47
+reasoning_parser: glm45
+enable_auto_tool_choice: true
+enable_flashinfer_autotune: false
+port: 8000
+health_path: /health
+api_path: /v1/chat/completions
+runtime:
+  cloud_type: SECURE
+  gpu_type: NVIDIA H100 NVL
+  gpu_count: 4
+  volume_id: a9diryunoj
+  datacenter: US-KS-2
+  volume_mount_path: /workspace
+  terminate_after: 4h

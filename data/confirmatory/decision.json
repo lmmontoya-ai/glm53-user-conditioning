@@ -1,0 +1,27 @@
+{
+  "analysis_sha256": "fc649c2d286e2bf6ea6aa013bca458190f22b6a36410576dee278e3f5e4f5336",
+  "decision": "confirmed_target_sized_interaction",
+  "green_light_checks": {
+    "both_dilemma_splits_negative": true,
+    "component_pattern": true,
+    "confirmed": true,
+    "independent_verification_passes": true,
+    "leave_one_out_robust": true,
+    "manual_audit_passes": true,
+    "same_sign_as_v6": true,
+    "target_sized": true,
+    "technical_validity_passes": true
+  },
+  "interaction_ci95_pp": [
+    -1.2099960877594156,
+    -0.09734531995242601
+  ],
+  "interaction_pp": -0.65024890176303,
+  "manual_audit_sha256": "188c0a85315d3966fbd3fc9b8a9220ce94f71b53a26ed6ff1367f9c22056b823",
+  "prereg_sha256": "ba54ab643375312d2a3cb5a162f099d5e34001aeffd41c2eb0962feb2d8fc63d",
+  "project_id": "glm53_user_eval_interaction_confirmatory_v7",
+  "schema_version": "glm53_transluce_interaction_v7_decision_v1",
+  "technical_audit_sha256": "d652f838e1831b4c5c7f13e8457efc40ecea5117a16a0ee666c71b4f3777260f",
+  "verification_sha256": "925596c8ae9b72f9e81db1bf44f119ed8928f456cded428bd1b88f47be40d63b",
+  "whitebox_green_light": true
+}

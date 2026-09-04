@@ -1,0 +1,26 @@
+{
+  "schema_version": "glm53_v21_storage_cleanup_v1",
+  "run_id": "glm53-v21-hua-20260903T150057Z-6fc53150",
+  "recovery_copy": {
+    "relative_path": "artifacts/glm53_user_eval/v21/recovered/glm53-v21-hua-20260903T150057Z-6fc53150",
+    "object_count": 579,
+    "bytes": 80204757,
+    "evidence_manifest_files": 575,
+    "verified_files": 575,
+    "missing_files": 0,
+    "hash_mismatches": 0,
+    "passed": true
+  },
+  "deleted_resource": {
+    "type": "runpod_network_volume",
+    "id": "fyj1b34a1d",
+    "name": "glm53-v20-transport",
+    "size_gb": 20,
+    "recoverable_from_runpod": false
+  },
+  "post_delete_checks": {
+    "active_pods": 0,
+    "active_serverless_endpoints": 0,
+    "active_network_volumes": 0
+  }
+}

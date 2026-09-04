@@ -1,0 +1,1022 @@
+{
+  "all_affected_samples_completed_in_successful_logs": true,
+  "categories": {
+    "aborted": 2,
+    "rate_limit": 124
+  },
+  "events": [
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0004-fai2_balaji_srinivasan-plain",
+      "shard_id": "famous_ai__offset000__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0004-fai2_kaifu_lee-plain",
+      "shard_id": "famous_ai__offset000__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0004-fai2_robin_li-plain",
+      "shard_id": "famous_ai__offset000__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0004-fai2r_joshua_achiam-plain",
+      "shard_id": "famous_ai_real__offset000__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-gen2_034_zoila_pizano-plain",
+      "shard_id": "genpop__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-gen2_035_kyle_joffrion-plain",
+      "shard_id": "genpop__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-uai2_stanford_029_arianna_deluca-plain",
+      "shard_id": "unknown_ai__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-fai2_nate_soares-plain",
+      "shard_id": "famous_ai__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-fai2_paul_christiano-plain",
+      "shard_id": "famous_ai__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-fai2r_zihan_qiu-plain",
+      "shard_id": "famous_ai_real__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0006-fam2_040_elena_gheorghe-plain",
+      "shard_id": "famous_nonai__offset005__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0012-gen2_020_brian_martin-plain",
+      "shard_id": "genpop__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0012-gen2_024_pedro_jimenez-plain",
+      "shard_id": "genpop__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0012-gen2_025_joshua_williams-plain",
+      "shard_id": "genpop__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-uai2_eleutherai_046_irene_tangarife-plain",
+      "shard_id": "unknown_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-uai2_redwoodresearch_044_angel_diaz-plain",
+      "shard_id": "unknown_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-uai2_truthfulai_042_jailyn_claybon-plain",
+      "shard_id": "unknown_ai__offset010__limit005"
+    },
+    {
+      "category": "aborted",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": null,
+      "sample_id": "dd_0012-uai2_deepseek_056_andrew_black-plain",
+      "shard_id": "unknown_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2_anca_dragan-plain",
+      "shard_id": "famous_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2_andrej_karpathy-plain",
+      "shard_id": "famous_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2_been_kim-plain",
+      "shard_id": "famous_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2_lilian_weng-plain",
+      "shard_id": "famous_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2_rohin_shah-plain",
+      "shard_id": "famous_ai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2r_been_kim-plain",
+      "shard_id": "famous_ai_real__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2r_demis_hassabis-plain",
+      "shard_id": "famous_ai_real__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2r_nicholas_carlini-plain",
+      "shard_id": "famous_ai_real__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2r_richard_ngo-plain",
+      "shard_id": "famous_ai_real__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0011-fai2r_rohin_shah-plain",
+      "shard_id": "famous_ai_real__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0010-fam2_052_robert_kubica-plain",
+      "shard_id": "famous_nonai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0010-fam2_055_anastasia_myskina-plain",
+      "shard_id": "famous_nonai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0010-fam2_061_mena_suvari-plain",
+      "shard_id": "famous_nonai__offset010__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0010-fam2_064_david_ferrer-plain",
+      "shard_id": "famous_nonai__offset010__limit005"
+    },
+    {
+      "category": "aborted",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": null,
+      "sample_id": "dd_0032-gen2_059_carolyn_amos-plain",
+      "shard_id": "genpop__offset030__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2_buck_shlegeris-plain",
+      "shard_id": "famous_ai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2_marius_hobbhahn-plain",
+      "shard_id": "famous_ai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_emily_bender-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_jingren_zhou-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_john_schulman-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_junyang_lin-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_wenfeng_liang-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_zihan_qiu-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fai2r_zvi_mowshowitz-plain",
+      "shard_id": "famous_ai_real__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0071-fam2_032_heather_morris-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0071-fam2_048_kirsty_coventry-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0071-fam2_054_carlos_vela-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0071-fam2_056_gilles_simon-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-anon-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fam2_055_anastasia_myskina-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fam2_064_david_ferrer-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fam2_066_evanna_lynch-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0073-fam2_068_paul_resta-plain",
+      "shard_id": "famous_nonai__offset070__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_000_mary_alberti-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_002_deeva_cintron-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_003_maria_buendia-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_005_nicole_lewis-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_006_michael_barron-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_011_tucker_baker-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_014_debra_reeves-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_016_jose_bonnet-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_019_sandi_chapman-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_022_antonio_gonzalez-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_029_arianna_deluca-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_031_trisha_wheeler-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0075-gen2_037_jacob_bowden-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-gen2_048_judith_castillo-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-gen2_056_andrew_black-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-gen2_024_pedro_jimenez-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-gen2_067_david_mckethan-plain",
+      "shard_id": "genpop__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-uai2_anthropic_003_maria_buendia-plain",
+      "shard_id": "unknown_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-uai2_openai_008_rose_english-plain",
+      "shard_id": "unknown_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-uai2_openai_009_yasuko_choi-plain",
+      "shard_id": "unknown_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-uai2_googledeepmind_019_sandi_chapman-plain",
+      "shard_id": "unknown_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-uai2_googledeepmind_023_alina_acosta-plain",
+      "shard_id": "unknown_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-uai2_universityoftoronto_025_joshua_williams-plain",
+      "shard_id": "unknown_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0078-fai2_aleksander_madry-plain",
+      "shard_id": "famous_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0078-fai2_richard_ngo-plain",
+      "shard_id": "famous_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2_anca_dragan-plain",
+      "shard_id": "famous_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2_emily_bender-plain",
+      "shard_id": "famous_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2_gary_marcus-plain",
+      "shard_id": "famous_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2_ian_hogarth-plain",
+      "shard_id": "famous_ai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0077-fai2r_aohan_zeng-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0077-fai2r_jie_tang-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0077-fai2r_junyang_lin-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2r_david_krueger-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2r_geoffrey_irving-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2r_jacob_steinhardt-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0079-fai2r_owain_evans-plain",
+      "shard_id": "famous_ai_real__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-fam2_064_david_ferrer-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-fam2_065_oscar_cardozo-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-fam2_066_evanna_lynch-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0076-fam2_067_jonas_gutierrez-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0077-fam2_004_usain_bolt-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0077-fam2_005_amanda_seyfried-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0077-fam2_006_blake_lively-plain",
+      "shard_id": "famous_nonai__offset075__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-gen2_000_mary_alberti-plain",
+      "shard_id": "genpop__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-gen2_002_deeva_cintron-plain",
+      "shard_id": "genpop__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-gen2_007_osvaldo_vargas-plain",
+      "shard_id": "genpop__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-gen2_016_jose_bonnet-plain",
+      "shard_id": "genpop__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-gen2_033_emmanuel_gordon-plain",
+      "shard_id": "genpop__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-uai2_mit_033_emmanuel_gordon-plain",
+      "shard_id": "unknown_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2_beth_barnes-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2_geoffrey_hinton-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2_ilya_sutskever-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2_marius_hobbhahn-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2_paul_christiano-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2_percy_liang-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0084-fai2_marc_andreessen-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0084-fai2_marius_hobbhahn-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0084-fai2_zhilin_yang-plain",
+      "shard_id": "famous_ai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0082-fai2r_emily_bender-plain",
+      "shard_id": "famous_ai_real__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2r_geoffrey_hinton-plain",
+      "shard_id": "famous_ai_real__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2r_marius_hobbhahn-plain",
+      "shard_id": "famous_ai_real__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0083-fai2r_yann_lecun-plain",
+      "shard_id": "famous_ai_real__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0084-anon-plain",
+      "shard_id": "famous_ai_real__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-fam2_066_evanna_lynch-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0080-fam2_069_anna_bergendahl-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0081-fam2_004_usain_bolt-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0082-fam2_042_ilkay_gundogan-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0082-fam2_050_paris_hilton-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0082-fam2_051_antonio_cassano-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0082-fam2_052_robert_kubica-plain",
+      "shard_id": "famous_nonai__offset080__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0086-gen2_013_qiao_le-plain",
+      "shard_id": "genpop__offset085__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0086-gen2_018_shoba_mehta-plain",
+      "shard_id": "genpop__offset085__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0086-gen2_019_sandi_chapman-plain",
+      "shard_id": "genpop__offset085__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0086-gen2_020_brian_martin-plain",
+      "shard_id": "genpop__offset085__limit005"
+    },
+    {
+      "category": "rate_limit",
+      "error": true,
+      "failed_attempt_has_generated_text": false,
+      "response_code": 429,
+      "sample_id": "dd_0086-gen2_021_jennifer_cuzzort-plain",
+      "shard_id": "genpop__offset085__limit005"
+    }
+  ],
+  "failed_attempts_with_generated_text": 0,
+  "passed": true,
+  "retry_error_event_count": 126,
+  "review_scope": "all model-call retry errors in all 100 selected successful logs",
+  "schema_version": "glm53_transluce_interaction_v7_retry_review_v1"
+}

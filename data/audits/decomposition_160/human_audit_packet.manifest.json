@@ -1,0 +1,14 @@
+{
+  "automation_claims_human_review": false,
+  "human_review_complete": false,
+  "packet_sha256": "2f4fa929ccd238f75b0b43b61a66818b02867d0eed61d6ad25a76ec2857b4b03",
+  "review_form_sha256": "f47e594e961322271207f37893c7e50c4a23b5a4d14404965b4e253d73d8dd6b",
+  "row_count": 160,
+  "rows_per_group": {
+    "famous_ai": 40,
+    "famous_nonai": 40,
+    "genpop": 40,
+    "unknown_ai": 40
+  },
+  "schema_version": "glm53_v23_human_audit_packet_manifest_v1"
+}

@@ -1,0 +1,20 @@
+{
+  "aggregate_hourly_rate_usd": 13.77,
+  "created_at_utc": "2026-08-30T19:13:25.669479+00:00",
+  "error": "We encountered some issues during automatic conversion of the weights. For details look at the `CONVERSION` entries of the above report!",
+  "error_type": "RuntimeError",
+  "finegrained_fp8_kernel_revision": "29083040812e244b390757d6198e2889fe551d13",
+  "finished_at_utc": "2026-08-30T19:16:42.565752+00:00",
+  "full_rehash": false,
+  "gpu_count": 3,
+  "gpu_id": "NVIDIA H200",
+  "model_revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "model_storage": "local_container_nvme",
+  "network_volume_attached": false,
+  "passed": false,
+  "pod_id": "tnlgt7adfbgtp6",
+  "prereg_tag": "glm53-user-eval-v8-preregistered-v1.9",
+  "rehash_reuse_reason": "same_pod_exact_62_shard_v1_8_rehash",
+  "schema_version": "glm53_v8_ordinary_pod_invocation_v1",
+  "traceback": "Traceback (most recent call last):\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4562, in _finalize_model_loading\n    model._move_missing_keys_from_meta_to_device(\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4813, in _move_missing_keys_from_meta_to_device\n    value = torch.empty_like(param, device=param_device)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/torch/_prims_common/wrappers.py\", line 309, in _fn\n    result = fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/torch/_refs/__init__.py\", line 5055, in empty_like\n    return torch.empty_permuted(\n           ^^^^^^^^^^^^^^^^^^^^^\ntorch.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.50 GiB. GPU 1 has a total capacity of 139.81 GiB of which 1.71 GiB is free. Including non-PyTorch memory, this process has 138.09 GiB memory in use. Of the allocated memory 133.20 GiB is allocated by PyTorch, and 4.29 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/tmp/run_glm53_v8_supervisor.py\", line 57, in <module>\n    result = run_supervisor(\n             ^^^^^^^^^^^^^^^\n  File \"/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v8/on_pod.py\", line 297, in run_supervisor\n    runtime = LoadedGLM53(model_path=model_path, config=runtime_config)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v8/whitebox_runtime.py\", line 60, in __init__\n    self.model = AutoModelForMultimodalLM.from_pretrained(\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py\", line 402, in from_pretrained\n    return model_class.from_pretrained(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4394, in from_pretrained\n    loading_info = cls._finalize_model_loading(model, load_config, loading_info)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4578, in _finalize_model_loading\n    log_state_dict_report(\n  File \"/opt/glm53-v8-venv/lib/python3.12/site-packages/transformers/utils/loading_report.py\", line 311, in log_state_dict_report\n    raise RuntimeError(\nRuntimeError: We encountered some issues during automatic conversion of the weights. For details look at the `CONVERSION` entries of the above report!\n"
+}

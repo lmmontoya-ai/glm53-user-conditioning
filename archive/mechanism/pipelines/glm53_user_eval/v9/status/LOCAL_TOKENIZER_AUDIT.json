@@ -1,0 +1,28 @@
+{
+  "schema_version": "glm53_v9_local_tokenizer_audit_summary_v1",
+  "model_id": "zai-org/GLM-5.3-Flash",
+  "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "reasoning_effort": "high",
+  "clear_thinking": true,
+  "row_count": 448,
+  "status_counts": {
+    "masked": 416,
+    "not_available": 32
+  },
+  "disallowed_statuses_present": [],
+  "prompt_token_count": {
+    "minimum": 18,
+    "mean": 51.3258928571429,
+    "maximum": 164
+  },
+  "retained_token_count": {
+    "minimum": 12,
+    "mean": 41.4933035714286,
+    "maximum": 152
+  },
+  "tokenizer_json_sha256": "19e773648cb4e65de8660ea6365e10acca112d42a854923df93db4a6f333a82d",
+  "chat_template_sha256": "34d5ee66b12fa6446cdae131c352b8f68cd85369e0e6fda115583805fada3891",
+  "full_local_audit_sha256": "2addf360eace76b0a8812fddca99a6a99ae872b58e60f36aff8061455bd1c424",
+  "passed": true,
+  "note": "The GPU runtime independently rechecks direct processor token IDs and masks before accepting each extracted row."
+}

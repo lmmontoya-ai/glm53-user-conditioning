@@ -1,0 +1,28 @@
+{
+  "schema_version": "glm53_v20_signflip_controls_v1",
+  "derivation": "For derivation index i, sort Hua pair indices j=1..16 by sha256('glm53-v20-null|i|j'). Assign +1 to the first eight and -1 to the last eight. Retain the first 20 unique patterns up to global sign.",
+  "pair_order": "Hua Table 12 pair numbers 1 through 16",
+  "norm_matching": "At each layer, rescale the signed mean to the Euclidean norm of the all-16 mean direction.",
+  "controls": [
+    {"control_id":"signflip_00","derivation_index":0,"signs":[-1,1,-1,1,1,1,-1,-1,-1,1,-1,1,-1,1,1,-1]},
+    {"control_id":"signflip_01","derivation_index":1,"signs":[-1,-1,1,-1,1,1,-1,-1,-1,1,1,1,-1,-1,1,1]},
+    {"control_id":"signflip_02","derivation_index":2,"signs":[1,1,-1,-1,-1,1,-1,-1,1,1,-1,-1,-1,1,1,1]},
+    {"control_id":"signflip_03","derivation_index":3,"signs":[1,1,-1,-1,1,1,1,1,1,-1,-1,1,-1,-1,-1,-1]},
+    {"control_id":"signflip_04","derivation_index":4,"signs":[-1,-1,-1,1,1,1,-1,1,1,-1,1,-1,-1,1,-1,1]},
+    {"control_id":"signflip_05","derivation_index":5,"signs":[1,-1,1,1,1,1,1,1,-1,1,-1,-1,-1,-1,-1,-1]},
+    {"control_id":"signflip_06","derivation_index":6,"signs":[-1,1,-1,-1,-1,1,1,-1,-1,-1,1,1,-1,1,1,1]},
+    {"control_id":"signflip_07","derivation_index":7,"signs":[1,-1,-1,1,1,1,-1,-1,1,-1,1,1,-1,-1,1,-1]},
+    {"control_id":"signflip_08","derivation_index":8,"signs":[1,-1,-1,1,1,-1,1,-1,-1,1,-1,1,-1,1,1,-1]},
+    {"control_id":"signflip_09","derivation_index":9,"signs":[1,-1,-1,-1,1,1,-1,-1,-1,1,1,-1,1,1,-1,1]},
+    {"control_id":"signflip_10","derivation_index":10,"signs":[-1,-1,1,-1,1,1,1,1,-1,1,1,-1,-1,1,-1,-1]},
+    {"control_id":"signflip_11","derivation_index":11,"signs":[-1,-1,1,1,-1,1,-1,1,-1,1,-1,-1,1,-1,1,1]},
+    {"control_id":"signflip_12","derivation_index":12,"signs":[-1,1,1,1,1,-1,-1,1,-1,1,1,-1,1,-1,-1,-1]},
+    {"control_id":"signflip_13","derivation_index":13,"signs":[-1,-1,-1,-1,-1,1,1,-1,1,1,1,1,1,-1,1,-1]},
+    {"control_id":"signflip_14","derivation_index":14,"signs":[-1,-1,-1,1,1,1,1,-1,-1,1,1,-1,-1,-1,1,1]},
+    {"control_id":"signflip_15","derivation_index":15,"signs":[1,-1,-1,-1,1,1,1,-1,-1,-1,-1,1,-1,1,1,1]},
+    {"control_id":"signflip_16","derivation_index":16,"signs":[-1,-1,1,-1,1,-1,-1,1,1,1,1,1,1,-1,-1,-1]},
+    {"control_id":"signflip_17","derivation_index":17,"signs":[-1,1,1,-1,-1,-1,1,1,-1,1,-1,1,-1,-1,1,1]},
+    {"control_id":"signflip_18","derivation_index":18,"signs":[-1,-1,1,1,1,-1,-1,1,1,-1,-1,-1,1,-1,1,1]},
+    {"control_id":"signflip_19","derivation_index":19,"signs":[-1,-1,-1,-1,1,1,1,-1,1,1,-1,1,-1,-1,1,1]}
+  ]
+}

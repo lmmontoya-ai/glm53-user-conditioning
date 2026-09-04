@@ -1,0 +1,16 @@
+{
+  "parent_hashes": {
+    "roster": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e",
+    "v6.analysis": "a793f6eec5383d0962c8c0cc3562c84d3da19fc60c2974054253c425f3fd2187",
+    "v6.decision": "0c91242ad5bbc83e1ec66722c3baedae9639ede4878ad903a66184afd54add06",
+    "v6.raw_scores": "ab276d968dccf2b3f9c4f92844f7deb54daf508ad48e0798a43202c3177818c4",
+    "v7.analysis": "fc649c2d286e2bf6ea6aa013bca458190f22b6a36410576dee278e3f5e4f5336",
+    "v7.decision": "ca760ceecc4cd7d9b4bc48562c8547ae827ebcec69989f1eb8c9fb917e26118e",
+    "v7.raw_scores": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee",
+    "v7.verification": "925596c8ae9b72f9e81db1bf44f119ed8928f456cded428bd1b88f47be40d63b"
+  },
+  "passed": true,
+  "prereg_sha256": "fa54ca3a8d79bfea4a66c157943c62017eb42dbfbcd5b55fe5a9f0786edb695b",
+  "project_id": "glm53_user_eval_deployment_screening_v22",
+  "schema_version": "glm53_v22_prereg_validation_v1"
+}

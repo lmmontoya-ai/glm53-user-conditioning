@@ -1,0 +1,19 @@
+schema_version: glm53_directions_config_v1
+concepts:
+  - eval_deploy
+  - recognized_name
+  - affiliation
+primary_view: prompt_final
+secondary_views:
+  - identity_line_final
+  - early_generation_16
+construction: paired_mean_difference
+probe: l2_logistic_regression
+split_unit:
+  eval_deploy: scenario_family
+  recognized_name: twin_index
+  affiliation: twin_index
+strict_organization_holdout: true
+target_exclusion: required
+layer_selection_uses_target_behavior: false
+shuffle_reps: 100

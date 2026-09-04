@@ -1,0 +1,12 @@
+{
+  "model_id": "glm-5.3-flash",
+  "persona_condition_count": 65,
+  "phase": "api_main",
+  "prompts_sha256": "6acb065f7873cdf4ab359f92fb78ca610ee48e0b97a29c4a1b297b751f59b9d4",
+  "provider": "zai_first_party",
+  "sample_count": 3250,
+  "schedule_sha256": "04d675ba3a5ac973c569917391f0d56b823fa6870464fa4a78f6cf2141848b4c",
+  "schema_version": "glm53_behavior_schedule_manifest_v1",
+  "task_count": 50,
+  "task_split": "behavior_main_50"
+}

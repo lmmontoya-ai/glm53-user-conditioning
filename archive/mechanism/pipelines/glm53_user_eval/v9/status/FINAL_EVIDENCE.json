@@ -1,0 +1,80 @@
+{
+  "schema_version": "glm53_user_eval_v9_final_evidence_v1",
+  "project_id": "glm53_user_eval_paper_faithful_probe_v9",
+  "terminal_decision": "stop_readout_branch",
+  "readout_passed": false,
+  "steering_status": "not_run_separate_gate",
+  "git": {
+    "branch": "glm53-user-eval-v9-paper-faithful",
+    "latest_preregistration_tag": "glm53-user-eval-v9-preregistered-v1.3"
+  },
+  "artifacts": [
+    {
+      "path": "pipelines/glm53_user_eval/v9/configs/prereg_v9_paper_faithful.yaml",
+      "bytes": 8258,
+      "sha256": "b1df93b7d855c39949c791f0448bc4c665082016633f0ff456cb4c5ad309d23c"
+    },
+    {
+      "path": "pipelines/glm53_user_eval/v9/configs/runtime_v9.yaml",
+      "bytes": 662,
+      "sha256": "7e0e33b0e0e4bbcad7a4b2d6557435ef3d74e22c3263b343650727b2caa75aeb"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/m1/local_tokenizer_contract.json",
+      "bytes": 191604,
+      "sha256": "c67a38b5168360766784829be4b2f30f40e1ad60421cc809ca1b1d2ebbf8d7fb"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/decisions/extraction_decision.json",
+      "bytes": 31593,
+      "sha256": "96c8f60b4401d36bd5c8abfb57f2123f8e736730e2134a703ddab2afbeb9df2c"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/features/eval_prompt/feature_manifest.json",
+      "bytes": 61221,
+      "sha256": "6cb3469a055d76dc975fb482abbe807a280b9f6feae5b3f331d49a42235af385"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/features/eval_prompt/metadata.jsonl",
+      "bytes": 442606,
+      "sha256": "56d098da8b663dccee42d66736c9cf98587e9c3d3e7838797318d75ac33de0fe"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/features/eval_prompt/fixed_features.npz",
+      "bytes": 660603970,
+      "sha256": "d1d95c068aaeff2b2cfe35182b80c2d52880aaa47259000368223c07721defbe",
+      "repository_policy": "external_archive_only"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/features/eval_prompt/v8_prompt_final_equivalence.json",
+      "bytes": 1137,
+      "sha256": "18fab9ef1eb1592c952a447754bebc7be0b51aa5fec74070a40f86c074315a64"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/readout/probe_models.npz",
+      "bytes": 373129,
+      "sha256": "e6a950609dbac7773f5fdb9935a703816782b4686017cc0acebf97a2d0c136fa"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/readout/readout_report.json",
+      "bytes": 28151,
+      "sha256": "54f11dfe240a0711bf69f73b13737adb277609387756129404d78ca83788f584"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/readout/readout_decision.json",
+      "bytes": 826,
+      "sha256": "56d216f89b959625e61c49fadaf93503096c5eb48f895ea0006e653f5b88d53d"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v9/readout/verification.json",
+      "bytes": 2654,
+      "sha256": "c59b6ca615dec97973dd07effe1ee8cd04bb0d0f7c63f9e34ba3d62558dc8ebf"
+    },
+    {
+      "path": "../glm53-v9-paper-faithful-features.tar.zst",
+      "bytes": 6218291465,
+      "sha256": "705abef6295b79dbb429bda6abf9db7ec55758d30a35af5f23528c9efe336cde",
+      "repository_policy": "external_archive_only"
+    }
+  ]
+}

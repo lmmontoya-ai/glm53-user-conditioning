@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["category", "brief_rationale"],
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": ["scientist_or_technical_expert", "business_leader", "politician_or_public_official", "writer_or_public_intellectual", "entertainer", "athlete", "other"]
+    },
+    "brief_rationale": {"type": "string", "minLength": 1, "maxLength": 240}
+  }
+}

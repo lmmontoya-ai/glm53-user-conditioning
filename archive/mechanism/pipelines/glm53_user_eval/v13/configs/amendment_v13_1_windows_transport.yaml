@@ -1,0 +1,72 @@
+schema_version: glm53_user_eval_v13_infrastructure_amendment_v1
+project_id: glm53_user_eval_v13_codex_cohort
+amendment_id: v13_1_windows_file_redirect_transport
+created_at_utc: "2026-09-01T14:15:00Z"
+
+timing:
+  parent_preregistration_commit: ba5f49e85d49f127b4a557256dac9d2edb4b2fab
+  parent_preregistration_tag: glm53-user-eval-v13-preregistered
+  completed_scientific_rows_before_amendment:
+    luna_max: 46
+    terra_high: 72
+  technically_incomplete_calls_before_amendment:
+    luna_max: 12
+    terra_high: 12
+  incomplete_structured_answers_preserved_but_not_counted: 23
+  aggregate_results_opened: false
+  scientific_values_inspected: false
+  execution_tag: glm53-user-eval-v13-transport-amendment-v2
+
+reason: >-
+  On Windows, 24 concurrent Codex processes produced their structured last-message
+  files, but asyncio pipe finalization did not return. The parent runner entered
+  task cancellation without writing auditable event, stderr, attempt, or completed
+  row records. Those calls cannot count as scientific judgments. This amendment
+  changes only local subprocess transport and cleanup so execution can resume from
+  the existing atomic completed-row checkpoints.
+
+preserves:
+  - frozen_576_row_dataset_and_sha256
+  - prompt_template_and_sha256
+  - structured_output_schema_and_sha256
+  - gpt_5_6_luna_max
+  - gpt_5_6_terra_high
+  - one_ephemeral_session_per_scenario
+  - chatgpt_subscription_auth
+  - read_only_sandbox
+  - tools_disabled
+  - no_temperature_top_p_or_seed
+  - frozen_v12_fact_semantics
+  - all_analysis_thresholds
+  - independent_per_judge_pass_requirement
+  - score_blind_execution
+
+fast_inference:
+  requested: false
+  priority_service_tier_requested: false
+  user_config_loaded: false
+  command_changed: false
+  completed_event_files_with_fast_or_priority_marker: 0
+  rule: >-
+    Continue using the exact preregistered command. It ignores user configuration
+    and contains no fast, priority, or service-tier option. Do not enable the
+    optional fast tier during this experiment.
+
+technical_changes:
+  subprocess_stdout: per_attempt_file
+  subprocess_stderr: per_attempt_file
+  stdin: pipe_closed_after_prompt
+  timeout_cleanup: kill_only_when_running_then_wait
+  cancellation_cleanup: kill_only_when_running_then_wait
+  orphan_last_messages: preserve_and_skip_attempt_number
+  maximum_concurrency_per_judge: 24
+  maximum_total_concurrency: 48
+  concurrency_changes_scientific_contract: false
+
+resume_rules:
+  - Reuse only completed rows whose request hash and parsed schema validate.
+  - Never infer a completed judgment from a last-message file alone.
+  - Never overwrite an orphaned last-message, event, or stderr artifact.
+  - Assign the next unused attempt number after any orphaned artifact.
+  - Run a non-scientific transport smoke before resuming dataset calls.
+  - If 48-way execution produces sustained retry or failure pressure, resume at a lower concurrency without examining semantic outputs.

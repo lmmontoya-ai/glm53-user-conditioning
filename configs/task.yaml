@@ -1,0 +1,95 @@
+# Pinned Transluce user-awareness contract used by both completed runs and by the
+# positive-control stage. Values are copied from the confirmatory preregistration
+# (docs/preregistrations/prereg_v7_interaction_confirmatory.yaml) and are not re-derived.
+schema_version: glm53_user_conditioning_task_v1
+
+reference_contract:
+  repository: TransluceAI/user-awareness
+  commit: d1b9c3573470f50495202795c044bd72f72ee6e5
+  # Local checkout of the pinned commit. Relative paths resolve against the repository root;
+  # override with --source-root on the CLI or the GLM53_TRANSLUCE_ROOT environment variable.
+  local_checkout: ../reference/transluce-user-awareness
+  task_module: evals/pmisaligned/task.py
+  task_name: pmisaligned
+  files:
+    core/personas2.json: 809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e
+    core/solver.py: 22abea6761bad853a46bc6e5cca104d5c554ad112487b0758a6009ea19a5a3bf
+    evals/pmisaligned/task.py: d44d16ab23a9aa3dd9d485572afa23b983d4c91ba518f3a7f56b41f9adbce608
+    evals/pmisaligned/data/dailydilemmas.json: 84132de5f3b8c04aa6cbf4cf9edf3e73bdfb4af157d4f1ce86d43ae70f06f410
+
+subject:
+  api_model_id: z-ai/glm-5.3-flash
+  inspect_model: openrouter/z-ai/glm-5.3-flash
+  provider: Novita
+  provider_quantization: fp8
+  allow_provider_fallbacks: false
+  require_parameters: true
+  reasoning_effort: high
+  max_tokens: 8000
+  temperature: omitted_use_provider_default
+  expected_assistant_display_name: GLM-5
+  credential_env: OPENROUTER_API_KEY
+
+judge:
+  inspect_model: openrouter/openai/gpt-5.4-mini
+  reasoning_effort: low
+  max_tokens: 2000
+  prompts: byte_identical_to_pinned_task_py
+
+task_settings:
+  mode: plain
+  dataset: dailydilemmas.json
+  warmup: "false"
+  confidence: true
+  confidence_style: confidence
+  seed: all
+  n_per_cell: 1
+  dilemmas: first_100_in_source_order
+  dilemma_count: 100
+
+execution:
+  dilemmas_per_shard: 5
+  parallel_shards: 5
+  connections_per_shard: 40
+  total_max_connections: 200
+  retry_on_error: 3
+  fail_on_error: 0.05
+
+roster:
+  file: data/transcripts/personas2.json
+  groups_in_reference_order: [genpop, unknown_ai, famous_ai, famous_ai_real, famous_nonai]
+  labels:
+    genpop: general population
+    unknown_ai: unknown AI-affiliated twin
+    famous_ai: famous AI figure
+    famous_ai_real: famous AI figure, published address
+    famous_nonai: famous non-AI figure
+  key_prefixes:
+    genpop: gen2_
+    unknown_ai: uai2_
+    famous_ai: fai2_
+    famous_ai_real: fai2r_
+    famous_nonai: fam2_
+  nonanonymous_counts: {genpop: 70, unknown_ai: 70, famous_ai: 70, famous_ai_real: 59, famous_nonai: 70}
+  anonymous_rows: recorded_but_excluded
+  famous_unknown_pairing: same_roster_index
+  published_address_pairing: shared_slug_after_prefix
+
+runs:
+  discovery:
+    raw_scores: data/discovery/raw_scores.jsonl
+    analysis: data/discovery/analysis.json
+    decision: data/discovery/decision.json
+    rows: 34400
+  confirmatory:
+    raw_scores: data/confirmatory/raw_scores.jsonl
+    analysis: data/confirmatory/analysis.json
+    decision: data/confirmatory/decision.json
+    verification: data/confirmatory/verification.json
+    rows: 34400
+    valid_rows: 34338
+
+cost:
+  # From data/confirmatory/audits/full_technical_audit.json (api_cost_usd over audited_rows).
+  confirmatory_total_usd: 28.937338620000006
+  confirmatory_rows: 34400

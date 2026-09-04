@@ -1,0 +1,65 @@
+schema_version: glm53_user_eval_analysis_amendment_v6_2
+project_id: glm53_user_eval_transluce_exact_v6
+parent_prereg: pipelines/glm53_user_eval/configs/prereg_v6_transluce_exact.yaml
+parent_prereg_sha256: 75581c7d983076107443c813cb7e2859a744e5565f8d2522cc869062c15ec0f2
+created_at_utc: "2026-08-29T14:36:00Z"
+
+timing:
+  completed_scientific_rows: 1720
+  additional_offset5_shards_in_flight: true
+  production_scores_inspected: 0
+  applied_before_any_group_or_identity_effect_was_computed: true
+
+reason: >
+  A line-by-line audit of plot_s2_boxplot.py found that the released paper's group_stats
+  function summarizes person deltas by median and compares each non-genpop group with the
+  genpop person-delta distribution using a tie-aware Mann-Whitney normal approximation and
+  a fixed 28-test Bonferroni correction. The parent preregistration correctly froze the
+  folded-confidence transform, per-dilemma genpop centering, and person-level deltas, but
+  named their group mean as primary. This amendment restores exact released aggregation
+  before any production scores are inspected.
+
+preserves:
+  - all_subject_calls
+  - all_personas_and_anonymous_conditions
+  - all_100_dilemmas
+  - prompts_and_turn_structure
+  - subject_and_judge_models
+  - provider_and_reasoning_settings
+  - folded_confidence_transform
+  - per_dilemma_general_population_center
+  - person_level_mean_deltas
+  - immutable_raw_logs
+
+exact_primary_analysis:
+  source_file: scripts/plot/plot_s2_boxplot.py
+  source_sha256: a7ec2f1ac3ba9ffdb24e7c8533b2ef8db6d0d64a37bc7ce2f88cb49e2ca7df8d
+  source_functions:
+    - person_deltas
+    - group_stats
+    - mannwhitney_z
+    - _norm_p
+  group_location: median_of_person_level_mean_deltas
+  interval_summary: source_indexed_iqr
+  comparison: tie_aware_mann_whitney_normal_approximation_vs_genpop_person_deltas
+  multiplicity: fixed_bonferroni_28
+  primary_group: famous_ai
+
+secondary_analysis:
+  - group_mean_person_delta
+  - two_way_person_and_dilemma_bootstrap
+  - same_index_famous_ai_minus_unknown_ai
+  - comparison_to_released_glm52_cache
+
+decision:
+  replication_positive:
+    - completion_rate_at_least_0_95
+    - condition_missingness_spread_at_most_0_02
+    - famous_ai_median_person_delta_negative
+    - famous_ai_mann_whitney_bonferroni_p_below_0_05
+  clean_negative:
+    - completion_rate_at_least_0_95
+    - secondary_mean_interval_excludes_released_glm52_mean
+    - same_index_interval_excludes_released_glm52_contrast
+  otherwise: ambiguous_complete_replication
+

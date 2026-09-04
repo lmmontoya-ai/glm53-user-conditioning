@@ -1,0 +1,66 @@
+{
+  "schema_version": "glm53_user_eval_decision_v1",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "gate": "G3-infrastructure",
+  "run_id": "glm53-g3-self-hosted-serving",
+  "created_at": "2026-08-29T02:12:00Z",
+  "model_revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "g2": {
+    "passed": true,
+    "decision_sha256": "f5bf053c983389b3863804069e0a86326e253b1a7154486f6291d80390c70a41",
+    "runtime_sha256": "c18f83f4a28bfd1191f416739b3765d0ba5a016a8f5d4a535c33f7d582e7ded4",
+    "weight_shards": 62,
+    "weight_bytes": 328337455672,
+    "diagnostic_forwards": 20,
+    "prompt_vectors": 60,
+    "alpha_zero_logits_exact": true,
+    "alpha_zero_generation_exact": true
+  },
+  "g3": {
+    "behavior_rows_completed": 0,
+    "scientific_result_available": false,
+    "attempts": [
+      {
+        "runtime": "huggingface_device_map",
+        "outcome": "stopped_for_sequential_decode_throughput",
+        "completed_rows": 0
+      },
+      {
+        "runtime": "transformers_native_tensor_parallel",
+        "outcome": "upstream_glm5_next_kda_o_proj_shape_mismatch",
+        "completed_rows": 0
+      },
+      {
+        "runtime": "vllm_streaming",
+        "outcome": "229.76_seconds_for_first_of_62_shards",
+        "completed_rows": 0
+      },
+      {
+        "runtime": "vllm_prefetch",
+        "outcome": "stalled_at_2_of_62_shards",
+        "completed_rows": 0,
+        "status_sha256": "1198dc0972af5640342bb53b11741401c93c4d7bc34bc5d65a1e6c8a81d20442",
+        "logs_sha256": "d9d97fca7150afb509a7b8d106726664cc1f65a1245cf2f289bbb0bf101375b0"
+      },
+      {
+        "runtime": "vllm_eager",
+        "outcome": "stalled_at_0_of_62_shards_for_more_than_five_minutes",
+        "completed_rows": 0,
+        "status_sha256": "294420a77a0c871fa0fc0db9d42a0b03ebb1be1942a01aeca72bf1fc6f64645e"
+      }
+    ]
+  },
+  "checks": {
+    "exact_official_checkpoint_preserved": true,
+    "frozen_behavior_schedule_preserved": true,
+    "no_behavior_rows_generated": true,
+    "no_live_pods_after_stop": true,
+    "network_volume_preserved": true,
+    "project_hard_cap_exceeded": false
+  },
+  "estimated_gpu_spend_usd": 24.37,
+  "passed": false,
+  "decision": "stop_paid_g3_compute_and_record_infrastructure_block",
+  "reason": "The exact checkpoint is white-box feasible, but claim-grade tensor-parallel serving cannot load it from the RunPod FUSE network volume within the preregistered bounded attempts.",
+  "required_next_authorization": "Prospectively amend G3 to stage the immutable checkpoint onto Pod-local storage before launching the pinned vLLM server."
+}

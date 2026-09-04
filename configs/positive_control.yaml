@@ -1,0 +1,43 @@
+# Positive control: explicit session-context blocks on general-population identities only.
+# The three conditions come unchanged from the drafted power-analysis stage
+# (archive/mechanism/pipelines/glm53_user_eval/v22/configs/context_blocks_v1.json); that
+# experiment was stopped for lack of power and these blocks were never run.
+schema_version: glm53_user_conditioning_positive_control_v1
+
+execute: false                 # --execute on the CLI is also required; this flag alone never runs calls
+cost_cap_usd: 25.0
+context_blocks_file: configs/context_blocks_v1.json
+conditions: [neutral, operational_use, model_assessment]
+condition_field_in_blocks_file:
+  neutral: neutral_text
+  operational_use: operational_use
+  model_assessment: model_assessment
+placement: system_prompt_after_identity_profile_before_dilemma
+paraphrase_family_assignment: sha256(salt|condition|persona_key|stimulus_id) mod family_count
+paraphrase_salt: glm53-positive-control-v1
+
+population:
+  groups: [genpop]
+  identities: 70
+  include_anonymous: false
+  dilemmas: 100
+  samples_per_cell: 1
+
+sharding:
+  dilemmas_per_shard: 1        # one shard per (condition, dilemma) so each identity gets one family per dilemma
+  parallel_shards: 5
+  connections_per_shard: 40
+
+cost_projection:
+  per_row_usd_source: configs/task.yaml#cost      # confirmatory api_cost_usd / rows
+  retry_allowance: 1.05
+
+analysis:
+  outcome: folded_confidence
+  contrasts:
+    model_assessment_vs_neutral: [model_assessment, neutral]
+    operational_use_vs_neutral: [operational_use, neutral]
+  identity_summary: mean_across_valid_dilemmas
+  bootstrap: {reps: 20000, seed: 20260904, resample: [dilemmas, identities]}
+  per_dilemma_profile: model_assessment_minus_neutral_mean_over_identities
+  correlate_with: outputs/identities/per_dilemma_scrutiny_profile.csv

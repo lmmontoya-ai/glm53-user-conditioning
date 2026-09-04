@@ -1,0 +1,226 @@
+{
+  "bootstrap_reps": 20000,
+  "bootstrap_seed": 20260923,
+  "choice_equivalence_margin_pp": 1.0,
+  "choice_equivalent_to_zero": false,
+  "choice_standardized_folded_confidence": {
+    "ci95_pp": [
+      -1.2209866795291704,
+      -0.09580347631527736
+    ],
+    "interaction_pp": -0.6594210555395004
+  },
+  "first_turn_choice_interaction_pp": {
+    "bootstrap_two_sided_p": 0.9377,
+    "ci95": [
+      -2.041978177529606,
+      1.8424527093901222
+    ],
+    "finite_draws": 20000,
+    "group_means": {
+      "famous_ai": -1.1962548616015467,
+      "famous_nonai": -0.6032342352839248,
+      "genpop": 0.002807397584282578,
+      "unknown_ai": -0.5086577696515584
+    },
+    "interaction": -0.08155545908178101
+  },
+  "folded_confidence_by_choice": {
+    "no": {
+      "bootstrap_two_sided_p": 0.0461,
+      "ci95": [
+        -1.1565855709263941,
+        -0.010424143836503055
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": -0.49716191638952056,
+        "famous_nonai": 0.3235988029999465,
+        "genpop": -0.0028354151594935325,
+        "unknown_ai": -0.24759273193768816
+      },
+      "interaction": -0.5760034026112724
+    },
+    "yes": {
+      "bootstrap_two_sided_p": 0.1247,
+      "ci95": [
+        -2.4344559251701643,
+        0.32003751606747405
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": -1.1553298038873467,
+        "famous_nonai": 0.2972240369699308,
+        "genpop": 0.006668342866423202,
+        "unknown_ai": -0.35436606653735736
+      },
+      "interaction": -1.091519431453497
+    }
+  },
+  "folded_confidence_interaction_pp": {
+    "bootstrap_two_sided_p": 0.0249,
+    "ci95": [
+      -1.207388733732842,
+      -0.08651151303212937
+    ],
+    "finite_draws": 20000,
+    "group_means": {
+      "famous_ai": -0.6271410501464978,
+      "famous_nonai": 0.2891566149096836,
+      "genpop": -0.00037682173225108063,
+      "unknown_ai": -0.2664255850254023
+    },
+    "interaction": -0.6502489017630302
+  },
+  "input_sha256": "11c0b88ad1bbe4527df4b8054ddace644cb09ec4db4ccbce6edaf262132f1281",
+  "literal_identity_mentions": {
+    "affiliation_interaction_pp": {
+      "bootstrap_two_sided_p": 0.1088,
+      "ci95": [
+        -3.742857142857143,
+        0.37178571428568397
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 2.228571428571428,
+        "famous_nonai": 2.0142857142857142,
+        "genpop": 1.201915551212502e-16,
+        "unknown_ai": 1.8571428571428565
+      },
+      "interaction": -1.6428571428571423
+    },
+    "name_interaction_pp": {
+      "bootstrap_two_sided_p": 0.4217,
+      "ci95": [
+        -1.5142857142857138,
+        3.799999999999998
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 8.185714285714287,
+        "famous_nonai": 7.000000000000001,
+        "genpop": 1.5364693644366005e-16,
+        "unknown_ai": 0.11428571428571446
+      },
+      "interaction": 1.071428571428572
+    }
+  },
+  "matched_same_choice_folded_confidence": {
+    "famous_nonai_genpop_pp": 0.3445917628214237,
+    "famous_nonai_genpop_retained_cells": 6336,
+    "famous_unknown_pp": -0.39086882843215287,
+    "famous_unknown_retained_cells": 6279,
+    "interaction_pp": -0.7354605912535765,
+    "interpretation": "conditional_descriptive_not_causal"
+  },
+  "raw_confidence_interaction_pp": {
+    "bootstrap_two_sided_p": 0.0679,
+    "ci95": [
+      -1.2524883836565754,
+      0.04538797739292815
+    ],
+    "finite_draws": 20000,
+    "group_means": {
+      "famous_ai": -0.5538850618124519,
+      "famous_nonai": 0.23691786457441877,
+      "genpop": -0.0004495814781510938,
+      "unknown_ai": -0.18316322286490394
+    },
+    "interaction": -0.6080892850001178
+  },
+  "reasoning_and_response_length_interactions": {
+    "confidence_turn_reasoning_tokens": {
+      "bootstrap_two_sided_p": 0.0984,
+      "ci95": [
+        -1.6488967391746416,
+        18.528900815952504
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 5.92863172925252,
+        "famous_nonai": -3.9100367117992536,
+        "genpop": -6.0806277284188225e-05,
+        "unknown_ai": 1.3730707599508856
+      },
+      "interaction": 8.465536874823604
+    },
+    "confidence_turn_visible_tokens": {
+      "bootstrap_two_sided_p": 0.0006,
+      "ci95": [
+        5.2541566588546145,
+        18.889947914009284
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 12.665362408224116,
+        "famous_nonai": -6.624787721817952,
+        "genpop": 0.004062388548764392,
+        "unknown_ai": 7.262648342340892
+      },
+      "interaction": 12.03156417624994
+    },
+    "confidence_visible_sentence_count": {
+      "bootstrap_two_sided_p": 0.0069,
+      "ci95": [
+        0.10456428571428576,
+        0.6725821428571418
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 0.3504285714285714,
+        "famous_nonai": -0.15771428571428572,
+        "genpop": -1.8239378261699e-17,
+        "unknown_ai": 0.12057142857142854
+      },
+      "interaction": 0.38757142857142857
+    },
+    "first_turn_reasoning_tokens": {
+      "bootstrap_two_sided_p": 0.5096,
+      "ci95": [
+        -27.124100702811994,
+        12.640690116893758
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": -0.7715781994053836,
+        "famous_nonai": 6.833835749776417,
+        "genpop": 0.011590474183453686,
+        "unknown_ai": -1.2489464675461743
+      },
+      "interaction": -6.3448770074521725
+    },
+    "first_turn_visible_tokens": {
+      "bootstrap_two_sided_p": 0.4884,
+      "ci95": [
+        -2.3675624970446,
+        1.082993469752772
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 0.7267671446783118,
+        "famous_nonai": 0.5266226634175851,
+        "genpop": 0.0016911170261622254,
+        "unknown_ai": 0.7933184082064975
+      },
+      "interaction": -0.5914828099196086
+    },
+    "first_visible_sentence_count": {
+      "bootstrap_two_sided_p": 0.3551,
+      "ci95": [
+        -0.08371428571428573,
+        0.027857142857142844
+      ],
+      "finite_draws": 20000,
+      "group_means": {
+        "famous_ai": 0.021285714285714283,
+        "famous_nonai": 0.016571428571428574,
+        "genpop": 5.253733955815473e-18,
+        "unknown_ai": 0.03071428571428572
+      },
+      "interaction": -0.026000000000000002
+    }
+  },
+  "row_count": 28000,
+  "schema_version": "glm53_v23_deterministic_analysis_v1",
+  "valid_rows": 27901
+}

@@ -1,0 +1,15 @@
+{
+  "failures": [],
+  "inputs": {
+    "annotation": "94993d3af0f562345b973b5d967dc8c054e699688e5f7cba19c90c7331f4c20f",
+    "deterministic": "a92767f184cff3ca16338c218a1a4a12f4d9d88cb6f7c608f007b0f968766954",
+    "transcripts": "11c0b88ad1bbe4527df4b8054ddace644cb09ec4db4ccbce6edaf262132f1281"
+  },
+  "passed": true,
+  "primary_analysis_imported": false,
+  "recomputed": {
+    "choice_interaction_pp": -0.08155545908178112,
+    "folded_confidence_interaction_pp": -0.6502489017630302
+  },
+  "schema_version": "glm53_v23_independent_verification_v1"
+}

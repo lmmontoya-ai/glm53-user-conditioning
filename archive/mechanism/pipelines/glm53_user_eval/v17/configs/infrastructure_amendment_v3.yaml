@@ -1,0 +1,31 @@
+schema_version: glm53_v17_infrastructure_amendment_v3
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T21:17:00Z"
+scientific_preregistration:
+  tag: glm53-user-eval-v17-preregistered
+  commit: 27717a7adccbcf588c6918416f8871edbb9ed2e9
+prior_infrastructure_amendment:
+  tag: glm53-user-eval-v17-infrastructure-v2
+  commit: 544b12b28a7cee4ffa4cb105bc6e9ec17756d0d6
+failed_attempt:
+  run_id: glm53-v17-hua-20260902T211246Z-743942a5
+  pod_id: w72dedhd3gl98n
+  terminal_exit_code: 1
+  scientific_forwards_completed: 0
+  model_staging_started: false
+  cause: linux_lf_checkout_differed_from_crlf_bytes_in_frozen_input_hashes
+amendment:
+  scope: infrastructure_transport_only
+  scientific_contract_changed: false
+  source_transport: materialized_windows_checkout_with_explicit_autocrlf_policy
+  archive_sha256: 25dcd84076072ff106061461cfe263945b4d32c746a621a24449c642ffed8399
+  linux_clean_tree_test_passed: true
+  frozen_input_hash_test_passed: true
+  git_checkout_policy: core.autocrlf=true
+  extracted_git_commit_required: 27717a7adccbcf588c6918416f8871edbb9ed2e9
+retry:
+  permitted_attempts: 1
+  budget_caps_unchanged: true
+  hardware_unchanged: true
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

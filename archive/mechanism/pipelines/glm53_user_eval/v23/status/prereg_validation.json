@@ -1,0 +1,19 @@
+{
+  "failures": [],
+  "input_hashes": {
+    "roster": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e",
+    "v6_analysis": "a793f6eec5383d0962c8c0cc3562c84d3da19fc60c2974054253c425f3fd2187",
+    "v6_decision": "0c91242ad5bbc83e1ec66722c3baedae9639ede4878ad903a66184afd54add06",
+    "v6_raw_scores": "ab276d968dccf2b3f9c4f92844f7deb54daf508ad48e0798a43202c3177818c4",
+    "v6_shard_manifest": "ddf75cd2a3675a217384072e1dbb54205cf9363a838fd0cc000963ac0c12ed68",
+    "v7_analysis": "fc649c2d286e2bf6ea6aa013bca458190f22b6a36410576dee278e3f5e4f5336",
+    "v7_decision": "ca760ceecc4cd7d9b4bc48562c8547ae827ebcec69989f1eb8c9fb917e26118e",
+    "v7_final_evidence": "d294949ca23d41eba29f6b5cfc3b327232a9c20828f66b89d9cd7d88c578e545",
+    "v7_first_turn_cache": "858d7866153fe03984c1def4a5580478b8715ef1e0668ec73dd1c7b093c600e4",
+    "v7_raw_scores": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee",
+    "v7_verification": "925596c8ae9b72f9e81db1bf44f119ed8928f456cded428bd1b88f47be40d63b"
+  },
+  "passed": true,
+  "prereg_sha256": "c4f06b82ff9d664c76292b8a32ee56c891547a0ad9595abee5e39ee1a25b3c7e",
+  "schema_version": "glm53_v23_prereg_validation_v1"
+}

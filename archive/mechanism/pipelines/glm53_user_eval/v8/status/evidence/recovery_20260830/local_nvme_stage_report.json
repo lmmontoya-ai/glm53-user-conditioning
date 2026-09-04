@@ -1,0 +1,12 @@
+{
+  "all_shard_hashes_match": true,
+  "download_seconds": 290.89726123027503,
+  "model_dir": "/model/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "model_id": "zai-org/GLM-5.3-Flash",
+  "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "schema_version": "glm53_v8_local_nvme_stage_v1",
+  "shard_bytes": 328337455672,
+  "shard_count": 62,
+  "total_seconds": 629.6315341629088,
+  "verification_seconds": 338.73427293263376
+}

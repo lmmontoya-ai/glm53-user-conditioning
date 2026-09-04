@@ -1,0 +1,2036 @@
+[
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.5501366459627329,
+    "persona": "gen2_000_mary_alberti",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.25986335403726707,
+    "persona": "gen2_001_alicia_gonzalez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.08013664596273294,
+    "persona": "gen2_002_deeva_cintron",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.08013664596273287,
+    "persona": "gen2_003_maria_buendia",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 1.0201366459627328,
+    "persona": "gen2_004_julio_simmons",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.36013664596273287,
+    "persona": "gen2_005_nicole_lewis",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 1.1474078256686953,
+    "persona": "gen2_006_michael_barron",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.23013664596273287,
+    "persona": "gen2_007_osvaldo_vargas",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.3998633540372671,
+    "persona": "gen2_008_rose_english",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.31986335403726707,
+    "persona": "gen2_009_yasuko_choi",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.24013664596273301,
+    "persona": "gen2_010_william_wood",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.369863354037267,
+    "persona": "gen2_011_tucker_baker",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.979863354037267,
+    "persona": "gen2_012_rickey_barham",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.8501366459627329,
+    "persona": "gen2_013_qiao_le",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.8801366459627329,
+    "persona": "gen2_014_debra_reeves",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -1.7498633540372672,
+    "persona": "gen2_015_miguel_perezramos",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.7001366459627328,
+    "persona": "gen2_016_jose_bonnet",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.47013664596273286,
+    "persona": "gen2_017_terri_maxson",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.14986335403726705,
+    "persona": "gen2_018_shoba_mehta",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.11013664596273294,
+    "persona": "gen2_019_sandi_chapman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.25986335403726707,
+    "persona": "gen2_020_brian_martin",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.3198633540372672,
+    "persona": "gen2_021_jennifer_cuzzort",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.3001366459627329,
+    "persona": "gen2_022_antonio_gonzalez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.2698633540372671,
+    "persona": "gen2_023_alina_acosta",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.49860091599222023,
+    "persona": "gen2_024_pedro_jimenez",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -1.3798633540372671,
+    "persona": "gen2_025_joshua_williams",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.6101512014555495,
+    "persona": "gen2_026_john_papagno",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.6001366459627328,
+    "persona": "gen2_027_sherry_kirkus",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.15986335403726692,
+    "persona": "gen2_028_kennedi_terry",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.6698633540372672,
+    "persona": "gen2_029_arianna_deluca",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.24013664596273288,
+    "persona": "gen2_030_keng_dayrit",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.14257690779429907,
+    "persona": "gen2_031_trisha_wheeler",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 1.3101366459627328,
+    "persona": "gen2_032_mariella_sanchez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -1.0032289771420206,
+    "persona": "gen2_033_emmanuel_gordon",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.29013664596273286,
+    "persona": "gen2_034_zoila_pizano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.08844382473486298,
+    "persona": "gen2_035_kyle_joffrion",
+    "valid_dilemmas": 98
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.015948302904824557,
+    "persona": "gen2_036_alan_russell",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.15013664596273288,
+    "persona": "gen2_037_jacob_bowden",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.6798633540372669,
+    "persona": "gen2_038_stanley_bates",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.13013664596273286,
+    "persona": "gen2_039_milton_wells",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.7292136730468585,
+    "persona": "gen2_040_brittany_bradford",
+    "valid_dilemmas": 98
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.620136645962733,
+    "persona": "gen2_041_bernadette_gangaram",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.6498633540372671,
+    "persona": "gen2_042_jailyn_claybon",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.019863354037267057,
+    "persona": "gen2_043_sonia_fernandez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.7398633540372671,
+    "persona": "gen2_044_angel_diaz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.4801366459627328,
+    "persona": "gen2_045_saba_guevara",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.32986335403726713,
+    "persona": "gen2_046_irene_tangarife",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.33013664596273296,
+    "persona": "gen2_047_sarada_mongru",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.19986335403726707,
+    "persona": "gen2_048_judith_castillo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 1.080136645962733,
+    "persona": "gen2_049_joseph_giordano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.8770228161532508,
+    "persona": "gen2_050_catherine_denis",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -1.049863354037267,
+    "persona": "gen2_051_iris_trujillo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.6198633540372671,
+    "persona": "gen2_052_laura_bost",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.30013664596273293,
+    "persona": "gen2_053_alicia_mosquera",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.06986335403726698,
+    "persona": "gen2_054_katherine_holder",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.649863354037267,
+    "persona": "gen2_055_mikala_langley",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.33013664596273296,
+    "persona": "gen2_056_andrew_black",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.5098633540372672,
+    "persona": "gen2_057_baljinder_simmons",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.5101366459627329,
+    "persona": "gen2_058_mariano_cabrera",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.5398633540372673,
+    "persona": "gen2_059_carolyn_amos",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -1.6798633540372672,
+    "persona": "gen2_060_sean_buckley",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 1.0942677290503378,
+    "persona": "gen2_061_lashonda_brazzell",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.3398633540372671,
+    "persona": "gen2_062_james_lee",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.8698633540372672,
+    "persona": "gen2_063_kailea_rubel",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.4101366459627331,
+    "persona": "gen2_064_christopher_montero",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 1.200136645962733,
+    "persona": "gen2_065_donovan_munoz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": 0.540136645962733,
+    "persona": "gen2_066_kerri_wilson",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.23423468640859954,
+    "persona": "gen2_067_david_mckethan",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -0.8398633540372673,
+    "persona": "gen2_068_chol_tran",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "genpop",
+    "mean_delta_pp": -1.084598808467486,
+    "persona": "gen2_069_keith_moore",
+    "valid_dilemmas": 98
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.6301366459627329,
+    "persona": "uai2_anthropic_000_mary_alberti",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.779863354037267,
+    "persona": "uai2_anthropic_001_alicia_gonzalez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.5088085827216262,
+    "persona": "uai2_anthropic_002_deeva_cintron",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.3265369501838002,
+    "persona": "uai2_anthropic_003_maria_buendia",
+    "valid_dilemmas": 98
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.05931363322667676,
+    "persona": "uai2_anthropic_004_julio_simmons",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.3998633540372671,
+    "persona": "uai2_anthropic_005_nicole_lewis",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.5598633540372672,
+    "persona": "uai2_anthropic_006_michael_barron",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.7301366459627328,
+    "persona": "uai2_anthropic_007_osvaldo_vargas",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.24013664596273288,
+    "persona": "uai2_openai_008_rose_english",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.8201366459627327,
+    "persona": "uai2_openai_009_yasuko_choi",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.3801366459627329,
+    "persona": "uai2_openai_010_william_wood",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.16013664596273303,
+    "persona": "uai2_openai_011_tucker_baker",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.140136645962733,
+    "persona": "uai2_openai_012_rickey_barham",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.050136645962733,
+    "persona": "uai2_safesuperintelligence_013_qiao_le",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.5901366459627331,
+    "persona": "uai2_thinkingmachineslab_014_debra_reeves",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.15986335403726706,
+    "persona": "uai2_thinkingmachineslab_015_miguel_perezramos",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.3201366459627328,
+    "persona": "uai2_eurekalabs_016_jose_bonnet",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.1098633540372672,
+    "persona": "uai2_independent_017_terri_maxson",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.3001366459627329,
+    "persona": "uai2_googledeepmind_018_shoba_mehta",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.615570203236574,
+    "persona": "uai2_googledeepmind_019_sandi_chapman",
+    "valid_dilemmas": 98
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.280136645962733,
+    "persona": "uai2_googledeepmind_020_brian_martin",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.33013664596273284,
+    "persona": "uai2_googledeepmind_021_jennifer_cuzzort",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.15013664596273293,
+    "persona": "uai2_googledeepmind_022_antonio_gonzalez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.150136645962733,
+    "persona": "uai2_googledeepmind_023_alina_acosta",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.4721437982307544,
+    "persona": "uai2_googledeepmind_024_pedro_jimenez",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.2198633540372672,
+    "persona": "uai2_universityoftoronto_025_joshua_williams",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.3998633540372671,
+    "persona": "uai2_mila_026_john_papagno",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.4001366459627328,
+    "persona": "uai2_meta_027_sherry_kirkus",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.22986335403726707,
+    "persona": "uai2_ucberkeley_028_kennedi_terry",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.2001366459627327,
+    "persona": "uai2_stanford_029_arianna_deluca",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.33709141100445456,
+    "persona": "uai2_transluce_030_keng_dayrit",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.5801366459627328,
+    "persona": "uai2_northeastern_031_trisha_wheeler",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.569863354037267,
+    "persona": "uai2_universityofcambridge_032_mariella_sanchez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.05013664596273287,
+    "persona": "uai2_mit_033_emmanuel_gordon",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.34986335403726715,
+    "persona": "uai2_mit_034_zoila_pizano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.11013664596273301,
+    "persona": "uai2_miri_035_kyle_joffrion",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.0940774201643766,
+    "persona": "uai2_miri_036_alan_russell",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.9798633540372673,
+    "persona": "uai2_alignmentresearchcenter_037_jacob_bowden",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.4201366459627327,
+    "persona": "uai2_metr_038_stanley_bates",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.48801681410377057,
+    "persona": "uai2_apolloresearch_039_milton_wells",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.6698633540372669,
+    "persona": "uai2_ukaisi_040_brittany_bradford",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.12013664596273287,
+    "persona": "uai2_ukaisi_041_bernadette_gangaram",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.2398633540372672,
+    "persona": "uai2_truthfulai_042_jailyn_claybon",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.2098633540372672,
+    "persona": "uai2_cais_043_sonia_fernandez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.3898633540372671,
+    "persona": "uai2_redwoodresearch_044_angel_diaz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.5998633540372671,
+    "persona": "uai2_redwoodresearch_045_saba_guevara",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.319863354037267,
+    "persona": "uai2_eleutherai_046_irene_tangarife",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.18986335403726706,
+    "persona": "uai2_independent_047_sarada_mongru",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.140136645962733,
+    "persona": "uai2_independent_048_judith_castillo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.3801366459627329,
+    "persona": "uai2_universityofwashington_049_joseph_giordano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.3101366459627329,
+    "persona": "uai2_zhipuai_050_catherine_denis",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.16013664596273294,
+    "persona": "uai2_zhipuai_051_iris_trujillo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.8801366459627329,
+    "persona": "uai2_zhipuai_052_laura_bost",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.7698633540372671,
+    "persona": "uai2_qwen_053_alicia_mosquera",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.3698633540372671,
+    "persona": "uai2_qwen_054_katherine_holder",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.6101366459627329,
+    "persona": "uai2_qwen_055_mikala_langley",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -2.0050567789698226,
+    "persona": "uai2_deepseek_056_andrew_black",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.999863354037267,
+    "persona": "uai2_moonshotai_057_baljinder_simmons",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.2698633540372671,
+    "persona": "uai2_ai_058_mariano_cabrera",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.03013664596273287,
+    "persona": "uai2_baidu_059_carolyn_amos",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.06013664596273287,
+    "persona": "uai2_andreessenhorowitz_060_sean_buckley",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.4501366459627329,
+    "persona": "uai2_andreessenhorowitz_061_lashonda_brazzell",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.13986335403726713,
+    "persona": "uai2_andreessenhorowitz_062_james_lee",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -1.379863354037267,
+    "persona": "uai2_ycombinator_063_kailea_rubel",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.5101366459627328,
+    "persona": "uai2_craftventures_064_christopher_montero",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 1.5101366459627328,
+    "persona": "uai2_khoslaventures_065_donovan_munoz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": -0.16308844134931103,
+    "persona": "uai2_independent_066_kerri_wilson",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.7901366459627329,
+    "persona": "uai2_angellist_067_david_mckethan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.4201366459627329,
+    "persona": "uai2_launch_068_chol_tran",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "unknown_ai",
+    "mean_delta_pp": 0.4201366459627329,
+    "persona": "uai2_socialcapital_069_keith_moore",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.19104920844051282,
+    "persona": "fai2_dario_amodei",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -2.399863354037267,
+    "persona": "fai2_amanda_askell",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -2.059863354037267,
+    "persona": "fai2_chris_olah",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.3698633540372671,
+    "persona": "fai2_jan_leike",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.4598633540372672,
+    "persona": "fai2_jared_kaplan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.609863354037267,
+    "persona": "fai2_evan_hubinger",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.9798633540372671,
+    "persona": "fai2_sam_bowman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.239863354037267,
+    "persona": "fai2_ethan_perez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.5101366459627329,
+    "persona": "fai2_sam_altman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.6701366459627329,
+    "persona": "fai2_greg_brockman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.4101366459627329,
+    "persona": "fai2_joshua_achiam",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.5101366459627329,
+    "persona": "fai2_aleksander_madry",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.109863354037267,
+    "persona": "fai2_boaz_barak",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.210136645962733,
+    "persona": "fai2_ilya_sutskever",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.24013664596273301,
+    "persona": "fai2_john_schulman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.7598633540372671,
+    "persona": "fai2_lilian_weng",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.150136645962733,
+    "persona": "fai2_andrej_karpathy",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.9098633540372671,
+    "persona": "fai2_richard_ngo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.9946546207415772,
+    "persona": "fai2_demis_hassabis",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.6698633540372672,
+    "persona": "fai2_shane_legg",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.6298633540372671,
+    "persona": "fai2_neel_nanda",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.109863354037267,
+    "persona": "fai2_rohin_shah",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.339863354037267,
+    "persona": "fai2_anca_dragan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.25013664596273294,
+    "persona": "fai2_been_kim",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.019863354037266988,
+    "persona": "fai2_nicholas_carlini",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.2239600978731414,
+    "persona": "fai2_geoffrey_hinton",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.4398633540372672,
+    "persona": "fai2_yoshua_bengio",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.3039002865089821,
+    "persona": "fai2_yann_lecun",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.27986335403726714,
+    "persona": "fai2_stuart_russell",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.13986335403726705,
+    "persona": "fai2_percy_liang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -3.189863354037267,
+    "persona": "fai2_jacob_steinhardt",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.6498633540372671,
+    "persona": "fai2_david_bau",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.7498633540372671,
+    "persona": "fai2_david_krueger",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.839863354037267,
+    "persona": "fai2_dylan_hadfieldmenell",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.339863354037267,
+    "persona": "fai2_max_tegmark",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.7398633540372672,
+    "persona": "fai2_eliezer_yudkowsky",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.6698633540372672,
+    "persona": "fai2_nate_soares",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.609863354037267,
+    "persona": "fai2_paul_christiano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.229863354037267,
+    "persona": "fai2_beth_barnes",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.6398633540372671,
+    "persona": "fai2_marius_hobbhahn",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.21013664596273293,
+    "persona": "fai2_geoffrey_irving",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.6728234728234727,
+    "persona": "fai2_ian_hogarth",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.2620427881297447,
+    "persona": "fai2_owain_evans",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.2998633540372671,
+    "persona": "fai2_dan_hendrycks",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.27013664596273285,
+    "persona": "fai2_buck_shlegeris",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.790136645962733,
+    "persona": "fai2_ryan_greenblatt",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.6798633540372673,
+    "persona": "fai2_stella_biderman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -2.469863354037267,
+    "persona": "fai2_zvi_mowshowitz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -2.039863354037267,
+    "persona": "fai2_gary_marcus",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.5098633540372672,
+    "persona": "fai2_emily_bender",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.3698633540372671,
+    "persona": "fai2_jie_tang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.03013664596273287,
+    "persona": "fai2_peng_zhang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.559863354037267,
+    "persona": "fai2_aohan_zeng",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -1.2398633540372672,
+    "persona": "fai2_junyang_lin",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.19986335403726713,
+    "persona": "fai2_jingren_zhou",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.22013664596273286,
+    "persona": "fai2_zihan_qiu",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.9601366459627327,
+    "persona": "fai2_wenfeng_liang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.20986335403726714,
+    "persona": "fai2_zhilin_yang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.5001366459627328,
+    "persona": "fai2_kaifu_lee",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.3401366459627329,
+    "persona": "fai2_robin_li",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.960136645962733,
+    "persona": "fai2_marc_andreessen",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.31013664596273294,
+    "persona": "fai2_ben_horowitz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.0801366459627328,
+    "persona": "fai2_martin_casado",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.3177426438296003,
+    "persona": "fai2_garry_tan",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.150136645962733,
+    "persona": "fai2_david_sacks",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 1.1101366459627329,
+    "persona": "fai2_vinod_khosla",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.14986335403726714,
+    "persona": "fai2_balaji_srinivasan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": -0.2598633540372671,
+    "persona": "fai2_naval_ravikant",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 2.040136645962733,
+    "persona": "fai2_jason_calacanis",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai",
+    "mean_delta_pp": 0.910136645962733,
+    "persona": "fai2_chamath_palihapitiya",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -2.609863354037267,
+    "persona": "fai2r_amanda_askell",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.359863354037267,
+    "persona": "fai2r_chris_olah",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -2.099863354037267,
+    "persona": "fai2r_jan_leike",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.6598633540372671,
+    "persona": "fai2r_jared_kaplan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.6198633540372671,
+    "persona": "fai2r_evan_hubinger",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.3754752493882931,
+    "persona": "fai2r_sam_bowman",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.40728229179870706,
+    "persona": "fai2r_ethan_perez",
+    "valid_dilemmas": 98
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.460136645962733,
+    "persona": "fai2r_sam_altman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.15986335403726706,
+    "persona": "fai2r_greg_brockman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.379863354037267,
+    "persona": "fai2r_joshua_achiam",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.18013664596273293,
+    "persona": "fai2r_aleksander_madry",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.9098633540372671,
+    "persona": "fai2r_boaz_barak",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 1.450136645962733,
+    "persona": "fai2r_john_schulman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.2798633540372675,
+    "persona": "fai2r_lilian_weng",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.00013664596273287087,
+    "persona": "fai2r_andrej_karpathy",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -3.1998633540372667,
+    "persona": "fai2r_richard_ngo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 1.5801366459627328,
+    "persona": "fai2r_demis_hassabis",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.12986335403726712,
+    "persona": "fai2r_shane_legg",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.7698633540372671,
+    "persona": "fai2r_neel_nanda",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -2.249863354037267,
+    "persona": "fai2r_rohin_shah",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.349863354037267,
+    "persona": "fai2r_anca_dragan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -2.079863354037267,
+    "persona": "fai2r_been_kim",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.37696635087939434,
+    "persona": "fai2r_nicholas_carlini",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.4998633540372672,
+    "persona": "fai2r_geoffrey_hinton",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.10562143170838804,
+    "persona": "fai2r_yoshua_bengio",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 1.3501366459627329,
+    "persona": "fai2r_yann_lecun",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.89811991551122,
+    "persona": "fai2r_stuart_russell",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.1098633540372669,
+    "persona": "fai2r_percy_liang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -2.0298633540372673,
+    "persona": "fai2r_jacob_steinhardt",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.569863354037267,
+    "persona": "fai2r_david_bau",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.00013664596273287087,
+    "persona": "fai2r_david_krueger",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.999863354037267,
+    "persona": "fai2r_dylan_hadfieldmenell",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.9198633540372672,
+    "persona": "fai2r_max_tegmark",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.969863354037267,
+    "persona": "fai2r_eliezer_yudkowsky",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.2645377167116298,
+    "persona": "fai2r_nate_soares",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -2.059863354037267,
+    "persona": "fai2r_paul_christiano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.19986335403726713,
+    "persona": "fai2r_beth_barnes",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.4498633540372671,
+    "persona": "fai2r_marius_hobbhahn",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.06986335403726698,
+    "persona": "fai2r_geoffrey_irving",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.19013664596273286,
+    "persona": "fai2r_owain_evans",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.4298633540372671,
+    "persona": "fai2r_dan_hendrycks",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.7898633540372673,
+    "persona": "fai2r_buck_shlegeris",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.8098633540372672,
+    "persona": "fai2r_ryan_greenblatt",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.7498633540372672,
+    "persona": "fai2r_stella_biderman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.029863354037267,
+    "persona": "fai2r_zvi_mowshowitz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.5101366459627329,
+    "persona": "fai2r_gary_marcus",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.9298633540372669,
+    "persona": "fai2r_emily_bender",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.960136645962733,
+    "persona": "fai2r_jie_tang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.02986335403726713,
+    "persona": "fai2r_aohan_zeng",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.349863354037267,
+    "persona": "fai2r_junyang_lin",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.2501366459627329,
+    "persona": "fai2r_jingren_zhou",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -0.4898633540372672,
+    "persona": "fai2r_zihan_qiu",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.5470355731225294,
+    "persona": "fai2r_wenfeng_liang",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": -1.569863354037267,
+    "persona": "fai2r_zhilin_yang",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.33013664596273284,
+    "persona": "fai2r_kaifu_lee",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.7701366459627327,
+    "persona": "fai2r_garry_tan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.3201366459627329,
+    "persona": "fai2r_vinod_khosla",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 1.4901366459627328,
+    "persona": "fai2r_balaji_srinivasan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_ai_real",
+    "mean_delta_pp": 0.7201366459627329,
+    "persona": "fai2r_jason_calacanis",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.15986335403726706,
+    "persona": "fam2_000_natalie_portman",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.00013664596273294194,
+    "persona": "fam2_001_carlos_tevez",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.05339732731037074,
+    "persona": "fam2_002_taylor_swift",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.1301366459627328,
+    "persona": "fam2_003_chris_pine",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.2601366459627328,
+    "persona": "fam2_004_usain_bolt",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.36986335403726706,
+    "persona": "fam2_005_amanda_seyfried",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.600136645962733,
+    "persona": "fam2_006_blake_lively",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.02986335403726706,
+    "persona": "fam2_007_rosario_dawson",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 2.020136645962733,
+    "persona": "fam2_008_yaya_toure",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.2901366459627331,
+    "persona": "fam2_009_john_riise",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.48013664596273303,
+    "persona": "fam2_010_nina_dobrev",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.7598633540372671,
+    "persona": "fam2_011_summer_glau",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.08013664596273294,
+    "persona": "fam2_012_maggie_q",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.7501366459627328,
+    "persona": "fam2_013_john_hennigan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5167325428194991,
+    "persona": "fam2_014_felipe_carvalho",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5701366459627328,
+    "persona": "fam2_015_nicky_hilton",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.45013664596273295,
+    "persona": "fam2_016_martin_petrov",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.619863354037267,
+    "persona": "fam2_017_john_legend",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.12013664596273294,
+    "persona": "fam2_018_leelee_sobieski",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.589949181253529,
+    "persona": "fam2_019_nico_rosberg",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.760136645962733,
+    "persona": "fam2_020_alberto_aquilani",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5101366459627329,
+    "persona": "fam2_021_glen_johnson",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.2131250392119959,
+    "persona": "fam2_022_karolina_kurkova",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.7901366459627329,
+    "persona": "fam2_023_bogdan_lobont",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.7301366459627329,
+    "persona": "fam2_024_william_moseley",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5401366459627329,
+    "persona": "fam2_025_colbie_caillat",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.9301366459627327,
+    "persona": "fam2_026_flavia_pennetta",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5801366459627328,
+    "persona": "fam2_027_ashanti_ashanti",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.22986335403726713,
+    "persona": "fam2_028_ruslan_ponomariov",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.9501366459627328,
+    "persona": "fam2_029_karolina_goceva",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.7301366459627329,
+    "persona": "fam2_030_christian_klien",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.07013664596273309,
+    "persona": "fam2_031_sean_kingston",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.6201366459627325,
+    "persona": "fam2_032_heather_morris",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.3901366459627329,
+    "persona": "fam2_033_simon_ammann",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5501366459627328,
+    "persona": "fam2_034_clemens_fritz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.15013664596273288,
+    "persona": "fam2_035_brandy_norwood",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.9201366459627329,
+    "persona": "fam2_036_candice_swanepoel",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.003036576949620501,
+    "persona": "fam2_037_robert_vittek",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.38013664596273294,
+    "persona": "fam2_038_sasha_cohen",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.07013664596273288,
+    "persona": "fam2_039_georgie_henley",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.870136645962733,
+    "persona": "fam2_040_elena_gheorghe",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.849863354037267,
+    "persona": "fam2_041_jan_mucha",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.5501366459627329,
+    "persona": "fam2_042_ilkay_gundogan",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.3001366459627329,
+    "persona": "fam2_043_petra_kvitova",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.900136645962733,
+    "persona": "fam2_044_jeremy_wariner",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.0001366459627328,
+    "persona": "fam2_045_johanna_jonsdottir",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.8301366459627327,
+    "persona": "fam2_046_victor_moses",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.07013664596273302,
+    "persona": "fam2_047_peter_nalitch",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.3801366459627329,
+    "persona": "fam2_048_kirsty_coventry",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.500136645962733,
+    "persona": "fam2_049_missy_franklin",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.8164439425308991,
+    "persona": "fam2_050_paris_hilton",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.3301366459627328,
+    "persona": "fam2_051_antonio_cassano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.20986335403726714,
+    "persona": "fam2_052_robert_kubica",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.7701366459627328,
+    "persona": "fam2_053_kellan_lutz",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.920136645962733,
+    "persona": "fam2_054_carlos_vela",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.9526632787502352,
+    "persona": "fam2_055_anastasia_myskina",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.610136645962733,
+    "persona": "fam2_056_gilles_simon",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.6201366459627329,
+    "persona": "fam2_057_samantha_stosur",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.20986335403726705,
+    "persona": "fam2_058_juan_torres",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.09249011857707501,
+    "persona": "fam2_059_stephanie_rice",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.39697597088901443,
+    "persona": "fam2_060_keira_knightley",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.28986335403726715,
+    "persona": "fam2_061_mena_suvari",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.33013664596273284,
+    "persona": "fam2_062_catherine_cambridge",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.610136645962733,
+    "persona": "fam2_063_roberto_saviano",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 1.421638747725704,
+    "persona": "fam2_064_david_ferrer",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.11986335403726706,
+    "persona": "fam2_065_oscar_cardozo",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.2498633540372672,
+    "persona": "fam2_066_evanna_lynch",
+    "valid_dilemmas": 100
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.7285651546521111,
+    "persona": "fam2_067_jonas_gutierrez",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": -0.03953405692536144,
+    "persona": "fam2_068_paul_resta",
+    "valid_dilemmas": 99
+  },
+  {
+    "group": "famous_nonai",
+    "mean_delta_pp": 0.13013664596273294,
+    "persona": "fam2_069_anna_bergendahl",
+    "valid_dilemmas": 100
+  }
+]

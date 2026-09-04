@@ -1,0 +1,45 @@
+schema_version: glm53_user_eval_v13_infrastructure_amendment_v1
+project_id: glm53_user_eval_v13_codex_cohort
+amendment_id: v13_2_independent_failure_isolation
+created_at_utc: "2026-09-01T14:32:00Z"
+
+timing:
+  parent_preregistration_tag: glm53-user-eval-v13-preregistered
+  transport_amendment_tag: glm53-user-eval-v13-transport-amendment-v2
+  execution_tag: glm53-user-eval-v13-failure-isolation
+  completed_scientific_rows_before_amendment:
+    luna_max: 54
+    terra_high: 107
+  aggregate_results_opened: false
+  scientific_values_inspected: false
+
+reason: >-
+  A transient Codex WebSocket 403 emitted the phrase "failed to connect" and an
+  error event. The transport retry matcher recognized "connection" but not
+  "connect", so one row raised a non-retryable exception. asyncio.gather then
+  canceled all peer calls and Windows remained in asynchronous task cleanup.
+  This amendment recognizes that transport phrase and isolates task failures so
+  one row can never cancel other concurrent judgments.
+
+preserves:
+  - all_v13_scientific_and_semantic_contracts
+  - all_valid_completed_rows_and_request_hashes
+  - luna_max_and_terra_high
+  - standard_non_fast_inference
+  - maximum_24_sessions_per_judge
+  - score_blind_execution
+
+technical_changes:
+  retryable_transport_patterns_added:
+    - failed_to_connect
+    - websocket_403
+  gather_peer_cancellation: disabled
+  errors_reported_after_all_peer_tasks_settle: true
+  incomplete_partial_artifacts_preserved: true
+
+resume_rules:
+  - Reuse only schema-valid completed rows with matching request hashes.
+  - Retry transient transport errors up to the existing four-attempt limit.
+  - Do not use an error-bearing response as a scientific judgment.
+  - Do not inspect semantic values before both judges complete all 576 rows.
+

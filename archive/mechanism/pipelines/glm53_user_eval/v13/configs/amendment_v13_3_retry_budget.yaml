@@ -1,0 +1,38 @@
+schema_version: glm53_user_eval_v13_infrastructure_amendment_v1
+project_id: glm53_user_eval_v13_codex_cohort
+amendment_id: v13_3_transient_retry_budget
+created_at_utc: "2026-09-01T14:50:00Z"
+
+timing:
+  parent_preregistration_tag: glm53-user-eval-v13-preregistered
+  failure_isolation_tag: glm53-user-eval-v13-failure-isolation
+  execution_tag: glm53-user-eval-v13-retry-budget
+  completed_scientific_rows_before_amendment:
+    luna_max: 573
+    terra_high: 576
+  unresolved_luna_rows:
+    - 3125535c8b0148e43f23
+    - 3442df4c9fb00654eefc
+    - 36eb2a8d93b5c0b48abc
+  aggregate_results_opened: false
+  scientific_values_inspected: false
+
+reason: >-
+  Three Luna-max rows exhausted the original four-attempt technical retry budget
+  solely through transient connection errors. Every peer task settled and no
+  incomplete response was counted. Authorize up to twelve total transport
+  attempts for unresolved rows so the fixed 576-by-two schedule can complete.
+
+preserves:
+  - dataset_prompt_schema_model_and_reasoning
+  - standard_non_fast_inference
+  - output_validity_checks
+  - semantic_analysis_and_thresholds
+  - all_1149_existing_completed_rows
+
+technical_change:
+  prior_total_attempt_limit_per_row: 4
+  amended_total_attempt_limit_per_row: 12
+  applies_only_to_unresolved_rows: true
+  successful_rows_may_be_rerun: false
+

@@ -1,0 +1,37 @@
+{
+  "schema_version": "glm53_v19_runtime_stop_record_v1",
+  "run_id": "glm53-v19-hua-20260903T034814Z-a198b786",
+  "pod_id": "cn62l7312xvc6m",
+  "decision": "runtime_projection_failed_before_hua_positive_control",
+  "checkpoint": {
+    "model": "zai-org/GLM-5.3-Flash",
+    "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+    "weight_shards_verified": 62,
+    "weight_bytes_verified": 328337455672,
+    "all_hashes_matched": true
+  },
+  "timing": {
+    "gpu_count": 2,
+    "gpu_type": "NVIDIA B300 SXM6 AC",
+    "benchmark_rows": 16,
+    "benchmark_seconds": 14.695523258997127,
+    "prompts_per_second": 1.0887669474582489,
+    "planned_forwards": 8460,
+    "projected_seconds_with_headroom": 10101.33530015315
+  },
+  "completed_science": {
+    "hua_positive_control_rows": 0,
+    "local_parity_rows": 0,
+    "causal_rows": 0
+  },
+  "cleanup": {
+    "pod_deleted": true,
+    "active_pods_after_cleanup": 0,
+    "active_serverless_endpoints_after_cleanup": 0
+  },
+  "evidence": {
+    "runtime_calibration_sha256": "66b7316d7039b2a9c8a7c28b02a47740c6e0c85be0aabf178f540ed9424d1ff4",
+    "terminal_state_sha256": "d0d089e18f4d5674ba25c1fab0b6bd85612227aa43fe3cef08184bd246effc32",
+    "evidence_manifest_sha256": "68ae75dea642e5ef9b3995629fbef8412ad97c047a910dd23233bc1ab47cbd27"
+  }
+}

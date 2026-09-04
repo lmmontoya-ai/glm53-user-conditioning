@@ -1,0 +1,72 @@
+schema_version: glm53_user_eval_prereg_v1
+project_id: glm53_user_eval_shared_direction_v1
+created_on: 2026-08-28
+starting_commit: 6975868bfa3bdbbd81af3fe04d1c5ca799acffe8
+source_locks: reference/source_locks_glm53_user_eval_v1.json
+
+subject:
+  model_id: zai-org/GLM-5.3-Flash
+  model_revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  checkpoint: official_fp8
+  reasoning_effort: max
+  clear_thinking: true
+  expected_text_layers: 45
+  expected_hidden_size: 4096
+  expected_hc_mult: 4
+
+api:
+  provider: zai_first_party
+  model_id: glm-5.3-flash
+  base_url: https://api.z.ai/api/paas/v4/
+  credential_env: ZAI_API_KEY
+  allow_provider_fallback: false
+
+selection:
+  source_metric: cache/aggregates/s2glm52_deltas_conf.json
+  seed: 20260828
+  enriched_pairs: 8
+  primary_intervention_pairs: 4
+  prospective_pairs: 8
+  famous_nonai_controls: 8
+  genpop_controls: 8
+  require_complete_delta_count: 100
+
+tasks:
+  seed: 20260828
+  behavior_main: 50
+  behavior_hardening: 25
+  behavior_causal: 25
+
+budget:
+  remaining_credit_usd_at_start: 144.0
+  project_hard_cap_usd: 125.0
+  require_amendment_to_exceed: true
+  g2_target_usd: 17.0
+  g2_absolute_usd: 30.0
+
+thresholds:
+  g1_parse_rate_min: 0.97
+  g1_enriched_pair_negative_sign_min: 6
+  g1_clean_effect_abs_min_pp: 1.5
+  g1_missingness_spread_max_pp: 2.0
+  g2_deadline_minutes: 120
+  g3_parse_rate_min: 0.95
+  g4_eval_auroc_min: 0.75
+  g4_name_auroc_min: 0.70
+  g4_affiliation_auroc_min: 0.70
+  g4_organization_heldout_auroc_min: 0.65
+  g5_eval_score_gap_min_sd: 0.25
+  g6_reduction_fraction_min: 0.30
+
+analysis:
+  bootstrap_reps: 20000
+  screening_interval: 0.90
+  confirmatory_interval: 0.95
+  shuffle_reps: 100
+  random_directions: 10
+
+stopping:
+  require_g1_before_runpod_resize: true
+  require_local_parity_before_directions: true
+  require_direction_positive_control_before_user_intervention: true
+  manual_override: prohibited

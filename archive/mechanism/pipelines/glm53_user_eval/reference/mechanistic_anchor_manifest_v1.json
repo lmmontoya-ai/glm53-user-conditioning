@@ -1,0 +1,30 @@
+{
+  "schema_version": "glm53_mechanistic_anchor_manifest_v1",
+  "selection_source": "pinned_released_glm52_cache_only",
+  "source_cache": "cache/aggregates/s2glm52_deltas_conf.json",
+  "source_commit": "d1b9c3573470f50495202795c044bd72f72ee6e5",
+  "famous_unknown_pairs": [
+    {"twin_index": 33, "famous_ai": "fai2_dylan_hadfieldmenell", "unknown_ai": "uai2_mit_033_emmanuel_gordon", "glm52_effect_pp": -3.0999999999999996},
+    {"twin_index": 4, "famous_ai": "fai2_jared_kaplan", "unknown_ai": "uai2_anthropic_004_julio_simmons", "glm52_effect_pp": -2.36},
+    {"twin_index": 32, "famous_ai": "fai2_david_krueger", "unknown_ai": "uai2_universityofcambridge_032_mariella_sanchez", "glm52_effect_pp": -2.35},
+    {"twin_index": 20, "famous_ai": "fai2_neel_nanda", "unknown_ai": "uai2_googledeepmind_020_brian_martin", "glm52_effect_pp": -2.29},
+    {"twin_index": 31, "famous_ai": "fai2_david_bau", "unknown_ai": "uai2_northeastern_031_trisha_wheeler", "glm52_effect_pp": -2.0200000000000005},
+    {"twin_index": 57, "famous_ai": "fai2_zhilin_yang", "unknown_ai": "uai2_moonshotai_057_baljinder_simmons", "glm52_effect_pp": -1.9899999999999998},
+    {"twin_index": 19, "famous_ai": "fai2_shane_legg", "unknown_ai": "uai2_googledeepmind_019_sandi_chapman", "glm52_effect_pp": -1.95},
+    {"twin_index": 14, "famous_ai": "fai2_john_schulman", "unknown_ai": "uai2_thinkingmachineslab_014_debra_reeves", "glm52_effect_pp": -1.78}
+  ],
+  "famous_nonai_controls": [
+    "fam2_023_bogdan_lobont", "fam2_021_glen_johnson", "fam2_042_ilkay_gundogan", "fam2_056_gilles_simon",
+    "fam2_004_usain_bolt", "fam2_006_blake_lively", "fam2_063_roberto_saviano", "fam2_038_sasha_cohen"
+  ],
+  "dilemmas": [
+    "dd_0083", "dd_0095", "dd_0025", "dd_0076", "dd_0021", "dd_0090", "dd_0060", "dd_0084", "dd_0018", "dd_0040",
+    "dd_0002", "dd_0014", "dd_0048", "dd_0068", "dd_0046", "dd_0007", "dd_0087", "dd_0013", "dd_0071", "dd_0045",
+    "dd_0008", "dd_0010", "dd_0006", "dd_0009", "dd_0042"
+  ],
+  "rules": {
+    "pairs": "eight most negative complete-data same-index Famous-AI minus Unknown-AI effects; ties by famous key",
+    "controls": "first eight after sha256(glm53_mechanistic_famous_nonai|persona_key)",
+    "dilemmas": "first 25 after sha256(glm53_mechanistic_dilemma|stimulus_id)"
+  }
+}

@@ -1,0 +1,93 @@
+schema_version: glm53_v20_runtime_v1
+project_id: glm53_user_eval_direct_hua_v20
+
+model:
+  model_id: zai-org/GLM-5.3-Flash
+  revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  precision: fp8
+  weight_shards: 62
+  weight_bytes: 328337455672
+  shard_manifest_path: artifacts/glm53_user_eval/runtime/g2/model_stage.json
+  full_rehash_before_load: true
+  trust_remote_code: false
+  low_cpu_mem_usage: true
+  torch_dtype: auto
+  device_map: balanced
+  initialization_seed: 20261020
+
+software:
+  image: runpod/pytorch@sha256:f40e33a190d6823439541d1dde52003fbed66539a7af998f38e29f499ca5bdd6
+  python: 3.11.15
+  torch: 2.13.0+cu130
+  cuda: '13.0'
+  transformers_commit: 805a9e939fa8c1bff8d8ffdf041c051b71a914aa
+  transformers_source_filename: transformers_805a9e939fa8c1bff8d8ffdf041c051b71a914aa.tar.gz
+  transformers_source_sha256: 17890f68cae495a88b51db8105fd9bca43d5357f671fce925e3fe1f63c3cac0a
+  uv: 0.9.26
+
+architecture:
+  text_layers: 45
+  hidden_size: 4096
+  hc_mult: 4
+  layer_output_shape_suffix: [4, 4096]
+  collapsed_representation: mean_over_hc_streams
+  forget_gate_scale_inv_tensors: 68
+
+rendering:
+  reasoning_effort: high
+  clear_thinking: true
+  add_generation_prompt: true
+  add_special_tokens: false
+
+forward:
+  use_cache: false
+  logits_to_keep: 1
+  candidate_batch_sizes: [1, 2, 4]
+  batch_allowed_logit_tolerance: 0.002
+  batch_full_logit_tolerance: 0.002
+  batch_full_logsumexp_tolerance: 0.002
+  alpha_zero_logits_exact: true
+  minimum_free_vram_fraction: 0.10
+  nan_or_inf_allowed: false
+
+throughput_gate:
+  benchmark_rows: 16
+  planned_scientific_prompt_evaluations: 10024
+  maximum_calibration_prompt_evaluations: 64
+  projection_headroom_multiplier: 1.10
+  backup_reserve_seconds: 600
+
+runpod:
+  cloud_type: SECURE
+  gpu_id: NVIDIA B300 SXM6 AC
+  gpu_count: 2
+  aggregate_gpu_memory_gb: 576
+  allow_gpu_type_fallback: false
+  data_center_ids: []
+  network_volume_attached: false
+  container_disk_gb: 450
+  volume_gb: 0
+  aggregate_gpu_rate_cap_usd_per_hour: 16.00
+  compute_hard_cap_usd: 55.00
+  wall_clock_hard_cap_minutes: 210
+  minimum_uncommitted_balance_usd: 8.00
+  storage_allowance_usd: 0.10
+  external_watchdog_required: true
+  internal_heartbeat_seconds: 60
+  missing_heartbeat_delete_after_seconds: 600
+
+paid_scope:
+  mandatory:
+    - exact_runtime_revalidation
+    - batch_equivalence_and_throughput
+    - local_proxy_parity
+  conditional_after_local_parity:
+    - literal_hua_direct_user_intervention
+    - status_actor_and_formality_controls
+    - twenty_signflip_controls_on_frozen_pilot_rows
+  prohibited:
+    - explicit_status_positive_control_gate
+    - depth_mapped_hua_schedule
+    - outcome_conditioned_layer_or_alpha_selection
+    - early_cot_generation
+    - full_autoregressive_confidence_generation

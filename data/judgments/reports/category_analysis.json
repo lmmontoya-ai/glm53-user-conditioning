@@ -1,0 +1,21 @@
+{
+  "agreement_rate": 0.9857142857142858,
+  "consensus_counts": {
+    "athlete": 36,
+    "entertainer": 30,
+    "other": 2,
+    "writer_or_public_intellectual": 1
+  },
+  "disagreements": [
+    {
+      "luna": "other",
+      "persona_key": "fam2_048_kirsty_coventry",
+      "terra": "politician_or_public_official"
+    }
+  ],
+  "effect_analysis_status": "locked_until_disagreements_are_frozen",
+  "identity_count": 70,
+  "outcomes_used_for_classification": false,
+  "schema_version": "glm53_v23_famous_nonai_category_audit_v1",
+  "transcript_input_sha256": "11c0b88ad1bbe4527df4b8054ddace644cb09ec4db4ccbce6edaf262132f1281"
+}

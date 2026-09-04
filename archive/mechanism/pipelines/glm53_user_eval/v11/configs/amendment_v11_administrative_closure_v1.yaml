@@ -1,0 +1,53 @@
+schema_version: glm53_user_eval_v11_administrative_closure_amendment_v1
+project_id: glm53_user_eval_source_instrument_v11
+created_at_utc: '2026-09-01T12:33:51Z'
+timing: after_v11_semantic_failure_and_before_terminal_administrative_closure
+
+reason: >-
+  The preregistered direct-label semantic validator failed its control gate.
+  Two real human reviewers are unavailable before the application deadline.
+  A subsequent AI diagnostic review supports a narrower diagnosis but cannot
+  satisfy the frozen human-review requirement. This amendment permits an
+  honest terminal record without treating AI output as human evidence.
+
+preserves:
+  - the_failed_v11_automatic_semantic_gate
+  - all_v11_prompts_labels_splits_and_hashes
+  - all_v11_semantic_metrics
+  - all_v11_paid_compute_locks
+  - the_requirement_that_ai_output_not_be_represented_as_human_review
+
+administrative_changes_only:
+  - permit_terminal_closure_with_human_review_requirement_unmet
+  - record_ai_diagnostic_review_as_non_gating_context
+  - permit_a_new_prospectively_preregistered_v12_validator
+
+prohibits:
+  - changing_any_v11_threshold
+  - rerunning_or_relabeling_accepted_v11_judgments
+  - passing_ai_rows_to_the_official_human_merge
+  - inventing_human_reviewer_identities
+  - authorizing_glm_or_runpod_compute_from_v11
+  - describing_v11_as_passed
+
+locks:
+  preregistration:
+    path: pipelines/glm53_user_eval/v11/configs/prereg_v11_source_instrument.yaml
+    sha256: cd119737222fda4a859d02526955d9beabc20fbf20a944fc3a9b7dc5be0edc2a
+  combined_analysis:
+    path: artifacts/glm53_user_eval/v11/offline_audit/analysis.json
+    sha256: ec819128a06accddd259da83308126e12c6437b1ca3486990fe2393f48bee818
+  semantic_validation:
+    path: artifacts/glm53_user_eval/v11/offline_audit/semantic_validation.json
+    sha256: 1c57cb00b19962d7f6d1565471bdfe977788f6ce44d7f00174eb3d4d13d95d9c
+  semantic_stop_evidence:
+    path: artifacts/glm53_user_eval/v11/offline_audit/semantic_stop_evidence_manifest.json
+    sha256: 1d6d122ed7af4f34dc91ea3bd3807ffa38467fd8f04b8a1c8f58d4b2abdb467a
+  semantic_stop_summary:
+    path: artifacts/glm53_user_eval/v11/offline_audit/semantic_stop_summary.json
+    sha256: 813dcd2c3ada3c14fbb33815e8a5e6b679d4d0849927bfc0fe4bf8024fc14217
+
+terminal_decision: semantic_validation_failed_manual_human_review_unavailable
+human_review_requirement: unmet
+ai_diagnostic_role: nonhuman_non_gating_diagnostic
+paid_compute_authorized: false

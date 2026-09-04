@@ -1,0 +1,20 @@
+{
+  "schema_version": "glm53_user_eval_decision_v1",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "gate": "G3-api-smoke",
+  "run_id": "glm53-g3-api-v4-first-smoke",
+  "created_at": "2026-08-29T09:05:24Z",
+  "completed_scientific_rows": 0,
+  "subject_calls_attempted": 2,
+  "judge_outcome": "openai_first_party_credit_balance_exhausted",
+  "scientific_effect_estimate": null,
+  "passed": false,
+  "decision": "amend_judge_route_and_raw_checkpointing_before_retry",
+  "reason": "The separate OpenAI extraction credential returned insufficient quota after the two subject turns. The runner had not yet finalized raw subject responses, so no row is scientifically usable.",
+  "invariants": {
+    "frozen_schedule_unchanged": true,
+    "frozen_prompts_unchanged": true,
+    "identity_selection_unchanged": true,
+    "behavior_thresholds_unchanged": true
+  }
+}

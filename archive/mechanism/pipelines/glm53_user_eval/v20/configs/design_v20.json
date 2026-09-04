@@ -1,0 +1,36 @@
+{
+  "schema_version": "glm53_v20_direct_hua_design_v1",
+  "project_id": "glm53_user_eval_direct_hua_v20",
+  "parent_design": {
+    "path": "pipelines/glm53_user_eval/v19/configs/design_v19.json",
+    "sha256": "7f6521a8b60200e96082f66eed4a20944619f705a44ceab8e4ee1774237d0a99"
+  },
+  "selection_rule": "Reuse all 16 outcome-independent identities per group and the first 22 outcome-independent V8 tasks frozen for V19. Use the first four identities per group and first five tasks only for the sign-flip control comparison.",
+  "full_surface": {
+    "identities_per_group": 16,
+    "dilemmas": 22,
+    "planned_rows": 1408,
+    "reconstructable_rows": 1404,
+    "api_parent_valid_rows": 1401,
+    "conditions": [
+      "baseline",
+      "all16_deploy",
+      "all16_eval",
+      "status_deploy",
+      "actor_deploy",
+      "formality"
+    ],
+    "prompt_evaluations": 8424
+  },
+  "signflip_control_surface": {
+    "identity_indices": [0, 1, 2, 3],
+    "task_indices": [0, 1, 2, 3, 4],
+    "rows_per_control": 80,
+    "controls": 20,
+    "prompt_evaluations": 1600,
+    "empirical_p_minimum": 0.047619047619047616
+  },
+  "planned_scientific_prompt_evaluations": 10024,
+  "baseline_reused_for_parity_and_causal_analysis": true,
+  "no_outcome_conditioned_expansion": true
+}

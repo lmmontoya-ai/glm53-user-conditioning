@@ -1,0 +1,568 @@
+{
+  "compact_files": [
+    {
+      "bytes": 6207,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\pipelines\\glm53_user_eval\\configs\\prereg_v7_interaction_confirmatory.yaml",
+      "sha256": "ba54ab643375312d2a3cb5a162f099d5e34001aeffd41c2eb0962feb2d8fc63d"
+    },
+    {
+      "bytes": 258204,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\schedule_manifest.json",
+      "sha256": "54df7ad972c5cac42870a342b679b1d3dfd715597d8a0c07eb42e8ce1a2489b4"
+    },
+    {
+      "bytes": 9066938,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\reports\\transluce_interaction_v7\\raw_scores.jsonl",
+      "sha256": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee"
+    },
+    {
+      "bytes": 49290,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\reports\\transluce_interaction_v7\\person_deltas.json",
+      "sha256": "cca42c323e77e2d7aabd73cc3f06bb4dc68d9c238271aa195bf290b059b26d7a"
+    },
+    {
+      "bytes": 34878,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\reports\\transluce_interaction_v7\\analysis.json",
+      "sha256": "fc649c2d286e2bf6ea6aa013bca458190f22b6a36410576dee278e3f5e4f5336"
+    },
+    {
+      "bytes": 998,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\reports\\transluce_interaction_v7\\verification.json",
+      "sha256": "925596c8ae9b72f9e81db1bf44f119ed8928f456cded428bd1b88f47be40d63b"
+    },
+    {
+      "bytes": 84455,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\audits\\full_technical_audit.json",
+      "sha256": "d652f838e1831b4c5c7f13e8457efc40ecea5117a16a0ee666c71b4f3777260f"
+    },
+    {
+      "bytes": 909,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\audits\\manual_audit.json",
+      "sha256": "188c0a85315d3966fbd3fc9b8a9220ce94f71b53a26ed6ff1367f9c22056b823"
+    },
+    {
+      "bytes": 1154,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\reports\\transluce_interaction_v7\\decision.json",
+      "sha256": "ca760ceecc4cd7d9b4bc48562c8547ae827ebcec69989f1eb8c9fb917e26118e"
+    },
+    {
+      "bytes": 1349,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\reports\\transluce_interaction_v7\\final_report.md",
+      "sha256": "be6a2e0f0a9e95c57ac5ad106c99dc0b625edd148bd43d5e3452d67796e048d1"
+    }
+  ],
+  "decision": "confirmed_target_sized_interaction",
+  "interaction_ci95_pp": [
+    -1.2099960877594156,
+    -0.09734531995242601
+  ],
+  "interaction_pp": -0.65024890176303,
+  "project_id": "glm53_user_eval_interaction_confirmatory_v7",
+  "raw_logs_committed": false,
+  "raw_logs_retained_locally_and_hashed": true,
+  "schema_version": "glm53_transluce_interaction_v7_final_evidence_v1",
+  "self_hash_note": "final_evidence.json cannot contain its own SHA-256; hash it after creation",
+  "successful_eval_logs": [
+    {
+      "bytes": 3678729,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_eByUL3k6ugzM6Rae4c8SXT.eval",
+      "sha256": "f23941da4f72ba4df86534641e78c053e39e3ef5dd18c666a852e4aa4f1547c6"
+    },
+    {
+      "bytes": 3702258,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_QDtXNq47j8evJEb9zebFCK.eval",
+      "sha256": "95f25ffc41ac62825d25dd7e6b0d08ba9ac1c727c299fe09c7047ab53f8faa87"
+    },
+    {
+      "bytes": 3726994,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_W4qvSSaAeGhwHtFtcaiRZA.eval",
+      "sha256": "2ffac5f6c921679ffd01049ca93df931723e52f63a59b3aefb0000b9922b63db"
+    },
+    {
+      "bytes": 3137651,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_Xt6PaDNjPXVSguDhwfYik6.eval",
+      "sha256": "edd4bd695dbb211424f47434a6fb3e3ba6b3587aa3dbd0e79f43f1678d900120"
+    },
+    {
+      "bytes": 3665108,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_8usUTo6wdqisNgWGDi5GZS.eval",
+      "sha256": "cf7165770b4bb5f7e88f714e8f13f253a12d80eb9b4360b3b65a44a96a021907"
+    },
+    {
+      "bytes": 3612537,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_SaAxTrnHPGpH6F6PQL2cMi.eval",
+      "sha256": "2f18639d92e9827bc0f59eb757d69c2eed9c7b1e103bce6e886b455e6c6f9d94"
+    },
+    {
+      "bytes": 3644250,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_WHEV32wKgnPqmhh4ix9We6.eval",
+      "sha256": "548ac1a3a63be05412b42a04f290538eadcfec01a6c4cf9a98a30604a89f06d8"
+    },
+    {
+      "bytes": 3620348,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_cCQdnKggNytv3c8R97559B.eval",
+      "sha256": "172fa13e74ba17ed4237f8fb3de470cb58f7d4031096b5f925c9359431e69b37"
+    },
+    {
+      "bytes": 3058853,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_ZP9NZKGgXESGku9FoY2XPG.eval",
+      "sha256": "5b073ca8d99b17ecd8f96b185ab2b4f38b39c0c02dd9084f56c2069bcc372698"
+    },
+    {
+      "bytes": 3603576,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_mdUgvLTmindS7BZs6iAAFt.eval",
+      "sha256": "dd156528f13becbc1aa5a952647fc70917441521b0fead58b6b0222a25ab810a"
+    },
+    {
+      "bytes": 3573008,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset010__limit005\\2026-08-29T17-58-19-00-00_pmisaligned_o6qTvYPc3yiirPCHYkpGM4.eval",
+      "sha256": "3876d6cd426c85ad84c52dd1d9487a1306ca90b9954b125780a8a4a57dda6ea1"
+    },
+    {
+      "bytes": 3579350,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset010__limit005\\2026-08-29T17-58-37-00-00_pmisaligned_X4adkANL9pwUUttUWGkswS.eval",
+      "sha256": "540dd3ff6d7a9e22af831fa184073cce76fdec94b61066607590556c1e52137a"
+    },
+    {
+      "bytes": 3586947,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset010__limit005\\2026-08-29T17-58-45-00-00_pmisaligned_49cNYGc2pWPQKjimgyVu6d.eval",
+      "sha256": "b5c7b16ae4725e9e3c3eea086facb6316408b61e8a10329ea721d4531109e7d7"
+    },
+    {
+      "bytes": 3013174,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset010__limit005\\2026-08-29T17-58-49-00-00_pmisaligned_KY57gXqd5d55XYfgLD7nD7.eval",
+      "sha256": "521c75d34bd17416bc7eb6d4f04ef1cb34b3ad1fdf46332c7bad7d22173244b1"
+    },
+    {
+      "bytes": 3545716,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset010__limit005\\2026-08-29T17-58-56-00-00_pmisaligned_jaESc3mCHVHLmoYtmRV4nz.eval",
+      "sha256": "e6fa40a49e90579aebdeda166315d4e4343b6d16a555907b07c3224213ab057d"
+    },
+    {
+      "bytes": 3554145,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset015__limit005\\2026-08-29T18-01-28-00-00_pmisaligned_Tgnax4yMVxoqZG7HX6VJp8.eval",
+      "sha256": "08bee5d53dd2131e55e065b3da117e680d374e78d3509a2aba7558b94525bb59"
+    },
+    {
+      "bytes": 3582267,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset015__limit005\\2026-08-29T18-01-36-00-00_pmisaligned_mep8cYnh9EPFCaJ7wTthWv.eval",
+      "sha256": "f9b059f6904ee234a23c0ff87d0c29a45035b6e0142f1938cd8e22bf3005fdb7"
+    },
+    {
+      "bytes": 3571452,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset015__limit005\\2026-08-29T18-01-46-00-00_pmisaligned_7GfrSLzihs9Y95VHuzHiHq.eval",
+      "sha256": "6ea6f62bf1be116d0efb41e2c3d792b1ffc2149153cf22917253a7573ef24c35"
+    },
+    {
+      "bytes": 3015752,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset015__limit005\\2026-08-29T18-01-59-00-00_pmisaligned_ETpjWEkrqVccSvfsBq62YH.eval",
+      "sha256": "3d1d64a09bb3048fb27b76b1eb5291b421acbfcf418c4f259bb7d1c6cf6f7a32"
+    },
+    {
+      "bytes": 3557113,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset015__limit005\\2026-08-29T18-04-34-00-00_pmisaligned_GtgUghcn2G4vKnXj3Y7EJb.eval",
+      "sha256": "ef4b2333c7505c6841de82a0c82083f7a9b47a987a9f117bf42532b6fc15ce6a"
+    },
+    {
+      "bytes": 3632059,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset020__limit005\\2026-08-29T18-04-38-00-00_pmisaligned_SdUdjjN7jXYHR9bJMvBhaJ.eval",
+      "sha256": "cf2ecf0b13c5ae7ec735278265bf884d2f6d3a4d6f859ce10f2843d549352e08"
+    },
+    {
+      "bytes": 3720328,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset020__limit005\\2026-08-29T18-04-48-00-00_pmisaligned_SXKVuQ7YfKdcm7FHe5pouh.eval",
+      "sha256": "c693d747858ba4f6cff7ba43bc4a501f31d3c0cd1cae7985979d13f730f6a032"
+    },
+    {
+      "bytes": 3707118,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset020__limit005\\2026-08-29T18-05-20-00-00_pmisaligned_UdNfExCgLwihvfdtgS7XiG.eval",
+      "sha256": "2a7b1a41fd98aad876fb9b421c734782d81f6dc0af45c601a68b59767a56b74f"
+    },
+    {
+      "bytes": 3114602,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset020__limit005\\2026-08-29T18-05-24-00-00_pmisaligned_aZDKLKAV4oQck8PmMnK4gY.eval",
+      "sha256": "6a8e8d52cacc96ac062abf02c567164bc40fdf4f1e200bdcfbc77ddfde79c93e"
+    },
+    {
+      "bytes": 3670730,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset020__limit005\\2026-08-29T18-07-25-00-00_pmisaligned_aoFfLMKeDZNSJ36aPWtJim.eval",
+      "sha256": "3a2638c42f1ef72e2be0f01055aef8dfdbde1eef83071188336d87f1025a4202"
+    },
+    {
+      "bytes": 3607858,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset025__limit005\\2026-08-29T18-07-56-00-00_pmisaligned_e3fpuZg8wKL6CoG4szZod3.eval",
+      "sha256": "6114ba0eacc41f789d6c577619da119e100a19879596c620c937dd4a51684757"
+    },
+    {
+      "bytes": 3623434,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset025__limit005\\2026-08-29T18-08-59-00-00_pmisaligned_DhhVGCpbixa6diX92Q46Eg.eval",
+      "sha256": "24c8a63865726b9a534258b233f342beea846641b70433011676414deb396945"
+    },
+    {
+      "bytes": 3609416,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset025__limit005\\2026-08-29T18-09-45-00-00_pmisaligned_NLmLTtrWhVgHCqKbFsoXoy.eval",
+      "sha256": "cbc24f1a08796f529f86c22d2c0317f2ebdd32ee46fd4b34f1d2f3aab5fa9056"
+    },
+    {
+      "bytes": 3054261,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset025__limit005\\2026-08-29T18-10-14-00-00_pmisaligned_3TG5VxSGMeyD4BP7Rs4Koa.eval",
+      "sha256": "b3bc33fe31d724046279dd10932aca5f107c96b212995dfb10f8cf364e22cb61"
+    },
+    {
+      "bytes": 3610629,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset025__limit005\\2026-08-29T18-11-15-00-00_pmisaligned_EBg8FhfEEHQDQoQYMmXuUn.eval",
+      "sha256": "e8f597df9c7a7da863e89e6e700cbc40648a2188ca0ff7cbc6757c01145d4a2e"
+    },
+    {
+      "bytes": 3663381,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset030__limit005\\2026-08-29T18-11-23-00-00_pmisaligned_3XsLxWGiR6rEoKZ6PvhNER.eval",
+      "sha256": "569be38bb41ef9da450e427926c104cb9c49914b577675e9bc6b0f5f43937971"
+    },
+    {
+      "bytes": 3695946,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset030__limit005\\2026-08-29T18-12-22-00-00_pmisaligned_k7t6EoA8QMyNq9cbHATYD6.eval",
+      "sha256": "02b51019896d4044fcd7459401cfc1d01a41903190b47704bf6c7bc59ea73f62"
+    },
+    {
+      "bytes": 3710694,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset030__limit005\\2026-08-29T18-13-09-00-00_pmisaligned_dQvqq5pGfpxjZqH5d6JQu3.eval",
+      "sha256": "91fdf4efa4510ee5068dee400895a59a4c44624d5ba2d563fe2444239ac7440e"
+    },
+    {
+      "bytes": 3094164,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset030__limit005\\2026-08-29T18-13-09-00-00_pmisaligned_b5f4TFM3aGn379dUno8HCT.eval",
+      "sha256": "7173bf10663c24b594fe99992a2514189f226d4ddeb5e476405199cc69808586"
+    },
+    {
+      "bytes": 3658164,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset030__limit005\\2026-08-29T18-14-25-00-00_pmisaligned_gDoxTZmGsNJKcAADL8gjy4.eval",
+      "sha256": "efe9ded1534db66c1fb173cf6dd055abbb079e534ef2b746722130242fe944bf"
+    },
+    {
+      "bytes": 3579240,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset035__limit005\\2026-08-29T18-15-49-00-00_pmisaligned_UBDmEiLbAX8xitT3RPRLgR.eval",
+      "sha256": "29942d332fef4233eafd7e7d0ec35d97679cc10ceb38624d68d88065ae1fbb77"
+    },
+    {
+      "bytes": 3623053,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset035__limit005\\2026-08-29T18-16-15-00-00_pmisaligned_kKosfkPSihofntAEbFP9P6.eval",
+      "sha256": "f055135061c65810a901501b136c84b02aa0a6b3b0bca9cd1c8477a18c0ea4da"
+    },
+    {
+      "bytes": 3605241,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset035__limit005\\2026-08-29T18-17-48-00-00_pmisaligned_JYdjnpRaWSTMtJGXzUqgC6.eval",
+      "sha256": "0d25d6c0904d9fc9f04cd48b0f1e5e2267fe4c3923799d3408d75bcf37e38f43"
+    },
+    {
+      "bytes": 3060265,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset035__limit005\\2026-08-29T18-18-13-00-00_pmisaligned_49MZRkorvKNp29VSpJykyn.eval",
+      "sha256": "d92e946d66a1822ea9d34b98dd2f7f959edce1788cb5bccfe9ca3f596e5979fe"
+    },
+    {
+      "bytes": 3604575,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset035__limit005\\2026-08-29T18-18-52-00-00_pmisaligned_StRf76PHXoxVinRWTxVmS8.eval",
+      "sha256": "f3264ddecd7077c97f870f852fba8f70727deab3737069d5c38240bbd04945d2"
+    },
+    {
+      "bytes": 3528624,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset040__limit005\\2026-08-29T18-18-56-00-00_pmisaligned_bdX7fjEDvZ6U9GHYLEXkTm.eval",
+      "sha256": "c9ab143d9dc851d604bd9016177ede9142a6ee93e9eba03da41b3914d124e671"
+    },
+    {
+      "bytes": 3540686,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset040__limit005\\2026-08-29T18-19-32-00-00_pmisaligned_Pubt9onf52vAFwwCy9mRvK.eval",
+      "sha256": "d7c8d4970e33baac29194da3e3b58142f631a3bc66516b6eeedc941387b543b1"
+    },
+    {
+      "bytes": 3534144,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset040__limit005\\2026-08-29T18-21-01-00-00_pmisaligned_dvaov3YbC7RpMGb7WBPvSf.eval",
+      "sha256": "4db21b087b566ca98bbbcfe74b19113bb98405f39567053531022b93911604b1"
+    },
+    {
+      "bytes": 3008919,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset040__limit005\\2026-08-29T18-21-24-00-00_pmisaligned_4uYL4Bix28aG7YwdDbkbgc.eval",
+      "sha256": "a612691b760c4c99e47b9c5df6152c4e4eb8050075b3bfbe0976fbcc0ef3a694"
+    },
+    {
+      "bytes": 3521927,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset040__limit005\\2026-08-29T18-21-34-00-00_pmisaligned_4oJ52bUgw6ZbuL9UYeEXPY.eval",
+      "sha256": "94bb6b233a1c98d025c2fc3c92922ac3aa74cc0d29752737dceb5b7b95f8a3b9"
+    },
+    {
+      "bytes": 3593180,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset045__limit005\\2026-08-29T18-22-07-00-00_pmisaligned_gWfpHs3pSvnB2fWTEnhtcM.eval",
+      "sha256": "63d471927551f4d1109e057a02ad68f3c5eb50d615c6b344befd1fe46eace7db"
+    },
+    {
+      "bytes": 3659534,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset045__limit005\\2026-08-29T18-22-21-00-00_pmisaligned_QRK4rodEjLG4xQaBjJEuZ4.eval",
+      "sha256": "931c415843b37bb2b2909c5650aaf60d7f6beacb01f6f8a162200b6cf253b0fc"
+    },
+    {
+      "bytes": 3665691,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset045__limit005\\2026-08-29T18-24-19-00-00_pmisaligned_WpamyEXAKuqW3qsvEHeVzs.eval",
+      "sha256": "ce88bc0e755ef404301b579f69fa74954b45c260933ae726c92ee9622e43fbef"
+    },
+    {
+      "bytes": 3080811,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset045__limit005\\2026-08-29T18-24-28-00-00_pmisaligned_5gnMFVK3M2feUxMwr7GN5S.eval",
+      "sha256": "e8936cf29521542d09facb884e21b32be4e0a215e952310339cbec3e955084ed"
+    },
+    {
+      "bytes": 3607823,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset045__limit005\\2026-08-29T18-24-36-00-00_pmisaligned_bsrxrGNyGVznjtrkuMFmQW.eval",
+      "sha256": "1b6da6be0c6a36cae0eceb1cb26d40ed4adb57f46a422fe2af56890d64193872"
+    },
+    {
+      "bytes": 3592443,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset050__limit005\\2026-08-29T18-25-18-00-00_pmisaligned_439B9pziV49Es6kFXbuK6B.eval",
+      "sha256": "7d48504165d6cd2ad98a077fac0d843369e2db9017fa0b45b41acbfca28c508d"
+    },
+    {
+      "bytes": 3624991,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset050__limit005\\2026-08-29T18-25-52-00-00_pmisaligned_CvFs9JgV3DwgzSEZu5RiKM.eval",
+      "sha256": "5428762b5d9d63df2efa6371acf1bbb4a2c3cd5b5544035c165c6e13f46944b4"
+    },
+    {
+      "bytes": 3625564,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset050__limit005\\2026-08-29T18-27-31-00-00_pmisaligned_4LZL7ZSXSRaQJoVrQo3dRG.eval",
+      "sha256": "ae38acc96745d40fb308736842332e489c8d7744b18d9f62fe68d16f0b918cb3"
+    },
+    {
+      "bytes": 3083129,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset050__limit005\\2026-08-29T18-27-50-00-00_pmisaligned_hTroxd5Le28DJYAuhAx75S.eval",
+      "sha256": "cf9ebce897244a8c9e8239d9f0ac78691c8dfed6065b939685ceba1ebd6a3f79"
+    },
+    {
+      "bytes": 3610664,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset050__limit005\\2026-08-29T18-28-22-00-00_pmisaligned_SKMYG7C7ZRFutsvVEwzQVJ.eval",
+      "sha256": "49d2858711902bc842f639aa9654fc0cc618eda70e95c7c1a14053dbdf7c17a3"
+    },
+    {
+      "bytes": 3825822,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset055__limit005\\2026-08-29T18-28-51-00-00_pmisaligned_79m8XZE8jrSqEUbZWkdw4V.eval",
+      "sha256": "f2c951c2b8da5b229f99b87c30496adeae754083c2657aef335099bd0e0c49b9"
+    },
+    {
+      "bytes": 3709455,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset055__limit005\\2026-08-29T18-28-56-00-00_pmisaligned_66mcD2QGkDDbT498jRsnvA.eval",
+      "sha256": "42a6e3d5dabcb1e30f2a511d5fd9524e281f76d3d6d42084ede247f455d59109"
+    },
+    {
+      "bytes": 3709945,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset055__limit005\\2026-08-29T18-30-49-00-00_pmisaligned_WaavrKrLZ4kX9EaHtJj9dz.eval",
+      "sha256": "6f8b3b6f4e1167e0b37e1e149b66f5534df4f7442c6e6eeb9cccaea47a7ad466"
+    },
+    {
+      "bytes": 3131510,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset055__limit005\\2026-08-29T18-31-28-00-00_pmisaligned_QZZEkgeqEPeQbjTETNxkoH.eval",
+      "sha256": "8d827c1913762c716c44659beb3eb45d4a130897f4936706f856c278f328493d"
+    },
+    {
+      "bytes": 3844236,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset055__limit005\\2026-08-29T18-32-58-00-00_pmisaligned_HSMgyJNWwTQRUUsC7MUofU.eval",
+      "sha256": "9685cf4ecf57a4102862f15fe0f766293b0e0cdd3174fb243bc7ede2d416514e"
+    },
+    {
+      "bytes": 3609901,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset060__limit005\\2026-08-29T18-33-54-00-00_pmisaligned_N6JRMXMdp7qyQdTnf5JWAT.eval",
+      "sha256": "fde4e6c2b2673ac23923918a5998a8f9668914c1a60a461e6b61c5bedd4a0b08"
+    },
+    {
+      "bytes": 3624811,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset060__limit005\\2026-08-29T18-34-21-00-00_pmisaligned_JXmiXTgYfFwJEfjobeuhR3.eval",
+      "sha256": "11b28666ba72aeff9eb289ae51a4f0d62d3d24f269fc4c33b5260557eb50ba25"
+    },
+    {
+      "bytes": 3636088,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset060__limit005\\2026-08-29T18-34-56-00-00_pmisaligned_PwTELrsFzsbSNR2fCRZBWK.eval",
+      "sha256": "86ce439f50beec2366902b09e58b156298bef5a25ded8f61bb4308247ff9b427"
+    },
+    {
+      "bytes": 3097923,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset060__limit005\\2026-08-29T18-36-27-00-00_pmisaligned_DNUwT2CiRwLHtsdkyWqYkJ.eval",
+      "sha256": "97a4ba06295568bcac27518b50747546ea4b5b0108da26a30ddf66d5198dc47f"
+    },
+    {
+      "bytes": 3602860,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset060__limit005\\2026-08-29T18-37-14-00-00_pmisaligned_m3PAnEDhQqwdM7Rt4i8QfE.eval",
+      "sha256": "70f45592a95640e8a19b3effec45f652b619923ec13f785fd6e68e3e36defe6c"
+    },
+    {
+      "bytes": 3585210,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset065__limit005\\2026-08-29T18-37-47-00-00_pmisaligned_Dav4ttikUg7E3kzD5fxvwt.eval",
+      "sha256": "a6b0037572c496fcda2b4298ded74cda62c7fa4600b833710c000d6d25efb4a8"
+    },
+    {
+      "bytes": 3607150,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset065__limit005\\2026-08-29T18-38-00-00-00_pmisaligned_9aDD5d3rpdurxBypcNUjkP.eval",
+      "sha256": "b00151f1b5fdb7a76566f403aa292faa4c011c86ffbbd0cb28eb4111061f9ef0"
+    },
+    {
+      "bytes": 3607825,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset065__limit005\\2026-08-29T18-38-11-00-00_pmisaligned_DKbyMi88FzURMEJfunNAKA.eval",
+      "sha256": "b33f88147bd9a637faa93fb7a39d0b0a0fe4db99176a488d1ee53f0f798acbef"
+    },
+    {
+      "bytes": 3045252,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset065__limit005\\2026-08-29T18-39-29-00-00_pmisaligned_cdNMkUfJyN8nHjBuuMRAos.eval",
+      "sha256": "6e40756bf3abc47b8f0aa6ca268610e1e534e79d90fa3401d1c38f814f00151f"
+    },
+    {
+      "bytes": 3597903,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset065__limit005\\2026-08-29T18-40-23-00-00_pmisaligned_aRp4BQxsUuaCSxYoNZ3FAW.eval",
+      "sha256": "aedbb5f7026fcf661591abe9720b9ea7824a8a02013397c5e26bff7baf8e06eb"
+    },
+    {
+      "bytes": 3575305,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset070__limit005\\2026-08-29T18-41-06-00-00_pmisaligned_G4E7oTeLbedCNumzLpKfHp.eval",
+      "sha256": "e721f72a0eeae449da44004f9972f200e315563ec7076965e495ab72ef448fa9"
+    },
+    {
+      "bytes": 3610568,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset070__limit005\\2026-08-29T18-41-29-00-00_pmisaligned_G9qAdu34nMHXQPdPtLJS5G.eval",
+      "sha256": "4a7a0b20efa1afcdf70ef01a9fd344125def7e5f5e15ddd87d1db7fe648c3ff1"
+    },
+    {
+      "bytes": 3615847,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset070__limit005\\2026-08-29T18-42-25-00-00_pmisaligned_mH5nw2g8SxZoPFXsUgnm3p.eval",
+      "sha256": "b25566056cebd8a097cab38136108781c8423e19062bfe90565ecfdc4b4ef26d"
+    },
+    {
+      "bytes": 3063763,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset070__limit005\\2026-08-29T18-42-40-00-00_pmisaligned_hZsFCvuYDXKoUk7BiVtaeo.eval",
+      "sha256": "441a348f8ed277eeca335cb629e0b15bacc3387d93cd9dcf1c9ecb55b3be6f4c"
+    },
+    {
+      "bytes": 3593004,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset070__limit005\\2026-08-29T18-43-22-00-00_pmisaligned_Co8dvsXx7Z4m3YNshhscqg.eval",
+      "sha256": "4ee1119910722976d36b7ce0cea40b0d44cceca7d1056ac759ba7fcab11e0031"
+    },
+    {
+      "bytes": 3703119,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset075__limit005\\2026-08-29T18-44-11-00-00_pmisaligned_g2HNFWMrHhARR3onFqLYJD.eval",
+      "sha256": "7caee51c0bb734bdf912191a0dfeccb3a494948ef5acf0b553d1fb04653718c2"
+    },
+    {
+      "bytes": 3710514,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset075__limit005\\2026-08-29T18-44-42-00-00_pmisaligned_P9sz9Qg2KF7QgokLFMJFZd.eval",
+      "sha256": "8abbf7892755cd2e58dacd08b523270c32e8fdaced6ee04d5abf27c7ae7cbc42"
+    },
+    {
+      "bytes": 3705618,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset075__limit005\\2026-08-29T18-45-31-00-00_pmisaligned_kmWa6pvzARnBUytx48GZvA.eval",
+      "sha256": "45a0be34671c75a69137f7faeab16078967b62594a832369cead6353ee8c1c9a"
+    },
+    {
+      "bytes": 3121268,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset075__limit005\\2026-08-29T18-46-02-00-00_pmisaligned_3miZzaTaWtAEJSBvgijC8K.eval",
+      "sha256": "e4ff86eefd8fe0bdf544aeb75af2839e096a0031bffccc4380ac2b1931addb35"
+    },
+    {
+      "bytes": 3681300,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset075__limit005\\2026-08-29T18-47-17-00-00_pmisaligned_ZUPHJPrW3oyUWK4kkHYkTK.eval",
+      "sha256": "8becab55b073d57bee0516f44bbd5fd0a5b016ff7bcacc7b06658f6997eeb5a4"
+    },
+    {
+      "bytes": 3712532,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset080__limit005\\2026-08-29T18-48-09-00-00_pmisaligned_WnTxXHd2qsMHgtrcxHZ8tM.eval",
+      "sha256": "24c499fa3560d0e0de3e9d14cdf7936e5081d7cd5e8001be31d782c4fb36780a"
+    },
+    {
+      "bytes": 3776972,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset080__limit005\\2026-08-29T18-48-53-00-00_pmisaligned_AFrEVQU5ya5irgv6oqU66K.eval",
+      "sha256": "326f16e71abedb4edfc8758932593029ed4065a80afcd8f06b2b98790ae1742a"
+    },
+    {
+      "bytes": 3734939,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset080__limit005\\2026-08-29T18-49-17-00-00_pmisaligned_6JgbhCdqksaghB86gfXiYU.eval",
+      "sha256": "f71b41549d830ea5214a5f164e55ce294715176380db7550b0db87a111ce40ea"
+    },
+    {
+      "bytes": 3163437,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset080__limit005\\2026-08-29T18-49-32-00-00_pmisaligned_FmEMXtMBnsEHQ2U4Xyhrkb.eval",
+      "sha256": "bf65be2baf535de410b493a2972bd7d3bf8cbf97e2c1699a93938a94c4439bf0"
+    },
+    {
+      "bytes": 3722861,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset080__limit005\\2026-08-29T18-50-54-00-00_pmisaligned_nSRcQ9pAVPUfWmGiTCDTcU.eval",
+      "sha256": "5dd2d0fd79d9dd6576944f106b9152144154b82e4f49cc2afb70c0fd5cb387c0"
+    },
+    {
+      "bytes": 3553156,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset085__limit005\\2026-08-29T18-51-46-00-00_pmisaligned_K6aRY2c2doBuZsWujCLSrq.eval",
+      "sha256": "af2885b9449275b52f658c2f8d5cfe5d526f6d47d9bb2d8dc92225f1d9351d36"
+    },
+    {
+      "bytes": 3566609,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset085__limit005\\2026-08-29T18-52-54-00-00_pmisaligned_4EhQGpEVTS5DqbiapfFS2S.eval",
+      "sha256": "0755f128b0fc4662105ce21fcc4e013f373b86e6114be7d92052666c307d4052"
+    },
+    {
+      "bytes": 3560162,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset085__limit005\\2026-08-29T18-52-59-00-00_pmisaligned_aoycsACeLBh7hdffbgM28y.eval",
+      "sha256": "5b45e0a8b21822ddd7df96c787af6c5c0995db8c6002a98ab6dedd44ca53837b"
+    },
+    {
+      "bytes": 3015023,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset085__limit005\\2026-08-29T18-54-19-00-00_pmisaligned_dbRkZdkrDUfKg4KgPWpcHw.eval",
+      "sha256": "bf3e9e8d56c7e2a50aeac9f78675dfb9c31cc8401ce9fa60b669d5d5c5890478"
+    },
+    {
+      "bytes": 3529096,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset085__limit005\\2026-08-29T18-54-26-00-00_pmisaligned_CrLTbMwP7uT3d6rfcq7EYC.eval",
+      "sha256": "0bc29dc4dd6f197d943621533e3568782c6495f21209e2844ccfe1476deb8476"
+    },
+    {
+      "bytes": 3643377,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset090__limit005\\2026-08-29T18-54-43-00-00_pmisaligned_J3T5eULEw6dhdV3SBp2994.eval",
+      "sha256": "f6bfaaa20b38750771088166a9e8782208416cb123288ac5ba19b9c79d98dbbf"
+    },
+    {
+      "bytes": 3712186,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset090__limit005\\2026-08-29T18-55-47-00-00_pmisaligned_5mDzjkCXoFYb7fkLG9kRzX.eval",
+      "sha256": "0778d9a2f8d316ad248b430c31feddd19ee6de27b227fb1fd7c855abee3840bf"
+    },
+    {
+      "bytes": 3681962,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset090__limit005\\2026-08-29T18-56-03-00-00_pmisaligned_4f6NPvXbNqT9AhDZooBEGG.eval",
+      "sha256": "a1a2822a540b23b9b0ae7c7b43fd2f16c1e879a9a37a622e1141f38dd0b349a4"
+    },
+    {
+      "bytes": 3119896,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset090__limit005\\2026-08-29T18-56-55-00-00_pmisaligned_YHdSN4tYQ5BpdWHeXQ7swo.eval",
+      "sha256": "cc30b190ace1e542a04173d27e409c0fb2d3a393e3029670f70b9d183df63bc9"
+    },
+    {
+      "bytes": 3689807,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset090__limit005\\2026-08-29T18-57-18-00-00_pmisaligned_USAfV62ABjaNanZDcU8sU4.eval",
+      "sha256": "401c3bb69754dd7dcf02af7a3c035ffd77e6695d8404b67f24b2a3e0fc7b5de1"
+    },
+    {
+      "bytes": 3580282,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset095__limit005\\2026-08-29T18-58-36-00-00_pmisaligned_oUPd4feVSvW42REccn3wcn.eval",
+      "sha256": "ea418b823303a5603751ba54f4c6eed90b051b72990ad9eb31d31b642daa1c72"
+    },
+    {
+      "bytes": 3583792,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset095__limit005\\2026-08-29T19-00-16-00-00_pmisaligned_cywSwHX7YACFnnXZu6h3EU.eval",
+      "sha256": "3271283a595eac3a57dd74ade35421ca85184039050bf8ea944287e9f690bd9c"
+    },
+    {
+      "bytes": 3580674,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset095__limit005\\2026-08-29T19-01-18-00-00_pmisaligned_GQf35zNS785ZN3hM5SQwi9.eval",
+      "sha256": "a43d4e21977eba91e60b9bd65cc7a40e46633c2ff068fde5273d3503dcf3862d"
+    },
+    {
+      "bytes": 3022200,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset095__limit005\\2026-08-29T19-01-25-00-00_pmisaligned_nAHqCnybPogZYQ449XFrHg.eval",
+      "sha256": "1a1f4884c0004be266632ede4225bcb076819b7d75a1a386dbbfeb7cb00bf2dd"
+    },
+    {
+      "bytes": 3558057,
+      "path": "D:\\research\\mats\\neel_2026\\Non-verbal-Eval-Awareness\\artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset095__limit005\\2026-08-29T19-02-00-00-00_pmisaligned_6mtfTSQL6r4LgCs2XLhXqk.eval",
+      "sha256": "0af6c4408f287a0976d83cb492a79d43a73a8a4894e757baa9df650abce835c7"
+    }
+  ],
+  "whitebox_green_light": true
+}

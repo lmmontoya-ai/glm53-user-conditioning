@@ -1,0 +1,18 @@
+schema_version: glm53_v8_interventions_v2
+primary_scope: all_nonpadding_prompt_positions
+secondary_scope: final_prompt_position
+layer_band_radius: 1
+pilot_alphas: [-1.0, -0.5, 0.0, 0.5, 1.0]
+confirmation_random_controls:
+  gaussian_orthogonal: 10
+  paired_signflip_null: 10
+  seed: 20260901
+bootstrap:
+  reps: 20000
+  primary_seed: 20260902
+  verifier_seed: 20260903
+success:
+  pilot_fraction_removed_min: 0.20
+  confirmation_fraction_removed_min: 0.30
+  allowed_mass_median_drop_max: 0.05
+  controls_to_beat: 20

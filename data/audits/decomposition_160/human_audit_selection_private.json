@@ -1,0 +1,962 @@
+[
+  {
+    "audit_id": "audit-001",
+    "group": "genpop",
+    "sample_id": "dd_0003-gen2_024_pedro_jimenez-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-002",
+    "group": "unknown_ai",
+    "sample_id": "dd_0092-uai2_independent_048_judith_castillo-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-003",
+    "group": "genpop",
+    "sample_id": "dd_0005-gen2_020_brian_martin-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-004",
+    "group": "famous_ai",
+    "sample_id": "dd_0022-fai2_john_schulman-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-005",
+    "group": "famous_ai",
+    "sample_id": "dd_0003-fai2_anca_dragan-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-006",
+    "group": "famous_ai",
+    "sample_id": "dd_0044-fai2_shane_legg-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-007",
+    "group": "unknown_ai",
+    "sample_id": "dd_0080-uai2_launch_068_chol_tran-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-008",
+    "group": "genpop",
+    "sample_id": "dd_0089-gen2_068_chol_tran-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-009",
+    "group": "unknown_ai",
+    "sample_id": "dd_0006-uai2_metr_038_stanley_bates-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-010",
+    "group": "unknown_ai",
+    "sample_id": "dd_0059-uai2_universityofwashington_049_joseph_giordano-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-011",
+    "group": "famous_nonai",
+    "sample_id": "dd_0069-fam2_005_amanda_seyfried-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-012",
+    "group": "unknown_ai",
+    "sample_id": "dd_0040-uai2_andreessenhorowitz_062_james_lee-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-013",
+    "group": "unknown_ai",
+    "sample_id": "dd_0060-uai2_googledeepmind_023_alina_acosta-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-014",
+    "group": "genpop",
+    "sample_id": "dd_0031-gen2_013_qiao_le-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-015",
+    "group": "unknown_ai",
+    "sample_id": "dd_0074-uai2_anthropic_004_julio_simmons-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-016",
+    "group": "genpop",
+    "sample_id": "dd_0068-gen2_058_mariano_cabrera-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-017",
+    "group": "famous_ai",
+    "sample_id": "dd_0041-fai2_robin_li-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-018",
+    "group": "unknown_ai",
+    "sample_id": "dd_0047-uai2_openai_010_william_wood-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-019",
+    "group": "genpop",
+    "sample_id": "dd_0071-gen2_066_kerri_wilson-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-020",
+    "group": "famous_nonai",
+    "sample_id": "dd_0057-fam2_020_alberto_aquilani-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-021",
+    "group": "famous_nonai",
+    "sample_id": "dd_0018-fam2_005_amanda_seyfried-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-022",
+    "group": "famous_ai",
+    "sample_id": "dd_0040-fai2_dan_hendrycks-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-023",
+    "group": "famous_ai",
+    "sample_id": "dd_0086-fai2_emily_bender-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-024",
+    "group": "famous_ai",
+    "sample_id": "dd_0005-fai2_balaji_srinivasan-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-025",
+    "group": "famous_ai",
+    "sample_id": "dd_0047-fai2_naval_ravikant-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-026",
+    "group": "famous_ai",
+    "sample_id": "dd_0021-fai2_stella_biderman-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-027",
+    "group": "famous_ai",
+    "sample_id": "dd_0010-fai2_paul_christiano-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-028",
+    "group": "famous_ai",
+    "sample_id": "dd_0009-fai2_ian_hogarth-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-029",
+    "group": "famous_ai",
+    "sample_id": "dd_0002-fai2_aleksander_madry-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-030",
+    "group": "genpop",
+    "sample_id": "dd_0076-gen2_051_iris_trujillo-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-031",
+    "group": "genpop",
+    "sample_id": "dd_0073-gen2_012_rickey_barham-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-032",
+    "group": "famous_nonai",
+    "sample_id": "dd_0040-fam2_043_petra_kvitova-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-033",
+    "group": "famous_ai",
+    "sample_id": "dd_0087-fai2_geoffrey_irving-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-034",
+    "group": "famous_nonai",
+    "sample_id": "dd_0010-fam2_050_paris_hilton-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-035",
+    "group": "famous_ai",
+    "sample_id": "dd_0025-fai2_paul_christiano-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-036",
+    "group": "famous_nonai",
+    "sample_id": "dd_0037-fam2_013_john_hennigan-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-037",
+    "group": "famous_nonai",
+    "sample_id": "dd_0014-fam2_011_summer_glau-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-038",
+    "group": "unknown_ai",
+    "sample_id": "dd_0088-uai2_ukaisi_040_brittany_bradford-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-039",
+    "group": "unknown_ai",
+    "sample_id": "dd_0058-uai2_qwen_053_alicia_mosquera-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-040",
+    "group": "unknown_ai",
+    "sample_id": "dd_0041-uai2_apolloresearch_039_milton_wells-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-041",
+    "group": "famous_nonai",
+    "sample_id": "dd_0008-fam2_010_nina_dobrev-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-042",
+    "group": "famous_nonai",
+    "sample_id": "dd_0000-fam2_039_georgie_henley-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-043",
+    "group": "famous_nonai",
+    "sample_id": "dd_0049-fam2_062_catherine_cambridge-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-044",
+    "group": "famous_nonai",
+    "sample_id": "dd_0041-fam2_001_carlos_tevez-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-045",
+    "group": "unknown_ai",
+    "sample_id": "dd_0031-uai2_anthropic_004_julio_simmons-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-046",
+    "group": "famous_ai",
+    "sample_id": "dd_0072-fai2_chris_olah-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-047",
+    "group": "famous_nonai",
+    "sample_id": "dd_0072-fam2_040_elena_gheorghe-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-048",
+    "group": "genpop",
+    "sample_id": "dd_0029-gen2_062_james_lee-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-049",
+    "group": "famous_nonai",
+    "sample_id": "dd_0032-fam2_049_missy_franklin-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-050",
+    "group": "genpop",
+    "sample_id": "dd_0002-gen2_027_sherry_kirkus-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-051",
+    "group": "famous_nonai",
+    "sample_id": "dd_0019-fam2_006_blake_lively-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-052",
+    "group": "famous_ai",
+    "sample_id": "dd_0060-fai2_percy_liang-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-053",
+    "group": "famous_nonai",
+    "sample_id": "dd_0003-fam2_024_william_moseley-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-054",
+    "group": "famous_nonai",
+    "sample_id": "dd_0080-fam2_030_christian_klien-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-055",
+    "group": "unknown_ai",
+    "sample_id": "dd_0076-uai2_anthropic_001_alicia_gonzalez-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-056",
+    "group": "genpop",
+    "sample_id": "dd_0010-gen2_022_antonio_gonzalez-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-057",
+    "group": "famous_nonai",
+    "sample_id": "dd_0015-fam2_054_carlos_vela-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-058",
+    "group": "genpop",
+    "sample_id": "dd_0016-gen2_069_keith_moore-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-059",
+    "group": "genpop",
+    "sample_id": "dd_0060-gen2_068_chol_tran-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-060",
+    "group": "famous_nonai",
+    "sample_id": "dd_0069-fam2_068_paul_resta-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-061",
+    "group": "famous_nonai",
+    "sample_id": "dd_0055-fam2_015_nicky_hilton-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-062",
+    "group": "unknown_ai",
+    "sample_id": "dd_0003-uai2_alignmentresearchcenter_037_jacob_bowden-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-063",
+    "group": "genpop",
+    "sample_id": "dd_0083-gen2_010_william_wood-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-064",
+    "group": "genpop",
+    "sample_id": "dd_0023-gen2_038_stanley_bates-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-065",
+    "group": "genpop",
+    "sample_id": "dd_0013-gen2_069_keith_moore-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-066",
+    "group": "unknown_ai",
+    "sample_id": "dd_0031-uai2_safesuperintelligence_013_qiao_le-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-067",
+    "group": "famous_ai",
+    "sample_id": "dd_0055-fai2_lilian_weng-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-068",
+    "group": "famous_ai",
+    "sample_id": "dd_0004-fai2_david_sacks-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-069",
+    "group": "famous_ai",
+    "sample_id": "dd_0003-fai2_been_kim-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-070",
+    "group": "genpop",
+    "sample_id": "dd_0010-gen2_036_alan_russell-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-071",
+    "group": "genpop",
+    "sample_id": "dd_0068-gen2_064_christopher_montero-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-072",
+    "group": "famous_ai",
+    "sample_id": "dd_0058-fai2_jacob_steinhardt-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-073",
+    "group": "famous_nonai",
+    "sample_id": "dd_0034-fam2_007_rosario_dawson-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-074",
+    "group": "famous_ai",
+    "sample_id": "dd_0048-fai2_ryan_greenblatt-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-075",
+    "group": "genpop",
+    "sample_id": "dd_0069-gen2_051_iris_trujillo-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-076",
+    "group": "unknown_ai",
+    "sample_id": "dd_0035-uai2_qwen_055_mikala_langley-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-077",
+    "group": "unknown_ai",
+    "sample_id": "dd_0088-uai2_openai_010_william_wood-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-078",
+    "group": "famous_ai",
+    "sample_id": "dd_0006-fai2_buck_shlegeris-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-079",
+    "group": "famous_ai",
+    "sample_id": "dd_0013-fai2_david_sacks-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-080",
+    "group": "genpop",
+    "sample_id": "dd_0051-gen2_023_alina_acosta-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-081",
+    "group": "famous_ai",
+    "sample_id": "dd_0047-fai2_max_tegmark-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-082",
+    "group": "famous_ai",
+    "sample_id": "dd_0099-fai2_balaji_srinivasan-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-083",
+    "group": "famous_ai",
+    "sample_id": "dd_0067-fai2_peng_zhang-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-084",
+    "group": "unknown_ai",
+    "sample_id": "dd_0026-uai2_mila_026_john_papagno-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-085",
+    "group": "unknown_ai",
+    "sample_id": "dd_0034-uai2_eurekalabs_016_jose_bonnet-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-086",
+    "group": "famous_nonai",
+    "sample_id": "dd_0001-fam2_030_christian_klien-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-087",
+    "group": "famous_nonai",
+    "sample_id": "dd_0087-fam2_040_elena_gheorghe-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-088",
+    "group": "famous_nonai",
+    "sample_id": "dd_0017-fam2_030_christian_klien-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-089",
+    "group": "unknown_ai",
+    "sample_id": "dd_0001-uai2_transluce_030_keng_dayrit-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-090",
+    "group": "unknown_ai",
+    "sample_id": "dd_0074-uai2_transluce_030_keng_dayrit-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-091",
+    "group": "famous_nonai",
+    "sample_id": "dd_0006-fam2_038_sasha_cohen-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-092",
+    "group": "unknown_ai",
+    "sample_id": "dd_0068-uai2_craftventures_064_christopher_montero-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-093",
+    "group": "famous_ai",
+    "sample_id": "dd_0007-fai2_yann_lecun-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-094",
+    "group": "famous_nonai",
+    "sample_id": "dd_0096-fam2_067_jonas_gutierrez-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-095",
+    "group": "famous_nonai",
+    "sample_id": "dd_0020-fam2_020_alberto_aquilani-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-096",
+    "group": "genpop",
+    "sample_id": "dd_0017-gen2_028_kennedi_terry-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-097",
+    "group": "genpop",
+    "sample_id": "dd_0011-gen2_001_alicia_gonzalez-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-098",
+    "group": "unknown_ai",
+    "sample_id": "dd_0047-uai2_anthropic_003_maria_buendia-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-099",
+    "group": "famous_nonai",
+    "sample_id": "dd_0018-fam2_067_jonas_gutierrez-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-100",
+    "group": "unknown_ai",
+    "sample_id": "dd_0064-uai2_thinkingmachineslab_014_debra_reeves-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-101",
+    "group": "genpop",
+    "sample_id": "dd_0058-gen2_047_sarada_mongru-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-102",
+    "group": "famous_nonai",
+    "sample_id": "dd_0000-fam2_038_sasha_cohen-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-103",
+    "group": "genpop",
+    "sample_id": "dd_0048-gen2_052_laura_bost-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-104",
+    "group": "genpop",
+    "sample_id": "dd_0051-gen2_045_saba_guevara-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-105",
+    "group": "genpop",
+    "sample_id": "dd_0018-gen2_067_david_mckethan-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-106",
+    "group": "genpop",
+    "sample_id": "dd_0058-gen2_064_christopher_montero-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-107",
+    "group": "unknown_ai",
+    "sample_id": "dd_0060-uai2_stanford_029_arianna_deluca-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-108",
+    "group": "unknown_ai",
+    "sample_id": "dd_0059-uai2_googledeepmind_024_pedro_jimenez-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-109",
+    "group": "unknown_ai",
+    "sample_id": "dd_0050-uai2_mit_033_emmanuel_gordon-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-110",
+    "group": "genpop",
+    "sample_id": "dd_0005-gen2_003_maria_buendia-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-111",
+    "group": "famous_nonai",
+    "sample_id": "dd_0017-fam2_060_keira_knightley-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-112",
+    "group": "unknown_ai",
+    "sample_id": "dd_0059-uai2_launch_068_chol_tran-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-113",
+    "group": "genpop",
+    "sample_id": "dd_0060-gen2_029_arianna_deluca-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-114",
+    "group": "genpop",
+    "sample_id": "dd_0007-gen2_027_sherry_kirkus-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-115",
+    "group": "unknown_ai",
+    "sample_id": "dd_0021-uai2_meta_027_sherry_kirkus-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-116",
+    "group": "famous_nonai",
+    "sample_id": "dd_0011-fam2_040_elena_gheorghe-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-117",
+    "group": "genpop",
+    "sample_id": "dd_0021-gen2_027_sherry_kirkus-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-118",
+    "group": "famous_nonai",
+    "sample_id": "dd_0081-fam2_057_samantha_stosur-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-119",
+    "group": "unknown_ai",
+    "sample_id": "dd_0063-uai2_openai_010_william_wood-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-120",
+    "group": "famous_ai",
+    "sample_id": "dd_0022-fai2_been_kim-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-121",
+    "group": "genpop",
+    "sample_id": "dd_0001-gen2_037_jacob_bowden-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-122",
+    "group": "unknown_ai",
+    "sample_id": "dd_0000-uai2_apolloresearch_039_milton_wells-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-123",
+    "group": "famous_ai",
+    "sample_id": "dd_0036-fai2_ryan_greenblatt-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-124",
+    "group": "unknown_ai",
+    "sample_id": "dd_0068-uai2_ai_058_mariano_cabrera-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-125",
+    "group": "famous_ai",
+    "sample_id": "dd_0061-fai2_aohan_zeng-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-126",
+    "group": "famous_nonai",
+    "sample_id": "dd_0010-fam2_022_karolina_kurkova-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-127",
+    "group": "famous_nonai",
+    "sample_id": "dd_0076-fam2_047_peter_nalitch-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-128",
+    "group": "famous_ai",
+    "sample_id": "dd_0011-fai2_dan_hendrycks-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-129",
+    "group": "unknown_ai",
+    "sample_id": "dd_0013-uai2_universityofcambridge_032_mariella_sanchez-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-130",
+    "group": "genpop",
+    "sample_id": "dd_0006-gen2_011_tucker_baker-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-131",
+    "group": "unknown_ai",
+    "sample_id": "dd_0002-uai2_openai_011_tucker_baker-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-132",
+    "group": "famous_ai",
+    "sample_id": "dd_0014-fai2_aleksander_madry-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-133",
+    "group": "genpop",
+    "sample_id": "dd_0059-gen2_006_michael_barron-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-134",
+    "group": "genpop",
+    "sample_id": "dd_0083-gen2_011_tucker_baker-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-135",
+    "group": "genpop",
+    "sample_id": "dd_0019-gen2_053_alicia_mosquera-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-136",
+    "group": "famous_ai",
+    "sample_id": "dd_0078-fai2_naval_ravikant-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-137",
+    "group": "famous_ai",
+    "sample_id": "dd_0006-fai2_balaji_srinivasan-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-138",
+    "group": "famous_nonai",
+    "sample_id": "dd_0012-fam2_031_sean_kingston-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-139",
+    "group": "unknown_ai",
+    "sample_id": "dd_0059-uai2_anthropic_002_deeva_cintron-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-140",
+    "group": "famous_ai",
+    "sample_id": "dd_0019-fai2_zvi_mowshowitz-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-141",
+    "group": "famous_ai",
+    "sample_id": "dd_0083-fai2_neel_nanda-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-142",
+    "group": "unknown_ai",
+    "sample_id": "dd_0043-uai2_transluce_030_keng_dayrit-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-143",
+    "group": "famous_ai",
+    "sample_id": "dd_0029-fai2_martin_casado-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-144",
+    "group": "famous_nonai",
+    "sample_id": "dd_0069-fam2_051_antonio_cassano-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-145",
+    "group": "unknown_ai",
+    "sample_id": "dd_0008-uai2_openai_010_william_wood-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-146",
+    "group": "famous_nonai",
+    "sample_id": "dd_0051-fam2_023_bogdan_lobont-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-147",
+    "group": "famous_ai",
+    "sample_id": "dd_0024-fai2_shane_legg-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-148",
+    "group": "famous_ai",
+    "sample_id": "dd_0060-fai2_been_kim-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-149",
+    "group": "genpop",
+    "sample_id": "dd_0016-gen2_007_osvaldo_vargas-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-150",
+    "group": "famous_nonai",
+    "sample_id": "dd_0049-fam2_052_robert_kubica-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-151",
+    "group": "unknown_ai",
+    "sample_id": "dd_0045-uai2_googledeepmind_018_shoba_mehta-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-152",
+    "group": "unknown_ai",
+    "sample_id": "dd_0072-uai2_eleutherai_046_irene_tangarife-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-153",
+    "group": "famous_nonai",
+    "sample_id": "dd_0001-fam2_000_natalie_portman-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-154",
+    "group": "unknown_ai",
+    "sample_id": "dd_0041-uai2_mila_026_john_papagno-plain",
+    "selection_reason": "low_caution_deference"
+  },
+  {
+    "audit_id": "audit-155",
+    "group": "genpop",
+    "sample_id": "dd_0031-gen2_056_andrew_black-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-156",
+    "group": "famous_nonai",
+    "sample_id": "dd_0068-fam2_038_sasha_cohen-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-157",
+    "group": "genpop",
+    "sample_id": "dd_0005-gen2_049_joseph_giordano-plain",
+    "selection_reason": "judge_disagreement"
+  },
+  {
+    "audit_id": "audit-158",
+    "group": "famous_nonai",
+    "sample_id": "dd_0060-fam2_041_jan_mucha-plain",
+    "selection_reason": "high_caution_deference"
+  },
+  {
+    "audit_id": "audit-159",
+    "group": "famous_ai",
+    "sample_id": "dd_0082-fai2_beth_barnes-plain",
+    "selection_reason": "seeded_random"
+  },
+  {
+    "audit_id": "audit-160",
+    "group": "genpop",
+    "sample_id": "dd_0061-gen2_016_jose_bonnet-plain",
+    "selection_reason": "judge_disagreement"
+  }
+]

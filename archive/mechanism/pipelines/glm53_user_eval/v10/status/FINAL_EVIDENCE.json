@@ -1,0 +1,34 @@
+{
+  "decision": "construct_overfit_source_instrument_invalid",
+  "files": {
+    "analysis": {
+      "bytes": 96131,
+      "path": "artifacts\\glm53_user_eval\\v10\\offline_audit\\analysis.json",
+      "sha256": "e6d1dae96e2577ccbdf15435f4dc88d57ac172995f59483503e6722a886c4b56"
+    },
+    "decision": {
+      "bytes": 1389,
+      "path": "artifacts\\glm53_user_eval\\v10\\offline_audit\\decision.json",
+      "sha256": "bad4da1c612d62db87e09c42b6bab6a64f1296c70b56784c2dd3b56fdc7a1bf5"
+    },
+    "preregistration": {
+      "bytes": 5331,
+      "path": "pipelines\\glm53_user_eval\\v10\\configs\\prereg_v10_offline_diagnostics.yaml",
+      "sha256": "497918bd873e604455cab43abd7550a09a7b53e8ea474d69ddb7dfc353a321c6"
+    },
+    "report": {
+      "bytes": 4021,
+      "path": "pipelines\\glm53_user_eval\\v10\\status\\FINAL_REPORT.md",
+      "sha256": "d6b9cb00c7b062d859af2868714aa88eeb3bfa43f570912c755074b4c8c398f8"
+    },
+    "verification": {
+      "bytes": 1034,
+      "path": "artifacts\\glm53_user_eval\\v10\\offline_audit\\verification.json",
+      "sha256": "eee821f62cb41a6dfea7041060f1c91200917e5bbdae08cdb0badda7b7c767cb"
+    }
+  },
+  "paid_compute_used": false,
+  "project_id": "glm53_user_eval_v10_offline_construct_audit",
+  "schema_version": "glm53_v10_final_evidence_v1",
+  "verification_passed": true
+}

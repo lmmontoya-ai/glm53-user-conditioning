@@ -1,0 +1,130 @@
+schema_version: glm53_user_eval_v10_offline_audit_prereg_v1_2
+project_id: glm53_user_eval_v10_offline_construct_audit
+created_at_utc: '2026-08-31T19:20:00Z'
+status: preregistered_before_any_v10_metric
+technical_amendment_v1_1:
+  timing: after_v1_tag_and_before_any_v10_metric
+  metrics_computed_before_amendment: 0
+  changes:
+    - add_the_locked_v9_adamw_trainer_to_the_fixed_split_comparison
+    - compute_ledoit_wolf_lda_with_an_equivalent_192_row_woodbury_dual_solve
+    - fit_one_128_component_training_only_pca_basis_per_layer_then_slice_nested_dimensions
+  scientific_methods_thresholds_splits_and_inputs_changed: false
+technical_amendment_v1_2:
+  timing: after_initial_locked_analysis_before_final_evidence
+  reason: >
+    The initial report calculated cosines between validation-selected models at
+    different layers. Although every vector has 4096 coordinates, coordinates
+    at different layers are not the same representation space. V1.2 removes
+    those descriptive values. It retains the preregistered within-method,
+    same-layer bootstrap cosine-to-full analysis. No fit, metric, split,
+    threshold, or conclusion changes.
+  initial_analysis_sha256: 13515f04b144146772e0b29984accd35d38380dc5f692eeddf239b50b986fb14
+  scientific_metrics_changed: false
+scientific_reason: >
+  V9 correctly implemented its cue-masked readout contract, but perfect ordinary
+  held-out AUROC coexisted with failed hard-negative and neutral controls. This
+  frozen offline audit separates trainer sensitivity, family/task distribution
+  shortcuts, structural metadata leakage, counterfactual failure modes, and
+  direction instability before authorizing any new model forward.
+parent:
+  commit: 53a6c9ce92dec4e5665ce727cadf08729d7c5bba
+  tag: glm53-user-eval-v9-final
+  decision: stop_readout_branch
+feature_root: artifacts/glm53_user_eval/v9/features/eval_prompt
+locked_inputs:
+  fixed_features:
+    path: artifacts/glm53_user_eval/v9/features/eval_prompt/fixed_features.npz
+    sha256: d1d95c068aaeff2b2cfe35182b80c2d52880aaa47259000368223c07721defbe
+  metadata:
+    path: artifacts/glm53_user_eval/v9/features/eval_prompt/metadata.jsonl
+    sha256: 56d098da8b663dccee42d66736c9cf98587e9c3d3e7838797318d75ac33de0fe
+  feature_manifest:
+    path: artifacts/glm53_user_eval/v9/features/eval_prompt/feature_manifest.json
+    sha256: 6cb3469a055d76dc975fb482abbe807a280b9f6feae5b3f331d49a42235af385
+  samples:
+    path: artifacts/datasets/contrastive_prompts_v2/samples.csv
+    sha256: 10e7e11016f913884a4729ce81b117c96c1b606b377f4bebdd5c6f6a146bab60
+  v9_readout:
+    path: artifacts/glm53_user_eval/v9/readout/readout_report.json
+    sha256: 54f11dfe240a0711bf69f73b13737adb277609387756129404d78ca83788f584
+  v9_decision:
+    path: artifacts/glm53_user_eval/v9/readout/readout_decision.json
+    sha256: 56d216f89b959625e61c49fadaf93503096c5eb48f895ea0006e653f5b88d53d
+  historical_trainer:
+    path: src/probe/sequence_linear.py
+    sha256: 51701a1c7a57217569a43f0a51b4889bf9dbf910da45fb18577405c817823f4a
+  v9_trainer:
+    path: src/glm53_user_eval/v9/probes.py
+    sha256: c56855bd11383e077b3b584558b75b3df8772fce22a11addc882dd312b86bf88
+  historical_feature_availability:
+    status: unavailable_locally
+    search_scope:
+      - repository
+      - artifacts/cache/hf_run_artifacts
+      - D:/research/mats/neel_2026/runs
+  shared_suffix_availability:
+    status: unavailable_from_preserved_archive
+    reason: token_bags_do_not_store_token_ids_or_retained_position_indices
+analysis:
+  fixed_split_methods:
+    - v9_adamw
+    - historical_full_batch
+    - paired_mean
+    - ridge_logistic
+    - shrinkage_lda
+    - pca_ridge
+  historical:
+    epochs: 200
+    lr: 0.001
+    weight_decay: 0.0001
+    early_stopping_patience: 10
+  v9_adamw:
+    epochs: 200
+    lr: 0.001
+    weight_decay: 0.0001
+    batch_size: 64
+    early_stopping_patience: 10
+    seed: 20260905
+  ridge_c_grid: [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0]
+  pca_dimensions: [16, 32, 64, 128]
+  leave_family_out:
+    method: paired_mean
+    ordered_test_validation_pairs: 56
+    select_layer_inside_each_fold: true
+  family_task_blocked:
+    method: paired_mean
+    ordered_family_pairs: 56
+    task_folds: 8
+    tasks_per_validation_fold: 2
+    tasks_per_test_fold: 2
+    train_tasks: 12
+    assignment: sha256_family_pair
+  metadata_baseline:
+    raw_text_features_allowed: false
+    maximum_acceptable_test_auroc: 0.60
+  hard_negative_decomposition:
+    families:
+      - benchmark_lexicon_deploy
+      - production_lexicon_eval
+      - formal_casual_neutral
+      - ai_human_neutral
+  stability_reps: 200
+  stability_seed: 20260910
+  stable_direction_median_cosine_min: 0.80
+  full_pipeline_permutations:
+    requested_reps: 1000
+    status: deferred_separate_checkpointed_command
+    reason: construct diagnosis does not depend on refining an already-minimal label-association p-value
+execution:
+  paid_compute_allowed: false
+  api_calls_allowed: false
+  runpod_calls_allowed: false
+  new_model_forwards_allowed: false
+  interim_results_may_not_change_methods: true
+claim_limits:
+  - label_association_is_not_construct_validity
+  - perfect_ordinary_auroc_is_not_evaluation_awareness
+  - trainer_sensitivity_cannot_repair_a_failed_counterfactual_instrument_by_itself
+  - unavailable_historical_features_must_not_be_imputed
+  - no_user_recruitment_or_steering_claim

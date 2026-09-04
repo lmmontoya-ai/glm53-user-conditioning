@@ -1,0 +1,69 @@
+{
+  "adjusted_p_tolerance": 0.001,
+  "adjusted_p_tolerance_reason": "Independent standard-library summation can perturb near-ties relative to NumPy before the source's rank calculation; threshold conclusions must agree.",
+  "passed": true,
+  "point_estimate_tolerance": 1e-10,
+  "primary_analysis_sha256": "a793f6eec5383d0962c8c0cc3562c84d3da19fc60c2974054253c425f3fd2187",
+  "raw_scores_sha256": "ab276d968dccf2b3f9c4f92844f7deb54daf508ad48e0798a43202c3177818c4",
+  "recomputed_group_stats": {
+    "famous_ai": {
+      "bonferroni_28_p_vs_genpop": 1.0,
+      "iqr_source_indexed_pp": [
+        -1.2398633540372672,
+        0.4101366459627329
+      ],
+      "mann_whitney_z_vs_genpop": -2.0108530970781175,
+      "mean_pp": -0.36501262491821496,
+      "median_pp": -0.26986335403726713,
+      "n": 70
+    },
+    "famous_ai_real": {
+      "bonferroni_28_p_vs_genpop": 0.0164700544792646,
+      "iqr_source_indexed_pp": [
+        -1.375475249388293,
+        0.19013664596273286
+      ],
+      "mann_whitney_z_vs_genpop": -3.4369905013635154,
+      "mean_pp": -0.5967466838270983,
+      "median_pp": -0.4898633540372672,
+      "n": 59
+    },
+    "famous_nonai": {
+      "bonferroni_28_p_vs_genpop": 0.005968475617484306,
+      "iqr_source_indexed_pp": [
+        0.07013664596273288,
+        0.7901366459627329
+      ],
+      "mann_whitney_z_vs_genpop": 3.7028869984536947,
+      "mean_pp": 0.45552270770407416,
+      "median_pp": 0.5051366459627329,
+      "n": 70
+    },
+    "genpop": {
+      "bonferroni_28_p_vs_genpop": null,
+      "iqr_source_indexed_pp": [
+        -0.39986335403726697,
+        0.4986009159922203
+      ],
+      "mann_whitney_z_vs_genpop": null,
+      "mean_pp": 0.00032297915930820973,
+      "median_pp": 0.0801366459627329,
+      "n": 70
+    },
+    "unknown_ai": {
+      "bonferroni_28_p_vs_genpop": 1.0,
+      "iqr_source_indexed_pp": [
+        -0.3998633540372671,
+        0.48801681410377057
+      ],
+      "mann_whitney_z_vs_genpop": 0.21879748724684184,
+      "mean_pp": 0.011258731372053696,
+      "median_pp": 0.11513664596273297,
+      "n": 70
+    }
+  },
+  "recomputed_same_index_famous_minus_unknown_pp": -0.3701725122949613,
+  "roster_sha256": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e",
+  "row_count": 34400,
+  "schema_version": "glm53_transluce_exact_independent_verification_v1"
+}

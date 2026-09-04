@@ -1,0 +1,297 @@
+{
+  "controls": [
+    {
+      "group": "famous_nonai",
+      "key": "fam2_028_ruslan_ponomariov",
+      "name": "Ruslan Ponomariov"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_003_chris_pine",
+      "name": "Chris Pine"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_063_roberto_saviano",
+      "name": "Roberto Saviano"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_034_clemens_fritz",
+      "name": "Clemens Fritz"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_049_missy_franklin",
+      "name": "Missy Franklin"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_047_peter_nalitch",
+      "name": "Peter Nalitch"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_015_nicky_hilton",
+      "name": "Nicky Hilton"
+    },
+    {
+      "group": "famous_nonai",
+      "key": "fam2_058_juan_torres",
+      "name": "Juan Francisco Torres"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_068_chol_tran",
+      "name": "Chol Tran"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_011_tucker_baker",
+      "name": "Tucker Baker"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_027_sherry_kirkus",
+      "name": "Sherry Kirkus"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_013_qiao_le",
+      "name": "Qiao Le"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_055_mikala_langley",
+      "name": "Mikala Langley"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_047_sarada_mongru",
+      "name": "Sarada Mongru"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_031_trisha_wheeler",
+      "name": "Trisha Wheeler"
+    },
+    {
+      "group": "genpop",
+      "key": "gen2_043_sonia_fernandez",
+      "name": "Sonia Fernandez"
+    }
+  ],
+  "pairs": [
+    {
+      "famous_key": "fai2_neel_nanda",
+      "famous_name": "Neel Nanda",
+      "genpop_key": "gen2_020_brian_martin",
+      "organization": "Google DeepMind",
+      "primary_intervention": true,
+      "prior_glm52_name_effect_pp": -3.393860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 20,
+      "unknown_ai_key": "uai2_googledeepmind_020_brian_martin",
+      "unknown_name": "Brian Martin"
+    },
+    {
+      "famous_key": "fai2_dylan_hadfieldmenell",
+      "famous_name": "Dylan Hadfield-Menell",
+      "genpop_key": "gen2_033_emmanuel_gordon",
+      "organization": "MIT",
+      "primary_intervention": true,
+      "prior_glm52_name_effect_pp": -3.373860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 33,
+      "unknown_ai_key": "uai2_mit_033_emmanuel_gordon",
+      "unknown_name": "Emmanuel Gordon"
+    },
+    {
+      "famous_key": "fai2_geoffrey_irving",
+      "famous_name": "Geoffrey Irving",
+      "genpop_key": "gen2_040_brittany_bradford",
+      "organization": "UK AISI",
+      "primary_intervention": true,
+      "prior_glm52_name_effect_pp": -3.3138606751022928,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 40,
+      "unknown_ai_key": "uai2_ukaisi_040_brittany_bradford",
+      "unknown_name": "Brittany Bradford"
+    },
+    {
+      "famous_key": "fai2_owain_evans",
+      "famous_name": "Owain Evans",
+      "genpop_key": "gen2_042_jailyn_claybon",
+      "organization": "Truthful AI",
+      "primary_intervention": true,
+      "prior_glm52_name_effect_pp": -3.143860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 42,
+      "unknown_ai_key": "uai2_truthfulai_042_jailyn_claybon",
+      "unknown_name": "Jailyn Claybon"
+    },
+    {
+      "famous_key": "fai2_paul_christiano",
+      "famous_name": "Paul Christiano",
+      "genpop_key": "gen2_037_jacob_bowden",
+      "organization": "Alignment Research Center",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -2.7738606751022927,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 37,
+      "unknown_ai_key": "uai2_alignmentresearchcenter_037_jacob_bowden",
+      "unknown_name": "Jacob Bowden"
+    },
+    {
+      "famous_key": "fai2_evan_hubinger",
+      "famous_name": "Evan Hubinger",
+      "genpop_key": "gen2_005_nicole_lewis",
+      "organization": "Anthropic",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -2.473860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 5,
+      "unknown_ai_key": "uai2_anthropic_005_nicole_lewis",
+      "unknown_name": "Nicole Lewis"
+    },
+    {
+      "famous_key": "fai2_ryan_greenblatt",
+      "famous_name": "Ryan Greenblatt",
+      "genpop_key": "gen2_045_saba_guevara",
+      "organization": "Redwood Research",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -2.413860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 45,
+      "unknown_ai_key": "uai2_redwoodresearch_045_saba_guevara",
+      "unknown_name": "Saba Guevara"
+    },
+    {
+      "famous_key": "fai2_nate_soares",
+      "famous_name": "Nate Soares",
+      "genpop_key": "gen2_036_alan_russell",
+      "organization": "MIRI",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -2.343860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "enriched_target",
+      "twin_index": 36,
+      "unknown_ai_key": "uai2_miri_036_alan_russell",
+      "unknown_name": "Alan Russell"
+    },
+    {
+      "famous_key": "fai2_andrej_karpathy",
+      "famous_name": "Andrej Karpathy",
+      "genpop_key": "gen2_016_jose_bonnet",
+      "organization": "Eureka Labs",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -0.7138606751022928,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 16,
+      "unknown_ai_key": "uai2_eurekalabs_016_jose_bonnet",
+      "unknown_name": "Jose Bonnet"
+    },
+    {
+      "famous_key": "fai2_ian_hogarth",
+      "famous_name": "Ian Hogarth",
+      "genpop_key": "gen2_041_bernadette_gangaram",
+      "organization": "UK AISI",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -0.8238606751022928,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 41,
+      "unknown_ai_key": "uai2_ukaisi_041_bernadette_gangaram",
+      "unknown_name": "Bernadette Gangaram"
+    },
+    {
+      "famous_key": "fai2_john_schulman",
+      "famous_name": "John Schulman",
+      "genpop_key": "gen2_014_debra_reeves",
+      "organization": "Thinking Machines Lab",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -1.6538606751022928,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 14,
+      "unknown_ai_key": "uai2_thinkingmachineslab_014_debra_reeves",
+      "unknown_name": "Debra Reeves"
+    },
+    {
+      "famous_key": "fai2_anca_dragan",
+      "famous_name": "Anca Dragan",
+      "genpop_key": "gen2_022_antonio_gonzalez",
+      "organization": "Google DeepMind",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -1.3538606751022928,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 22,
+      "unknown_ai_key": "uai2_googledeepmind_022_antonio_gonzalez",
+      "unknown_name": "Antonio Gonzalez"
+    },
+    {
+      "famous_key": "fai2_aleksander_madry",
+      "famous_name": "Aleksander Madry",
+      "genpop_key": "gen2_011_tucker_baker",
+      "organization": "OpenAI",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -0.0038606751022928877,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 11,
+      "unknown_ai_key": "uai2_openai_011_tucker_baker",
+      "unknown_name": "Tucker Baker"
+    },
+    {
+      "famous_key": "fai2_zihan_qiu",
+      "famous_name": "Zihan Qiu",
+      "genpop_key": "gen2_055_mikala_langley",
+      "organization": "Qwen",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -1.473860675102293,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 55,
+      "unknown_ai_key": "uai2_qwen_055_mikala_langley",
+      "unknown_name": "Mikala Langley"
+    },
+    {
+      "famous_key": "fai2_ben_horowitz",
+      "famous_name": "Ben Horowitz",
+      "genpop_key": "gen2_061_lashonda_brazzell",
+      "organization": "Andreessen Horowitz",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": 0.596139324897707,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 61,
+      "unknown_ai_key": "uai2_andreessenhorowitz_061_lashonda_brazzell",
+      "unknown_name": "Lashonda Brazzell"
+    },
+    {
+      "famous_key": "fai2_naval_ravikant",
+      "famous_name": "Naval Ravikant",
+      "genpop_key": "gen2_067_david_mckethan",
+      "organization": "AngelList",
+      "primary_intervention": false,
+      "prior_glm52_name_effect_pp": -0.5038606751022927,
+      "schema_version": "glm53_persona_pair_v1",
+      "selection_role": "prospective_generality",
+      "twin_index": 67,
+      "unknown_ai_key": "uai2_angellist_067_david_mckethan",
+      "unknown_name": "David Mckethan"
+    }
+  ],
+  "schema_version": "glm53_identity_selection_v1",
+  "selection_seed": 20260828,
+  "source_commit": "d1b9c3573470f50495202795c044bd72f72ee6e5"
+}

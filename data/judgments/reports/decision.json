@@ -1,0 +1,19 @@
+{
+  "artifact_hashes": {
+    "annotations": "94993d3af0f562345b973b5d967dc8c054e699688e5f7cba19c90c7331f4c20f",
+    "categories": "dd9420f99e5bd62c0f6f00ad2a45c2515f92b4b15f532f9ee8c7d4af1a1f0b6f",
+    "category_effects": "3f231b99d88ff347edfe7fb6134049d62254ac9527ca8a4032ae61c433d3f363",
+    "deterministic": "a92767f184cff3ca16338c218a1a4a12f4d9d88cb6f7c608f007b0f968766954",
+    "human_packet": "c680846597e8f8246578c64b51c702992735224dbb4bec868305920479ce102c",
+    "verification": "09bab55f2b19cc1ce620cbb31d17d1e810fcf35c88e0936627398c9c9f10a888"
+  },
+  "behavioral_state": "confidence_shift_persists_choice_effect_not_detected_but_not_excluded",
+  "content_state": "no_detected_scrutiny_or_deference_interaction_human_audit_pending",
+  "decision": "offline_behavioral_decomposition_complete_human_audit_pending",
+  "human_review_complete": false,
+  "independent_verification_passed": true,
+  "new_glm_calls": 0,
+  "runpod_spend_usd": 0,
+  "schema_version": "glm53_v23_final_decision_v1",
+  "unqualified_positive_transcript_claim_authorized": false
+}

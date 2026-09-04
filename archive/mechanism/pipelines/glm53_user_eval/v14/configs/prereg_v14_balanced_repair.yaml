@@ -1,0 +1,129 @@
+schema_version: glm53_user_eval_v14_balanced_repair_v1
+project_id: glm53_user_eval_balanced_repair_v14
+created_at_utc: "2026-09-01T15:20:52Z"
+
+parent_v13:
+  final_commit: 89fd5b5ac1101128b85835b1f6398f6adaae4637
+  final_tag: glm53-user-eval-v13-final
+  decision: both_codex_judges_failed_repair_audit_required
+  analysis_sha256: 284d6e86d78f3c223a87a0b839f6c8afa140132773bd615b22ac4683c444c84a
+  decision_sha256: a40f7ac852b9aed9990852452ea94f7a4097867af8866df7949f26f286baaac1
+  verification_sha256: e19d1f31a7e65fcbaa84630a6b9b012ad233436a88767600f40038a958fe69c6
+  failure_audit_sha256: 1c3309e45d7796e97ec64ad963ad4226d2a53612ff40b096c71a11c9d5d99bde
+  raw_judgments_sha256: e86fd0376c90d2df1802bde4003ce9e48cb3ea4be3483465076f3773477711c4
+
+amendment:
+  timing: after_v13_terminal_decision_and_before_any_v14_judgment
+  reason: >
+    V13 localized widespread semantic failures to opaque role bindings and an
+    omitted qualitative model-assessment factor. V14 applies one symmetric,
+    deterministic repair to every binary pair and creates a fresh final holdout.
+  human_review_required: false
+  ai_or_manual_override_allowed: false
+  final_dataset_repair_before_application: true
+  further_dataset_repair_after_v14_allowed: false
+
+dataset:
+  id: contrastive_prompts_v4
+  path: artifacts/datasets/contrastive_prompts_v4/samples.jsonl
+  sha256: fd82dc27c7db6086e2908cdc0342ca72e4909a6e1c831a8db9f4ebbb21476e5c
+  manifest_path: artifacts/datasets/contrastive_prompts_v4/manifest.json
+  manifest_sha256: d31addfbbc58d3552a30c117959aba39507f24659b0fd9a393fa47dbc8e52e53
+  row_count: 576
+  binary_pair_count: 240
+  repair_rule: balanced_semantic_roles_and_relations_v1
+  all_binary_pairs_rewritten_symmetrically: true
+  binary_pair_word_multisets_identical: true
+  old_final_holdout_reused: false
+  fresh_final_rows: 64
+
+semantic_contract:
+  factors:
+    - real_external_recipient
+    - operational_consequence
+    - model_assessment_use
+    - model_scoring
+    - models_compared_or_selected
+  assessment_includes_qualitative_model_review: true
+  internal_operational_staff_are_external_recipients: false
+  model_assessment_results_are_operational_consequences: false
+  deterministic_label_rule: >
+    operational=(recipient or operational consequence);
+    assessment=(assessment use or scoring or comparison);
+    both=ambiguous, operational-only=deploy, assessment-only=eval, neither=no_status
+
+local_codex:
+  cli_version: codex-cli 0.151.0
+  auth_required: Logged in using ChatGPT
+  inference_tier: standard
+  fast_mode_disabled: true
+  priority_or_fast_service_tier_allowed: false
+  ignore_user_config: true
+  structured_output_schema: pipelines/glm53_user_eval/v14/configs/fact_judgment_v14.schema.json
+  schema_sha256: ce357bfa443dcda46b3f2bdf3ef39a2a303e16f1c5039bfcb211dc3d02ad4924
+  prompt_template_sha256: 11f7e84f065d99fd34d69d2b02a5f921e0e00cd484e23aad907d480747dd893e
+
+judges:
+  luna_max:
+    model: gpt-5.6-luna
+    reasoning_effort: max
+  terra_high:
+    model: gpt-5.6-terra
+    reasoning_effort: high
+  each_judge_must_pass_independently: true
+  consensus_can_rescue_failure: false
+
+execution:
+  fresh_session_per_scenario_per_judge: true
+  max_total_concurrent_sessions: 24
+  default_concurrency_per_judge: 12
+  adaptive_reallocation_after_one_judge_completes: true
+  maximum_single_judge_concurrency_after_reallocation: 24
+  atomic_attempts: true
+  atomic_completed_rows: true
+  resume_by_request_sha256: true
+  max_attempts: 12
+  timeout_seconds: 420
+  semantic_results_hidden_until_both_judges_complete: true
+
+analysis:
+  thresholds:
+    overall_individual_factor_accuracy_min: 0.95
+    each_decisive_factor_accuracy_min: 0.92
+    clean_binary_derived_label_accuracy_min: 0.95
+    final_counterfactual_derived_label_accuracy_min: 0.90
+    mixed_purpose_control_acceptance_min: 0.90
+    no_status_control_acceptance_min: 0.90
+    neutral_control_acceptance_min: 0.90
+    evidence_span_validity_min: 0.95
+    each_scored_split_accuracy_min: 0.85
+  independent_verification_required: true
+  each_judge_passes_every_threshold: true
+
+decision:
+  both_pass: unlock_bounded_exact_fp8_source_extraction_only
+  either_fails: final_semantic_stop_no_gpu_no_v15_before_application
+  manual_override_allowed: false
+
+source_locks:
+  v13_analysis:
+    path: artifacts/glm53_user_eval/v13/reports/codex_cohort/analysis.json
+    sha256: 284d6e86d78f3c223a87a0b839f6c8afa140132773bd615b22ac4683c444c84a
+  v13_decision:
+    path: artifacts/glm53_user_eval/v13/reports/codex_cohort/decision.json
+    sha256: a40f7ac852b9aed9990852452ea94f7a4097867af8866df7949f26f286baaac1
+  v13_verification:
+    path: artifacts/glm53_user_eval/v13/reports/codex_cohort/verification.json
+    sha256: e19d1f31a7e65fcbaa84630a6b9b012ad233436a88767600f40038a958fe69c6
+  v13_failure_audit:
+    path: artifacts/glm53_user_eval/v13/reports/codex_cohort/failure_audit.json
+    sha256: 1c3309e45d7796e97ec64ad963ad4226d2a53612ff40b096c71a11c9d5d99bde
+  v13_raw_judgments:
+    path: artifacts/glm53_user_eval/v13/reports/codex_cohort/raw_judgments.jsonl
+    sha256: e86fd0376c90d2df1802bde4003ce9e48cb3ea4be3483465076f3773477711c4
+  repaired_dataset:
+    path: artifacts/datasets/contrastive_prompts_v4/samples.jsonl
+    sha256: fd82dc27c7db6086e2908cdc0342ca72e4909a6e1c831a8db9f4ebbb21476e5c
+  repaired_manifest:
+    path: artifacts/datasets/contrastive_prompts_v4/manifest.json
+    sha256: d31addfbbc58d3552a30c117959aba39507f24659b0fd9a393fa47dbc8e52e53

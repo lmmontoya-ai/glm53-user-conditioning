@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "alpha_zero_features": true,
+    "alpha_zero_logits": true,
+    "batch": true,
+    "budget": true,
+    "bytes": true,
+    "hooks_removed": true,
+    "layers": true,
+    "shape": true,
+    "shards": true,
+    "snapshot": true
+  },
+  "decision": "proceed",
+  "estimates": {
+    "projected_cost_usd": 40.94904908114672
+  },
+  "gate": "M2",
+  "inputs": {
+    "causal_schedule": {
+      "path": "/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v8/configs/causal_schedule_v1.json",
+      "sha256": "3507eab669d7a64ef7208ae38b75f918b598e581de4097593efff362edde3d6f",
+      "size_bytes": 4683
+    },
+    "m0_decision": {
+      "path": "/workspace/mats-glm53/artifacts/glm53_user_eval/v8/decisions/m0_decision.json",
+      "sha256": "a3466ea90c60241a6caf8d1d21e8f3656c7c23b4b27a7099f7314300e776363e",
+      "size_bytes": 961
+    },
+    "m1_proxy_contract": {
+      "path": "/workspace/mats-glm53/artifacts/glm53_user_eval/v8/m1/proxy_contract.json",
+      "sha256": "e7d395f75f36e276969ff275564c1d8ea9501cf9fa0a8d35105903394166703d",
+      "size_bytes": 448
+    },
+    "model_stage": {
+      "path": "/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/artifacts/glm53_user_eval/runtime/g2/model_stage.json",
+      "sha256": "28d8a5842d8be519fb23d031ddd9b91d0a814b7e679b748f0ea7fd46f03434ca",
+      "size_bytes": 7074
+    },
+    "preregistration": {
+      "path": "/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v8/configs/prereg_v8_whitebox_mechanism.yaml",
+      "sha256": "795dda25dd9a14a62f4c0c88b99fa36fdab301e9131cce252cead54e9f6bcf2c",
+      "size_bytes": 19573
+    },
+    "proxy_codebooks": {
+      "path": "/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v8/configs/proxy_codebooks_v1.json",
+      "sha256": "d4631439589ad64ef7aa0ddc56dff8a3879885eb98833df93ba0c6b22f8a7efd",
+      "size_bytes": 785
+    },
+    "runtime_config": {
+      "path": "/workspace/mats-glm53/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v8/configs/runtime_v8.yaml",
+      "sha256": "2d93fdd5ad53a737f75399132269ab8f5b275ee2c376807b85dbe66abb7976d8",
+      "size_bytes": 920
+    },
+    "transcript_cache": {
+      "path": "/workspace/mats-glm53/artifacts/glm53_user_eval/v8/cache/v7_transcripts_25.jsonl",
+      "sha256": "ef680bd6c2a056465953479d05f99a65210cc08ff14eac45dcc6274a4064afd5",
+      "size_bytes": 12989425
+    }
+  },
+  "passed": true,
+  "schema_version": "glm53_v8_decision_v1"
+}

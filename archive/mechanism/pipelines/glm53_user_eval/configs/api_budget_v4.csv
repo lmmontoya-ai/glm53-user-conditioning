@@ -1,0 +1,2 @@
+stage,rows_completed,subject_turns,judge_turns,openrouter_spend_usd,runpod_spend_usd,decision
+g3_api_complete,600,1200,1200,0.54409605,0.00,stop_before_runpod_serverless

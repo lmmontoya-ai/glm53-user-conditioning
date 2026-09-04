@@ -1,0 +1,31 @@
+{
+  "bootstrap_reps": 20000,
+  "bootstrap_seed": 20260831,
+  "checks": {
+    "bootstrap_endpoint_agreement": true,
+    "component_agreement": true,
+    "decision_classification_agreement": true,
+    "group_mean_agreement": true,
+    "point_agreement": true
+  },
+  "ci95_pp": [
+    -1.215275412547941,
+    -0.08507385889218903
+  ],
+  "classification": "confirmed_target_sized_interaction",
+  "components": {
+    "famous_ai_minus_unknown_ai_pp": -0.36071546512109537,
+    "famous_nonai_minus_genpop_pp": 0.2895334366419347,
+    "matched_public_minus_constructed_address_pp": 0.022669779236015705,
+    "unknown_ai_minus_genpop_pp": -0.26604876329315125
+  },
+  "group_mean_deltas_pp": {
+    "famous_ai": -0.6271410501464977,
+    "famous_nonai": 0.28915661490968364,
+    "genpop": -0.0003768217322510695,
+    "unknown_ai": -0.2664255850254023
+  },
+  "passed": true,
+  "point_pp": -0.6502489017630301,
+  "schema_version": "glm53_transluce_interaction_v7_verification_v1"
+}

@@ -1,0 +1,12 @@
+{
+  "dilemma_coverage": 100,
+  "identity_coverage": 70,
+  "matched_cells": 500,
+  "names_and_affiliations_redacted": true,
+  "numeric_confidence_hidden": true,
+  "output_sha256": "b3fda7354a3ae0e1e0fe1b4858435fbdeb97e99b05c54e24bfa97347ba7892d0",
+  "profile_omitted": true,
+  "row_count": 2000,
+  "salt": "glm53-v23-annotation-cells-v1",
+  "schema_version": "glm53_v23_annotation_packet_manifest_v1"
+}

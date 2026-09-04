@@ -1,0 +1,26 @@
+{
+  "schema_version": "glm53_v8_recovery_evidence_manifest_v1",
+  "created_at_utc": "2026-08-30T19:30:00Z",
+  "terminal_gate": "M2",
+  "highest_passed_gate": "M1",
+  "m2_completed": false,
+  "scientific_rows": 0,
+  "pod_deleted": true,
+  "serverless_endpoints_remaining": 0,
+  "pods_remaining": 0,
+  "network_volume_preserved": true,
+  "pod_evidence_bundle": {
+    "path": "D:\\research\\mats\\neel_2026\\glm53-v8-v1.10-final-pod-evidence.tar.gz",
+    "sha256": "05ad4837cbb3403cad6b9a533d31f6f20974a543fd9089f9fc88c3c3026cfe1f"
+  },
+  "files": {
+    "local_nvme_input_preflight.json": "da0f844d41887a4aa48fa81b9e37905e011b134ffa98d039b06663f2e0165701",
+    "local_nvme_stage_report.json": "555427af99cc4c184551451f89d395602981afda1c6fbaa0e09adf172a4a68e7",
+    "ordinary_pod_invocation_v1_10.json": "1038180a80aae8e11cea100629348705b8dfd173bbf81fe8aaacf068ae762830",
+    "supervisor_launch_failure_v1_7.json": "b01a9e3af38285089fa4c4356ac2911f5849f6a1bbc04093d4cf55da639b491c",
+    "supervisor_summary_v1_7.json": "3da20faef01ad3245b87bcbefb9da282e79c57bff5d866097c6e7b15add5606e",
+    "supervisor_launch_failure_v1_8.json": "319da3ef48a71e1c0c868c7668395578e39c09ea4f62cd91377924d17e357651",
+    "supervisor_launch_failure_v1_9.json": "ee8bbb91de8cc0a7c180e76fc6099f81c303cea00e2af520eb17c56c35f40d88",
+    "supervisor_launch_failure_v1_10.json": "869c39f4f7f61f446defcf860502fbe6358eb147baff07d21fe65dd8b10ce52f"
+  }
+}

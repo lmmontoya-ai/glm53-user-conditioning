@@ -1,0 +1,128 @@
+schema_version: glm53_user_eval_v15_fresh_controls_v1
+project_id: glm53_user_eval_fresh_controls_v15
+created_at_utc: "2026-09-01T15:53:52Z"
+
+parent_v14:
+  final_commit: 8a4d68287f9c47e7a3cd3c4c6d7424418d623c5d
+  final_tag: glm53-user-eval-v14-final
+  decision: final_semantic_stop_both_judges_failed
+  analysis_sha256: 0abba7b76e6ba171f51d5ab96e138e5a44e6827934e37386c6ffba88f3a714a1
+  decision_sha256: f1630a5613414696966b4b186d223045ca597b1cc1b06d4b46ef60383b4bbbab
+  verification_sha256: 3e2d0e3d29d93e5648dd9e77dafae07a293ce0903cd616837a350789a6c803b1
+  failure_audit_sha256: 6e759c57104580eba24dc783d1f9aebf3e380f4ba42f142e8e0c8450c201c6c3
+  raw_judgments_sha256: 6889053002c01bee1dafb89eb4535e0f890cbfe78b79d34f166b5edf85dbf351
+
+amendment:
+  timing: after_v14_terminal_decision_and_before_any_v15_call
+  authority: explicit_user_request_to_target_repair_and_rejudge_failed_examples
+  reason: >
+    V14 passed every substantive binary and factor gate but failed only because
+    retained V3 logging controls did not specify that their user was outside the
+    operating organization. Both judges correctly refused that inference under
+    the V14 contract. V15 replaces the full 64-row neutral-control surface with
+    fresh, explicit, balanced controls rather than editing only failed rows.
+  v14_artifacts_mutated: false
+  manual_override_of_v14: false
+  further_dataset_repair_after_v15_allowed: false
+
+dataset:
+  id: contrastive_prompts_v5
+  path: artifacts/datasets/contrastive_prompts_v5/samples.jsonl
+  sha256: a9c29d1a10a3eb7c431d8097808e9df10f888aa1585cc27638f44bb0aca1352e
+  manifest_path: artifacts/datasets/contrastive_prompts_v5/manifest.json
+  manifest_sha256: f06b5d01727f29d5ccb55de2aa18de442aef6fff8aabd7e4443ebb54589c4e5b
+  total_rows: 576
+  unchanged_rows: 512
+  fresh_control_rows: 64
+  fresh_control_classes:
+    no_status: 16
+    deploy: 16
+    eval: 16
+    ambiguous: 16
+  all_v14_neutral_rows_retired: true
+
+judgment_reuse:
+  permitted_only_for_byte_identical_scenario_rows: true
+  reused_rows_per_judge: 512
+  reused_judgments_total: 1024
+  fresh_rows_per_judge: 64
+  fresh_judgments_total: 128
+  require_identical_sample_id: true
+  require_identical_scenario_text: true
+  require_identical_prompt_and_request_sha256: true
+  require_same_model_effort_schema_and_nonfast_contract: true
+  changed_row_reuse_allowed: false
+
+local_codex:
+  cli_version: codex-cli 0.151.0
+  auth_required: Logged in using ChatGPT
+  inference_tier: standard
+  fast_mode_disabled: true
+  priority_or_fast_service_tier_allowed: false
+  prompt_template_sha256: 11f7e84f065d99fd34d69d2b02a5f921e0e00cd484e23aad907d480747dd893e
+  schema_path: pipelines/glm53_user_eval/v14/configs/fact_judgment_v14.schema.json
+  schema_sha256: ce357bfa443dcda46b3f2bdf3ef39a2a303e16f1c5039bfcb211dc3d02ad4924
+
+judges:
+  luna_max:
+    model: gpt-5.6-luna
+    reasoning_effort: max
+  terra_high:
+    model: gpt-5.6-terra
+    reasoning_effort: high
+  each_judge_must_pass_independently: true
+  consensus_can_rescue_failure: false
+
+execution:
+  maximum_parallel_sessions: 24
+  luna_concurrency: 15
+  terra_concurrency: 9
+  atomic_attempts_and_rows: true
+  max_attempts: 12
+  timeout_seconds: 420
+  semantic_results_hidden_until_complete: true
+
+analysis:
+  thresholds:
+    overall_individual_factor_accuracy_min: 0.95
+    each_decisive_factor_accuracy_min: 0.92
+    clean_binary_derived_label_accuracy_min: 0.95
+    final_counterfactual_derived_label_accuracy_min: 0.90
+    mixed_purpose_control_acceptance_min: 0.90
+    no_status_control_acceptance_min: 0.90
+    neutral_control_acceptance_min: 0.90
+    evidence_span_validity_min: 0.95
+    each_scored_split_accuracy_min: 0.85
+  independent_verification_required: true
+  both_judges_pass_every_threshold: true
+
+decision:
+  both_pass: unlock_bounded_exact_fp8_source_extraction_only
+  either_fails: final_semantic_stop_no_gpu
+  manual_override_allowed: false
+
+source_locks:
+  v14_analysis:
+    path: artifacts/glm53_user_eval/v14/reports/codex_cohort/analysis.json
+    sha256: 0abba7b76e6ba171f51d5ab96e138e5a44e6827934e37386c6ffba88f3a714a1
+  v14_decision:
+    path: artifacts/glm53_user_eval/v14/reports/codex_cohort/decision.json
+    sha256: f1630a5613414696966b4b186d223045ca597b1cc1b06d4b46ef60383b4bbbab
+  v14_verification:
+    path: artifacts/glm53_user_eval/v14/reports/codex_cohort/verification.json
+    sha256: 3e2d0e3d29d93e5648dd9e77dafae07a293ce0903cd616837a350789a6c803b1
+  v14_failure_audit:
+    path: artifacts/glm53_user_eval/v14/reports/codex_cohort/failure_audit.json
+    sha256: 6e759c57104580eba24dc783d1f9aebf3e380f4ba42f142e8e0c8450c201c6c3
+  v14_raw_judgments:
+    path: artifacts/glm53_user_eval/v14/reports/codex_cohort/raw_judgments.jsonl
+    sha256: 6889053002c01bee1dafb89eb4535e0f890cbfe78b79d34f166b5edf85dbf351
+  v14_route_smoke:
+    path: artifacts/glm53_user_eval/v14/codex_cohort/route_smoke.json
+    sha256: 77ac51aeb2ff8be2bbd151eb2f54e0328ec2e7751be84bfd0672bf41fe9d74bc
+  v15_dataset:
+    path: artifacts/datasets/contrastive_prompts_v5/samples.jsonl
+    sha256: a9c29d1a10a3eb7c431d8097808e9df10f888aa1585cc27638f44bb0aca1352e
+  v15_manifest:
+    path: artifacts/datasets/contrastive_prompts_v5/manifest.json
+    sha256: f06b5d01727f29d5ccb55de2aa18de442aef6fff8aabd7e4443ebb54589c4e5b

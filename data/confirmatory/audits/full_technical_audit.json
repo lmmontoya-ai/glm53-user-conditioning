@@ -1,0 +1,2335 @@
+{
+  "all_expected_present": true,
+  "all_expected_rows_present": true,
+  "api_cost_usd": 28.937338620000006,
+  "audited_rows": 34400,
+  "audited_shards": 100,
+  "checks": {
+    "all_audited_shards_pass_contract": true,
+    "all_expected_present": true,
+    "duplicate_scientific_keys_allowed": true,
+    "exact_scientific_row_count": true,
+    "missingness_spread": true,
+    "overall_valid_rate": true,
+    "per_group_valid_rates": true,
+    "requested_completed_shards": true
+  },
+  "condition_missingness_spread": 0.0014527845036319542,
+  "duplicate_scientific_key_count": 0,
+  "expected_shards": 100,
+  "group_nonanonymous_valid_rates": {
+    "famous_ai": 0.9981428571428571,
+    "famous_ai_real": 0.9971186440677966,
+    "famous_nonai": 0.9985714285714286,
+    "genpop": 0.9985714285714286,
+    "unknown_ai": 0.9984285714285714
+  },
+  "overall_valid_score_rate": 0.9981976744186046,
+  "passed": true,
+  "reports": [
+    {
+      "api_cost_usd": 0.31493844500000007,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_eByUL3k6ugzM6Rae4c8SXT.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset000__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.3216389549999997,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_QDtXNq47j8evJEb9zebFCK.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset000__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.32878113999999997,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_W4qvSSaAeGhwHtFtcaiRZA.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 3,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset000__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2762862599999999,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_Xt6PaDNjPXVSguDhwfYik6.eval",
+      "failures": [],
+      "judge_event_count": 600,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 1,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset000__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 600
+    },
+    {
+      "api_cost_usd": 0.31564782999999963,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset000__limit005\\2026-08-29T17-50-03-00-00_pmisaligned_8usUTo6wdqisNgWGDi5GZS.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset000__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.28749726,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_SaAxTrnHPGpH6F6PQL2cMi.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 2,
+      "row_count": 355,
+      "shard_id": "genpop__offset005__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.29409928499999977,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_WHEV32wKgnPqmhh4ix9We6.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 1,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset005__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 706
+    },
+    {
+      "api_cost_usd": 0.2947814600000002,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_cCQdnKggNytv3c8R97559B.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 2,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset005__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2541079150000002,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_ZP9NZKGgXESGku9FoY2XPG.eval",
+      "failures": [],
+      "judge_event_count": 597,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 1,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset005__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 597
+    },
+    {
+      "api_cost_usd": 0.2873259100000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset005__limit005\\2026-08-29T17-55-32-00-00_pmisaligned_mdUgvLTmindS7BZs6iAAFt.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 1,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset005__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.2856738249999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset010__limit005\\2026-08-29T17-58-19-00-00_pmisaligned_o6qTvYPc3yiirPCHYkpGM4.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 3,
+      "row_count": 355,
+      "shard_id": "genpop__offset010__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.28554271499999967,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset010__limit005\\2026-08-29T17-58-37-00-00_pmisaligned_X4adkANL9pwUUttUWGkswS.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 4,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset010__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.29055048999999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset010__limit005\\2026-08-29T17-58-45-00-00_pmisaligned_49cNYGc2pWPQKjimgyVu6d.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 5,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset010__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.24489728000000047,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset010__limit005\\2026-08-29T17-58-49-00-00_pmisaligned_KY57gXqd5d55XYfgLD7nD7.eval",
+      "failures": [],
+      "judge_event_count": 598,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 5,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset010__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 598
+    },
+    {
+      "api_cost_usd": 0.2818516899999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset010__limit005\\2026-08-29T17-58-56-00-00_pmisaligned_jaESc3mCHVHLmoYtmRV4nz.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 4,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset010__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.28176909499999975,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset015__limit005\\2026-08-29T18-01-28-00-00_pmisaligned_Tgnax4yMVxoqZG7HX6VJp8.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset015__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.28625795000000037,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset015__limit005\\2026-08-29T18-01-36-00-00_pmisaligned_mep8cYnh9EPFCaJ7wTthWv.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset015__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2861661800000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset015__limit005\\2026-08-29T18-01-46-00-00_pmisaligned_7GfrSLzihs9Y95VHuzHiHq.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset015__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.24395715500000004,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset015__limit005\\2026-08-29T18-01-59-00-00_pmisaligned_ETpjWEkrqVccSvfsBq62YH.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset015__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 599
+    },
+    {
+      "api_cost_usd": 0.2749008500000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset015__limit005\\2026-08-29T18-04-34-00-00_pmisaligned_GtgUghcn2G4vKnXj3Y7EJb.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset015__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.29487535000000015,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset020__limit005\\2026-08-29T18-04-38-00-00_pmisaligned_SdUdjjN7jXYHR9bJMvBhaJ.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset020__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.3088750050000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset020__limit005\\2026-08-29T18-04-48-00-00_pmisaligned_SXKVuQ7YfKdcm7FHe5pouh.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset020__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.3132307999999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset020__limit005\\2026-08-29T18-05-20-00-00_pmisaligned_UdNfExCgLwihvfdtgS7XiG.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset020__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2590984850000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset020__limit005\\2026-08-29T18-05-24-00-00_pmisaligned_aZDKLKAV4oQck8PmMnK4gY.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset020__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 597
+    },
+    {
+      "api_cost_usd": 0.30209618500000024,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset020__limit005\\2026-08-29T18-07-25-00-00_pmisaligned_aoFfLMKeDZNSJ36aPWtJim.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset020__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.30488885999999915,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset025__limit005\\2026-08-29T18-07-56-00-00_pmisaligned_e3fpuZg8wKL6CoG4szZod3.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset025__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.30328593000000004,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset025__limit005\\2026-08-29T18-08-59-00-00_pmisaligned_DhhVGCpbixa6diX92Q46Eg.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset025__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.30703843499999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset025__limit005\\2026-08-29T18-09-45-00-00_pmisaligned_NLmLTtrWhVgHCqKbFsoXoy.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset025__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2597239150000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset025__limit005\\2026-08-29T18-10-14-00-00_pmisaligned_3TG5VxSGMeyD4BP7Rs4Koa.eval",
+      "failures": [],
+      "judge_event_count": 597,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset025__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 596
+    },
+    {
+      "api_cost_usd": 0.30140847000000043,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset025__limit005\\2026-08-29T18-11-15-00-00_pmisaligned_EBg8FhfEEHQDQoQYMmXuUn.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset025__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.30763373500000074,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset030__limit005\\2026-08-29T18-11-23-00-00_pmisaligned_3XsLxWGiR6rEoKZ6PvhNER.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 1,
+      "row_count": 355,
+      "shard_id": "genpop__offset030__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.3117290450000005,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset030__limit005\\2026-08-29T18-12-22-00-00_pmisaligned_k7t6EoA8QMyNq9cbHATYD6.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset030__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.3212062950000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset030__limit005\\2026-08-29T18-13-09-00-00_pmisaligned_dQvqq5pGfpxjZqH5d6JQu3.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset030__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2636504300000005,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset030__limit005\\2026-08-29T18-13-09-00-00_pmisaligned_b5f4TFM3aGn379dUno8HCT.eval",
+      "failures": [],
+      "judge_event_count": 600,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset030__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 600
+    },
+    {
+      "api_cost_usd": 0.3051772050000005,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset030__limit005\\2026-08-29T18-14-25-00-00_pmisaligned_gDoxTZmGsNJKcAADL8gjy4.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset030__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2944060149999997,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset035__limit005\\2026-08-29T18-15-49-00-00_pmisaligned_UBDmEiLbAX8xitT3RPRLgR.eval",
+      "failures": [],
+      "judge_event_count": 706,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset035__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 706
+    },
+    {
+      "api_cost_usd": 0.2963460949999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset035__limit005\\2026-08-29T18-16-15-00-00_pmisaligned_kKosfkPSihofntAEbFP9P6.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset035__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.3059333949999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset035__limit005\\2026-08-29T18-17-48-00-00_pmisaligned_JYdjnpRaWSTMtJGXzUqgC6.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset035__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2580506400000002,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset035__limit005\\2026-08-29T18-18-13-00-00_pmisaligned_49MZRkorvKNp29VSpJykyn.eval",
+      "failures": [],
+      "judge_event_count": 600,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset035__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 600
+    },
+    {
+      "api_cost_usd": 0.2958053799999995,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset035__limit005\\2026-08-29T18-18-52-00-00_pmisaligned_StRf76PHXoxVinRWTxVmS8.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset035__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.2682973650000009,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset040__limit005\\2026-08-29T18-18-56-00-00_pmisaligned_bdX7fjEDvZ6U9GHYLEXkTm.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset040__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 706
+    },
+    {
+      "api_cost_usd": 0.2708208050000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset040__limit005\\2026-08-29T18-19-32-00-00_pmisaligned_Pubt9onf52vAFwwCy9mRvK.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset040__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2747979300000005,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset040__limit005\\2026-08-29T18-21-01-00-00_pmisaligned_dvaov3YbC7RpMGb7WBPvSf.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset040__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 706
+    },
+    {
+      "api_cost_usd": 0.23778585999999985,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset040__limit005\\2026-08-29T18-21-24-00-00_pmisaligned_4uYL4Bix28aG7YwdDbkbgc.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset040__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 597
+    },
+    {
+      "api_cost_usd": 0.2630667950000006,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset040__limit005\\2026-08-29T18-21-34-00-00_pmisaligned_4oJ52bUgw6ZbuL9UYeEXPY.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset040__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.28979007500000065,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset045__limit005\\2026-08-29T18-22-07-00-00_pmisaligned_gWfpHs3pSvnB2fWTEnhtcM.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset045__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.30095484999999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset045__limit005\\2026-08-29T18-22-21-00-00_pmisaligned_QRK4rodEjLG4xQaBjJEuZ4.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset045__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.3118751250000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset045__limit005\\2026-08-29T18-24-19-00-00_pmisaligned_WpamyEXAKuqW3qsvEHeVzs.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset045__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.2617923700000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset045__limit005\\2026-08-29T18-24-28-00-00_pmisaligned_5gnMFVK3M2feUxMwr7GN5S.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset045__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 599
+    },
+    {
+      "api_cost_usd": 0.2919802100000004,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset045__limit005\\2026-08-29T18-24-36-00-00_pmisaligned_bsrxrGNyGVznjtrkuMFmQW.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset045__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.28823720500000094,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset050__limit005\\2026-08-29T18-25-18-00-00_pmisaligned_439B9pziV49Es6kFXbuK6B.eval",
+      "failures": [],
+      "judge_event_count": 705,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset050__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 704
+    },
+    {
+      "api_cost_usd": 0.29136765500000084,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset050__limit005\\2026-08-29T18-25-52-00-00_pmisaligned_CvFs9JgV3DwgzSEZu5RiKM.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset050__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.297548140000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset050__limit005\\2026-08-29T18-27-31-00-00_pmisaligned_4LZL7ZSXSRaQJoVrQo3dRG.eval",
+      "failures": [],
+      "judge_event_count": 707,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset050__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.2548744000000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset050__limit005\\2026-08-29T18-27-50-00-00_pmisaligned_hTroxd5Le28DJYAuhAx75S.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset050__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 599
+    },
+    {
+      "api_cost_usd": 0.28512720000000064,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset050__limit005\\2026-08-29T18-28-22-00-00_pmisaligned_SKMYG7C7ZRFutsvVEwzQVJ.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset050__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.31855717499999964,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset055__limit005\\2026-08-29T18-28-51-00-00_pmisaligned_79m8XZE8jrSqEUbZWkdw4V.eval",
+      "failures": [],
+      "judge_event_count": 707,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset055__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.3030988499999995,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset055__limit005\\2026-08-29T18-28-56-00-00_pmisaligned_66mcD2QGkDDbT498jRsnvA.eval",
+      "failures": [],
+      "judge_event_count": 706,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset055__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 705
+    },
+    {
+      "api_cost_usd": 0.30994068499999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset055__limit005\\2026-08-29T18-30-49-00-00_pmisaligned_WaavrKrLZ4kX9EaHtJj9dz.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset055__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.25933497500000013,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset055__limit005\\2026-08-29T18-31-28-00-00_pmisaligned_QZZEkgeqEPeQbjTETNxkoH.eval",
+      "failures": [],
+      "judge_event_count": 598,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset055__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 598
+    },
+    {
+      "api_cost_usd": 0.3197828499999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset055__limit005\\2026-08-29T18-32-58-00-00_pmisaligned_HSMgyJNWwTQRUUsC7MUofU.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset055__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2924721049999997,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset060__limit005\\2026-08-29T18-33-54-00-00_pmisaligned_N6JRMXMdp7qyQdTnf5JWAT.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset060__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2948883699999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset060__limit005\\2026-08-29T18-34-21-00-00_pmisaligned_JXmiXTgYfFwJEfjobeuhR3.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset060__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.29824155499999955,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset060__limit005\\2026-08-29T18-34-56-00-00_pmisaligned_PwTELrsFzsbSNR2fCRZBWK.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset060__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2593981549999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset060__limit005\\2026-08-29T18-36-27-00-00_pmisaligned_DNUwT2CiRwLHtsdkyWqYkJ.eval",
+      "failures": [],
+      "judge_event_count": 600,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset060__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 600
+    },
+    {
+      "api_cost_usd": 0.2895013799999995,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset060__limit005\\2026-08-29T18-37-14-00-00_pmisaligned_m3PAnEDhQqwdM7Rt4i8QfE.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset060__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2959653700000006,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset065__limit005\\2026-08-29T18-37-47-00-00_pmisaligned_Dav4ttikUg7E3kzD5fxvwt.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset065__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.29994654000000026,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset065__limit005\\2026-08-29T18-38-00-00-00_pmisaligned_9aDD5d3rpdurxBypcNUjkP.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset065__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.302887545,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset065__limit005\\2026-08-29T18-38-11-00-00_pmisaligned_DKbyMi88FzURMEJfunNAKA.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset065__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.25671880000000014,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset065__limit005\\2026-08-29T18-39-29-00-00_pmisaligned_cdNMkUfJyN8nHjBuuMRAos.eval",
+      "failures": [],
+      "judge_event_count": 598,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset065__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 597
+    },
+    {
+      "api_cost_usd": 0.29668473000000045,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset065__limit005\\2026-08-29T18-40-23-00-00_pmisaligned_aRp4BQxsUuaCSxYoNZ3FAW.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset065__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2817151150000002,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset070__limit005\\2026-08-29T18-41-06-00-00_pmisaligned_G4E7oTeLbedCNumzLpKfHp.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset070__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 704
+    },
+    {
+      "api_cost_usd": 0.28919765500000044,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset070__limit005\\2026-08-29T18-41-29-00-00_pmisaligned_G9qAdu34nMHXQPdPtLJS5G.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset070__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2938234800000006,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset070__limit005\\2026-08-29T18-42-25-00-00_pmisaligned_mH5nw2g8SxZoPFXsUgnm3p.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 2,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset070__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.24724785999999974,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset070__limit005\\2026-08-29T18-42-40-00-00_pmisaligned_hZsFCvuYDXKoUk7BiVtaeo.eval",
+      "failures": [],
+      "judge_event_count": 600,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 7,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset070__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 600
+    },
+    {
+      "api_cost_usd": 0.28398866000000084,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset070__limit005\\2026-08-29T18-43-22-00-00_pmisaligned_Co8dvsXx7Z4m3YNshhscqg.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 9,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset070__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.30760014999999924,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset075__limit005\\2026-08-29T18-44-11-00-00_pmisaligned_g2HNFWMrHhARR3onFqLYJD.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 17,
+      "row_count": 355,
+      "shard_id": "genpop__offset075__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.31084982999999966,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset075__limit005\\2026-08-29T18-44-42-00-00_pmisaligned_P9sz9Qg2KF7QgokLFMJFZd.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 6,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset075__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.3161934749999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset075__limit005\\2026-08-29T18-45-31-00-00_pmisaligned_kmWa6pvzARnBUytx48GZvA.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 6,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset075__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.26421792999999993,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset075__limit005\\2026-08-29T18-46-02-00-00_pmisaligned_3miZzaTaWtAEJSBvgijC8K.eval",
+      "failures": [],
+      "judge_event_count": 598,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 7,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset075__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 598
+    },
+    {
+      "api_cost_usd": 0.3103646749999993,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset075__limit005\\2026-08-29T18-47-17-00-00_pmisaligned_ZUPHJPrW3oyUWK4kkHYkTK.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 7,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset075__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.3179898899999995,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset080__limit005\\2026-08-29T18-48-09-00-00_pmisaligned_WnTxXHd2qsMHgtrcxHZ8tM.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 5,
+      "row_count": 355,
+      "shard_id": "genpop__offset080__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.3235521399999992,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset080__limit005\\2026-08-29T18-48-53-00-00_pmisaligned_AFrEVQU5ya5irgv6oqU66K.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 1,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset080__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.32033636500000023,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset080__limit005\\2026-08-29T18-49-17-00-00_pmisaligned_6JgbhCdqksaghB86gfXiYU.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 9,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset080__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2728018550000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset080__limit005\\2026-08-29T18-49-32-00-00_pmisaligned_FmEMXtMBnsEHQ2U4Xyhrkb.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 5,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset080__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 599
+    },
+    {
+      "api_cost_usd": 0.31274382999999967,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset080__limit005\\2026-08-29T18-50-54-00-00_pmisaligned_nSRcQ9pAVPUfWmGiTCDTcU.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 7,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset080__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2829196649999999,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset085__limit005\\2026-08-29T18-51-46-00-00_pmisaligned_K6aRY2c2doBuZsWujCLSrq.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 5,
+      "row_count": 355,
+      "shard_id": "genpop__offset085__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.28758007500000016,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset085__limit005\\2026-08-29T18-52-54-00-00_pmisaligned_4EhQGpEVTS5DqbiapfFS2S.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset085__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.287518585000001,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset085__limit005\\2026-08-29T18-52-59-00-00_pmisaligned_aoycsACeLBh7hdffbgM28y.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset085__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.24991075500000018,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset085__limit005\\2026-08-29T18-54-19-00-00_pmisaligned_dbRkZdkrDUfKg4KgPWpcHw.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset085__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 599
+    },
+    {
+      "api_cost_usd": 0.2794873150000005,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset085__limit005\\2026-08-29T18-54-26-00-00_pmisaligned_CrLTbMwP7uT3d6rfcq7EYC.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset085__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.30448256499999987,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset090__limit005\\2026-08-29T18-54-43-00-00_pmisaligned_J3T5eULEw6dhdV3SBp2994.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset090__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.31164994500000015,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset090__limit005\\2026-08-29T18-55-47-00-00_pmisaligned_5mDzjkCXoFYb7fkLG9kRzX.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset090__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.31224340500000003,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset090__limit005\\2026-08-29T18-56-03-00-00_pmisaligned_4f6NPvXbNqT9AhDZooBEGG.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset090__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    },
+    {
+      "api_cost_usd": 0.2649566900000004,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset090__limit005\\2026-08-29T18-56-55-00-00_pmisaligned_YHdSN4tYQ5BpdWHeXQ7swo.eval",
+      "failures": [],
+      "judge_event_count": 599,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset090__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 599
+    },
+    {
+      "api_cost_usd": 0.30699477499999994,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset090__limit005\\2026-08-29T18-57-18-00-00_pmisaligned_USAfV62ABjaNanZDcU8sU4.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset090__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2826944599999996,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\genpop__offset095__limit005\\2026-08-29T18-58-36-00-00_pmisaligned_oUPd4feVSvW42REccn3wcn.eval",
+      "failures": [],
+      "judge_event_count": 710,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "genpop__offset095__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 710
+    },
+    {
+      "api_cost_usd": 0.2804558299999999,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\unknown_ai__offset095__limit005\\2026-08-29T19-00-16-00-00_pmisaligned_cywSwHX7YACFnnXZu6h3EU.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "unknown_ai__offset095__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 707
+    },
+    {
+      "api_cost_usd": 0.2830996499999998,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai__offset095__limit005\\2026-08-29T19-01-18-00-00_pmisaligned_GQf35zNS785ZN3hM5SQwi9.eval",
+      "failures": [],
+      "judge_event_count": 708,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_ai__offset095__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 708
+    },
+    {
+      "api_cost_usd": 0.2414753900000005,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_ai_real__offset095__limit005\\2026-08-29T19-01-25-00-00_pmisaligned_nAHqCnybPogZYQ449XFrHg.eval",
+      "failures": [],
+      "judge_event_count": 600,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 300,
+      "shard_id": "famous_ai_real__offset095__limit005",
+      "subject_event_count": 600,
+      "subject_reasoning_event_count": 600
+    },
+    {
+      "api_cost_usd": 0.2723801749999999,
+      "checks": {
+        "all_subject_calls_novita": true,
+        "expected_rows": true,
+        "no_contract_failures": true,
+        "reasoning_observed": true,
+        "status_success": true,
+        "two_subject_and_source_expected_judge_calls_per_row": true
+      },
+      "eval_log": "artifacts\\glm53_user_eval\\runs\\transluce_interaction_v7\\eval_logs\\famous_nonai__offset095__limit005\\2026-08-29T19-02-00-00-00_pmisaligned_6mtfTSQL6r4LgCs2XLhXqk.eval",
+      "failures": [],
+      "judge_event_count": 709,
+      "passed": true,
+      "providers": [
+        "Novita"
+      ],
+      "retry_error_event_count": 0,
+      "row_count": 355,
+      "shard_id": "famous_nonai__offset095__limit005",
+      "subject_event_count": 710,
+      "subject_reasoning_event_count": 709
+    }
+  ],
+  "required_all": true,
+  "retry_error_event_count": 126,
+  "schema_version": "glm53_transluce_interaction_v7_technical_audit_v1",
+  "valid_score_count": 34338
+}

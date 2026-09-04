@@ -1,0 +1,37 @@
+schema_version: glm53_v17_runtime_amendment_v4
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T23:09:00Z"
+parent_runtime_amendment:
+  tag: glm53-user-eval-v17-runtime-v3
+  commit: 23b3e9d13f45a923ecbd380309e63eb5ccccc28f
+scientific_rows_completed_before_amendment: 0
+reason: >-
+  Two four-GPU server-edition allocations disappeared before their containers
+  started. Four workstation-edition GPUs retain the same Blackwell generation,
+  96 GB memory per GPU, 384 GB aggregate capacity, and balanced layer-sharded
+  Transformers execution, while listed capacity exists in different hosts and
+  the 115-minute projection remains below the unchanged hard cap.
+hardware:
+  gpu_type: NVIDIA RTX PRO 6000 Blackwell Workstation Edition
+  gpu_count: 4
+  aggregate_memory_gb: 384
+  live_aggregate_rate_usd_per_hour: 7.56
+  aggregate_rate_cap_usd_per_hour: 8.00
+  data_center_ids: [EU-RO-1, EUR-IS-1]
+  cloud_type: SECURE
+  fallback_allowed: false
+runtime:
+  python: 3.11.15
+  wall_clock_minutes: 115
+preserves:
+  exact_checkpoint: true
+  official_fp8_revision: true
+  prompts: true
+  directions: true
+  interventions: true
+  analyses: true
+  statistical_gates: true
+  budget_hard_cap_usd: 15.00
+  minimum_reserve_usd: 8.00
+authorization:
+  one_bounded_four_workstation_gpu_attempt: true

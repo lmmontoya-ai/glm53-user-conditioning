@@ -1,0 +1,41 @@
+{
+  "schema_version": "glm53_transluce_route_preflight_v1",
+  "checked_at_utc": "2026-08-29T14:10:34Z",
+  "model": "z-ai/glm-5.3-flash",
+  "provider": "Novita",
+  "provider_tag": "novita/fp8",
+  "quantization": "fp8",
+  "endpoint_status": 0,
+  "endpoint_uptime_last_30m": 98.97736298649721,
+  "supported_parameters": [
+    "reasoning",
+    "include_reasoning",
+    "max_tokens",
+    "temperature",
+    "top_p",
+    "stop",
+    "frequency_penalty",
+    "presence_penalty",
+    "seed",
+    "top_k",
+    "repetition_penalty",
+    "response_format",
+    "tools",
+    "tool_choice",
+    "reasoning_effort"
+  ],
+  "route_smoke": {
+    "response_id": "gen-1788012634-HaQwi7yvRIN611yFbIpa",
+    "response_model": "z-ai/glm-5.3-flash",
+    "response_provider": "Novita",
+    "requested_reasoning_effort": "high",
+    "reasoning_present": true,
+    "reasoning_tokens": 8,
+    "fallbacks_allowed": false,
+    "require_parameters": true,
+    "completion": "OK",
+    "cost_usd": 0.000004025
+  },
+  "credential_material_recorded": false,
+  "passed": true
+}

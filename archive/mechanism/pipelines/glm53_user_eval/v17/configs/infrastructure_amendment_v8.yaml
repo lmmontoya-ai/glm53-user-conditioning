@@ -1,0 +1,28 @@
+schema_version: glm53_v17_infrastructure_amendment_v8
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T22:51:00Z"
+runtime_amendment:
+  tag: glm53-user-eval-v17-runtime-v3
+  commit: 23b3e9d13f45a923ecbd380309e63eb5ccccc28f
+parent_infrastructure_amendment:
+  tag: glm53-user-eval-v17-infrastructure-v7
+  commit: eaaf4375c6b280d45d06cc585a88e9981f0ba6d7
+amendment:
+  scope: same_topology_allocation_retry_only
+  scientific_contract_changed: false
+  runtime_contract_changed: false
+  failed_run_id: glm53-v17-hua-20260902T223649Z-a35ea5a2
+  failed_pod_id: 3h4l5b0kk9cjc4
+  container_started: false
+  heartbeat_observed: false
+  checkpoint_staged: false
+  model_forwards: 0
+  scientific_rows: 0
+  failure: allocated_host_disappeared_before_container_bootstrap
+retry:
+  permitted_attempts: 1
+  exact_same_gpu_type_and_count: true
+  budget_hard_cap_usd: 15.00
+  minimum_reserve_usd: 8.00
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

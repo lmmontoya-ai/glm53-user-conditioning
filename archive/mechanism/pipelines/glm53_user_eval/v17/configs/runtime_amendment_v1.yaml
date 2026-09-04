@@ -1,0 +1,28 @@
+schema_version: glm53_v17_runtime_amendment_v1
+project_id: glm53_user_eval_hua_causal_v17
+created_at_utc: "2026-09-02T21:40:00Z"
+scientific_preregistration:
+  tag: glm53-user-eval-v17-preregistered
+  commit: 27717a7adccbcf588c6918416f8871edbb9ed2e9
+failed_attempt:
+  run_id: glm53-v17-hua-20260902T212559Z-29bcb831
+  pod_id: dhcs3tazwv2bnr
+  checkpoint_loaded: true
+  scientific_rows_completed: 0
+  stage: no_op_runtime_calibration
+  error: current_assistant_prefix_trimmed_by_chat_template
+amendment:
+  scope: implementation_bug_fix_before_first_scientific_row
+  scientific_contract_changed: false
+  intervention_scope_changed: false
+  fix: locate_only_message_roles_included_by_the_frozen_intervention_scope
+  user_content_scope_ignores_system_and_assistant_message_rendering
+  replay_scope_still_requires_prior_assistant_content
+  fail_closed_for_missing_in_scope_content: true
+  regression_test_added: true
+authorization:
+  one_bounded_retry: true
+  budget_caps_unchanged: true
+  hardware_unchanged: true
+  checkpoint_unchanged: true
+  prompts_and_analyses_unchanged: true

@@ -1,0 +1,417 @@
+schema_version: glm53_user_eval_v16_prereg_v1
+project_id: glm53_user_eval_source_activation_v16
+created_at_utc: '2026-09-01T00:00:00Z'
+status: preregistration_before_any_v16_glm_forward
+
+amendment_1:
+  timing: after_original_preregistration_and_before_any_paid_resource_or_glm_forward
+  reason: >-
+    The first launcher invocation failed locally because PowerShell parsed the
+    bucket name and query delimiter as one variable in the S3 credential probe.
+    Bracing the already frozen bucket variable corrects only that fail-closed
+    infrastructure expression.
+  scientific_changes: none
+  paid_resources_created_before_amendment: 0
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a1
+
+amendment_2:
+  timing: after_amendment_1_and_before_any_paid_resource_or_glm_forward
+  reason: >-
+    V16 inherited a stale assumption that RunPod network volume a9diryunoj
+    remained available. The immutable V12 cleanup evidence proves that this
+    exact volume was deliberately deleted on 2026-09-01 after its evidence was
+    backed up. RunPod now reports zero network volumes, so the old bucket cannot
+    accept the V16 input bundle, heartbeats, or results. Create one temporary
+    20 GB standard network volume in US-KS-2 for S3-compatible transport only,
+    never mount it, bind its returned ID in launch evidence, and delete it after
+    the terminal V16 backup.
+  v12_pre_delete_evidence:
+    path: artifacts/glm53_user_eval/v12/infrastructure/pre_delete_state.json
+    sha256: 8d7196bccd42bc94e7f9c7219cc3c628a508ee5322b6964c01d32cbc5fec2397
+  v12_post_delete_evidence:
+    path: artifacts/glm53_user_eval/v12/infrastructure/post_delete_state.json
+    sha256: e7d9997e731e71e1fe4eaf9be76a17460193f3f267a3024d631f05ac5bb63b04
+  replacement_transport_volume:
+    name: glm53-v16-transport
+    data_center_id: US-KS-2
+    size_gb: 20
+    type: standard
+    mounted_to_pod: false
+    purpose: s3_input_heartbeat_and_result_transport_only
+    deletion: required_after_terminal_backup
+  scientific_changes: none
+  paid_compute_created_before_amendment: 0
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a1
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a2
+
+amendment_3:
+  timing: after_amendment_2_and_before_any_pod_or_glm_forward
+  reason: >-
+    Two launcher invocations completed the non-scientific S3 input transfer but
+    failed before template or Pod creation because PowerShell 7.6.5 rejected a
+    nested native runpodctl invocation with an output-encoding host error. Use
+    System.Diagnostics.Process with explicitly redirected UTF-8 output for the
+    identical runpodctl commands. This changes only local process orchestration.
+  scientific_changes: none
+  transport_volume_created_before_amendment:
+    id: yqs9l7a86w
+    name: glm53-v16-transport
+    data_center_id: US-KS-2
+    size_gb: 20
+    mounted: false
+  pods_created_before_amendment: 0
+  serverless_endpoints_created_before_amendment: 0
+  glm_forwards_before_amendment: 0
+  current_compute_spend_per_hour_usd: 0.0
+  current_storage_spend_per_hour_usd: 0.002
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a2
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a3
+
+amendment_4:
+  timing: after_amendment_3_and_before_any_pod_or_glm_forward
+  reason: >-
+    The corrected native-process wrapper reached template construction, but
+    Windows rejected the hash-bound bootstrap payload because it exceeded the
+    operating-system command-line length limit. Submit the identical image,
+    entrypoint, start command, environment, disk, ports, and exact GPU request
+    directly in the documented RunPod Pod REST body. This removes the transient
+    template and does not alter bootstrap bytes or scientific execution.
+  scientific_changes: none
+  pods_created_before_amendment: 0
+  glm_forwards_before_amendment: 0
+  current_compute_spend_per_hour_usd: 0.0
+  current_storage_spend_per_hour_usd: 0.002
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a3
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a4
+
+amendment_5:
+  timing: after_amendment_4_and_before_any_glm_forward
+  reason: >-
+    The first Pod creation realized the exact preregistered two-GPU B300 ID,
+    Secure Cloud tier, pinned image, disk topology, and $15.78 hourly rate, but
+    RunPod omitted the redundant gpuDisplayName field while runtime status was
+    initializing. The launcher correctly deleted the Pod before model staging.
+    Retain exact machine.gpuId validation and remove only the non-authoritative
+    display-name duplicate.
+  realized_deleted_pod:
+    id: pu8o7s69dsg6qy
+    gpu_id: NVIDIA B300 SXM6 AC
+    gpu_count: 2
+    secure_cloud: true
+    image_exact: true
+    container_disk_gb: 450
+    persistent_volume_gb: 0
+    rate_usd_per_hour: 15.78
+    deleted_before_model_stage: true
+  scientific_changes: none
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a4
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a5
+
+amendment_6:
+  timing: after_amendment_5_and_before_any_glm_forward
+  reason: >-
+    The exact Pod passed topology, but the external watchdog was launched under
+    legacy Windows PowerShell 5.1 and exited before its handshake because the
+    verified launcher process code targets PowerShell 7. Start the watchdog
+    under the same PowerShell 7 executable as the parent and capture its local
+    stdout and stderr. The fail-closed launcher deleted the Pod before bootstrap
+    or model staging.
+  scientific_changes: none
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a5
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a6
+
+amendment_7:
+  timing: after_amendment_6_and_before_any_glm_forward
+  reason: >-
+    The PowerShell 7 watchdog reached its sleep-prevention call but parsed the
+    hexadecimal continuous-execution flag as signed negative before UInt32
+    conversion. Express the same Windows API flag as unsigned decimal
+    2147483648. The fail-closed launcher again deleted the Pod before bootstrap.
+  scientific_changes: none
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a6
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a7
+
+amendment_8:
+  timing: after_amendment_7_and_before_any_glm_forward
+  reason: >-
+    The Pod emitted a bound bootstrap heartbeat and then exited with code 1
+    after seven seconds, before model staging or scientific work. Because the
+    self-deleting Pod no longer exposes container logs, mirror bootstrap output
+    to a local log and upload it inside the existing exit trap before deletion.
+    This is diagnostic evidence only and changes no runtime command or gate.
+  scientific_changes: none
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a7
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a8
+
+amendment_9:
+  timing: after_amendment_8_and_before_any_glm_forward
+  reason: >-
+    The captured bootstrap log proves apt setup and installation of pinned uv
+    0.9.26 succeeded. The subsequent exact string check failed because the
+    Linux binary omits the platform-specific build suffix expected from the
+    workstation. Continue requiring semantic version 0.9.26 while permitting
+    an optional build suffix.
+  scientific_changes: none
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a8
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a9
+
+amendment_10:
+  timing: after_amendment_9_and_before_any_glm_forward
+  reason: >-
+    The exact checkpoint downloaded and passed its frozen hash manifest, but
+    the paid supervisor stopped before model loading after the signed input
+    bundle was reconstructed inside the Linux checkout. Replace the blanket
+    clean-worktree rejection with an exact allowlist covering only the 20 files
+    in that signed, hash-verified bundle. Continue rejecting every changed or
+    untracked path outside that immutable input set.
+  terminated_run:
+    run_id: glm53-v16-source-20260902T012852Z-4f97da33
+    pod_id: t2brokwujtrnoe
+    exact_checkpoint_downloaded_and_hashed: true
+    model_loaded: false
+    glm_forwards: 0
+    pod_deleted: true
+  scientific_changes: none
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a9
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a10
+
+amendment_11:
+  timing: after_amendment_10_and_before_any_glm_forward
+  reason: >-
+    Count the terminated A9 attempt against the frozen V16 compute budget. The
+    account balance fell from 43.7853868373 USD at launch to 41.9111829762 USD
+    after deletion, a conservative 1.8742038611 USD charge including any small
+    contemporaneous storage charge. Limit the next attempt to 23.00 USD and 86
+    minutes so total V16 infrastructure spend remains below 25 USD while the
+    account retains at least 15 USD.
+  scientific_changes: none
+  glm_forwards_before_amendment: 0
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a10
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a11
+
+amendment_12:
+  timing: after_amendment_11_and_before_any_glm_forward
+  reason: >-
+    The A11 run passed signed-input reconstruction and stopped before model
+    loading because the Python guard required raw S3 secrets even though the
+    bootstrap deliberately removes those secrets from the science process.
+    Pass a non-secret flag only after the bootstrap's authenticated S3 probe,
+    require raw S3 secrets to remain absent from the science process, and
+    derive its effective cap from the launcher's balance floor. Conservatively
+    reserve 5 USD of the original 25 USD cap for both terminated attempts and
+    limit the final attempt to 20 USD and 75 minutes.
+  terminated_run:
+    run_id: glm53-v16-source-20260902T014333Z-2f95a2c3
+    pod_id: qsgevvhgb5kq1f
+    signed_input_guard_passed: true
+    exact_checkpoint_downloaded_and_hashed: true
+    model_loaded: false
+    glm_forwards: 0
+    pod_deleted: true
+  scientific_changes: none
+  superseded_prereg_tag: glm53-user-eval-v16-preregistered-a11
+  active_prereg_tag: glm53-user-eval-v16-preregistered-a12
+
+parent:
+  project_id: glm53_user_eval_fresh_controls_v15
+  commit: d2e468b6b277e7a6b3ba10c044004c9d1299fc23
+  tag: glm53-user-eval-v15-final
+  required_decision: fresh_control_bank_validated_by_both_codex_judges
+  decision_path: artifacts/glm53_user_eval/v15/reports/codex_cohort/decision.json
+  decision_sha256: 6546853ea1be45f179a4a396c621be375f15ba0ff5412d9775fbadbb4725b9fc
+  verification_path: artifacts/glm53_user_eval/v15/reports/codex_cohort/verification.json
+  verification_sha256: da4f4d7d3e6fd5d33a34f14f99eae33f05d43f9ca6af18dea062646daf25509e
+  initial_authorization:
+    exact_fp8_source_extraction: true
+    runpod_compute: true
+    local_proxy_parity: false
+    prompt_recruitment: false
+    first_cot_transfer: false
+    steering: false
+
+source:
+  dataset_id: contrastive_prompts_v5
+  dataset_path: artifacts/datasets/contrastive_prompts_v5/samples.jsonl
+  dataset_sha256: a9c29d1a10a3eb7c431d8097808e9df10f888aa1585cc27638f44bb0aca1352e
+  manifest_path: artifacts/datasets/contrastive_prompts_v5/manifest.json
+  manifest_sha256: f06b5d01727f29d5ccb55de2aa18de442aef6fff8aabd7e4443ebb54589c4e5b
+  tokenizer_audit:
+    path: artifacts/datasets/contrastive_prompts_v5/tokenizer_audit_v16.json
+    sha256: a237c5529a3f82c59b4858ff75b7e70bba085dbf9386c502272b29806de5b74f
+    schema_version: glm53_v16_tokenizer_audit_v1
+    rows: 576
+    binary_pairs: 240
+  counts:
+    total: 576
+    reused_byte_identical: 512
+    fresh_controls: 64
+    binary: 480
+    factorial: 32
+    control_classes:
+      eval: 16
+      deploy: 16
+      ambiguous: 16
+      no_status: 16
+  partitions:
+    development: 368
+    final_binary: 112
+    factorial: 32
+    fresh_controls: 64
+  final_control_rule: >-
+    Fresh controls cannot influence feature-view, layer, C, threshold,
+    permutation objective, or direction selection. Their expected classes are
+    stored outside all development feature metadata and opened once with the
+    other final surfaces.
+
+subject:
+  model_id: zai-org/GLM-5.3-Flash
+  revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  precision: official_fp8
+  weight_shards: 62
+  weight_bytes: 328337455672
+  text_layers: 45
+  hidden_size: 4096
+  hc_streams: 4
+  representation: arithmetic_mean_across_hc_streams
+  reasoning_effort: high
+  clear_thinking: true
+  shard_manifest_path: artifacts/glm53_user_eval/runtime/g2/model_stage.json
+  shard_manifest_sha256: 28d8a5842d8be519fb23d031ddd9b91d0a814b7e679b748f0ea7fd46f03434ca
+  full_rehash_before_load: true
+
+runtime:
+  path: pipelines/glm53_user_eval/v16/configs/runtime_v16.yaml
+  sha256: f8023213f86af9fb9a7b1ed43cb6c2b91d9ce83533827587a689bfce71b2315a
+  torch: 2.13.0+cu130
+  cuda: '13.0'
+  transformers_commit: 805a9e939fa8c1bff8d8ffdf041c051b71a914aa
+  use_cache: false
+  logits_to_keep: 1
+  batch_size: 1
+
+source_readout:
+  primary_view: shared_task_suffix_mean
+  diagnostic_views:
+    - prompt_final
+    - masked_prompt_mean
+    - decisive_fact_token_mean
+  models:
+    - l2_ridge_logistic
+    - paired_mean_difference
+  C_grid: [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0]
+  layers: 45
+  standardization: training_only
+  selection_order:
+    - largest_min_validation_and_development_counterfactual_auroc
+    - largest_min_validation_and_development_counterfactual_auprc
+    - smallest_worst_split_brier
+    - smaller_C
+    - lower_layer
+  thresholds:
+    upper: development_counterfactual_80_percent_tpr
+    lower: development_counterfactual_80_percent_tnr
+  permutation_reps: 1000
+  permutation_seed: 20260925
+  stability_bootstrap_reps: 1000
+  stability_bootstrap_seed: 20260926
+
+source_gate:
+  ordinary_test_auroc_min: 0.80
+  final_counterfactual_auroc_min: 0.75
+  final_counterfactual_fpr_at_80_tpr_max: 0.25
+  final_counterfactual_score_gap_positive: true
+  ridge_paired_raw_cosine_min: 0.50
+  ridge_paired_final_spearman_min: 0.60
+  both_final_score_gaps_positive: true
+  permutation_p_max_exclusive: 0.01
+  stability_fifth_percentile_cosine_min_exclusive: 0.50
+  every_leave_one_training_generator_gap_positive: true
+  factorial_required_for_both_readouts: true
+  fresh_controls:
+    primary_readout: ridge_logistic
+    clean_auroc_min: 0.80
+    eval_tpr_min: 0.75
+    deploy_tnr_min: 0.75
+    clean_gap_positive: true
+    no_status_eval_fire_max: 0.25
+    no_status_abstention_min: 0.50
+    mixed_mean_between_deploy_and_eval: true
+    operational_coefficient_negative: true
+    assessment_coefficient_positive: true
+    register_and_ai_coefficients_subordinate: true
+  pass_decision: source_instrument_valid_for_frozen_transfer
+  fail_decision: stop_before_local_parity
+
+downstream:
+  manifest_path: pipelines/glm53_user_eval/v16/configs/downstream_manifest_v16.json
+  manifest_sha256: e8ebab3bda3612170369bf68e88345bdf6950c3afb4b0027bd908b279c564070
+  same_loaded_model_process_required: true
+  local_proxy_requires_source_pass: true
+  recruitment_requires_local_proxy_pass: true
+  local_proxy_expected_rows: 6387
+  recruitment_expected_rows: 2240
+  local_proxy_primary_estimand: (F-U)-(FN-G)
+  recruitment_primary_estimand: (F-U)-(FN-G)
+
+verification:
+  independent_source_module_may_import_primary_analysis: false
+  point_tolerance: 1.0e-10
+  bootstrap_endpoint_tolerance: 0.05
+  classification_exact: true
+
+manual_review:
+  required_before_positive_recruitment_claim: true
+  reviewer: Luis
+  score_blind: true
+  local_proxy_rows: 40
+  recruitment_rows: 32
+  all_technical_errors: true
+  may_rescue_machine_failure: false
+
+infrastructure:
+  launcher_path: infra/runpod/new_glm53_v16_source_pod.ps1
+  launcher_sha256: 4c688c016bb794c84ea490315725bfb0915e1f8ffe5cececf8b88eb349d48b0c
+  bootstrap_path: infra/runpod/bootstrap_glm53_v16.sh
+  bootstrap_sha256: 5e1f5d09d0e058ec8992500e84f8a583e710b0f2e7b337b87044f1fb7e61a162
+  watchdog_path: pipelines/glm53_user_eval/v16/watchdog.py
+  watchdog_sha256: 917e106aee3b1259a979e74766c91f8c05e5d4a561f06fc2bd63587f3ec4f54c
+  gpu_type: NVIDIA B300 SXM6 AC
+  gpu_count: 2
+  cloud_type: SECURE
+  allow_gpu_fallback: false
+  network_volume_attached: false
+  container_disk_gb: 450
+  model_stage: huggingface_xet_to_local_container_disk
+  result_transport: temporary_runpod_network_volume_s3_https
+  transport_volume:
+    name: glm53-v16-transport
+    data_center_id: US-KS-2
+    size_gb: 20
+    mounted: false
+    delete_after_terminal_backup: true
+  compute_cap_usd: 25.0
+  reserve_usd: 15.0
+  storage_allowance_usd: 0.10
+  effective_cap_rule: min(25, live_balance - 15 - 0.10)
+  aggregate_gpu_rate_cap_usd_per_hour: 16.50
+  deadline_minutes: 94
+  backup_reserve_minutes: 10
+  external_watchdog_required: true
+  on_pod_deadline_required: true
+  heartbeat_seconds: 60
+  delete_after_missing_heartbeat_minutes: 10
+  zero_resources_after_terminal_required: true
+
+scope:
+  early_cot: false
+  steering: false
+  dataset_repair: false
+  v17_before_application: false

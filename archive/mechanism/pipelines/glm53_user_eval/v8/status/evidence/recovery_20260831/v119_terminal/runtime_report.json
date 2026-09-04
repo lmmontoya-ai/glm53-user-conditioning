@@ -1,0 +1,246 @@
+{
+  "batch_calibration": {
+    "candidates": [
+      {
+        "activation_max_error": 0.0,
+        "batch_size": 1,
+        "elapsed_seconds": 0.3663869691081345,
+        "input_tokens": 266,
+        "logit_max_error": 0.0,
+        "memory": [
+          {
+            "free_bytes": 121194020864,
+            "free_fraction": 0.42164907623740455,
+            "index": 0,
+            "max_allocated_bytes": 163706351616,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          },
+          {
+            "free_bytes": 124209725440,
+            "free_fraction": 0.43214108763871145,
+            "index": 1,
+            "max_allocated_bytes": 164105950720,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          }
+        ],
+        "passed": true,
+        "prompts_per_second": 2.729354710496984
+      },
+      {
+        "activation_max_error": 0.0703125,
+        "batch_size": 2,
+        "elapsed_seconds": 7.782685277983546,
+        "input_tokens": 560,
+        "logit_max_error": 2.4375,
+        "memory": [
+          {
+            "free_bytes": 117836480512,
+            "free_fraction": 0.4099677756438772,
+            "index": 0,
+            "max_allocated_bytes": 165827531776,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          },
+          {
+            "free_bytes": 121523273728,
+            "free_fraction": 0.42279458791334695,
+            "index": 1,
+            "max_allocated_bytes": 164105950720,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          }
+        ],
+        "passed": false,
+        "prompts_per_second": 0.256980711484994
+      },
+      {
+        "activation_max_error": 0.077880859375,
+        "batch_size": 4,
+        "elapsed_seconds": 31.270969851873815,
+        "input_tokens": 1480,
+        "logit_max_error": 2.78125,
+        "memory": [
+          {
+            "free_bytes": 98536390656,
+            "free_fraction": 0.3428203619260557,
+            "index": 0,
+            "max_allocated_bytes": 180230133248,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          },
+          {
+            "free_bytes": 103424851968,
+            "free_fraction": 0.3598279270000796,
+            "index": 1,
+            "max_allocated_bytes": 177923283968,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          }
+        ],
+        "passed": false,
+        "prompts_per_second": 0.12791416508497938
+      },
+      {
+        "activation_max_error": 0.08740234375,
+        "batch_size": 8,
+        "elapsed_seconds": 4.034478220855817,
+        "input_tokens": 2553,
+        "logit_max_error": 3.296875,
+        "memory": [
+          {
+            "free_bytes": 80815456256,
+            "free_fraction": 0.2811670265011299,
+            "index": 0,
+            "max_allocated_bytes": 198867282432,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          },
+          {
+            "free_bytes": 85699723264,
+            "free_fraction": 0.2981599990697278,
+            "index": 1,
+            "max_allocated_bytes": 196538874368,
+            "name": "NVIDIA B300 SXM6 AC",
+            "total_bytes": 287428640768
+          }
+        ],
+        "passed": false,
+        "prompts_per_second": 1.9829082131723574
+      }
+    ],
+    "selected": {
+      "activation_max_error": 0.0,
+      "batch_size": 1,
+      "elapsed_seconds": 0.3663869691081345,
+      "input_tokens": 266,
+      "logit_max_error": 0.0,
+      "memory": [
+        {
+          "free_bytes": 121194020864,
+          "free_fraction": 0.42164907623740455,
+          "index": 0,
+          "max_allocated_bytes": 163706351616,
+          "name": "NVIDIA B300 SXM6 AC",
+          "total_bytes": 287428640768
+        },
+        {
+          "free_bytes": 124209725440,
+          "free_fraction": 0.43214108763871145,
+          "index": 1,
+          "max_allocated_bytes": 164105950720,
+          "name": "NVIDIA B300 SXM6 AC",
+          "total_bytes": 287428640768
+        }
+      ],
+      "passed": true,
+      "prompts_per_second": 2.729354710496984
+    }
+  },
+  "checkout": {
+    "head": "71e691cabb07020d5e8f4c8f48260b3b8bb97df5",
+    "tag": "glm53-user-eval-v8-preregistered-v1.19",
+    "tag_commit": "71e691cabb07020d5e8f4c8f48260b3b8bb97df5"
+  },
+  "checks": {
+    "alpha_zero_features": true,
+    "alpha_zero_logits": true,
+    "batch": true,
+    "budget": true,
+    "bytes": true,
+    "hooks_removed": true,
+    "layers": true,
+    "shape": true,
+    "shards": true,
+    "snapshot": true
+  },
+  "hourly_rate_usd": 15.78,
+  "load_seconds": 172.3621855180245,
+  "passed": true,
+  "projected_cost_usd": 40.94904908114672,
+  "projected_hours_with_headroom": 2.594996773203214,
+  "projected_prompts": 21248,
+  "runtime_checks": {
+    "hook_count_after": 0,
+    "middle_layer_shape": [
+      1,
+      309,
+      4,
+      4096
+    ],
+    "zero_features_exact": true,
+    "zero_logits_exact": true
+  },
+  "schema_version": "glm53_v8_m2_runtime_report_v1",
+  "snapshot": {
+    "all_shards_match": true,
+    "checks": {
+      "model-00001-of-00062.safetensors": true,
+      "model-00002-of-00062.safetensors": true,
+      "model-00003-of-00062.safetensors": true,
+      "model-00004-of-00062.safetensors": true,
+      "model-00005-of-00062.safetensors": true,
+      "model-00006-of-00062.safetensors": true,
+      "model-00007-of-00062.safetensors": true,
+      "model-00008-of-00062.safetensors": true,
+      "model-00009-of-00062.safetensors": true,
+      "model-00010-of-00062.safetensors": true,
+      "model-00011-of-00062.safetensors": true,
+      "model-00012-of-00062.safetensors": true,
+      "model-00013-of-00062.safetensors": true,
+      "model-00014-of-00062.safetensors": true,
+      "model-00015-of-00062.safetensors": true,
+      "model-00016-of-00062.safetensors": true,
+      "model-00017-of-00062.safetensors": true,
+      "model-00018-of-00062.safetensors": true,
+      "model-00019-of-00062.safetensors": true,
+      "model-00020-of-00062.safetensors": true,
+      "model-00021-of-00062.safetensors": true,
+      "model-00022-of-00062.safetensors": true,
+      "model-00023-of-00062.safetensors": true,
+      "model-00024-of-00062.safetensors": true,
+      "model-00025-of-00062.safetensors": true,
+      "model-00026-of-00062.safetensors": true,
+      "model-00027-of-00062.safetensors": true,
+      "model-00028-of-00062.safetensors": true,
+      "model-00029-of-00062.safetensors": true,
+      "model-00030-of-00062.safetensors": true,
+      "model-00031-of-00062.safetensors": true,
+      "model-00032-of-00062.safetensors": true,
+      "model-00033-of-00062.safetensors": true,
+      "model-00034-of-00062.safetensors": true,
+      "model-00035-of-00062.safetensors": true,
+      "model-00036-of-00062.safetensors": true,
+      "model-00037-of-00062.safetensors": true,
+      "model-00038-of-00062.safetensors": true,
+      "model-00039-of-00062.safetensors": true,
+      "model-00040-of-00062.safetensors": true,
+      "model-00041-of-00062.safetensors": true,
+      "model-00042-of-00062.safetensors": true,
+      "model-00043-of-00062.safetensors": true,
+      "model-00044-of-00062.safetensors": true,
+      "model-00045-of-00062.safetensors": true,
+      "model-00046-of-00062.safetensors": true,
+      "model-00047-of-00062.safetensors": true,
+      "model-00048-of-00062.safetensors": true,
+      "model-00049-of-00062.safetensors": true,
+      "model-00050-of-00062.safetensors": true,
+      "model-00051-of-00062.safetensors": true,
+      "model-00052-of-00062.safetensors": true,
+      "model-00053-of-00062.safetensors": true,
+      "model-00054-of-00062.safetensors": true,
+      "model-00055-of-00062.safetensors": true,
+      "model-00056-of-00062.safetensors": true,
+      "model-00057-of-00062.safetensors": true,
+      "model-00058-of-00062.safetensors": true,
+      "model-00059-of-00062.safetensors": true,
+      "model-00060-of-00062.safetensors": true,
+      "model-00061-of-00062.safetensors": true,
+      "model-00062-of-00062.safetensors": true
+    },
+    "full_rehash": true,
+    "shard_count": 62,
+    "total_bytes": 328337455672
+  }
+}

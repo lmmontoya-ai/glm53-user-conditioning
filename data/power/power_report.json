@@ -1,0 +1,479 @@
+{
+  "authorization": {
+    "fresh_subject_or_judge_calls": false
+  },
+  "bootstrap_reps": 50000,
+  "bootstrap_seed": 20260903,
+  "candidate_results": [
+    {
+      "dilemma_count": 25,
+      "matched_parent_cells": {
+        "famous_ai": 1740,
+        "famous_nonai": 1745,
+        "genpop": 1744,
+        "unknown_ai": 1747
+      },
+      "mde_for_80pct_power_pp": 2.307010208807288,
+      "null_ci95_pp": [
+        -1.5598767608552115,
+        1.6271235006737095
+      ],
+      "null_point_pp": 3.7470027081099033e-16,
+      "null_standard_deviation_pp": 0.8096373436476663,
+      "positive_critical_value_pp": 1.6271235006737095,
+      "power_by_effect": {
+        "0.325": 0.05586,
+        "0.500": 0.08302,
+        "0.650": 0.11276
+      },
+      "repetitions_needed": {
+        "0.325": {
+          "b_plus_d_rows": 714000,
+          "equal_repetitions_per_arm": 51,
+          "estimated_b_plus_d_cost_usd": 600.618016705814
+        },
+        "0.500": {
+          "b_plus_d_rows": 308000,
+          "equal_repetitions_per_arm": 22,
+          "estimated_b_plus_d_cost_usd": 259.09012485348836
+        },
+        "0.650": {
+          "b_plus_d_rows": 182000,
+          "equal_repetitions_per_arm": 13,
+          "estimated_b_plus_d_cost_usd": 153.09871014069768
+        }
+      },
+      "selected_stimuli": [
+        "dd_0042",
+        "dd_0016",
+        "dd_0077",
+        "dd_0052",
+        "dd_0067",
+        "dd_0061",
+        "dd_0017",
+        "dd_0066",
+        "dd_0081",
+        "dd_0021",
+        "dd_0078",
+        "dd_0098",
+        "dd_0050",
+        "dd_0087",
+        "dd_0076",
+        "dd_0003",
+        "dd_0026",
+        "dd_0082",
+        "dd_0074",
+        "dd_0002",
+        "dd_0047",
+        "dd_0030",
+        "dd_0044",
+        "dd_0012",
+        "dd_0000"
+      ],
+      "single_replicate_estimated_cost_usd": {
+        "b_plus_d": 11.776823856976744,
+        "b_plus_n_plus_d": 17.665235785465114
+      },
+      "single_replicate_rows": {
+        "b_plus_d": 14000,
+        "b_plus_n_plus_d": 21000
+      }
+    },
+    {
+      "dilemma_count": 50,
+      "matched_parent_cells": {
+        "famous_ai": 3486,
+        "famous_nonai": 3489,
+        "genpop": 3489,
+        "unknown_ai": 3492
+      },
+      "mde_for_80pct_power_pp": 1.4726676393798117,
+      "null_ci95_pp": [
+        -0.9980339505774335,
+        1.038137691348407
+      ],
+      "null_point_pp": 3.126839065448195e-16,
+      "null_standard_deviation_pp": 0.5187104982378761,
+      "positive_critical_value_pp": 1.038137691348407,
+      "power_by_effect": {
+        "0.325": 0.0856,
+        "0.500": 0.15054,
+        "0.650": 0.22714
+      },
+      "repetitions_needed": {
+        "0.325": {
+          "b_plus_d_rows": 588000,
+          "equal_repetitions_per_arm": 21,
+          "estimated_b_plus_d_cost_usd": 494.62660199302326
+        },
+        "0.500": {
+          "b_plus_d_rows": 252000,
+          "equal_repetitions_per_arm": 9,
+          "estimated_b_plus_d_cost_usd": 211.9828294255814
+        },
+        "0.650": {
+          "b_plus_d_rows": 168000,
+          "equal_repetitions_per_arm": 6,
+          "estimated_b_plus_d_cost_usd": 141.32188628372091
+        }
+      },
+      "selected_stimuli": [
+        "dd_0042",
+        "dd_0016",
+        "dd_0077",
+        "dd_0052",
+        "dd_0067",
+        "dd_0061",
+        "dd_0017",
+        "dd_0066",
+        "dd_0081",
+        "dd_0021",
+        "dd_0078",
+        "dd_0098",
+        "dd_0050",
+        "dd_0087",
+        "dd_0076",
+        "dd_0003",
+        "dd_0026",
+        "dd_0082",
+        "dd_0074",
+        "dd_0002",
+        "dd_0047",
+        "dd_0030",
+        "dd_0044",
+        "dd_0012",
+        "dd_0000",
+        "dd_0048",
+        "dd_0068",
+        "dd_0088",
+        "dd_0060",
+        "dd_0053",
+        "dd_0045",
+        "dd_0037",
+        "dd_0027",
+        "dd_0025",
+        "dd_0010",
+        "dd_0013",
+        "dd_0022",
+        "dd_0058",
+        "dd_0046",
+        "dd_0040",
+        "dd_0096",
+        "dd_0084",
+        "dd_0018",
+        "dd_0008",
+        "dd_0085",
+        "dd_0056",
+        "dd_0015",
+        "dd_0090",
+        "dd_0005",
+        "dd_0054"
+      ],
+      "single_replicate_estimated_cost_usd": {
+        "b_plus_d": 23.553647713953488,
+        "b_plus_n_plus_d": 35.33047157093023
+      },
+      "single_replicate_rows": {
+        "b_plus_d": 28000,
+        "b_plus_n_plus_d": 42000
+      }
+    },
+    {
+      "dilemma_count": 75,
+      "matched_parent_cells": {
+        "famous_ai": 5234,
+        "famous_nonai": 5232,
+        "genpop": 5233,
+        "unknown_ai": 5236
+      },
+      "mde_for_80pct_power_pp": 1.1944636630523844,
+      "null_ci95_pp": [
+        -0.8292638364654764,
+        0.8417599027324567
+      ],
+      "null_point_pp": 5.984795992119984e-17,
+      "null_standard_deviation_pp": 0.4246451266083747,
+      "positive_critical_value_pp": 0.8417599027324567,
+      "power_by_effect": {
+        "0.325": 0.11204,
+        "0.500": 0.20966,
+        "0.650": 0.32498
+      },
+      "repetitions_needed": {
+        "0.325": {
+          "b_plus_d_rows": 588000,
+          "equal_repetitions_per_arm": 14,
+          "estimated_b_plus_d_cost_usd": 494.62660199302326
+        },
+        "0.500": {
+          "b_plus_d_rows": 252000,
+          "equal_repetitions_per_arm": 6,
+          "estimated_b_plus_d_cost_usd": 211.9828294255814
+        },
+        "0.650": {
+          "b_plus_d_rows": 168000,
+          "equal_repetitions_per_arm": 4,
+          "estimated_b_plus_d_cost_usd": 141.32188628372091
+        }
+      },
+      "selected_stimuli": [
+        "dd_0042",
+        "dd_0016",
+        "dd_0077",
+        "dd_0052",
+        "dd_0067",
+        "dd_0061",
+        "dd_0017",
+        "dd_0066",
+        "dd_0081",
+        "dd_0021",
+        "dd_0078",
+        "dd_0098",
+        "dd_0050",
+        "dd_0087",
+        "dd_0076",
+        "dd_0003",
+        "dd_0026",
+        "dd_0082",
+        "dd_0074",
+        "dd_0002",
+        "dd_0047",
+        "dd_0030",
+        "dd_0044",
+        "dd_0012",
+        "dd_0000",
+        "dd_0048",
+        "dd_0068",
+        "dd_0088",
+        "dd_0060",
+        "dd_0053",
+        "dd_0045",
+        "dd_0037",
+        "dd_0027",
+        "dd_0025",
+        "dd_0010",
+        "dd_0013",
+        "dd_0022",
+        "dd_0058",
+        "dd_0046",
+        "dd_0040",
+        "dd_0096",
+        "dd_0084",
+        "dd_0018",
+        "dd_0008",
+        "dd_0085",
+        "dd_0056",
+        "dd_0015",
+        "dd_0090",
+        "dd_0005",
+        "dd_0054",
+        "dd_0079",
+        "dd_0024",
+        "dd_0011",
+        "dd_0033",
+        "dd_0006",
+        "dd_0032",
+        "dd_0097",
+        "dd_0029",
+        "dd_0089",
+        "dd_0086",
+        "dd_0020",
+        "dd_0091",
+        "dd_0039",
+        "dd_0099",
+        "dd_0041",
+        "dd_0028",
+        "dd_0075",
+        "dd_0038",
+        "dd_0059",
+        "dd_0070",
+        "dd_0095",
+        "dd_0001",
+        "dd_0063",
+        "dd_0023",
+        "dd_0007"
+      ],
+      "single_replicate_estimated_cost_usd": {
+        "b_plus_d": 35.33047157093023,
+        "b_plus_n_plus_d": 52.99570735639535
+      },
+      "single_replicate_rows": {
+        "b_plus_d": 42000,
+        "b_plus_n_plus_d": 63000
+      }
+    },
+    {
+      "dilemma_count": 100,
+      "matched_parent_cells": {
+        "famous_ai": 6980,
+        "famous_nonai": 6978,
+        "genpop": 6975,
+        "unknown_ai": 6977
+      },
+      "mde_for_80pct_power_pp": 1.0291067549428565,
+      "null_ci95_pp": [
+        -0.7127101519020844,
+        0.7231552078444801
+      ],
+      "null_point_pp": -9.595189226496714e-17,
+      "null_standard_deviation_pp": 0.3651767035465147,
+      "positive_critical_value_pp": 0.7231552078444801,
+      "power_by_effect": {
+        "0.325": 0.13738,
+        "0.500": 0.26818,
+        "0.650": 0.41616
+      },
+      "repetitions_needed": {
+        "0.325": {
+          "b_plus_d_rows": 616000,
+          "equal_repetitions_per_arm": 11,
+          "estimated_b_plus_d_cost_usd": 518.1802497069767
+        },
+        "0.500": {
+          "b_plus_d_rows": 280000,
+          "equal_repetitions_per_arm": 5,
+          "estimated_b_plus_d_cost_usd": 235.53647713953487
+        },
+        "0.650": {
+          "b_plus_d_rows": 168000,
+          "equal_repetitions_per_arm": 3,
+          "estimated_b_plus_d_cost_usd": 141.32188628372091
+        }
+      },
+      "selected_stimuli": [
+        "dd_0042",
+        "dd_0016",
+        "dd_0077",
+        "dd_0052",
+        "dd_0067",
+        "dd_0061",
+        "dd_0017",
+        "dd_0066",
+        "dd_0081",
+        "dd_0021",
+        "dd_0078",
+        "dd_0098",
+        "dd_0050",
+        "dd_0087",
+        "dd_0076",
+        "dd_0003",
+        "dd_0026",
+        "dd_0082",
+        "dd_0074",
+        "dd_0002",
+        "dd_0047",
+        "dd_0030",
+        "dd_0044",
+        "dd_0012",
+        "dd_0000",
+        "dd_0048",
+        "dd_0068",
+        "dd_0088",
+        "dd_0060",
+        "dd_0053",
+        "dd_0045",
+        "dd_0037",
+        "dd_0027",
+        "dd_0025",
+        "dd_0010",
+        "dd_0013",
+        "dd_0022",
+        "dd_0058",
+        "dd_0046",
+        "dd_0040",
+        "dd_0096",
+        "dd_0084",
+        "dd_0018",
+        "dd_0008",
+        "dd_0085",
+        "dd_0056",
+        "dd_0015",
+        "dd_0090",
+        "dd_0005",
+        "dd_0054",
+        "dd_0079",
+        "dd_0024",
+        "dd_0011",
+        "dd_0033",
+        "dd_0006",
+        "dd_0032",
+        "dd_0097",
+        "dd_0029",
+        "dd_0089",
+        "dd_0086",
+        "dd_0020",
+        "dd_0091",
+        "dd_0039",
+        "dd_0099",
+        "dd_0041",
+        "dd_0028",
+        "dd_0075",
+        "dd_0038",
+        "dd_0059",
+        "dd_0070",
+        "dd_0095",
+        "dd_0001",
+        "dd_0063",
+        "dd_0023",
+        "dd_0007",
+        "dd_0034",
+        "dd_0062",
+        "dd_0035",
+        "dd_0036",
+        "dd_0004",
+        "dd_0065",
+        "dd_0057",
+        "dd_0031",
+        "dd_0092",
+        "dd_0064",
+        "dd_0073",
+        "dd_0093",
+        "dd_0019",
+        "dd_0069",
+        "dd_0080",
+        "dd_0014",
+        "dd_0051",
+        "dd_0083",
+        "dd_0094",
+        "dd_0055",
+        "dd_0043",
+        "dd_0009",
+        "dd_0071",
+        "dd_0049",
+        "dd_0072"
+      ],
+      "single_replicate_estimated_cost_usd": {
+        "b_plus_d": 47.107295427906976,
+        "b_plus_n_plus_d": 70.66094314186046
+      },
+      "single_replicate_rows": {
+        "b_plus_d": 56000,
+        "b_plus_n_plus_d": 84000
+      }
+    }
+  ],
+  "decision": "stop_before_scientific_calls_insufficient_power",
+  "interpretation": "The V6-to-V7 matched cell differences estimate the noise of two independent condition calls. Group-level cross-run shifts are removed before a crossed bootstrap resamples shared dilemmas, paired F/U identities, and independent FN/G identities. Effects are added to the target F/U component.",
+  "method": "paired_cross_run_difference_crossed_bootstrap_calibration",
+  "parent_hashes": {
+    "roster": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e",
+    "v6.analysis": "a793f6eec5383d0962c8c0cc3562c84d3da19fc60c2974054253c425f3fd2187",
+    "v6.decision": "0c91242ad5bbc83e1ec66722c3baedae9639ede4878ad903a66184afd54add06",
+    "v6.raw_scores": "ab276d968dccf2b3f9c4f92844f7deb54daf508ad48e0798a43202c3177818c4",
+    "v7.analysis": "fc649c2d286e2bf6ea6aa013bca458190f22b6a36410576dee278e3f5e4f5336",
+    "v7.decision": "ca760ceecc4cd7d9b4bc48562c8547ae827ebcec69989f1eb8c9fb917e26118e",
+    "v7.raw_scores": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee",
+    "v7.verification": "925596c8ae9b72f9e81db1bf44f119ed8928f456cded428bd1b88f47be40d63b"
+  },
+  "parent_interactions_pp": {
+    "v6": -0.8314710848350347,
+    "v7": -0.6502489017630301,
+    "v7_minus_v6": 0.18122218307200466
+  },
+  "prereg_sha256": "fa54ca3a8d79bfea4a66c157943c62017eb42dbfbcd5b55fe5a9f0786edb695b",
+  "project_id": "glm53_user_eval_deployment_screening_v22",
+  "schema_version": "glm53_v22_power_report_v1",
+  "selected_dilemma_count": null,
+  "smallest_meaningful_effect_pp": 0.325,
+  "target_power": 0.8
+}

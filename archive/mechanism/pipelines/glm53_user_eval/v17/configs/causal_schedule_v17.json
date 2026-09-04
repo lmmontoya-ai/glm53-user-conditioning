@@ -1,0 +1,120 @@
+{
+  "confirmation": {
+    "expected_base_rows": 800,
+    "identities": {
+      "famous_ai": [
+        "fai2_paul_christiano",
+        "fai2_evan_hubinger",
+        "fai2_ryan_greenblatt",
+        "fai2_nate_soares",
+        "fai2_andrej_karpathy",
+        "fai2_ian_hogarth",
+        "fai2_john_schulman",
+        "fai2_anca_dragan"
+      ],
+      "famous_nonai": [
+        "fam2_047_peter_nalitch",
+        "fam2_049_missy_franklin",
+        "fam2_058_juan_torres",
+        "fam2_063_roberto_saviano",
+        "fam2_017_john_legend",
+        "fam2_037_robert_vittek",
+        "fam2_007_rosario_dawson",
+        "fam2_061_mena_suvari"
+      ],
+      "genpop": [
+        "gen2_043_sonia_fernandez",
+        "gen2_047_sarada_mongru",
+        "gen2_055_mikala_langley",
+        "gen2_068_chol_tran",
+        "gen2_050_catherine_denis",
+        "gen2_056_andrew_black",
+        "gen2_001_alicia_gonzalez",
+        "gen2_036_alan_russell"
+      ],
+      "unknown_ai": [
+        "uai2_alignmentresearchcenter_037_jacob_bowden",
+        "uai2_anthropic_005_nicole_lewis",
+        "uai2_redwoodresearch_045_saba_guevara",
+        "uai2_miri_036_alan_russell",
+        "uai2_eurekalabs_016_jose_bonnet",
+        "uai2_ukaisi_041_bernadette_gangaram",
+        "uai2_thinkingmachineslab_014_debra_reeves",
+        "uai2_googledeepmind_022_antonio_gonzalez"
+      ]
+    },
+    "tasks": [
+      "dd_0073",
+      "dd_0019",
+      "dd_0050",
+      "dd_0074",
+      "dd_0098",
+      "dd_0069",
+      "dd_0033",
+      "dd_0008",
+      "dd_0048",
+      "dd_0086",
+      "dd_0099",
+      "dd_0066",
+      "dd_0067",
+      "dd_0059",
+      "dd_0080",
+      "dd_0051",
+      "dd_0007",
+      "dd_0081",
+      "dd_0038",
+      "dd_0061",
+      "dd_0041",
+      "dd_0060",
+      "dd_0043",
+      "dd_0092",
+      "dd_0011"
+    ]
+  },
+  "identity_sets_disjoint": true,
+  "pilot": {
+    "expected_base_rows": 160,
+    "identities": {
+      "famous_ai": [
+        "fai2_neel_nanda",
+        "fai2_dylan_hadfieldmenell",
+        "fai2_geoffrey_irving",
+        "fai2_owain_evans"
+      ],
+      "famous_nonai": [
+        "fam2_003_chris_pine",
+        "fam2_015_nicky_hilton",
+        "fam2_028_ruslan_ponomariov",
+        "fam2_034_clemens_fritz"
+      ],
+      "genpop": [
+        "gen2_011_tucker_baker",
+        "gen2_013_qiao_le",
+        "gen2_027_sherry_kirkus",
+        "gen2_031_trisha_wheeler"
+      ],
+      "unknown_ai": [
+        "uai2_googledeepmind_020_brian_martin",
+        "uai2_mit_033_emmanuel_gordon",
+        "uai2_ukaisi_040_brittany_bradford",
+        "uai2_truthfulai_042_jailyn_claybon"
+      ]
+    },
+    "tasks": [
+      "dd_0010",
+      "dd_0040",
+      "dd_0085",
+      "dd_0020",
+      "dd_0053",
+      "dd_0064",
+      "dd_0062",
+      "dd_0009",
+      "dd_0021",
+      "dd_0078"
+    ]
+  },
+  "schema_version": "glm53_v17_causal_schedule_v1",
+  "source_schedule_sha256": "b6f3fcbeb576acdee1be45dc36027178fe28c6e0ccef6a8af37b0e72e0eece2f",
+  "task_sets_disjoint": true,
+  "technical_eligibility_only": true
+}

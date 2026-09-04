@@ -1,0 +1,26 @@
+{
+  "schema_version": "glm53_v19_storage_cleanup_v1",
+  "created_at_utc": "2026-09-03T06:07:31.7614554Z",
+  "deleted_volume": {
+    "id": "950vl0d4x4",
+    "name": "glm53-v19-evidence",
+    "size_gb": 20,
+    "data_center_id": "US-KS-2",
+    "deleted": true
+  },
+  "preconditions": {
+    "final_evidence_committed": true,
+    "final_evidence_commit": "1232287f536f78f40cd33ce899920a188d595b08",
+    "evidence_manifest_files": 16,
+    "all_evidence_hashes_verified": true,
+    "active_pods": 0,
+    "active_endpoints": 0
+  },
+  "postconditions": {
+    "active_network_volumes": 0,
+    "s3_objects_on_deleted_volume_recoverable": false,
+    "committed_final_evidence_recoverable": true,
+    "local_recovered_evidence_recoverable": true,
+    "s3_credential_rotation_required": true
+  }
+}

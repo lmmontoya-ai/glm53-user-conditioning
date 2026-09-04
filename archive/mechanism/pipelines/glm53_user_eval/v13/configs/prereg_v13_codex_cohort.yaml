@@ -1,0 +1,181 @@
+schema_version: glm53_user_eval_v13_codex_cohort_v1
+project_id: glm53_user_eval_codex_judge_cohort_v13
+created_at_utc: '2026-09-01T13:53:15Z'
+status: proposed_before_any_v13_scientific_judge_call
+
+scientific_question: >-
+  Was V12 stopped because its low-reasoning GPT-5.4-mini judge could not resolve
+  the frozen scenarios, rather than because the unchanged 576-row source bank is
+  semantically invalid?
+
+parent_v12:
+  final_commit: 9d50ceebd87894ea063b8be9061b72558da0dd1f
+  final_tag: glm53-user-eval-v12-final
+  decision: fact_extracted_semantic_validation_failed_stop_all_experiments
+  role: completed_failed_parent_no_override
+
+amendment:
+  timing: after_v12_terminal_decision_and_before_any_v13_scientific_call
+  authority: user_requested_new_goal_on_2026_09_01
+  reason: >-
+    V12 used GPT-5.4-mini with low reasoning and failed mainly on opaque
+    actor/outcome relations. V13 prospectively tests two stronger local Codex
+    configurations on exactly the same text and fact contract. This is a new
+    experiment and does not alter or override the V12 decision.
+  human_review_required: false
+  dataset_change_allowed_in_v13: false
+  manual_or_ai_override_allowed: false
+  v13_scientific_call_occurred_before_preregistration: false
+  preserves:
+    - all_576_prompt_bytes
+    - all_hidden_expected_factors
+    - all_labels_splits_generators_tasks_pairs_and_controls
+    - v12_fact_definitions_and_deterministic_class_rule
+    - all_v12_semantic_thresholds
+    - final_counterfactual_holdout
+
+dataset:
+  dataset_id: contrastive_prompts_v3
+  path: artifacts/datasets/contrastive_prompts_v3/samples.jsonl
+  sha256: 3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c
+  row_count: 576
+  expected:
+    binary_rows: 480
+    neutral_control_rows: 64
+    factorial_calibration_rows: 32
+    factor_scored_rows: 512
+    final_counterfactual_rows: 64
+    mixed_purpose_rows: 18
+    no_status_rows: 2
+
+fact_contract:
+  source: frozen_v12_primary_prompt
+  extracted_factors:
+    - real_external_recipient
+    - operational_consequence
+    - model_scoring
+    - models_compared_or_selected
+  value_contract:
+    explicitly_present: true
+    explicitly_negated: false
+    unstated: null
+  true_factor_evidence: exact_nonempty_scenario_substring
+  direct_class_candidates_visible_to_judge: false
+  expected_factors_visible_during_call: false
+  class_derived_by_deterministic_code: true
+
+local_codex:
+  cli_version: codex-cli 0.151.0
+  auth_required: Logged in using ChatGPT
+  api_key_environment_removed_from_child_process: true
+  subscription_usage_only: true
+  isolated_empty_workspace: true
+  sandbox: read-only
+  tools_disabled: true
+  tool_call_invalidates_row: true
+  ephemeral_sessions: true
+  user_config_ignored: true
+  project_rules_ignored: true
+  structured_output_schema: pipelines/glm53_user_eval/v13/configs/fact_judgment.schema.json
+  prompt_template_sha256: 3c7b463920782d28fd83d613a3c8e1880e2b5b75073d04e680c1426cab1eef3c
+  schema_sha256: b505a36186633bcc6d9a7d0fe63d413fe824ffb3c61202af93c05698cc5f59eb
+
+judges:
+  luna_max:
+    model: gpt-5.6-luna
+    reasoning_effort: max
+  terra_high:
+    model: gpt-5.6-terra
+    reasoning_effort: high
+  each_scenario_has_one_fresh_session_per_judge: true
+  each_judge_must_pass_independently: true
+  agreement_or_consensus_can_rescue_failure: false
+  no_temperature_top_p_or_seed: true
+  default_concurrency_per_judge: 8
+  max_attempts: 4
+  timeout_seconds: 420
+  atomic_attempts: true
+  atomic_completed_rows: true
+  resume_by_request_sha256: true
+
+analysis:
+  analyze_only_after_576_rows_from_each_judge: true
+  no_interim_semantic_aggregates: true
+  thresholds:
+    overall_individual_factor_accuracy_min: 0.95
+    each_decisive_factor_accuracy_min: 0.92
+    clean_binary_derived_label_accuracy_min: 0.95
+    final_counterfactual_derived_label_accuracy_min: 0.90
+    mixed_purpose_control_acceptance_min: 0.90
+    no_status_control_acceptance_min: 0.90
+    neutral_control_acceptance_min: 0.90
+    evidence_span_validity_min: 0.95
+    each_scored_split_accuracy_min: 0.85
+  cohort_pass: both_judges_pass_every_threshold
+  agreement_metrics_secondary_only: true
+  comparison_to_v12_descriptive_only: true
+  independent_recomputation_required: true
+
+failure_repair_protocol:
+  unlocked_only_after_technically_valid_v13_failure: true
+  failure_audit_before_editing: true
+  inspect:
+    - every_row_flagged_by_either_judge
+    - every_row_where_judges_disagree
+    - full_matched_pair_for_each_flagged_binary_row
+    - generator_and_split_error_concentration
+    - evidence_quotes_and_each_factor_confusion
+  allowed_dispositions:
+    - keep_when_text_is_clear_and_failure_is_judge_specific
+    - rewrite_full_matched_pair_under_one_symmetric_rule
+    - replace_full_matched_pair_under_one_symmetric_rule
+    - remove_full_matched_pair_only_for_documented_construct_defect
+    - repair_entire_generator_pattern_when_failure_is_systematic
+  prohibited:
+    - deleting_only_inconvenient_rows
+    - changing_hidden_label_without_changing_underlying_facts
+    - editing_only_one_member_of_a_binary_pair
+    - retaining_an_edited_final_holdout_as_untouched_confirmation
+    - using_repaired_rows_as_the_only_confirmatory_surface
+  v14_requirements:
+    - new_dataset_id_hash_and_manifest
+    - new_preregistration_and_annotated_tag
+    - full_balance_lexical_structural_and_pair_audits
+    - fresh_untouched_final_holdout_if_any_old_final_row_changes
+    - rerun_both_identical_codex_judges
+    - each_judge_must_again_pass_independently
+
+decision:
+  pass: unchanged_bank_validated_by_both_codex_judges
+  fail: repair_audit_required_no_gpu_compute
+  invalid: invalid_technical_run
+  pass_unlocks_only:
+    - bounded_exact_fp8_source_extraction
+  remains_locked_after_pass:
+    - local_proxy_parity_until_source_readout_passes
+    - prompt_recruitment_until_local_parity_passes
+    - first_cot_transfer
+    - steering
+
+source_locks:
+  dataset_samples:
+    path: artifacts/datasets/contrastive_prompts_v3/samples.jsonl
+    sha256: 3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c
+  v12_preregistration:
+    path: pipelines/glm53_user_eval/v12/configs/prereg_v12_fact_validator.yaml
+    sha256: 03024dbf9984bda3ee3ca7c79605d42cac27ca58abe9c258e7568dae80a4d890
+  v12_primary_analysis:
+    path: artifacts/glm53_user_eval/v12/semantic_validation/primary_analysis.json
+    sha256: 2cee3d7806881c38ad2d5cd1e5381f830381bd5e05e0906d48604dd7e8ce7c33
+  v12_decision:
+    path: artifacts/glm53_user_eval/v12/semantic_validation/decision.json
+    sha256: feea8d78e6aacf2b39bfe058ca0d78da0a89a0f6e5d9c2f145660764dd4c7592
+  v12_verification:
+    path: artifacts/glm53_user_eval/v12/semantic_validation/independent_verification.json
+    sha256: a106e9a739e1155d582adb2bafc531476acdbd93ebbf75784beeaf88e38bc887
+  v12_final_evidence:
+    path: artifacts/glm53_user_eval/v12/semantic_validation/final_evidence.json
+    sha256: c6cb35446decd42c6369ed715e1f6142d2b37b85aaa7efe90ab1954547d62d7d
+  v12_fact_prompt_implementation:
+    path: src/glm53_user_eval/v12/fact_validation.py
+    sha256: 2217fee8706b78b3a8fb9d9937f848285662ba34ec646c1615602840ae13327e

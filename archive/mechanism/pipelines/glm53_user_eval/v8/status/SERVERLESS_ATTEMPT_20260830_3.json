@@ -1,0 +1,34 @@
+{
+  "schema_version": "glm53_v8_serverless_attempt_v1",
+  "attempt": 3,
+  "date_utc": "2026-08-30",
+  "preregistration_tag": "glm53-user-eval-v8-preregistered-v1.6",
+  "endpoint_id": "w1o540a69narzo",
+  "template_id": "cv2aemyjdi",
+  "gpu_type": "NVIDIA H100 NVL",
+  "gpu_count": 4,
+  "network_volume_id": "a9diryunoj",
+  "purpose": "non-scientific active-rate probe preflight",
+  "observed_state": "throttled_before_worker_ready",
+  "observed_logs": [
+    "2026-08-30T15:18:29Z image ready, model pending download",
+    "2026-08-30T15:20:20Z image ready, initializing model files",
+    "2026-08-30T15:22:20Z image ready, model pending download"
+  ],
+  "rate_probe_submitted": false,
+  "scientific_job_submitted": false,
+  "model_loaded_by_handler": false,
+  "model_forward_ran": false,
+  "scientific_rows": 0,
+  "m2_completed": false,
+  "stop_reason": "User requested immediate termination after the cached-model worker remained throttled and never became ready.",
+  "endpoint_deleted": true,
+  "local_launcher_terminated": true,
+  "post_stop_remote_state": {
+    "serverless_endpoints": 0,
+    "pods": 0,
+    "current_spend_per_hour_usd": 0.049,
+    "client_balance_usd": 110.3821185572,
+    "network_volume_preserved": true
+  }
+}

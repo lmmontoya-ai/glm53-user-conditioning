@@ -1,0 +1,36 @@
+{
+  "auth_status": "Logged in using ChatGPT",
+  "cli_executable": "C:\\Users\\luism\\AppData\\Roaming\\npm\\codex.CMD",
+  "cli_version": "codex-cli 0.153.0",
+  "fast_mode": false,
+  "inference_tier": "standard",
+  "maximum_total_parallel_sessions": 24,
+  "models": {
+    "luna_max": {
+      "display_name": "GPT-5.6-Luna",
+      "reasoning_effort": "max",
+      "slug": "gpt-5.6-luna",
+      "supported_reasoning_levels": [
+        "high",
+        "low",
+        "max",
+        "medium",
+        "xhigh"
+      ]
+    },
+    "terra_high": {
+      "display_name": "GPT-5.6-Terra",
+      "reasoning_effort": "high",
+      "slug": "gpt-5.6-terra",
+      "supported_reasoning_levels": [
+        "high",
+        "low",
+        "max",
+        "medium",
+        "ultra",
+        "xhigh"
+      ]
+    }
+  },
+  "schema_version": "glm53_v23_judge_preflight_v1"
+}

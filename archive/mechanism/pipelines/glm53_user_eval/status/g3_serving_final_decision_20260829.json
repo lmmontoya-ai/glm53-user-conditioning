@@ -1,0 +1,52 @@
+{
+  "schema_version": "glm53_user_eval_decision_v1",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "gate": "G3-serving-final",
+  "run_id": "glm53-g3-self-hosted-serving-final",
+  "created_at": "2026-08-29T03:02:00Z",
+  "model_revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "g2_whitebox": {
+    "passed": true,
+    "weight_shards": 62,
+    "weight_bytes": 328337455672,
+    "mhc_layers": 45,
+    "mhc_streams": 4,
+    "hidden_size": 4096,
+    "alpha_zero_logits_exact": true,
+    "alpha_zero_generation_exact": true
+  },
+  "g3_behavior": {
+    "completed_rows": 0,
+    "judge_calls": 0,
+    "scientific_effect_estimate": null,
+    "scientific_result_available": false
+  },
+  "serving_attempts": [
+    "huggingface_device_map_sequential_decode_too_slow",
+    "transformers_native_tp_glm5_next_kda_o_proj_shape_mismatch",
+    "vllm_fuse_streaming_229_76_seconds_for_first_shard",
+    "vllm_fuse_prefetch_stalled_at_2_of_62",
+    "vllm_fuse_eager_stalled_at_0_of_62",
+    "custom_fuse_to_local_copy_1_of_62_in_438_seconds",
+    "direct_hub_to_local_0_of_72_after_684_seconds"
+  ],
+  "evidence_sha256": {
+    "local_stage_status": "be54d7cad542a0dad113537003efdb559147708e3b9ba675fecf14b73a93742b",
+    "local_stage_logs": "14a3efa77016341549bca5235c73cb0599a8aa257d6ee6a1f5a9d6824412a9a9",
+    "hub_stage_status": "3e24c7f61126d49cdbfe45558d830d40c1c60245dfb757b5f58b472d166744a4",
+    "hub_stage_logs": "7dd196094dd7ff17f3a4d510f8975de0b4b0f33f2a0984e0a4d04b55764eb421"
+  },
+  "estimated_gpu_spend_usd": 28.66,
+  "project_hard_cap_usd": 125.0,
+  "checks": {
+    "no_live_pods": true,
+    "network_volume_preserved": true,
+    "frozen_behavior_schedule_preserved": true,
+    "no_scientific_row_was_filtered": true,
+    "hard_cap_respected": true
+  },
+  "passed": false,
+  "decision": "stop_self_hosted_g3_and_require_api_behavior_gate",
+  "reason": "White-box inference is valid for short diagnostic forwards, but the exact 328 GB FP8 subject could not be served at behavioral throughput from the available RunPod storage and transfer paths.",
+  "next_step": "Run the frozen behavior gate through one pinned OpenRouter or first-party Z.ai route after a credential is supplied. Resume local mechanism work only after the behavior passes and a high-throughput checkpoint substrate is available."
+}

@@ -1,0 +1,11 @@
+started_at,ended_at,resource_id,resource_type,gpu_type,gpu_count,hourly_rate,estimated_cost,actual_cost,gate,notes
+2026-08-28,2026-08-29T00:00:55Z,a9diryunoj,network_volume,standard,250,0.0239726,0.00,0.00,G0,"Existing 250 GB US-KS-2 volume retained before local-first amendment"
+2026-08-29T00:00:55Z,,a9diryunoj,network_volume,standard,500,0.0479452,0.00,0.00,G2,"Expanded to 500 GB; storage continues billing until deletion"
+2026-08-29T00:03:37Z,2026-08-29T00:09:30Z,lqc667d3aqgs1m,pod,NVIDIA H100 NVL,4,12.76,1.25,1.25,G2,"Container startup correction; no scientific call"
+2026-08-29T00:11:10Z,2026-08-29T01:29:08Z,zq049k5ut59qfx,pod,NVIDIA H100 NVL,4,12.76,16.58,16.58,G2,"Exact FP8 staging, source-locked runtime, passing doctor, and aborted zero-row sequential decode smoke"
+2026-08-29T01:32:46Z,2026-08-29T01:40:46Z,qwogmv7i2ec1b9,pod,NVIDIA H100 NVL,4,12.76,1.70,1.70,G3,"Official vLLM default loader; first shard took 229.76 seconds; no behavior row"
+2026-08-29T01:44:46Z,2026-08-29T01:58:22Z,w5gjgatobjxd31,pod,NVIDIA H100 NVL,4,12.76,2.89,2.89,G3,"Official vLLM prefetch loader stalled at 2/62 shards; no behavior row"
+2026-08-29T02:01:35Z,2026-08-29T02:03:26Z,i6vwktiitmrnha,pod,NVIDIA H100 NVL,4,12.76,0.39,0.39,G3,"Unsupported no-op CLI flag caused restart loop; no model load or behavior row"
+2026-08-29T02:03:40Z,2026-08-29T02:11:01Z,yup03zxa8k379e,pod,NVIDIA H100 NVL,4,12.76,1.56,1.56,G3,"Official vLLM eager loader remained at 0/62 for more than five minutes; stopped under preregistered rule"
+2026-08-29T02:34:38Z,2026-08-29T02:43:26Z,wid5gtodn437ly,pod,NVIDIA H100 NVL,4,12.76,1.87,1.87,G3,"Four-worker FUSE copy and hash staged one shard in 438 seconds; stopped when completion was impossible within the frozen ceiling"
+2026-08-29T02:50:00Z,2026-08-29T03:01:24Z,6l8cca0btgndrs,pod,NVIDIA H100 NVL,4,12.76,2.42,2.42,G3,"Direct pinned Hugging Face download to local disk remained at 0/72 after more than eleven minutes; no behavior row"

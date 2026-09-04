@@ -1,0 +1,11 @@
+schema_version: glm53_interventions_config_v1
+primary_mode: add
+secondary_mode: project_out
+scope: prefill_and_generation
+alphas: [-1.0, -0.5, 0.0, 0.5, 1.0]
+random_direction_count: 10
+random_seed: 20260828
+primary_layer_band_width: 3
+scale: natural_projection_gap_divided_by_layer_count
+require_alpha_zero_equivalence: true
+require_eval_deploy_positive_control: true

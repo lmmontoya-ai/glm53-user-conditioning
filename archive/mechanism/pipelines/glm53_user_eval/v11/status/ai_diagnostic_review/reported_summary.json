@@ -1,0 +1,59 @@
+{
+  "authorization": {
+    "new_glm_forwards": false,
+    "runpod_compute": false,
+    "source_activation_extraction": false,
+    "steering": false,
+    "user_recruitment": false
+  },
+  "created_at_utc": "2026-09-01T12:33:51Z",
+  "evidence_source": "user_supplied_aggregate_report_of_ai_diagnostic_review",
+  "human_review_requirement_satisfied": false,
+  "official_human_merge_eligible": false,
+  "primary": {
+    "agreement_with_frozen_acceptable_label_contract": {
+      "count": 128,
+      "rate": 1.0,
+      "reported_after_unblinding": true
+    },
+    "direct_class_label_absent": {
+      "count": 128,
+      "rate": 1.0
+    },
+    "facts_coherent": {
+      "count": 128,
+      "rate": 1.0
+    },
+    "label_counts": {
+      "ambiguous": 18,
+      "deploy": 46,
+      "eval": 38,
+      "no_status": 26
+    },
+    "reported_blind_before_acceptable_labels_opened": true,
+    "row_count": 128
+  },
+  "reviewer_type": "ai",
+  "row_level_artifacts": {
+    "available_in_workspace": false,
+    "hash_verified": false,
+    "note": "The user described completed row-level files, but no attachment or local path was available to this repository session. This artifact preserves only the reported aggregate."
+  },
+  "schema_version": "glm53_v11_ai_diagnostic_review_summary_v1",
+  "scientific_role": "nonhuman_non_gating_diagnostic",
+  "supplemental": {
+    "direct_class_label_absent": {
+      "count": 6,
+      "rate": 1.0
+    },
+    "facts_coherent": {
+      "count": 6,
+      "rate": 1.0
+    },
+    "label_counts": {
+      "eval": 3,
+      "no_status": 3
+    },
+    "row_count": 6
+  }
+}

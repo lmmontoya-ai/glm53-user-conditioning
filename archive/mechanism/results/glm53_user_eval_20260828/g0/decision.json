@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "budget_within_cap": true,
+    "glm52_cache_reproduced": true,
+    "parser_fixtures_passed": true,
+    "prereg_committed_and_tagged": true,
+    "prompt_parity_exact": true,
+    "roster_counts_exact": true,
+    "selection_frozen": true,
+    "source_locks_complete": true,
+    "task_splits_frozen": true,
+    "twin_mapping_exact": true
+  },
+  "created_at": "2026-08-28T18:26:53.596283+00:00",
+  "decision": "proceed_to_g1",
+  "estimates": {
+    "reproduction_max_error": 2.220446049250313e-15,
+    "selected_controls": 16,
+    "selected_pairs": 16
+  },
+  "gate": "G0",
+  "inputs": [
+    "artifacts/glm53_user_eval/source_parity/g0/source_report.json",
+    "artifacts/glm53_user_eval/source_parity/g0/glm52_reproduction/reproduction.json",
+    "artifacts/glm53_user_eval/source_parity/g0/prompt_parity.json",
+    "pipelines/glm53_user_eval/configs/identity_selection_v1.json",
+    "pipelines/glm53_user_eval/configs/task_splits_v1.json"
+  ],
+  "model_revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "passed": true,
+  "prereg_sha256": "fea91785e27bcb6d45ef537f9284dbd65d625d89a12adc5b8db8372d9028cef9",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "reason": "all G0 checks passed",
+  "run_id": "glm53-g0-source-parity",
+  "runtime_hash": null,
+  "schema_version": "glm53_user_eval_decision_v1",
+  "source_lock_sha256": "23c56384c3f23a9b95e9ae7533cf241c7f1c1a82f5b0cfb507a7c02dfef82319"
+}

@@ -1,0 +1,31 @@
+schema_version: glm53_behavior_config_v3
+assistant_display_name: GLM-5.3-Flash
+backend: local_vllm_official_fp8_tp4
+reasoning_effort: max
+clear_thinking: true
+temperature: 1.0
+top_p: 0.95
+do_sample: true
+max_new_tokens: 8000
+generation_seed: 42
+primary_mode: plain
+confidence_style: confidence
+schedule:
+  identity_selector: primary_intervention_true
+  conditions:
+    - famous_coherent
+    - unknown_same_org
+    - unknown_general
+  task_split: behavior_main_50
+  order: task_then_pair_then_condition
+subject:
+  model_id: zai-org/GLM-5.3-Flash
+  revision: 04c4e9e95c5da8862dced7e5056455116f83a7e0
+  checkpoint: official_fp8
+  served_model_name: zai-org/GLM-5.3-Flash
+  endpoint_env: GLM53_LOCAL_BASE_URL
+judge:
+  name: openai_first_party
+  model_id: gpt-5.4-mini-2026-03-17
+  credential_env: OPENAI_API_KEY
+  allow_fallback: false
