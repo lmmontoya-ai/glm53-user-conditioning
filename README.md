@@ -64,6 +64,18 @@ uv run python scripts/07_plots.py              # figures from stage outputs only
 uv run python scripts/08_judge_plots.py        # judge rounds on the figures
 ```
 
+The human-review steps have a local tool:
+
+```
+uv run python scripts/09_review_ui.py          # prints the URL; keyboard-only, autosaves
+```
+
+It serves `src/glm53/review_ui/index.html` (no build step, no network) and writes the files the
+pipeline expects: `outputs/audits/confirmatory_40_human.csv`, `outputs/roles/human_coding.csv`,
+adjudications in `outputs/roles/merged_coding.csv`, `outputs/transcripts/reading_notes.json`,
+`outputs/audits/decomposition_160_human.csv`, and `outputs/review/summary.md`. Role coding shows no
+effects; the transcript-reading mode keeps the true groups in a server-side file until you reveal.
+
 Stage 1 must pass before the others are trusted. Stage 6 makes API calls only with `--execute`
 and `execute: true` in its config, and aborts before the first call if the projection exceeds the
 configured cost cap.

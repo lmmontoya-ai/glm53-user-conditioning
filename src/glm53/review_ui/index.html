@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Review</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --ink: #111; --muted: #555; --line: #ccc; --bg: #fafaf9; --box: #fff; --accent: #2a78d6; --warn: #b3541e; --ok: #1f7a3a; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font: 19px/1.45 system-ui, "Segoe UI", Roboto, sans-serif; }
+  header { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: baseline; padding: 0.6rem 1.2rem; border-bottom: 2px solid var(--line); background: var(--box); position: sticky; top: 0; z-index: 2; }
+  header .mode { font-weight: 700; font-size: 1.15rem; }
+  header .done { color: var(--ok); font-weight: 700; }
+  header .todo { color: var(--muted); }
+  header button { margin-left: auto; }
+  main { padding: 1rem 1.2rem 6rem; max-width: 1500px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0.2rem 0 0.8rem; }
+  h2 { font-size: 1.05rem; margin: 1rem 0 0.4rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
+  .card { background: var(--box); border: 1px solid var(--line); border-radius: 6px; padding: 0.9rem 1.1rem; margin-bottom: 0.9rem; }
+  .text { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 38vh; overflow: auto; }
+  .extract { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.6rem; }
+  .extract div { border: 1px solid var(--line); border-radius: 6px; padding: 0.5rem 0.7rem; background: #f4f4f2; }
+  .extract b { display: block; color: var(--muted); font-size: 0.85rem; font-weight: 600; }
+  .keys { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; color: var(--muted); font-size: 0.95rem; }
+  kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 0.4rem; background: #fff; font-family: inherit; }
+  .verdict { font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 6px; display: inline-block; border: 2px solid var(--accent); }
+  .verdict.empty { border-color: var(--line); color: var(--muted); font-weight: 400; }
+  .banner { background: #fff5e6; border: 1px solid #e0b072; padding: 0.6rem 0.9rem; border-radius: 6px; margin-bottom: 0.9rem; }
+  .two { display: grid; grid-template-columns: 1fr 380px; gap: 1rem; }
+  .side { position: sticky; top: 4.5rem; align-self: start; }
+  .side dt { font-weight: 700; margin-top: 0.6rem; }
+  .side dd { margin: 0.1rem 0 0; color: #333; font-size: 0.95rem; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+  .box { border: 2px solid var(--line); border-radius: 6px; background: var(--box); padding: 0.6rem 0.8rem; height: 42vh; display: flex; flex-direction: column; }
+  .box.active { border-color: var(--accent); box-shadow: 0 0 0 2px #cfe0f7; }
+  .box .meta { display: flex; gap: 1rem; color: var(--muted); font-size: 0.9rem; flex-wrap: wrap; }
+  .box .scroll { overflow: auto; flex: 1; white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 0.4rem; }
+  .box .tags { margin-top: 0.4rem; font-size: 0.9rem; min-height: 1.3rem; }
+  .tag { display: inline-block; border: 1px solid var(--accent); color: var(--accent); border-radius: 4px; padding: 0 0.4rem; margin: 0 0.3rem 0.2rem 0; }
+  textarea, input[type=text] { width: 100%; font: inherit; padding: 0.5rem; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+  button { font: inherit; padding: 0.35rem 0.9rem; border: 1px solid var(--line); border-radius: 6px; background: #fff; cursor: pointer; }
+  button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button:focus, [tabindex]:focus { outline: 3px solid #f0b400; outline-offset: 1px; }
+  .menu button { display: block; width: 100%; text-align: left; padding: 0.9rem 1rem; margin-bottom: 0.6rem; font-size: 1.05rem; }
+  table { border-collapse: collapse; margin: 0.5rem 0; }
+  td, th { border: 1px solid var(--line); padding: 0.3rem 0.6rem; text-align: left; }
+  .small { color: var(--muted); font-size: 0.9rem; }
+  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.35); display: flex; align-items: center; justify-content: center; z-index: 5; }
+  .overlay .card { width: min(720px, 92vw); }
+  .hidden { display: none; }
+  .warnbox { color: var(--warn); }
+</style>
+</head>
+<body>
+<header>
+  <span class="mode" id="hdr-mode">Menu</span>
+  <span id="hdr-item"></span>
+  <span id="hdr-time">00:00:00</span>
+  <span id="hdr-done" class="todo"></span>
+  <button id="btn-menu" title="Escape">Menu (Esc)</button>
+</header>
+<main id="main"></main>
+<div id="overlay" class="overlay hidden"></div>
+<script>
+(() => {
+"use strict";
+const $ = (sel, root = document) => root.querySelector(sel);
+const el = (tag, attrs = {}, ...children) => {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") node.className = v; else if (k === "text") node.textContent = v; else if (k.startsWith("on")) node.addEventListener(k.slice(2), v); else node.setAttribute(k, v);
+  }
+  for (const c of children) if (c != null) node.append(c.nodeType ? c : document.createTextNode(String(c)));
+  return node;
+};
+const api = async (path, body) => {
+  const res = await fetch(path, body === undefined ? {} : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || res.statusText);
+  return data;
+};
+const fmtTime = (s) => { s = Math.floor(s || 0); const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60; return [h, m, x].map(v => String(v).padStart(2, "0")).join(":"); };
+
+const MODE_NAMES = { mode1: "Mode 1: extraction audit", mode2: "Mode 2: role coding (blind)", mode3: "Mode 3: matched transcript reading (blinded)", mode4: "Mode 4: decomposition packet (optional)" };
+const state = { mode: null, items: [], index: 0, status: null, meta: {}, timers: {}, activeBox: 0, keyHandler: null, localElapsed: 0 };
+const main = $("#main"), overlay = $("#overlay");
+
+// -------------------------------------------------------------- header, timer
+function header(itemText, done) {
+  $("#hdr-mode").textContent = state.mode ? MODE_NAMES[state.mode] : "Menu";
+  $("#hdr-item").textContent = itemText || "";
+  const d = $("#hdr-done");
+  d.textContent = state.mode ? (done ? "done" : (state.mode === "mode4" && state.status && state.status.skipped.mode4 ? "skipped (optional)" : "in progress")) : "";
+  d.className = done ? "done" : "todo";
+  tick();
+}
+function tick() { if (state.mode) $("#hdr-time").textContent = fmtTime((state.timers[state.mode] || 0) + state.localElapsed); }
+let lastBeat = Date.now();
+setInterval(async () => {
+  if (!state.mode || document.hidden) { lastBeat = Date.now(); return; }
+  const now = Date.now(); state.localElapsed += (now - lastBeat) / 1000; lastBeat = now; tick();
+  try { const r = await api("/api/heartbeat", { mode: state.mode }); state.timers = r.timers; state.localElapsed = 0; tick(); } catch (e) { /* offline tick keeps counting locally */ }
+}, 5000);
+function savePosition() { if (state.mode) api("/api/position", { mode: state.mode, index: state.index }).catch(() => {}); }
+
+// -------------------------------------------------------------- overlay prompt
+function promptText(title, initial, onSave) {
+  overlay.classList.remove("hidden");
+  overlay.replaceChildren();
+  const ta = el("textarea", { rows: "4" }); ta.value = initial || "";
+  const save = () => { overlay.classList.add("hidden"); overlay.replaceChildren(); onSave(ta.value.trim()); };
+  const cancel = () => { overlay.classList.add("hidden"); overlay.replaceChildren(); };
+  ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); save(); } if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); cancel(); } });
+  overlay.append(el("div", { class: "card" }, el("h1", { text: title }), ta, el("p", { class: "small", text: "Enter saves, Shift+Enter for a new line, Escape cancels." }), el("button", { class: "primary", onclick: save }, "Save")));
+  ta.focus();
+}
+function promptTags(title, allTags, selected, onSave) {
+  overlay.classList.remove("hidden");
+  overlay.replaceChildren();
+  const chosen = new Set(selected || []);
+  const list = el("div");
+  const render = () => { list.replaceChildren(...allTags.map((t, i) => el("div", {}, el("kbd", { text: String(i + 1) }), " ", el("span", { class: chosen.has(t) ? "tag" : "", text: t }), chosen.has(t) ? " (on)" : ""))); };
+  render();
+  const finish = () => { overlay.classList.add("hidden"); overlay.replaceChildren(); document.removeEventListener("keydown", handler, true); onSave([...chosen]); };
+  const handler = (e) => {
+    const n = parseInt(e.key, 10);
+    if (n >= 1 && n <= allTags.length) { const t = allTags[n - 1]; chosen.has(t) ? chosen.delete(t) : chosen.add(t); render(); e.preventDefault(); e.stopPropagation(); }
+    else if (e.key === "Enter" || e.key === "Escape" || e.key === "t") { e.preventDefault(); e.stopPropagation(); finish(); }
+  };
+  document.addEventListener("keydown", handler, true);
+  overlay.append(el("div", { class: "card" }, el("h1", { text: title }), list, el("p", { class: "small", text: "Number keys toggle tags; Enter, Escape or t closes." }), el("button", { class: "primary", onclick: finish }, "Close")));
+}
+
+// -------------------------------------------------------------- menu
+async function showMenu() {
+  state.mode = null; if (state.keyHandler) { document.removeEventListener("keydown", state.keyHandler); state.keyHandler = null; }
+  state.status = await api("/api/status");
+  const s = state.status;
+  const row = (m, extra) => {
+    const done = s.done[m] ? "done" : (m === "mode4" && s.skipped.mode4 ? "skipped" : `${s.counts[m]}${s.totals[m] ? " of " + s.totals[m] : ""}`);
+    return el("button", { onclick: () => openMode(m) }, `${MODE_NAMES[m]} - ${done} - ${fmtTime(s.timers[m])}${extra ? " - " + extra : ""}`);
+  };
+  main.replaceChildren(
+    el("h1", { text: "Human review" }),
+    el("div", { class: "menu" }, row("mode1"), row("mode2"), row("mode3"), row("mode4", "optional")),
+    el("p", { class: "keys" }, el("span", {}, el("kbd", { text: "1" }), "-", el("kbd", { text: "4" }), " open a mode"), el("span", {}, el("kbd", { text: "s" }), " write outputs/review/summary.md")),
+    el("div", { id: "summary-out", class: "small" })
+  );
+  header("", false);
+  state.keyHandler = (e) => {
+    if (overlay.classList.contains("hidden") === false) return;
+    if (["1", "2", "3", "4"].includes(e.key)) openMode("mode" + e.key);
+    if (e.key === "s") writeSummary();
+  };
+  document.addEventListener("keydown", state.keyHandler);
+}
+async function writeSummary() {
+  const r = await api("/api/summary", {});
+  const out = $("#summary-out"); if (out) out.textContent = `wrote ${r.path}`;
+}
+$("#btn-menu").addEventListener("click", showMenu);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && overlay.classList.contains("hidden")) showMenu(); });
+
+async function openMode(mode) {
+  if (state.keyHandler) { document.removeEventListener("keydown", state.keyHandler); state.keyHandler = null; }
+  state.mode = mode; state.localElapsed = 0; lastBeat = Date.now();
+  state.status = await api("/api/status"); state.timers = state.status.timers;
+  if (mode === "mode1") return mode1();
+  if (mode === "mode2") return mode2();
+  if (mode === "mode3") return mode3();
+  if (mode === "mode4") return mode4();
+}
+function clampIndex() { state.index = Math.max(0, Math.min(state.items.length - 1, state.index)); }
+function firstUndecided(pred) { const i = state.items.findIndex(pred); return i < 0 ? 0 : i; }
+
+// -------------------------------------------------------------- mode 1 and 4 (audit pattern)
+function auditMode(cfg) {
+  const render = () => {
+    clampIndex();
+    const it = state.items[state.index];
+    header(`item ${state.index + 1} of ${state.items.length}`, state.meta.done);
+    const decision = it.decision;
+    const keysRow = el("div", { class: "keys" }, ...Object.entries(cfg.verdicts).map(([k, v]) => el("span", {}, el("kbd", { text: k }), " " + v.replace(/_/g, " "))), el("span", {}, el("kbd", { text: "n" }), " note"), el("span", {}, el("kbd", { text: "←" }), el("kbd", { text: "→" }), " move"), cfg.extraKeys || null);
+    main.replaceChildren(
+      el("p", { class: "small", text: `source: ${state.meta.source}${state.meta.done ? " - complete; group and identity now shown" : " - group and identity hidden until complete"}` }),
+      ...cfg.body(it),
+      el("div", { class: "card" }, el("span", { class: decision ? "verdict" : "verdict empty", text: decision ? decision.verdict.replace(/_/g, " ") : "no verdict yet" }), decision && decision.note ? el("span", { class: "small", text: "  note: " + decision.note }) : null),
+      keysRow,
+      state.meta.done && cfg.completion ? cfg.completion() : null
+    );
+  };
+  const decide = async (verdict) => {
+    const it = state.items[state.index];
+    const r = await api(cfg.endpoint, { [cfg.idField]: it[cfg.idField], verdict, note: (it.decision && it.decision.note) || "" });
+    it.decision = { verdict, note: (it.decision && it.decision.note) || "" };
+    state.meta.summary = r.summary;
+    if (r.done && !state.meta.done) { state.meta.done = true; await cfg.reload(); }
+    if (state.index < state.items.length - 1) state.index += 1;
+    savePosition(); render();
+  };
+  state.keyHandler = (e) => {
+    if (!overlay.classList.contains("hidden")) return;
+    if (cfg.verdicts[e.key]) decide(cfg.verdicts[e.key]);
+    else if (e.key === "ArrowRight" || e.key === "j") { state.index += 1; clampIndex(); savePosition(); render(); }
+    else if (e.key === "ArrowLeft" || e.key === "k") { state.index -= 1; clampIndex(); savePosition(); render(); }
+    else if (e.key === "n") {
+      const it = state.items[state.index];
+      promptText("Note for this row", it.decision ? it.decision.note : "", async (note) => {
+        const verdict = it.decision ? it.decision.verdict : null;
+        if (verdict) { await api(cfg.endpoint, { [cfg.idField]: it[cfg.idField], verdict, note }); it.decision.note = note; }
+        else { it.pendingNote = note; it.decision = null; alert("Note kept in memory; press a verdict key to save it with the verdict."); }
+        render();
+      });
+    } else if (cfg.onKey) cfg.onKey(e, render);
+  };
+  document.addEventListener("keydown", state.keyHandler);
+  render();
+}
+async function mode1() {
+  const load = async () => { const d = await api("/api/mode1/items"); state.items = d.items; state.meta = { done: d.done, source: d.source, verdicts: d.verdicts, position: d.position }; };
+  await load();
+  state.index = state.meta.done ? 0 : firstUndecided(i => !i.decision);
+  if (!state.meta.done && state.meta.position < state.items.length && !state.items[state.meta.position].decision) state.index = state.meta.position;
+  auditMode({
+    verdicts: state.meta.verdicts, endpoint: "/api/mode1/decision", idField: "row_id", reload: load,
+    body: (it) => [
+      el("div", { class: "card" }, el("h2", { text: "Dilemma" + (it.group ? ` - ${it.group} - ${it.persona}` : "") }), el("div", { class: "text", text: it.dilemma })),
+      el("div", { class: "card" }, el("h2", { text: "First-turn raw response" }), el("div", { class: "text", text: it.first_turn_raw })),
+      el("div", { class: "card" }, el("h2", { text: "Confidence-turn question and raw response" }), el("p", { class: "small", text: it.followup_question }), el("div", { class: "text", text: it.confidence_turn_raw })),
+      el("div", { class: "card" }, el("h2", { text: "What the extraction judge recorded" }), el("div", { class: "extract" },
+        el("div", {}, el("b", { text: "yes/no" }), String(it.extracted.binary_answer)),
+        el("div", {}, el("b", { text: "confidence" }), String(it.extracted.confidence_p)),
+        el("div", {}, el("b", { text: "refused_estimate" }), String(it.extracted.refused_estimate)),
+        el("div", {}, el("b", { text: "score_value" }), String(it.extracted.score_value)),
+        el("div", {}, el("b", { text: "judge text" }), String(it.extracted.judge_text)),
+        el("div", {}, el("b", { text: "sample_error" }), String(it.extracted.sample_error)))),
+    ],
+    completion: () => {
+      const s = state.meta.summary; if (!s) return null;
+      const t = el("table", {}, el("tr", {}, el("th", { text: "group" }), el("th", { text: "reviewed" }), el("th", { text: "correct" })), ...Object.entries(s.by_group).map(([g, v]) => el("tr", {}, el("td", { text: g }), el("td", { text: String(v.reviewed) }), el("td", { text: String(v.correct) }))));
+      return el("div", { class: "card" }, el("h2", { text: "Complete: group breakdown" }), t, el("p", {}, el("b", { text: "Paste: " }), s.paste_sentence));
+    },
+  });
+  if (state.meta.done && !state.meta.summary) { try { const d = await api("/api/mode1/items"); state.meta.summary = (await api("/api/mode1/decision", { row_id: d.items[0].row_id, verdict: d.items[0].decision.verdict, note: d.items[0].decision.note || "" })).summary; } catch (e) { /* ignore */ } }
+}
+async function mode4() {
+  const load = async () => { const d = await api("/api/mode4/items"); state.items = d.items; state.meta = { done: d.done, source: d.source, verdicts: d.verdicts, position: d.position, skipped: d.skipped }; };
+  await load();
+  state.index = firstUndecided(i => !i.decision);
+  if (!state.meta.done && state.meta.position < state.items.length && !state.items[state.meta.position].decision) state.index = state.meta.position;
+  const judgeCard = (name, j) => el("div", {}, el("b", { text: name }), ` evaluation language: ${j.explicit_evaluation}; deference (0-2): ${j.deference}`, el("div", { class: "small", text: j.rationale }));
+  auditMode({
+    verdicts: state.meta.verdicts, endpoint: "/api/mode4/decision", idField: "audit_id", reload: load,
+    extraKeys: el("span", {}, el("kbd", { text: "x" }), " mark this optional mode skipped / unskipped"),
+    onKey: async (e, render) => { if (e.key === "x") { const r = await api("/api/mode4/skip", { skipped: !state.meta.skipped }); state.meta.skipped = r.skipped; state.status.skipped.mode4 = r.skipped; render(); } },
+    body: (it) => [
+      el("p", { class: "small", text: `optional mode${state.meta.skipped ? " - marked skipped" : ""}` }),
+      el("div", { class: "card" }, el("h2", { text: "Dilemma" + (it.system_profile ? " - " + it.system_profile : "") }), el("div", { class: "text", text: it.dilemma })),
+      el("div", { class: "card" }, el("h2", { text: "First-turn reasoning and answer" }), el("div", { class: "text", text: it.first_turn_reasoning }), el("p", {}, el("b", { text: "answer: " }), it.first_turn_answer)),
+      el("div", { class: "card" }, el("h2", { text: "Confidence-turn reasoning and answer" }), el("div", { class: "text", text: it.confidence_turn_reasoning }), el("div", { class: "text", text: it.confidence_turn_answer })),
+      el("div", { class: "card" }, el("h2", { text: "Judge labels" }), judgeCard("luna", it.judges.luna), judgeCard("terra", it.judges.terra)),
+    ],
+    completion: () => { const s = state.meta.summary; if (!s) return null; return el("div", { class: "card" }, el("h2", { text: "Complete" }), el("pre", { class: "small", text: JSON.stringify(s.kappa_vs_judges, null, 1) })); },
+  });
+}
+
+// -------------------------------------------------------------- mode 2
+async function mode2() {
+  const load = async () => { const d = await api("/api/mode2/items"); state.items = d.items; state.meta = { done: d.done, taxonomy: d.taxonomy, categories: d.categories, loaded: d.loaded_files, position: d.position }; };
+  await load();
+  state.index = firstUndecided(i => !i.decision || !i.decision.category);
+  if (!state.meta.done && state.meta.position < state.items.length && !(state.items[state.meta.position].decision || {}).category) state.index = state.meta.position;
+  let adjudication = null;
+  const side = () => el("div", { class: "card side" }, el("h2", { text: "Taxonomy (frozen)" }), el("dl", {}, ...state.meta.categories.flatMap((c, i) => [el("dt", {}, el("kbd", { text: String(i + 1) }), " " + c), el("dd", { text: state.meta.taxonomy.categories[c] || "" })])), el("h2", { text: "Decision rules" }), el("ul", { class: "small" }, ...(state.meta.taxonomy.decision_rules || []).map(r => el("li", { text: r }))));
+  const render = () => {
+    clampIndex();
+    const it = state.items[state.index];
+    const d = it.decision || { category: "", ambiguous: false, alternative_category: "", notes: "" };
+    header(`identity ${state.index + 1} of ${state.items.length}`, state.meta.done);
+    main.replaceChildren(
+      el("div", { class: "banner" }, el("b", { text: "Blind mode. " }), `Loaded only: ${state.meta.loaded.join(", ")}. No effects, scores, or identity-level results are loaded or shown.`),
+      el("div", { class: "two" },
+        el("div", {},
+          el("div", { class: "card" }, el("h1", { text: it.name }), el("div", { class: "text", text: it.role_text }), it.published_role_text ? el("p", { class: "small", text: "published-address profile text: " + it.published_role_text }) : null),
+          el("div", { class: "card" }, el("span", { class: d.category ? "verdict" : "verdict empty", text: d.category || "no category yet" }), " ", d.ambiguous ? el("span", { class: "tag", text: "ambiguous" + (d.alternative_category ? " - alternative: " + d.alternative_category : " - alternative not set") }) : null, d.notes ? el("div", { class: "small", text: "justification: " + d.notes }) : null),
+          el("div", { class: "keys" }, ...state.meta.categories.map((c, i) => el("span", {}, el("kbd", { text: String(i + 1) }), " " + c)), el("span", {}, el("kbd", { text: "a" }), " toggle ambiguous"), el("span", {}, el("kbd", { text: "q" }), el("kbd", { text: "w" }), el("kbd", { text: "e" }), el("kbd", { text: "r" }), " alternative = scrutiny / capabilities / business / other"), el("span", {}, el("kbd", { text: "j" }), " justification"), el("span", {}, el("kbd", { text: "←" }), el("kbd", { text: "→" }), " move")),
+          state.meta.done ? el("div", { class: "card" }, el("h2", { text: "All identities coded" }), el("p", { text: "Written to outputs/roles/human_coding.csv with the template columns." }), el("button", { class: "primary", onclick: runMerge }, "Run merge (04_identities.py merge)"), el("span", { class: "small", text: "  or press m" }), el("div", { id: "merge-out", class: "small" })) : null
+        ),
+        side()
+      )
+    );
+  };
+  const save = async (patch) => {
+    const it = state.items[state.index];
+    const d = Object.assign({ category: "", ambiguous: false, alternative_category: "", notes: "" }, it.decision || {}, patch);
+    const r = await api("/api/mode2/decision", { persona_key: it.persona_key, category: d.category, ambiguous: d.ambiguous, alternative_category: d.alternative_category, notes: d.notes });
+    it.decision = d; state.meta.done = r.done;
+  };
+  const runMerge = async () => {
+    const out = $("#merge-out"); if (out) out.textContent = "running merge...";
+    const r = await api("/api/mode2/merge", {});
+    if (out) out.textContent = `merge exit ${r.returncode}\n${r.stdout}${r.stderr}`;
+    const dis = await api("/api/mode2/disagreements");
+    if (dis.items.length) { adjudication = dis.items; adjIndex = adjudication.findIndex(i => !i.final_category || !i.resolution); if (adjIndex < 0) adjIndex = 0; renderAdj(); }
+    else if (out) out.textContent += "\nno disagreements; contrast can be run from the CLI: uv run python scripts/04_identities.py contrast";
+  };
+  let adjIndex = 0;
+  const renderAdj = () => {
+    const it = adjudication[adjIndex];
+    header(`adjudication ${adjIndex + 1} of ${adjudication.length}`, false);
+    main.replaceChildren(
+      el("div", { class: "banner" }, el("b", { text: "Adjudication. " }), "Both codings shown; no effects. Keys 1-4 set the final category and record a resolution in outputs/roles/merged_coding.csv."),
+      el("div", { class: "two" },
+        el("div", {},
+          el("div", { class: "card" }, el("h1", { text: it.name }), el("div", { class: "text", text: it.role_text })),
+          el("div", { class: "card" }, el("h2", { text: "LLM coder" }), el("p", {}, el("b", { text: it.llm_category }), it.llm_ambiguous === "True" ? ` (ambiguous, alternative ${it.llm_alternative || "not set"})` : ""), el("div", { class: "small", text: it.llm_justification })),
+          el("div", { class: "card" }, el("h2", { text: "Human coder" }), el("p", {}, el("b", { text: it.human_category }), it.human_ambiguous === "True" ? ` (ambiguous, alternative ${it.human_alternative || "not set"})` : ""), el("div", { class: "small", text: it.human_notes })),
+          el("div", { class: "card" }, el("span", { class: it.final_category ? "verdict" : "verdict empty", text: it.final_category ? `final: ${it.final_category}` : "unresolved" }), it.resolution ? el("div", { class: "small", text: "resolution: " + it.resolution }) : null),
+          el("div", { class: "keys" }, ...state.meta.categories.map((c, i) => el("span", {}, el("kbd", { text: String(i + 1) }), " " + c)), el("span", {}, el("kbd", { text: "j" }), " resolution note"), el("span", {}, el("kbd", { text: "←" }), el("kbd", { text: "→" }), " move"), el("span", {}, el("kbd", { text: "m" }), " re-run merge to confirm")),
+          el("div", { id: "merge-out", class: "small" })
+        ),
+        side()
+      )
+    );
+  };
+  state.keyHandler = async (e) => {
+    if (!overlay.classList.contains("hidden")) return;
+    if (adjudication) {
+      const it = adjudication[adjIndex];
+      const n = parseInt(e.key, 10);
+      if (n >= 1 && n <= 4) {
+        const cat = state.meta.categories[n - 1];
+        const r = await api("/api/mode2/resolve", { persona_key: it.persona_key, final_category: cat, resolution: it.resolution || `reviewer chose ${cat} over LLM ${it.llm_category} / human ${it.human_category}` });
+        adjudication = r.items; if (adjIndex < adjudication.length - 1) adjIndex += 1; renderAdj();
+      } else if (e.key === "j") promptText("Resolution note", it.resolution, async (note) => { if (it.final_category) { const r = await api("/api/mode2/resolve", { persona_key: it.persona_key, final_category: it.final_category, resolution: note }); adjudication = r.items; } else it.resolution = note; renderAdj(); });
+      else if (e.key === "ArrowRight") { adjIndex = Math.min(adjudication.length - 1, adjIndex + 1); renderAdj(); }
+      else if (e.key === "ArrowLeft") { adjIndex = Math.max(0, adjIndex - 1); renderAdj(); }
+      else if (e.key === "m") { const r = await api("/api/mode2/merge", {}); const out = $("#merge-out"); if (out) out.textContent = `merge exit ${r.returncode}\n${r.stdout}${r.stderr}`; }
+      return;
+    }
+    const n = parseInt(e.key, 10);
+    if (n >= 1 && n <= 4) { await save({ category: state.meta.categories[n - 1] }); if (state.index < state.items.length - 1) state.index += 1; savePosition(); render(); }
+    else if (e.key === "a") { const d = state.items[state.index].decision || {}; await save({ ambiguous: !d.ambiguous }); render(); }
+    else if ("qwer".includes(e.key) && e.key.length === 1) { await save({ ambiguous: true, alternative_category: state.meta.categories["qwer".indexOf(e.key)] }); render(); }
+    else if (e.key === "j") { const d = state.items[state.index].decision || {}; promptText("One-line justification", d.notes, async (t) => { await save({ notes: t }); render(); }); }
+    else if (e.key === "ArrowRight") { state.index += 1; clampIndex(); savePosition(); render(); }
+    else if (e.key === "ArrowLeft") { state.index -= 1; clampIndex(); savePosition(); render(); }
+    else if (e.key === "m" && state.meta.done) runMerge();
+  };
+  document.addEventListener("keydown", state.keyHandler);
+  render();
+}
+
+// -------------------------------------------------------------- mode 3
+async function mode3() {
+  const d = await api("/api/mode3/items");
+  state.items = d.items; state.meta = { done: d.done, tags: d.tags, revealed: d.revealed, reveal: d.reveal, notes: d.notes_built, position: d.position };
+  state.index = Math.min(state.meta.position || 0, Math.max(0, state.items.length - 1));
+  state.activeBox = 0;
+  const render = () => {
+    if (!state.items.length) { main.replaceChildren(el("div", { class: "banner", text: "No quartets available: " + (state.meta.notes || []).join("; ") })); header("", false); return; }
+    clampIndex();
+    const q = state.items[state.index];
+    header(`quartet ${state.index + 1} of ${state.items.length}`, state.meta.done);
+    const boxes = q.boxes.map((b, i) => {
+      const saved = ((q.saved || {}).labels || {})[b.label] || {};
+      return el("div", { class: "box" + (i === state.activeBox ? " active" : ""), tabindex: "0", onclick: () => { state.activeBox = i; render(); } },
+        el("div", { class: "meta" }, el("b", { text: b.label }), `answer: ${b.first_turn_choice}`, `folded confidence: ${b.folded_confidence}`, `tokens: first ${b.first_turn_visible_tokens}, confidence ${b.confidence_turn_visible_tokens}`),
+        el("div", { class: "scroll", text: `First answer:\n${b.first_turn_answer}\n\nConfidence turn:\n${b.confidence_turn_answer}` }),
+        el("div", { class: "tags" }, ...(saved.tags || []).map(t => el("span", { class: "tag", text: t })), state.meta.revealed && saved.group ? el("span", { class: "small", text: ` true group: ${saved.group}` }) : null));
+    });
+    main.replaceChildren(
+      state.meta.notes && state.meta.notes.length ? el("div", { class: "banner small", text: state.meta.notes.join("; ") }) : null,
+      el("div", { class: "card" }, el("h2", { text: `Dilemma ${q.stimulus_id} (${q.quartet_id})` }), el("div", { class: "text", text: q.dilemma })),
+      el("div", { class: "grid" }, ...boxes),
+      el("div", { class: "card" }, el("h2", { text: "Note for this quartet: what differs and what does not" }), el("div", { class: "text", text: (q.saved && q.saved.note) || "(none yet; press w)" })),
+      el("div", { class: "keys" }, el("span", {}, el("kbd", { text: "Tab" }), " cycle boxes"), el("span", {}, el("kbd", { text: "t" }), " tags for the active box"), el("span", {}, el("kbd", { text: "w" }), " quartet note"), el("span", {}, el("kbd", { text: "←" }), el("kbd", { text: "→" }), " move"), state.index === state.items.length - 1 && !state.meta.revealed ? el("span", {}, el("kbd", { text: "R" }), " reveal (Shift+r) after the last quartet") : null),
+      state.meta.revealed ? revealCard() : null
+    );
+  };
+  const revealCard = () => {
+    const r = state.meta.reveal; if (!r) return null;
+    const groups = [...new Set(Object.values(r.tags_by_true_group).flatMap(o => Object.keys(o)))].sort();
+    const t = el("table", {}, el("tr", {}, el("th", { text: "tag" }), ...groups.map(g => el("th", { text: g }))), ...Object.entries(r.tags_by_true_group).map(([tag, c]) => el("tr", {}, el("td", { text: tag }), ...groups.map(g => el("td", { text: String(c[g] || 0) })))));
+    return el("div", { class: "card" }, el("h2", { text: "Revealed: my tags by true group" }), t, el("p", { class: "small", text: `boxes by group: ${JSON.stringify(r.boxes_by_true_group)}; extra quartets chose scrutiny identities using ${r.role_source_for_extra_quartets}` }), el("h2", { text: "Paragraph skeleton (my words and counts only)" }), el("pre", { class: "text", text: r.skeleton }));
+  };
+  const saveBox = async (label, tags) => { const q = state.items[state.index]; const r = await api("/api/mode3/save", { quartet_id: q.quartet_id, label, tags }); q.saved = r.saved; };
+  state.keyHandler = async (e) => {
+    if (!overlay.classList.contains("hidden")) return;
+    const q = state.items[state.index]; if (!q) return;
+    if (e.key === "Tab") { e.preventDefault(); state.activeBox = (state.activeBox + (e.shiftKey ? 3 : 1)) % 4; render(); }
+    else if (e.key === "t") { const b = q.boxes[state.activeBox]; const cur = (((q.saved || {}).labels || {})[b.label] || {}).tags || []; promptTags(`Tags for ${b.label}`, state.meta.tags, cur, async (tags) => { await saveBox(b.label, tags); render(); }); }
+    else if (e.key === "w") promptText("What differs and what does not", (q.saved || {}).note || "", async (note) => { const r = await api("/api/mode3/save", { quartet_id: q.quartet_id, note }); q.saved = r.saved; render(); });
+    else if (e.key === "ArrowRight") { state.index += 1; clampIndex(); state.activeBox = 0; savePosition(); render(); }
+    else if (e.key === "ArrowLeft") { state.index -= 1; clampIndex(); state.activeBox = 0; savePosition(); render(); }
+    else if (e.key === "R" && state.index === state.items.length - 1 && !state.meta.revealed) {
+      if (!confirm("Reveal true groups now? Tags and notes can still be edited but are no longer blind.")) return;
+      const r = await api("/api/mode3/reveal", {}); state.meta.revealed = true; state.meta.reveal = r; state.meta.done = true;
+      const d2 = await api("/api/mode3/items"); state.items = d2.items; render();
+    }
+  };
+  document.addEventListener("keydown", state.keyHandler);
+  render();
+}
+
+showMenu();
+})();
+</script>
+</body>
+</html>

@@ -158,6 +158,37 @@ questions. No round ended with zero change requests, so every figure used all th
   for the judge. The API backends are implemented and selected automatically when
   `ANTHROPIC_API_KEY` is set.
 
+## Review tool (added after the split)
+
+`scripts/09_review_ui.py` serves `src/glm53/review_ui/index.html` and is the only component that
+touches disk; standard library only, no network resources. Four modes write the files the
+pipeline expects; timers per mode persist in `outputs/review/state.json`; a summary button writes
+`outputs/review/summary.md`. `tests/test_review_ui.py` starts the server on a free port with
+fixture files, posts one decision per mode, and checks the written columns. A read-only smoke run
+against the real data returned 40, 70, 16 (6 existing plus 10 new quartets), and 160 items with
+identities hidden and no name leaking through redaction.
+
+Packet-format notes that shaped the tool, left as follow-ups rather than restructuring the packets:
+
+- The 40-row packet stores the dilemma inside `scenario_script[0][1]` and the confidence question
+  in `scenario_script[2][1]`; `transcript_messages` holds only a truncated placeholder. The packet
+  has `refused_estimate` but no separate `binary_refused` flag, so the tool shows the fields present.
+- The 160-row packet carries `system_profile`, which reveals the identity; the tool hides it until
+  the mode is complete. The true group is only in `human_audit_selection_private.json`, which the
+  tool never reads.
+- The mode 4 verdict keys (agree, disagree on evaluation, disagree on deference, both) do not record
+  the reviewer's own deference value, so the kappa against each judge defines the human label as the
+  first judge's label when agreeing and as flipped (binary) or "other" (ordinal) when disagreeing.
+  This is stated in the summary. A per-item value entry would give a cleaner kappa.
+- Mode 2 adds keys q/w/e/r to set the alternative category when an identity is marked ambiguous;
+  the sensitivity analysis needs that column and the request listed no key for it.
+- In this roster every published-address profile has the same role text as its constructed twin, so
+  the merged row shows one text.
+- Mode 3 selects scrutiny identities from the human coding once it exists (adjudicated finals
+  override it) and falls back to the LLM sheet only before mode 2 is done. The quartet set is cached
+  in `outputs/review/mode3_quartets_private.json` and rebuilt when the role source improves, but
+  only while no tags or notes exist. Do not open that file before pressing reveal.
+
 ## Follow-ups noticed but not done
 
 - Human steps (TODO for the author): fill `outputs/roles/human_coding_template.csv` and save it as
