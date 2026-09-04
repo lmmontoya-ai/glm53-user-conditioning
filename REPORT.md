@@ -1,7 +1,8 @@
 # Report: split of the GLM-5.3-Flash user-conditioning study into its own repository
 
 Date: 2026-09-03. Source: `Non-verbal-Eval-Awareness` at tag `glm53-user-eval-v23-final`, commit
-`92fb062`. Target: `D:\research\mats\neel_2026\glm53-user-conditioning` (no remote; not pushed).
+`92fb062`. Target: `D:\research\mats\neel_2026\glm53-user-conditioning`, pushed on 2026-09-04 to
+`https://github.com/lmmontoya-ai/glm53-user-conditioning` (private).
 
 ## Tree
 
