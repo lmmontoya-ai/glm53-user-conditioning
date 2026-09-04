@@ -86,6 +86,16 @@ the first call if the projection exceeds the cap. The context block is appended 
 system prompt through a wrapper task that registers synthetic persona keys and wraps the pinned
 prompt builder; the wrapper was verified offline (system prompt text, sample ids, script shape).
 
+Launched 2026-09-04 on the author's instruction with the OpenRouter key from an untracked file
+outside this repository (read into the process environment only). Two problems surfaced in the
+one-shard smoke run and were fixed before the full launch: Inspect's OpenRouter provider needs the
+`openai` package (added to the dependencies), and Inspect hands the persona list to the wrapper
+task already parsed as a list, which the wrapper had stringified (fixed). The smoke shard (neutral
+block, dilemma 0, 70 identities) scored 70 of 70 rows; every model-call request carried the
+identity line followed by the assigned block, with all four paraphrase families present. The full
+run then started with that shard skipped as complete; results are reported in a later section
+once `06_positive_control.py analyze` has run.
+
 ## Missing data
 
 No file listed in the request was missing. Not copied by choice: the Inspect eval logs of both runs

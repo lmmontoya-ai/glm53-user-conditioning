@@ -38,8 +38,12 @@ disagreements with the LLM coder adjudicated), points are colored by the merged 
 diamonds are role centroids with 95% identity-bootstrap intervals: scrutiny (39) and capabilities
 (12) sit below zero on both axes, business (19) above. The predeclared scrutiny-minus-business
 contrast is −1.42 pp [−2.34, −0.49] on the held-out discovery run and −1.17 pp [−2.08, −0.30] on the
-confirmatory run (`outputs/identities/role_contrast.json`). The judge round quoted below reviewed
-the uncolored version; the colored version was not re-judged.
+confirmatory run (`outputs/identities/role_contrast.json`). A post hoc secondary contrast,
+scrutiny minus capabilities, does not separate on either run (−0.23 pp [−1.18, +0.73] discovery,
+−0.34 pp [−1.36, +0.65] confirmatory), so the figure should be read as technical AI experts versus
+AI business figures rather than as evaluators versus everyone else. Keyword-only labels from the
+affiliation text reproduce the scrutiny-minus-business sign with intervals excluding zero. The judge
+round quoted below reviewed the uncolored version; the colored version was not re-judged.
 
 Final judge round (3 of 3; model opus, 4 crops):
 
