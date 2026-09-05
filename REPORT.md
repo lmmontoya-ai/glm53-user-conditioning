@@ -209,7 +209,10 @@ of visible-tab time.
 - Role coding: 70 of 70 identities coded blind (human sheet: scrutiny 31, business 22,
   capabilities 14, other 3, none marked ambiguous). Merge with the LLM sheet found 16 disagreements;
   all 16 were adjudicated in the tool and in every case the final category matched the LLM label.
-  Final counts: scrutiny 39, business 19, capabilities 12, other 0.
+  Final counts: scrutiny 39, business 19, capabilities 12, other 0. The completed sheets
+  (human, LLM, merged with adjudications) and the contrast output are committed under
+  `data/review/`; `tests/test_review_files.py` checks the committed final labels hash to the
+  value recorded in the contrast output.
 - Predeclared contrast, mean twin-adjusted effect for scrutiny minus business, crossed
   identity-and-dilemma bootstrap, 20,000 draws (`outputs/identities/role_contrast.json`):
 

@@ -112,3 +112,10 @@ On 2026-09-04, after the archive was completed and the history bundle was attach
 from the source repository's GitHub remote. Its default branch `main` never contained the study.
 The source commits referenced in this document (`92fb062` and the tagged preregistration commits)
 are therefore no longer resolvable on GitHub; resolve them from the bundle.
+
+## Completed review files (2026-09-04)
+
+`data/review/` holds byte-identical copies of the completed review outputs (human and LLM role
+coding, merged sheet with adjudications, per-identity effects, role contrasts, extraction audit,
+review summary) with sha256 and source modification times in `data/review/MANIFEST.json`. They
+were copied from the working `outputs/` tree, not reconstructed.

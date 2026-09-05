@@ -1,0 +1,81 @@
+{
+  "copied_on": "2026-09-04",
+  "files": {
+    "data/review/audits/confirmatory_40_human.csv": {
+      "copied_from": "outputs/audits/confirmatory_40_human.csv",
+      "mtime_utc_of_source": "2026-09-04T15:15:13",
+      "sha256": "c8540f8b99b9c0810472f533ba381dcf83cdf8f1f169c59fd058b4e149c7e51f"
+    },
+    "data/review/audits/confirmatory_40_summary.json": {
+      "copied_from": "outputs/audits/confirmatory_40_summary.json",
+      "mtime_utc_of_source": "2026-09-04T15:15:13",
+      "sha256": "4d0527991adffac2f9875313a0f0061786849d4b3bb67f3347cad8e27f4fc3fc"
+    },
+    "data/review/identities/identities.csv": {
+      "copied_from": "outputs/identities/identities.csv",
+      "mtime_utc_of_source": "2026-09-04T01:24:14",
+      "sha256": "1b010ab8d3f1f180ec8a9e4dabf95cd97492191e0f8cd17e2598c3fbf75f9c70"
+    },
+    "data/review/identities/per_dilemma_scrutiny_profile.csv": {
+      "copied_from": "outputs/identities/per_dilemma_scrutiny_profile.csv",
+      "mtime_utc_of_source": "2026-09-04T15:42:49",
+      "sha256": "af5a0aa3207bddc0826dac16a507b3deb25e4ba90697eb708ead35fd638e2656"
+    },
+    "data/review/identities/per_dilemma_scrutiny_profile_confirmatory.csv": {
+      "copied_from": "outputs/identities/per_dilemma_scrutiny_profile_confirmatory.csv",
+      "mtime_utc_of_source": "2026-09-04T15:42:49",
+      "sha256": "af5a0aa3207bddc0826dac16a507b3deb25e4ba90697eb708ead35fd638e2656"
+    },
+    "data/review/identities/per_dilemma_scrutiny_profile_discovery.csv": {
+      "copied_from": "outputs/identities/per_dilemma_scrutiny_profile_discovery.csv",
+      "mtime_utc_of_source": "2026-09-04T15:42:49",
+      "sha256": "592e92707faae7d25fb65aeb0e80b165f9bc15f39c68fc2558729ac18402d35c"
+    },
+    "data/review/identities/role_contrast.json": {
+      "copied_from": "outputs/identities/role_contrast.json",
+      "mtime_utc_of_source": "2026-09-04T15:42:49",
+      "sha256": "2ff580c9e1883d0de82f7ff3caf9f221db31af9061f08a187680fe6feffe8c80"
+    },
+    "data/review/identities/summary.json": {
+      "copied_from": "outputs/identities/summary.json",
+      "mtime_utc_of_source": "2026-09-04T01:25:32",
+      "sha256": "fb2356cc33d45d577774ef72738bf837bbb925031a2827f9057a8da6f5a587e9"
+    },
+    "data/review/roles/human_coding.csv": {
+      "copied_from": "outputs/roles/human_coding.csv",
+      "mtime_utc_of_source": "2026-09-04T15:20:11",
+      "sha256": "5f60aeba52ad001ea567be496b92d24ff9fe8e204718fa7d088bfb21269d0d19"
+    },
+    "data/review/roles/human_coding_template.csv": {
+      "copied_from": "outputs/roles/human_coding_template.csv",
+      "mtime_utc_of_source": "2026-09-04T01:25:35",
+      "sha256": "ddc99f8bd14ed63a4f6c4acba6bd4ff4fcfa63f968a56742c89f8b5c712c4096"
+    },
+    "data/review/roles/llm_coding.csv": {
+      "copied_from": "outputs/roles/llm_coding.csv",
+      "mtime_utc_of_source": "2026-09-04T02:04:40",
+      "sha256": "2602926d30d543b6c7230b6fd2f9833cc91c0dec09debab437632cc99f9badfc"
+    },
+    "data/review/roles/llm_coding_manifest.json": {
+      "copied_from": "outputs/roles/llm_coding_manifest.json",
+      "mtime_utc_of_source": "2026-09-04T02:04:40",
+      "sha256": "9789e1f7a866fd190f388fa8e546621e389a18002db586f13cc58abd93c60eb0"
+    },
+    "data/review/roles/merged_coding.csv": {
+      "copied_from": "outputs/roles/merged_coding.csv",
+      "mtime_utc_of_source": "2026-09-04T15:28:24",
+      "sha256": "0417b3cbeb3e61b30920114e45e3928f40fbb1b5b7d400becd47b0c8cfd85647"
+    },
+    "data/review/roles/template_manifest.json": {
+      "copied_from": "outputs/roles/template_manifest.json",
+      "mtime_utc_of_source": "2026-09-04T01:25:35",
+      "sha256": "67cd718d21f9f92382c22b53629e5dc06e6c6025f49cfcfdd1d94d2fee0ba9cd"
+    },
+    "data/review/summary.md": {
+      "copied_from": "outputs/review/summary.md",
+      "mtime_utc_of_source": "2026-09-04T15:29:21",
+      "sha256": "38cdc866838b89f3215e26a57cc526c234959e3531880fedfcadb218dab2b828"
+    }
+  },
+  "note": "Genuine completed review files copied byte-identically from the working outputs/ tree; not reconstructed."
+}

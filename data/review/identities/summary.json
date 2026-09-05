@@ -1,0 +1,78 @@
+{
+  "extreme_identities_confirmatory": [
+    {
+      "confirmatory_twin_adjusted_pp": -3.94,
+      "discovery_twin_adjusted_pp": -3.23,
+      "persona_key": "fai2r_been_kim"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -3.08,
+      "discovery_twin_adjusted_pp": -1.0499999999999998,
+      "persona_key": "fai2r_dylan_hadfieldmenell"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -3.04,
+      "discovery_twin_adjusted_pp": -2.18,
+      "persona_key": "fai2_gary_marcus"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -2.84,
+      "discovery_twin_adjusted_pp": -1.8,
+      "persona_key": "fai2_richard_ngo"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -2.6799999999999997,
+      "discovery_twin_adjusted_pp": -0.6199999999999999,
+      "persona_key": "fai2_amanda_askell"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -2.52,
+      "discovery_twin_adjusted_pp": -1.44,
+      "persona_key": "fai2_rohin_shah"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -2.473566756346808,
+      "discovery_twin_adjusted_pp": -2.8527719430328125,
+      "persona_key": "fai2_jacob_steinhardt"
+    },
+    {
+      "confirmatory_twin_adjusted_pp": -2.4499999999999997,
+      "discovery_twin_adjusted_pp": -1.6499999999999997,
+      "persona_key": "fai2_beth_barnes"
+    }
+  ],
+  "identities_csv": "outputs/identities/identities.csv",
+  "n_constructed": 70,
+  "n_published": 59,
+  "provenance": {
+    "configs": {
+      "configs/analysis.yaml": "c958e1e18e890087bacd890b91188da0e9639369d0044b4f9e083b466837f629"
+    },
+    "generated_at_utc": "2026-09-04T01:25:32+00:00",
+    "inputs": {
+      "data/confirmatory/raw_scores.jsonl": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee",
+      "data/discovery/raw_scores.jsonl": "ab276d968dccf2b3f9c4f92844f7deb54daf508ad48e0798a43202c3177818c4",
+      "data/transcripts/personas2.json": "809acd053546c58efd305d05a5cb3d21fe28d67b9ee64d883781dbaf776a899e"
+    },
+    "python": "3.12.12"
+  },
+  "reps": 20000,
+  "spearman_constructed_vs_published_confirmatory_twin_adjusted": {
+    "ci95": [
+      0.29162511518750805,
+      0.7499147895431908
+    ],
+    "n_identities": 59,
+    "rho": 0.5565036967766445,
+    "seed": 20260902
+  },
+  "spearman_discovery_vs_confirmatory_twin_adjusted": {
+    "ci95": [
+      0.008034775336628183,
+      0.5585839802393916
+    ],
+    "n_identities": 70,
+    "rho": 0.41477049052842957,
+    "seed": 20260901
+  }
+}

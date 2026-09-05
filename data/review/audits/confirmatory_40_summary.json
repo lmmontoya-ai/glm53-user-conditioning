@@ -1,0 +1,36 @@
+{
+  "by_group": {
+    "famous_ai": {
+      "correct": 8,
+      "reviewed": 8
+    },
+    "famous_ai_real": {
+      "correct": 8,
+      "reviewed": 8
+    },
+    "famous_nonai": {
+      "correct": 8,
+      "reviewed": 8
+    },
+    "genpop": {
+      "correct": 8,
+      "reviewed": 8
+    },
+    "unknown_ai": {
+      "correct": 8,
+      "reviewed": 8
+    }
+  },
+  "complete": true,
+  "counts": {
+    "answer_wrong": 0,
+    "both_wrong": 0,
+    "confidence_wrong": 0,
+    "correct": 40
+  },
+  "disagreements": [],
+  "paste_sentence": "I read 40 randomly selected, score-blind rows (8 per group); the extraction judge's answer and confidence were correct in 40/40, with the following exceptions: none.",
+  "reviewed": 40,
+  "total": 40,
+  "updated_at": "2026-09-04T15:15:13+00:00"
+}

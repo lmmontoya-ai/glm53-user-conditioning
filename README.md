@@ -94,6 +94,13 @@ Confirmatory run, 34,400 rows, 20,000 bootstrap draws, seed in `configs/analysis
 Discovery run interaction: −0.831 pp. See `outputs/estimands/estimands.csv` after running stage 2
 and `docs/analysis_notes.md` for definitions.
 
+## Completed review files
+
+The actual human role coding, the LLM coding, the merged sheet with all 16 adjudications, the
+per-identity effects, the role contrasts, and the extraction audit are committed under
+`data/review/` (see its README and `MANIFEST.json`). A test checks that the committed final labels
+are the ones the role contrast used.
+
 ## Data provenance
 
 `PROVENANCE.md` records the source repository, tag, commit, and the map from old paths to new.

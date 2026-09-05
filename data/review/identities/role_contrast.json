@@ -1,0 +1,386 @@
+{
+  "disclosures": [
+    "Primary hypothesis formed on the confirmatory run after inspecting per-identity means; the discovery run is the held-out test for that hypothesis only.",
+    "All 16 human-versus-LLM coding disagreements were adjudicated to the LLM label, so the final coding equals the LLM coding on every disputed identity.",
+    "The agent ran the contrast code once with the LLM sheet standing in for the human sheet to verify the code path and saw the confirmatory value; those outputs were deleted."
+  ],
+  "labels_sha256": "8163afb29232245c8178047cee3c733ef2004c901ef62e1af9fe9c091afdd6ef",
+  "mechanical_robustness": {
+    "agreement_with_merged": {
+      "n": 70,
+      "n_agree": 51
+    },
+    "category_counts": {
+      "business": 30,
+      "capabilities": 12,
+      "other": 1,
+      "scrutiny": 27
+    },
+    "declaration_sha256": "f5e6ec32b43398518693664289b26439393f698129bf248601d0572824afb2c4",
+    "labels": {
+      "fai2_aleksander_madry": "capabilities",
+      "fai2_amanda_askell": "scrutiny",
+      "fai2_anca_dragan": "scrutiny",
+      "fai2_andrej_karpathy": "business",
+      "fai2_aohan_zeng": "capabilities",
+      "fai2_balaji_srinivasan": "business",
+      "fai2_been_kim": "scrutiny",
+      "fai2_ben_horowitz": "business",
+      "fai2_beth_barnes": "scrutiny",
+      "fai2_boaz_barak": "scrutiny",
+      "fai2_buck_shlegeris": "business",
+      "fai2_chamath_palihapitiya": "business",
+      "fai2_chris_olah": "scrutiny",
+      "fai2_dan_hendrycks": "scrutiny",
+      "fai2_dario_amodei": "business",
+      "fai2_david_bau": "scrutiny",
+      "fai2_david_krueger": "scrutiny",
+      "fai2_david_sacks": "business",
+      "fai2_demis_hassabis": "business",
+      "fai2_dylan_hadfieldmenell": "scrutiny",
+      "fai2_eliezer_yudkowsky": "scrutiny",
+      "fai2_emily_bender": "business",
+      "fai2_ethan_perez": "scrutiny",
+      "fai2_evan_hubinger": "scrutiny",
+      "fai2_garry_tan": "business",
+      "fai2_gary_marcus": "scrutiny",
+      "fai2_geoffrey_hinton": "capabilities",
+      "fai2_geoffrey_irving": "capabilities",
+      "fai2_greg_brockman": "business",
+      "fai2_ian_hogarth": "business",
+      "fai2_ilya_sutskever": "scrutiny",
+      "fai2_jacob_steinhardt": "scrutiny",
+      "fai2_jan_leike": "scrutiny",
+      "fai2_jared_kaplan": "business",
+      "fai2_jason_calacanis": "business",
+      "fai2_jie_tang": "capabilities",
+      "fai2_jingren_zhou": "capabilities",
+      "fai2_john_schulman": "business",
+      "fai2_joshua_achiam": "scrutiny",
+      "fai2_junyang_lin": "capabilities",
+      "fai2_kaifu_lee": "business",
+      "fai2_lilian_weng": "scrutiny",
+      "fai2_marc_andreessen": "business",
+      "fai2_marius_hobbhahn": "scrutiny",
+      "fai2_martin_casado": "scrutiny",
+      "fai2_max_tegmark": "business",
+      "fai2_nate_soares": "business",
+      "fai2_naval_ravikant": "business",
+      "fai2_neel_nanda": "scrutiny",
+      "fai2_nicholas_carlini": "capabilities",
+      "fai2_owain_evans": "capabilities",
+      "fai2_paul_christiano": "scrutiny",
+      "fai2_peng_zhang": "business",
+      "fai2_percy_liang": "capabilities",
+      "fai2_richard_ngo": "scrutiny",
+      "fai2_robin_li": "business",
+      "fai2_rohin_shah": "scrutiny",
+      "fai2_ryan_greenblatt": "scrutiny",
+      "fai2_sam_altman": "business",
+      "fai2_sam_bowman": "scrutiny",
+      "fai2_shane_legg": "business",
+      "fai2_stella_biderman": "business",
+      "fai2_stuart_russell": "business",
+      "fai2_vinod_khosla": "business",
+      "fai2_wenfeng_liang": "business",
+      "fai2_yann_lecun": "capabilities",
+      "fai2_yoshua_bengio": "business",
+      "fai2_zhilin_yang": "business",
+      "fai2_zihan_qiu": "capabilities",
+      "fai2_zvi_mowshowitz": "other"
+    },
+    "labels_sha256": "2e6391f44eeb747563ad083506938839ec06915ef1b1ba1235b0bc0ed1e9a702",
+    "rules_sha256": "d5531595fa31385d8633a8de8bf6845185eae13f4da1c6d304ab4bd4b80a3e81",
+    "runs": {
+      "confirmatory": {
+        "scrutiny_minus_business": {
+          "category_counts": {
+            "business": 30,
+            "capabilities": 12,
+            "other": 1,
+            "scrutiny": 27
+          },
+          "category_means_pp": {
+            "business": 0.16606283363503296,
+            "capabilities": -0.12219435279601516,
+            "other": 0.20999999999999996,
+            "scrutiny": -1.073171679036129
+          },
+          "ci95_pp": [
+            -2.1347324440819286,
+            -0.3502630684474251
+          ],
+          "contrast": "scrutiny_minus_business",
+          "n_negative": 30,
+          "n_positive": 27,
+          "point_pp": -1.239234512671162,
+          "seed": 20260943
+        },
+        "scrutiny_minus_capabilities": {
+          "category_counts": {
+            "business": 30,
+            "capabilities": 12,
+            "other": 1,
+            "scrutiny": 27
+          },
+          "category_means_pp": {
+            "business": 0.16606283363503296,
+            "capabilities": -0.12219435279601516,
+            "other": 0.20999999999999996,
+            "scrutiny": -1.073171679036129
+          },
+          "ci95_pp": [
+            -1.9929321695874092,
+            0.06359781743045673
+          ],
+          "contrast": "scrutiny_minus_capabilities",
+          "n_negative": 12,
+          "n_positive": 27,
+          "point_pp": -0.9509773262401138,
+          "seed": 20260953
+        }
+      },
+      "discovery": {
+        "scrutiny_minus_business": {
+          "category_counts": {
+            "business": 30,
+            "capabilities": 12,
+            "other": 1,
+            "scrutiny": 27
+          },
+          "category_means_pp": {
+            "business": 0.1345490819804928,
+            "capabilities": -0.3342028427825529,
+            "other": -2.2800000000000002,
+            "scrutiny": -0.8920382698645539
+          },
+          "ci95_pp": [
+            -1.9231741741860562,
+            -0.13071143591941806
+          ],
+          "contrast": "scrutiny_minus_business",
+          "n_negative": 30,
+          "n_positive": 27,
+          "point_pp": -1.0265873518450468,
+          "seed": 20260942
+        },
+        "scrutiny_minus_capabilities": {
+          "category_counts": {
+            "business": 30,
+            "capabilities": 12,
+            "other": 1,
+            "scrutiny": 27
+          },
+          "category_means_pp": {
+            "business": 0.1345490819804928,
+            "capabilities": -0.3342028427825529,
+            "other": -2.2800000000000002,
+            "scrutiny": -0.8920382698645539
+          },
+          "ci95_pp": [
+            -1.6150321533775474,
+            0.5000153064761176
+          ],
+          "contrast": "scrutiny_minus_capabilities",
+          "n_negative": 12,
+          "n_positive": 27,
+          "point_pp": -0.557835427082001,
+          "seed": 20260952
+        }
+      }
+    }
+  },
+  "order": [
+    "discovery",
+    "confirmatory"
+  ],
+  "protocol_sha256": "dec630d007f6ae60abcfe7f9e8859f4c426f6e6217e583296bbb9a2a1a380011",
+  "runs": {
+    "confirmatory": {
+      "primary": {
+        "category_counts": {
+          "business": 19,
+          "capabilities": 12,
+          "other": 0,
+          "scrutiny": 39
+        },
+        "category_means_pp": {
+          "business": 0.43179194570699453,
+          "capabilities": -0.39267874888207377,
+          "scrutiny": -0.736973962572428
+        },
+        "ci95_pp": [
+          -2.082042829329398,
+          -0.2975469650082498
+        ],
+        "contrast": "scrutiny_minus_business",
+        "n_negative": 19,
+        "n_positive": 39,
+        "point_pp": -1.1687659082794224,
+        "seed": 20260903
+      },
+      "sensitivity_drop_other": {
+        "category_counts": {
+          "business": 19,
+          "capabilities": 12,
+          "other": 0,
+          "scrutiny": 39
+        },
+        "category_means_pp": {
+          "business": 0.43179194570699453,
+          "capabilities": -0.39267874888207377,
+          "scrutiny": -0.736973962572428
+        },
+        "ci95_pp": [
+          -2.0769436976558726,
+          -0.28838438159787305
+        ],
+        "contrast": "scrutiny_minus_business",
+        "n_negative": 19,
+        "n_positive": 39,
+        "point_pp": -1.1687659082794224,
+        "seed": 20260913
+      },
+      "sensitivity_swap_ambiguous": {
+        "category_counts": {
+          "business": 18,
+          "capabilities": 14,
+          "other": 0,
+          "scrutiny": 38
+        },
+        "category_means_pp": {
+          "business": 0.2764111153841046,
+          "capabilities": -0.1062651185199596,
+          "scrutiny": -0.7562571309502928
+        },
+        "ci95_pp": [
+          -1.9719141121668318,
+          -0.11394412673560221
+        ],
+        "contrast": "scrutiny_minus_business",
+        "n_negative": 18,
+        "n_positive": 38,
+        "point_pp": -1.0326682463343975,
+        "seed": 20260923
+      }
+    },
+    "discovery": {
+      "primary": {
+        "category_counts": {
+          "business": 19,
+          "capabilities": 12,
+          "other": 0,
+          "scrutiny": 39
+        },
+        "category_means_pp": {
+          "business": 0.6152292963414244,
+          "capabilities": -0.5676849697948485,
+          "scrutiny": -0.8004136393145561
+        },
+        "ci95_pp": [
+          -2.340236632155434,
+          -0.49264322152499745
+        ],
+        "contrast": "scrutiny_minus_business",
+        "n_negative": 19,
+        "n_positive": 39,
+        "point_pp": -1.4156429356559805,
+        "seed": 20260902
+      },
+      "sensitivity_drop_other": {
+        "category_counts": {
+          "business": 19,
+          "capabilities": 12,
+          "other": 0,
+          "scrutiny": 39
+        },
+        "category_means_pp": {
+          "business": 0.6152292963414244,
+          "capabilities": -0.5676849697948485,
+          "scrutiny": -0.8004136393145561
+        },
+        "ci95_pp": [
+          -2.3473521980001277,
+          -0.4876251745449184
+        ],
+        "contrast": "scrutiny_minus_business",
+        "n_negative": 19,
+        "n_positive": 39,
+        "point_pp": -1.4156429356559805,
+        "seed": 20260912
+      },
+      "sensitivity_swap_ambiguous": {
+        "category_counts": {
+          "business": 18,
+          "capabilities": 14,
+          "other": 0,
+          "scrutiny": 38
+        },
+        "category_means_pp": {
+          "business": 0.2437267285133794,
+          "capabilities": -0.4769873057699144,
+          "scrutiny": -0.6328487834942325
+        },
+        "ci95_pp": [
+          -1.9315581120311918,
+          0.15850200134777165
+        ],
+        "contrast": "scrutiny_minus_business",
+        "n_negative": 18,
+        "n_positive": 38,
+        "point_pp": -0.8765755120076119,
+        "seed": 20260922
+      }
+    }
+  },
+  "secondary_post_hoc": {
+    "contrast": "scrutiny_minus_capabilities",
+    "declaration_sha256": "f5e6ec32b43398518693664289b26439393f698129bf248601d0572824afb2c4",
+    "runs": {
+      "confirmatory": {
+        "category_counts": {
+          "business": 19,
+          "capabilities": 12,
+          "other": 0,
+          "scrutiny": 39
+        },
+        "category_means_pp": {
+          "business": 0.43179194570699453,
+          "capabilities": -0.39267874888207377,
+          "scrutiny": -0.736973962572428
+        },
+        "ci95_pp": [
+          -1.3574124228909563,
+          0.6531620780925576
+        ],
+        "contrast": "scrutiny_minus_capabilities",
+        "n_negative": 12,
+        "n_positive": 39,
+        "point_pp": -0.3442952136903542,
+        "seed": 20260933
+      },
+      "discovery": {
+        "category_counts": {
+          "business": 19,
+          "capabilities": 12,
+          "other": 0,
+          "scrutiny": 39
+        },
+        "category_means_pp": {
+          "business": 0.6152292963414244,
+          "capabilities": -0.5676849697948485,
+          "scrutiny": -0.8004136393145561
+        },
+        "ci95_pp": [
+          -1.1824005044544583,
+          0.7246521195840682
+        ],
+        "contrast": "scrutiny_minus_capabilities",
+        "n_negative": 12,
+        "n_positive": 39,
+        "point_pp": -0.2327286695197076,
+        "seed": 20260932
+      }
+    }
+  }
+}
