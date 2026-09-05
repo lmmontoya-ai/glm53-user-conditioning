@@ -106,3 +106,9 @@ trees, the roster pilots, and the v11 offline audit; 65.6 MB) were copied byte-i
 that copy, every one of the 1,283 files tracked at the final tag exists in this repository. The full
 git history of the study (the v23 branch and all 163 tags) is preserved as a bundle described in
 `archive/history/README.md` and attached to the `source-history` release of this repository.
+
+On 2026-09-04, after the archive was completed and the history bundle was attached to the
+`source-history` release, the 18 `glm53-user-eval-*` branches and 163 `glm53-*` tags were deleted
+from the source repository's GitHub remote. Its default branch `main` never contained the study.
+The source commits referenced in this document (`92fb062` and the tagged preregistration commits)
+are therefore no longer resolvable on GitHub; resolve them from the bundle.
