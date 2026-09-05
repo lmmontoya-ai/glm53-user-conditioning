@@ -1,0 +1,42 @@
+{
+  "comparison": {
+    "all_headline_estimates_match": true,
+    "maximum_absolute_differences": {
+      "affiliation_ci95_pp": 1.1102230246251565e-16,
+      "affiliation_effect_pp": 0.0,
+      "generic_fame_ci95_pp": 0.0,
+      "generic_fame_effect_pp": 0.0,
+      "name_ci95_pp": 0.0,
+      "name_effect_pp": 0.0,
+      "negative_name_identity_count": 0.0,
+      "parse_rate": 0.0,
+      "sample_count": 0.0
+    }
+  },
+  "independent_estimates": {
+    "affiliation_ci95_pp": [
+      -0.7823634030504708,
+      0.695753263584321
+    ],
+    "affiliation_effect_pp": -0.04367816091954023,
+    "generic_fame_ci95_pp": [
+      -0.7925107220832706,
+      0.6705061425706551
+    ],
+    "generic_fame_effect_pp": -0.05048766494549627,
+    "name_ci95_pp": [
+      -0.9844387118918363,
+      0.5031519528790561
+    ],
+    "name_effect_pp": -0.24583572659391154,
+    "negative_name_identity_count": 34,
+    "parse_rate": 0.9977142857142857,
+    "sample_count": 7000
+  },
+  "input_hashes": {
+    "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_discovery\\results.jsonl": "53278f88d214c5d9d0308a32e6a66476768cb0891134dd494eb3e2320ef32fb7",
+    "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_discovery_schedule\\schedule.jsonl": "9bd2a516ccdba5e1f777739b0501c44e9080617a18dedd0b32f5d621bbb25c0a",
+    "artifacts\\glm53_user_eval\\reports\\roster_v5\\analysis\\discovery.json": "dd02db48e3e82cb9aef76f247ff5a11fa78b59d6b371b1d458db6f2168fd22d8"
+  },
+  "schema_version": "glm53_roster_independent_recompute_v1"
+}

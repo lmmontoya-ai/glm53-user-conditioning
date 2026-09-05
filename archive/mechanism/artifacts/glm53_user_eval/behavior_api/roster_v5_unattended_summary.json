@@ -1,0 +1,9 @@
+{
+  "schema_version": "glm53_roster_unattended_summary_v1",
+  "discovery_rows": 7000,
+  "confirmation_rows": 7000,
+  "discovery_route_audit": "route_validation_7000.json",
+  "confirmation_route_audit": "route_validation_7000.json",
+  "effects_inspected": false,
+  "completed_at_utc": "2026-08-29T13:44:39.1753208Z"
+}

@@ -1,0 +1,31 @@
+{
+  "comparisons": {
+    "derived_labels": true,
+    "evidence_spans": true,
+    "factor_accuracy": true,
+    "match_sample_ids": true,
+    "mismatch_sample_ids": true,
+    "primary_attempt_cost": true,
+    "primary_checks": true,
+    "primary_passed": true,
+    "prompt_blinding": true,
+    "route_validation": true,
+    "row_results": true,
+    "split_metrics": true,
+    "verifier_analysis": true,
+    "verifier_rows": true,
+    "verifier_schedule": true
+  },
+  "inputs": {
+    "dataset": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+    "primary_analysis": "2cee3d7806881c38ad2d5cd1e5381f830381bd5e05e0906d48604dd7e8ce7c33",
+    "verifier_analysis": "05b4ce15ba1db21f11ebada2f4a1254b2888e4a16848f332945f923fe49c4ca9",
+    "verifier_schedule": "7dbd19f9bb1b46b7024222dea04bcb401a52765e6fc33b30a0a901f741538c73"
+  },
+  "integrity_agreement": true,
+  "passed": true,
+  "prompt_failures": [],
+  "schema_version": "glm53_v12_independent_verification_v1",
+  "scientific_gate_passed": false,
+  "verifier_route_failures": []
+}

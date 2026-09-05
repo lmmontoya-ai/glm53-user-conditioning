@@ -1,0 +1,18 @@
+{
+  "elapsed_seconds": 107.6054810679052,
+  "model_id": "zai-org/GLM-5.3-Flash",
+  "passed": true,
+  "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "runtime_link": "/workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "schema_version": "glm53_v8_hf_local_stage_v1",
+  "sentinel": {
+    "download_source": "zai-org/GLM-5.3-Flash",
+    "manifest_sha256": "28d8a5842d8be519fb23d031ddd9b91d0a814b7e679b748f0ea7fd46f03434ca",
+    "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+    "schema_version": "glm53_local_stage_v1",
+    "weight_bytes": 328337455672,
+    "weight_shards": 62
+  },
+  "target": "/runpod-local/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "workers": 8
+}

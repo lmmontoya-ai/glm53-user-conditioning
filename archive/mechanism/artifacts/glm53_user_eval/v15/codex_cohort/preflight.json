@@ -1,0 +1,35 @@
+{
+  "auth_status": "Logged in using ChatGPT",
+  "cli_executable": "C:\\Users\\luism\\AppData\\Roaming\\npm\\codex.CMD",
+  "cli_version": "codex-cli 0.151.0",
+  "created_at_utc": "2026-09-01T15:58:05.159384+00:00",
+  "git_commit": "54b2b88ea3af1a4d91143493c8354c9e18620e6c",
+  "models": {
+    "luna_max": {
+      "display_name": "GPT-5.6-Luna",
+      "reasoning_effort": "max",
+      "slug": "gpt-5.6-luna",
+      "supported_reasoning_levels": [
+        "high",
+        "low",
+        "max",
+        "medium",
+        "xhigh"
+      ]
+    },
+    "terra_high": {
+      "display_name": "GPT-5.6-Terra",
+      "reasoning_effort": "high",
+      "slug": "gpt-5.6-terra",
+      "supported_reasoning_levels": [
+        "high",
+        "low",
+        "max",
+        "medium",
+        "ultra",
+        "xhigh"
+      ]
+    }
+  },
+  "prereg_sha256": "2297f53c8b9f2ddf08704f27e5dd8a9f604d4d9b41472255a53b4903b65070a2"
+}

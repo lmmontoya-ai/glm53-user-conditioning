@@ -1,0 +1,64 @@
+{
+  "cli_preflight": {
+    "auth_status": "Logged in using ChatGPT",
+    "cli_executable": "C:\\Users\\luism\\AppData\\Roaming\\npm\\codex.CMD",
+    "cli_version": "codex-cli 0.151.0",
+    "models": {
+      "luna_max": {
+        "display_name": "GPT-5.6-Luna",
+        "reasoning_effort": "max",
+        "slug": "gpt-5.6-luna",
+        "supported_reasoning_levels": [
+          "high",
+          "low",
+          "max",
+          "medium",
+          "xhigh"
+        ]
+      },
+      "terra_high": {
+        "display_name": "GPT-5.6-Terra",
+        "reasoning_effort": "high",
+        "slug": "gpt-5.6-terra",
+        "supported_reasoning_levels": [
+          "high",
+          "low",
+          "max",
+          "medium",
+          "ultra",
+          "xhigh"
+        ]
+      }
+    }
+  },
+  "dataset_sha256": "a9c29d1a10a3eb7c431d8097808e9df10f888aa1585cc27638f44bb0aca1352e",
+  "fast_mode_disabled": true,
+  "fresh_judgments": 128,
+  "fresh_rows_per_judge": 64,
+  "hash_verified_reused_rows_per_judge": 512,
+  "inference_tier": "standard",
+  "judges": {
+    "luna_max": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "max"
+    },
+    "terra_high": {
+      "model": "gpt-5.6-terra",
+      "reasoning_effort": "high"
+    }
+  },
+  "maximum_parallel_sessions": 24,
+  "project_id": "glm53_user_eval_fresh_controls_v15",
+  "sample_ids_sha256": "6fe5a387fbb53d1260aa1de0d52d10bbaaa7afdaca12afa187753312575e2e99",
+  "schema_version": "glm53_v15_codex_schedule_v1",
+  "split_counts": {
+    "development_counterfactual": 64,
+    "factorial_calibration": 32,
+    "final_counterfactual": 64,
+    "neutral_controls": 64,
+    "ordinary_test": 48,
+    "train": 256,
+    "validation": 48
+  },
+  "total_rows_per_judge": 576
+}

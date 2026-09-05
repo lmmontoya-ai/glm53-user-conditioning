@@ -1,0 +1,16 @@
+{
+  "confirmation_pairs": 12,
+  "confirmation_prompt_arms": 11040,
+  "control_count_per_group": 16,
+  "pilot_pairs": 4,
+  "project_id": "glm53_user_eval_mechanism_v8",
+  "proxy_cache_rows": 7000,
+  "schema_version": "glm53_v8_plan_v1",
+  "score_blind_layer_selection": true,
+  "target_pairs": 16,
+  "task_counts": {
+    "confirmation": 10,
+    "hardening": 10,
+    "pilot": 5
+  }
+}

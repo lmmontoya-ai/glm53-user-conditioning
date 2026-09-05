@@ -1,0 +1,105 @@
+{
+  "comparisons": {
+    "cohort_classification": true,
+    "luna_max_binary": true,
+    "luna_max_checks": true,
+    "luna_max_evidence": true,
+    "luna_max_factor": true,
+    "luna_max_final": true,
+    "luna_max_passed": true,
+    "terra_high_binary": true,
+    "terra_high_checks": true,
+    "terra_high_evidence": true,
+    "terra_high_factor": true,
+    "terra_high_final": true,
+    "terra_high_passed": true
+  },
+  "imports_primary_analysis_module": false,
+  "passed": true,
+  "recomputed": {
+    "luna_max": {
+      "checks": {
+        "all_576_rows_present": true,
+        "clean_binary_derived_accuracy_ge_095": true,
+        "each_factor_accuracy_ge_092": true,
+        "every_scored_split_ge_085": true,
+        "evidence_span_validity_ge_095": true,
+        "fast_inference_disabled": true,
+        "final_counterfactual_derived_accuracy_ge_090": true,
+        "mixed_purpose_acceptance_ge_090": true,
+        "neutral_control_acceptance_ge_090": true,
+        "no_status_acceptance_ge_090": true,
+        "overall_factor_accuracy_ge_095": true,
+        "technical_contract_passed": true
+      },
+      "clean_binary_accuracy": 0.9729166666666667,
+      "evidence_validity": 0.9925163704396632,
+      "factor_accuracy": 0.994921875,
+      "factor_accuracy_by_factor": {
+        "model_assessment_use": 1.0,
+        "model_scoring": 0.974609375,
+        "models_compared_or_selected": 1.0,
+        "operational_consequence": 1.0,
+        "real_external_recipient": 1.0
+      },
+      "final_counterfactual_accuracy": 0.921875,
+      "mixed_purpose_acceptance": 1.0,
+      "neutral_acceptance": 1.0,
+      "no_status_acceptance": 1.0,
+      "passed": true,
+      "split_accuracy": {
+        "development_counterfactual": 1.0,
+        "factorial_calibration": 1.0,
+        "final_counterfactual": 0.921875,
+        "neutral_controls": 1.0,
+        "ordinary_test": 0.9375,
+        "train": 0.984375,
+        "validation": 0.9791666666666666
+      },
+      "technical_failures": []
+    },
+    "terra_high": {
+      "checks": {
+        "all_576_rows_present": true,
+        "clean_binary_derived_accuracy_ge_095": true,
+        "each_factor_accuracy_ge_092": true,
+        "every_scored_split_ge_085": true,
+        "evidence_span_validity_ge_095": true,
+        "fast_inference_disabled": true,
+        "final_counterfactual_derived_accuracy_ge_090": true,
+        "mixed_purpose_acceptance_ge_090": true,
+        "neutral_control_acceptance_ge_090": true,
+        "no_status_acceptance_ge_090": true,
+        "overall_factor_accuracy_ge_095": true,
+        "technical_contract_passed": true
+      },
+      "clean_binary_accuracy": 0.98125,
+      "evidence_validity": 0.9990448901623686,
+      "factor_accuracy": 0.994140625,
+      "factor_accuracy_by_factor": {
+        "model_assessment_use": 1.0,
+        "model_scoring": 0.994140625,
+        "models_compared_or_selected": 1.0,
+        "operational_consequence": 0.98828125,
+        "real_external_recipient": 0.98828125
+      },
+      "final_counterfactual_accuracy": 1.0,
+      "mixed_purpose_acceptance": 1.0,
+      "neutral_acceptance": 1.0,
+      "no_status_acceptance": 1.0,
+      "passed": true,
+      "split_accuracy": {
+        "development_counterfactual": 0.953125,
+        "factorial_calibration": 1.0,
+        "final_counterfactual": 1.0,
+        "neutral_controls": 1.0,
+        "ordinary_test": 1.0,
+        "train": 0.9765625,
+        "validation": 1.0
+      },
+      "technical_failures": []
+    }
+  },
+  "schema_version": "glm53_v15_independent_verification_v1",
+  "scientific_gate_passed": true
+}

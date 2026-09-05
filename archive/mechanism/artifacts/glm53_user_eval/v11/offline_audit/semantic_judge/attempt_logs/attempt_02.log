@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\src\glm53_user_eval\v11\semantic_validation.py", line 97, in parse_judge_json
+    payload = json.loads(stripped)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 136 (char 135)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\pipelines\glm53_user_eval\v11\run.py", line 1824, in <module>
+    main()
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\pipelines\glm53_user_eval\v11\run.py", line 1820, in main
+    COMMANDS[args.command](args)
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\pipelines\glm53_user_eval\v11\run.py", line 795, in command_semantic_judge
+    results = asyncio.run(
+              ^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\src\glm53_user_eval\v11\semantic_validation.py", line 263, in run_semantic_judge
+    results.extend(await asyncio.gather(*tasks))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\src\glm53_user_eval\v11\semantic_validation.py", line 198, in _one_judge_call
+    parsed = parse_judge_json(response_text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\research\mats\neel_2026\Non-verbal-Eval-Awareness\src\glm53_user_eval\v11\semantic_validation.py", line 102, in parse_judge_json
+    payload = json.loads(stripped[first : last + 1])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luism\miniconda3\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 136 (char 135)

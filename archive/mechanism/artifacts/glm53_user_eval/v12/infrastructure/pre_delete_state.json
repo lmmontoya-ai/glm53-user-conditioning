@@ -1,0 +1,47 @@
+{
+  "schema_version": "glm53_v12_runpod_pre_delete_v1",
+  "captured_at_utc": "2026-09-01T13:17:02.3814649Z",
+  "project_id": "glm53_user_eval_fact_validator_v12",
+  "terminal_decision": "fact_extracted_semantic_validation_failed_stop_all_experiments",
+  "git": {
+    "branch": "glm53-user-eval-v12-fact-validator",
+    "final_commit": "9d50ceebd87894ea063b8be9061b72558da0dd1f",
+    "final_tag": "glm53-user-eval-v12-final",
+    "remote_branch_matches": true,
+    "remote_tag_matches": true
+  },
+  "evidence_backup": {
+    "final_evidence_sha256": "c6cb35446decd42c6369ed715e1f6142d2b37b85aaa7efe90ab1954547d62d7d",
+    "raw_bundle_manifest_sha256": "0e3b5a759c7ccd679c8abf323d65bb459299f6df1796f908a6b2cb8b7b4ff142",
+    "raw_primary_judgments_committed": 576,
+    "raw_primary_attempts_committed": 585,
+    "raw_verifier_judgments_committed": 484,
+    "raw_verifier_attempts_committed": 486
+  },
+  "runpod": {
+    "client_balance_usd": 44.0551634707,
+    "current_spend_per_hour_usd": 0.049,
+    "pod_count": 0,
+    "serverless_endpoint_count": 0,
+    "network_volumes": [
+      {
+        "id": "a9diryunoj",
+        "name": "mats-evaluator-identity",
+        "data_center_id": "US-KS-2",
+        "size_gb": 500
+      }
+    ]
+  },
+  "deletion_target": {
+    "kind": "runpod_network_volume",
+    "id": "a9diryunoj",
+    "exact_target_verified": true,
+    "recursive_or_broad_filesystem_target": false
+  },
+  "recoverability": {
+    "volume_contents_after_deletion": "not_recoverable",
+    "official_model_weights": "redownloadable_from_the_pinned_hugging_face_revision",
+    "compact_and_raw_v12_evidence": "committed_and_pushed_to_github"
+  },
+  "credential_rotation": "deferred_to_user_immediately_after_project_cleanup"
+}

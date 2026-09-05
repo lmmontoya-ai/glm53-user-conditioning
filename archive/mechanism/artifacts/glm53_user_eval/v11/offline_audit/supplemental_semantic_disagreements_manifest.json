@@ -1,0 +1,39 @@
+{
+  "adjudication_required_on_disagreement": true,
+  "changes_paid_authorization": false,
+  "changes_preregistered_gate": false,
+  "changes_semantic_metrics": false,
+  "counts": {
+    "dataset_rows": 576,
+    "disagreements_in_original_packet": 22,
+    "omitted_disagreements": 6,
+    "semantic_disagreements": 28
+  },
+  "labels_blinded": true,
+  "packet_sha256": "0ce732ac146d014c0644888b586a3072d48c405ae48bec89308f4f5f36489edc",
+  "row_count": 6,
+  "schema_version": "contrastive_prompts_v3_supplemental_manual_packet_v1",
+  "scientific_role": "supplemental_non_gating_human_review",
+  "selected_sample_ids": [
+    "849d3ad06d3c54129d1f",
+    "6e2d31ff4c25f791d553",
+    "e118abfe2dcd2262000a",
+    "b23b305a27b051bddd91",
+    "6424ee0dc4409390f498",
+    "ef46f8e42205430ace3b"
+  ],
+  "selected_sample_ids_sha256": "e8d74a9e97d73f5db3ffcb774a1446adbd8d9343851c75abee4a946e43b1d3df",
+  "selection_rule": "semantic parsed label not in acceptable_judge_labels, then subtract all sample IDs in the frozen primary manual packet",
+  "source_hashes": {
+    "original_manual_packet": "4f61f85e082262d47694954a8b5626d488b570172662c61b12c722dc07af69dd",
+    "samples_jsonl": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+    "semantic_judgment_set": "db27618e9a0704e5065341aee955c7821b49f360e1afe81bbf3f456e953a57ed",
+    "semantic_validation": "1c57cb00b19962d7f6d1565471bdfe977788f6ce44d7f00174eb3d4d13d95d9c"
+  },
+  "split_counts": {
+    "neutral_controls": 3,
+    "ordinary_test": 1,
+    "validation": 2
+  },
+  "two_distinct_reviewers_required": true
+}

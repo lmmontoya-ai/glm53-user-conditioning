@@ -1,0 +1,24 @@
+{
+  "authorization": {
+    "exact_fp8_source_extraction": true,
+    "first_cot_transfer": false,
+    "further_dataset_repair": false,
+    "local_proxy_parity": false,
+    "prompt_recruitment": false,
+    "runpod_compute": true,
+    "steering": false
+  },
+  "checks": {
+    "fast_inference_disabled": true,
+    "luna_max_independently_passed": true,
+    "technical_contract_passed": true,
+    "terra_high_independently_passed": true,
+    "verification_agreed": true
+  },
+  "decision": "fresh_control_bank_validated_by_both_codex_judges",
+  "interpretation": "Both independent non-fast Codex judges passed the repaired source bank with a fresh balanced control surface. Only bounded exact-FP8 source extraction is unlocked.",
+  "manual_or_ai_override_allowed": false,
+  "passed": true,
+  "project_id": "glm53_user_eval_fresh_controls_v15",
+  "schema_version": "glm53_v15_fresh_controls_decision_v1"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "glm53_v12_raw_bundle_manifest_v1",
+  "project_id": "glm53_user_eval_fact_validator_v12",
+  "scientific_role": "raw_api_evidence_compacted_without_field_removal",
+  "source_final_evidence_sha256": "c6cb35446decd42c6369ed715e1f6142d2b37b85aaa7efe90ab1954547d62d7d",
+  "files": [
+    {
+      "path": "artifacts/glm53_user_eval/v12/semantic_validation/primary_raw_judgments.jsonl",
+      "sha256": "c87b664eb36028d2084b94c6c68fdf7edfe65794f3d741ee1fdbd31decfccece",
+      "bytes": 2616170,
+      "records": 576
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v12/semantic_validation/primary_raw_attempts.jsonl",
+      "sha256": "e90c97706c2bcf114180c36c4ade9d2d2898fb9c2a242b62ac5558c4aaa32f49",
+      "bytes": 2362760,
+      "records": 585
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v12/semantic_validation/verifier_raw_judgments.jsonl",
+      "sha256": "948f0fafd52b931438c247cf62cd5248605285eb139871319b14f29c7420c6b6",
+      "bytes": 2050708,
+      "records": 484
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v12/semantic_validation/verifier_raw_attempts.jsonl",
+      "sha256": "c9ae7b3ffd9089484560b320698e2a6d879beb20ec7b2ede703e498c3fd8d86c",
+      "bytes": 1794743,
+      "records": 486
+    }
+  ],
+  "credential_scan_in_source_evidence_passed": true
+}

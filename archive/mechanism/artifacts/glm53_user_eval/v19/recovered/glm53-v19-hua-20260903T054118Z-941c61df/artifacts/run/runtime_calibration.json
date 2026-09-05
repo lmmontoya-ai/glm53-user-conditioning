@@ -1,0 +1,32 @@
+{
+  "allowed_logits_finite": true,
+  "alpha_zero_argmax_equal": true,
+  "batch_size": 1,
+  "benchmark_rows": 16,
+  "benchmark_seconds": 14.60545716388151,
+  "fits_deadline_with_backup_reserve": true,
+  "max_alpha_zero_full_logit_error": 0.0,
+  "passed": true,
+  "projected_forwards": 7500,
+  "projected_seconds_with_headroom": 7530.938850126403,
+  "prompts_per_second": 1.095480943901374,
+  "sample_ids": [
+    "dd_0040-gen2_013_qiao_le-plain",
+    "dd_0046-fam2_051_antonio_cassano-plain",
+    "dd_0060-gen2_042_jailyn_claybon-plain",
+    "dd_0087-gen2_047_sarada_mongru-plain",
+    "dd_0060-fai2_john_schulman-plain",
+    "dd_0007-uai2_ukaisi_040_brittany_bradford-plain",
+    "dd_0090-gen2_013_qiao_le-plain",
+    "dd_0090-gen2_043_sonia_fernandez-plain",
+    "dd_0021-gen2_011_tucker_baker-plain",
+    "dd_0042-uai2_redwoodresearch_045_saba_guevara-plain",
+    "dd_0013-gen2_043_sonia_fernandez-plain",
+    "dd_0071-fam2_061_mena_suvari-plain",
+    "dd_0071-uai2_thinkingmachineslab_014_debra_reeves-plain",
+    "dd_0076-gen2_050_catherine_denis-plain",
+    "dd_0076-fai2_naval_ravikant-plain",
+    "dd_0087-fam2_051_antonio_cassano-plain"
+  ],
+  "schema_version": "glm53_v19_batch_one_calibration_v1"
+}

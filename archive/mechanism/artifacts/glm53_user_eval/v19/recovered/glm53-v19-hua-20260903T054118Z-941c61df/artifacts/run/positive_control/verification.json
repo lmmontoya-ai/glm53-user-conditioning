@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "baseline_accuracy": true,
+    "depth_mapped_a0.6_deploy_point": true,
+    "depth_mapped_a0.6_eval_point": true,
+    "literal_a0.6_deploy_point": true,
+    "literal_a0.6_eval_point": true,
+    "row_count": true,
+    "unique_keys": true
+  },
+  "passed": true,
+  "schema_version": "glm53_v19_pc_verification_v1"
+}

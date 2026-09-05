@@ -1,0 +1,28 @@
+{
+  "authorization": {
+    "manual_packet": true,
+    "new_glm_forwards": false,
+    "runpod_compute": false,
+    "semantic_judge": true
+  },
+  "checks": {
+    "char_final_le_065": true,
+    "deleted_char_final_le_060": true,
+    "deleted_word_final_le_060": true,
+    "keyword_final_le_060": true,
+    "metadata_final_le_060": true,
+    "metadata_ordinary_le_060": true,
+    "structural": true,
+    "tokenizer": true,
+    "word_final_le_065": true
+  },
+  "decision": "lexical_baselines_pass_semantic_review_unlocked",
+  "inputs": {
+    "development": "a64599beae22dfd52a1d76238b1562d4fca1768bc5f31ffe78ff1640451ecd68",
+    "final_text": "516b98f0144866bc49ad53a633e7d38a370f243750b89fe453c373739896ebc9",
+    "samples": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+    "tokenizer_audit": "a285ea7c6bccbf4cc1fb2bd0083d2317076321f81d424ccac934105c0693de45"
+  },
+  "passed": true,
+  "schema_version": "glm53_v11_lexical_gate_decision_v1"
+}

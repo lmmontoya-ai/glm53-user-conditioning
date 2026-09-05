@@ -1,0 +1,81 @@
+{
+  "schema_version": "glm53_v16_compact_final_evidence_v1",
+  "project_id": "glm53_user_eval_source_activation_v16",
+  "run_id": "glm53-v16-source-20260902T015329Z-8c254763",
+  "preregistered_commit": "f2a1df4833c0d6f9900e2a881f779defe90757d2",
+  "preregistered_tag": "glm53-user-eval-v16-preregistered-a12",
+  "terminal_decision": "stop_before_local_parity",
+  "files": [
+    {
+      "path": "pipelines/glm53_user_eval/v16/status/V16_FINAL.md",
+      "bytes": 4107,
+      "sha256": "8f988fb7068669a796c53e06212fbc8f8602c3852f56ba64c09cfa95b3060a24"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/reports/source_readout/decision.json",
+      "bytes": 3685,
+      "sha256": "9747dd53ef6b1af61775ed12346690e7e2ca2c16a2727b2844e1367704ebf6c7"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/reports/source_readout/recovery_integrity.json",
+      "bytes": 2532,
+      "sha256": "01834c5a8761c505afcc11e300fa45533e09c73e37ec6500235418f076dc3a03"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/reports/source_readout/source_final_analysis_recovered.json",
+      "bytes": 90991,
+      "sha256": "25da3714bd7df8a69a0fa398b0073019fe7754472e688b4ded3b26ce2ac0b9e0"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/reports/source_readout/source_readout_lock_recovered.json",
+      "bytes": 209238,
+      "sha256": "cfa1c8c394dbfa56ad8bb6f9d939f457f4846bf7c068740379ab4c45f015838c"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/reports/source_readout/source_readout_arrays_recovered.npz",
+      "bytes": 99874,
+      "sha256": "c761ab554cce6f52a9dc4043c97f05b138b3fce10628886e1dfe77a9dbeaf16e"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/infrastructure/final_run/model_stage.json",
+      "bytes": 737,
+      "sha256": "79d22723ec62ed2d28008c85364d231946a7c5257ceefc850471c9669a80bb8a"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/infrastructure/final_run/runtime_gate.json",
+      "bytes": 5222,
+      "sha256": "613e54f58dd06d50c77789a8fad5557ed6e051647ff77c7c5c21ca7404f4b776"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/infrastructure/final_run/source_evidence_manifest.json",
+      "bytes": 162697,
+      "sha256": "e6aa41ed738f2434e3d4a0392756ab877ac750b5de951f9d40a41b7e9eb6c35b"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/infrastructure/final_run/pod_final_evidence.json",
+      "bytes": 269140,
+      "sha256": "e1496b1e1d9372a2e6e09321015a6b38e37b5828468dfb90e7b0f7fa703e0144"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/infrastructure/final_run/terminal_state.json",
+      "bytes": 378,
+      "sha256": "914606a9a1f64f017be56dc87b0c9ee4d59b026563ca7b24504a6bcc518a3019"
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v16/infrastructure/final_run/transport_terminal.json",
+      "bytes": 238,
+      "sha256": "ac9423be1dedbf8bb55890273cad04936cce3425c69bdbf9cc8395898cf0dcc6"
+    }
+  ],
+  "raw_activation_archive": {
+    "committed": false,
+    "local_path": "artifacts/glm53_user_eval/v16/recovery_runs/glm53-v16-source-20260902T015329Z-8c254763/artifacts/features/source/parts",
+    "activation_files": 576,
+    "manifest_files": 576,
+    "bytes": 851123314,
+    "aggregate_sha256": "a80ce7d5615cd191f9fd8986450b79906c5af17cd587dbeead562830113f7435"
+  },
+  "credentials_scanned_by_pod_evidence_builder": true,
+  "early_cot_executed": false,
+  "steering_executed": false
+}

@@ -1,0 +1,200 @@
+{
+  "arms": {
+    "actor_deploy": {
+      "delta_ci95_pp": [
+        -1.605921630460853,
+        2.6988588974890586
+      ],
+      "delta_pp": 0.5845022951514505,
+      "fraction_removed": 1.4553815113932673,
+      "group_changes_pp": {
+        "famous_ai": 1.0261224703510397,
+        "famous_nonai": 0.27664863932286576,
+        "genpop": 0.003709649431322272,
+        "unknown_ai": 0.16868118530804563
+      },
+      "group_means_pp": {
+        "famous_ai": 0.5144800647024406,
+        "famous_nonai": 0.13236671586499504,
+        "genpop": 0.0033660522079774213,
+        "unknown_ai": 0.20259159018949857
+      },
+      "interaction_pp": 0.18288781085592437
+    },
+    "all16_deploy": {
+      "delta_ci95_pp": [
+        -1.0990997404041856,
+        1.6503912099168832
+      ],
+      "delta_pp": 0.27435514296272706,
+      "fraction_removed": 0.6831305983497451,
+      "group_changes_pp": {
+        "famous_ai": -0.34219043472143285,
+        "famous_nonai": -0.24256364439252107,
+        "genpop": 0.000931522800080832,
+        "unknown_ai": -0.37305041049155807
+      },
+      "group_means_pp": {
+        "famous_ai": -0.8538328403700319,
+        "famous_nonai": -0.3868455678503918,
+        "genpop": 0.0005879255767359814,
+        "unknown_ai": -0.3391400056101051
+      },
+      "interaction_pp": -0.1272593413327991
+    },
+    "all16_eval": {
+      "delta_ci95_pp": [
+        -0.6810349272317294,
+        2.8663059637444586
+      ],
+      "delta_pp": 1.1381659692674413,
+      "fraction_removed": 2.833976397200673,
+      "group_changes_pp": {
+        "famous_ai": 0.11768716692266706,
+        "famous_nonai": -0.5022323572582501,
+        "genpop": 0.0030151736550544025,
+        "unknown_ai": -0.5152312714314699
+      },
+      "group_means_pp": {
+        "famous_ai": -0.393955238725932,
+        "famous_nonai": -0.6465142807161208,
+        "genpop": 0.002671576431709552,
+        "unknown_ai": -0.48132086655001693
+      },
+      "interaction_pp": 0.7365514849719152
+    },
+    "formality": {
+      "delta_ci95_pp": [
+        -1.9186872978143086,
+        3.523000281668219
+      ],
+      "delta_pp": 0.7586320046713517,
+      "fraction_removed": 1.8889557880415386,
+      "group_changes_pp": {
+        "famous_ai": 0.6678072062960553,
+        "famous_nonai": 0.006817948934328438,
+        "genpop": 0.008112035508386219,
+        "unknown_ai": -0.08953071180123864
+      },
+      "group_means_pp": {
+        "famous_ai": 0.15616480064745622,
+        "famous_nonai": -0.1374639745235423,
+        "genpop": 0.007768438285041368,
+        "unknown_ai": -0.0556203069197857
+      },
+      "interaction_pp": 0.35701752037582557
+    },
+    "status_deploy": {
+      "delta_ci95_pp": [
+        -1.1015050390369745,
+        1.9342754483647977
+      ],
+      "delta_pp": 0.41664276702168396,
+      "fraction_removed": 1.0374196731288687,
+      "group_changes_pp": {
+        "famous_ai": 1.0292487200354037,
+        "famous_nonai": 0.584486865314617,
+        "genpop": 0.0023955566466955305,
+        "unknown_ai": 0.030514644345798266
+      },
+      "group_means_pp": {
+        "famous_ai": 0.5176063143868046,
+        "famous_nonai": 0.44020494185674625,
+        "genpop": 0.00205195942335068,
+        "unknown_ai": 0.06442504922725122
+      },
+      "interaction_pp": 0.015028282726157804
+    }
+  },
+  "baseline_group_means_pp": {
+    "famous_ai": -0.5116424056485991,
+    "famous_nonai": -0.14428192345787075,
+    "genpop": -0.0003435972233448506,
+    "unknown_ai": 0.03391040488145295
+  },
+  "baseline_interaction_pp": -0.40161448429552615,
+  "candidate_codebook_delta_pp": {
+    "0": 0.28370072395455925,
+    "1": 0.21586173802620473
+  },
+  "quality": {
+    "actor_deploy": {
+      "allowed_mass_median": 0.49565928163116507,
+      "allowed_mass_p05": 0.3172610844404813,
+      "conditional_entropy_median": 1.759887107706147,
+      "full_vocab_argmax_allowed_rate": 0.27350427350427353
+    },
+    "all16_deploy": {
+      "allowed_mass_median": 0.9480121073110868,
+      "allowed_mass_p05": 0.8332017317216805,
+      "conditional_entropy_median": 2.1728127111856534,
+      "full_vocab_argmax_allowed_rate": 0.9857549857549858
+    },
+    "all16_eval": {
+      "allowed_mass_median": 0.9630300032779344,
+      "allowed_mass_p05": 0.8651565376839322,
+      "conditional_entropy_median": 1.6540262290907233,
+      "full_vocab_argmax_allowed_rate": 0.9907407407407407
+    },
+    "baseline": {
+      "allowed_mass_median": 0.9791713802374176,
+      "allowed_mass_p05": 0.9330171121909159,
+      "conditional_entropy_median": 1.3827536659617443,
+      "full_vocab_argmax_allowed_rate": 0.9971509971509972
+    },
+    "formality": {
+      "allowed_mass_median": 0.7571564507521639,
+      "allowed_mass_p05": 0.5295141458272866,
+      "conditional_entropy_median": 1.8239448899166697,
+      "full_vocab_argmax_allowed_rate": 0.8205128205128205
+    },
+    "signflip_controls_combined": {
+      "allowed_mass_median": 0.9765265807787353,
+      "allowed_mass_p05": 0.7118960265358196,
+      "conditional_entropy_median": 1.8232747276217824,
+      "full_vocab_argmax_allowed_rate": 0.939375
+    },
+    "status_deploy": {
+      "allowed_mass_median": 0.788045136297745,
+      "allowed_mass_p05": 0.5912191072937184,
+      "conditional_entropy_median": 2.1461150804409517,
+      "full_vocab_argmax_allowed_rate": 0.5370370370370371
+    }
+  },
+  "schema_version": "glm53_v20_causal_analysis_v1",
+  "signflip_control": {
+    "add_one_empirical_p": 1.0,
+    "candidate_exceeds_every_null": false,
+    "candidate_rank_descending": 21,
+    "null_delta_pp": {
+      "signflip_00": 0.4701172228302782,
+      "signflip_01": 0.8229855024256377,
+      "signflip_02": 0.9517224151963295,
+      "signflip_03": -1.152367453832303,
+      "signflip_04": -0.7828736320013159,
+      "signflip_05": 1.6842181203180793,
+      "signflip_06": -0.6017840813212358,
+      "signflip_07": 0.09716500658863159,
+      "signflip_08": 1.0478391514869858,
+      "signflip_09": -1.5821669774755869,
+      "signflip_10": 0.32270959945554356,
+      "signflip_11": 0.719619458220769,
+      "signflip_12": 2.1438224226207794,
+      "signflip_13": -0.9133318493133011,
+      "signflip_14": -0.3657043006299543,
+      "signflip_15": 0.31214338725238466,
+      "signflip_16": 1.3807716666706673,
+      "signflip_17": 1.934490313923108,
+      "signflip_18": -0.21551116603840592,
+      "signflip_19": 1.4612403903866635
+    },
+    "pilot_candidate_delta_pp": -2.4578108142989503,
+    "pilot_task_ids": [
+      "dd_0090",
+      "dd_0009",
+      "dd_0046",
+      "dd_0007",
+      "dd_0087"
+    ]
+  }
+}

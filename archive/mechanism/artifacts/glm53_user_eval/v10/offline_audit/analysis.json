@@ -1,0 +1,3509 @@
+{
+  "direction_stability": {
+    "cosine_to_full": {
+      "median": 0.818767786026001,
+      "minimum": 0.031920175999403
+    },
+    "hard_negative_auroc": {
+      "median": 0.7109375,
+      "minimum": 0.64453125
+    },
+    "method": "paired_mean",
+    "records": [
+      {
+        "cosine_to_full": 0.848865270614624,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 0,
+        "selected_layer": 27,
+        "test_auroc": 0.91796875
+      },
+      {
+        "cosine_to_full": 0.822966456413269,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 1,
+        "selected_layer": 27,
+        "test_auroc": 0.91015625
+      },
+      {
+        "cosine_to_full": 0.04928479343652725,
+        "hard_negative_auroc": 0.84375,
+        "repetition": 2,
+        "selected_layer": 21,
+        "test_auroc": 0.8203125
+      },
+      {
+        "cosine_to_full": 0.1071510761976242,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 3,
+        "selected_layer": 22,
+        "test_auroc": 0.68359375
+      },
+      {
+        "cosine_to_full": 0.9529299736022949,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 4,
+        "selected_layer": 26,
+        "test_auroc": 0.80078125
+      },
+      {
+        "cosine_to_full": 0.09885872900485992,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 5,
+        "selected_layer": 22,
+        "test_auroc": 0.72265625
+      },
+      {
+        "cosine_to_full": 0.8239240646362305,
+        "hard_negative_auroc": 0.703125,
+        "repetition": 6,
+        "selected_layer": 27,
+        "test_auroc": 0.875
+      },
+      {
+        "cosine_to_full": 0.7983969449996948,
+        "hard_negative_auroc": 0.734375,
+        "repetition": 7,
+        "selected_layer": 27,
+        "test_auroc": 0.9375
+      },
+      {
+        "cosine_to_full": 0.8308290839195251,
+        "hard_negative_auroc": 0.72265625,
+        "repetition": 8,
+        "selected_layer": 27,
+        "test_auroc": 0.9375
+      },
+      {
+        "cosine_to_full": 0.8408740162849426,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 9,
+        "selected_layer": 27,
+        "test_auroc": 0.9375
+      },
+      {
+        "cosine_to_full": 0.09309147298336029,
+        "hard_negative_auroc": 0.73828125,
+        "repetition": 10,
+        "selected_layer": 22,
+        "test_auroc": 0.71875
+      },
+      {
+        "cosine_to_full": 0.047373175621032715,
+        "hard_negative_auroc": 0.80859375,
+        "repetition": 11,
+        "selected_layer": 21,
+        "test_auroc": 0.75
+      },
+      {
+        "cosine_to_full": 0.0988980233669281,
+        "hard_negative_auroc": 0.73828125,
+        "repetition": 12,
+        "selected_layer": 22,
+        "test_auroc": 0.71484375
+      },
+      {
+        "cosine_to_full": 0.8025584816932678,
+        "hard_negative_auroc": 0.6796875,
+        "repetition": 13,
+        "selected_layer": 27,
+        "test_auroc": 0.88671875
+      },
+      {
+        "cosine_to_full": 0.9566280245780945,
+        "hard_negative_auroc": 0.65234375,
+        "repetition": 14,
+        "selected_layer": 26,
+        "test_auroc": 0.86328125
+      },
+      {
+        "cosine_to_full": 0.09492791444063187,
+        "hard_negative_auroc": 0.8046875,
+        "repetition": 15,
+        "selected_layer": 22,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.8213794231414795,
+        "hard_negative_auroc": 0.7265625,
+        "repetition": 16,
+        "selected_layer": 27,
+        "test_auroc": 0.8828125
+      },
+      {
+        "cosine_to_full": 0.9517888426780701,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 17,
+        "selected_layer": 26,
+        "test_auroc": 0.78125
+      },
+      {
+        "cosine_to_full": 0.8286925554275513,
+        "hard_negative_auroc": 0.6796875,
+        "repetition": 18,
+        "selected_layer": 27,
+        "test_auroc": 0.93359375
+      },
+      {
+        "cosine_to_full": 0.9759538173675537,
+        "hard_negative_auroc": 0.6484375,
+        "repetition": 19,
+        "selected_layer": 26,
+        "test_auroc": 0.8125
+      },
+      {
+        "cosine_to_full": 0.9814569354057312,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 20,
+        "selected_layer": 26,
+        "test_auroc": 0.91015625
+      },
+      {
+        "cosine_to_full": 0.8220220804214478,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 21,
+        "selected_layer": 27,
+        "test_auroc": 0.94140625
+      },
+      {
+        "cosine_to_full": 0.9761912822723389,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 22,
+        "selected_layer": 26,
+        "test_auroc": 0.85546875
+      },
+      {
+        "cosine_to_full": 0.03911157324910164,
+        "hard_negative_auroc": 0.74609375,
+        "repetition": 23,
+        "selected_layer": 20,
+        "test_auroc": 0.70703125
+      },
+      {
+        "cosine_to_full": 0.8220646977424622,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 24,
+        "selected_layer": 27,
+        "test_auroc": 0.89453125
+      },
+      {
+        "cosine_to_full": 0.8188559412956238,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 25,
+        "selected_layer": 27,
+        "test_auroc": 0.9140625
+      },
+      {
+        "cosine_to_full": 0.10611075162887573,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 26,
+        "selected_layer": 22,
+        "test_auroc": 0.6875
+      },
+      {
+        "cosine_to_full": 0.9502225518226624,
+        "hard_negative_auroc": 0.64453125,
+        "repetition": 27,
+        "selected_layer": 26,
+        "test_auroc": 0.82421875
+      },
+      {
+        "cosine_to_full": 0.10795038938522339,
+        "hard_negative_auroc": 0.8203125,
+        "repetition": 28,
+        "selected_layer": 22,
+        "test_auroc": 0.6796875
+      },
+      {
+        "cosine_to_full": 0.11249768733978271,
+        "hard_negative_auroc": 0.7421875,
+        "repetition": 29,
+        "selected_layer": 22,
+        "test_auroc": 0.671875
+      },
+      {
+        "cosine_to_full": 0.037922218441963196,
+        "hard_negative_auroc": 0.765625,
+        "repetition": 30,
+        "selected_layer": 20,
+        "test_auroc": 0.71484375
+      },
+      {
+        "cosine_to_full": 0.11271344125270844,
+        "hard_negative_auroc": 0.75,
+        "repetition": 31,
+        "selected_layer": 22,
+        "test_auroc": 0.68359375
+      },
+      {
+        "cosine_to_full": 0.8282137513160706,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 32,
+        "selected_layer": 27,
+        "test_auroc": 0.93359375
+      },
+      {
+        "cosine_to_full": 0.8461474180221558,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 33,
+        "selected_layer": 27,
+        "test_auroc": 0.8984375
+      },
+      {
+        "cosine_to_full": 0.9698472023010254,
+        "hard_negative_auroc": 0.71484375,
+        "repetition": 34,
+        "selected_layer": 26,
+        "test_auroc": 0.8828125
+      },
+      {
+        "cosine_to_full": 0.044120993465185165,
+        "hard_negative_auroc": 0.7890625,
+        "repetition": 35,
+        "selected_layer": 20,
+        "test_auroc": 0.71484375
+      },
+      {
+        "cosine_to_full": 0.9763118624687195,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 36,
+        "selected_layer": 26,
+        "test_auroc": 0.84375
+      },
+      {
+        "cosine_to_full": 0.855072021484375,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 37,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.8337593078613281,
+        "hard_negative_auroc": 0.734375,
+        "repetition": 38,
+        "selected_layer": 27,
+        "test_auroc": 0.94140625
+      },
+      {
+        "cosine_to_full": 0.9603300094604492,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 39,
+        "selected_layer": 26,
+        "test_auroc": 0.87109375
+      },
+      {
+        "cosine_to_full": 0.8503782749176025,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 40,
+        "selected_layer": 27,
+        "test_auroc": 0.92578125
+      },
+      {
+        "cosine_to_full": 0.8444510698318481,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 41,
+        "selected_layer": 27,
+        "test_auroc": 0.94140625
+      },
+      {
+        "cosine_to_full": 0.04320424795150757,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 42,
+        "selected_layer": 20,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.9448180198669434,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 43,
+        "selected_layer": 26,
+        "test_auroc": 0.8828125
+      },
+      {
+        "cosine_to_full": 0.8157886862754822,
+        "hard_negative_auroc": 0.67578125,
+        "repetition": 44,
+        "selected_layer": 27,
+        "test_auroc": 0.9375
+      },
+      {
+        "cosine_to_full": 0.8245446681976318,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 45,
+        "selected_layer": 27,
+        "test_auroc": 0.95703125
+      },
+      {
+        "cosine_to_full": 0.036492522805929184,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 46,
+        "selected_layer": 20,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.08302975445985794,
+        "hard_negative_auroc": 0.7421875,
+        "repetition": 47,
+        "selected_layer": 22,
+        "test_auroc": 0.6796875
+      },
+      {
+        "cosine_to_full": 0.8263833522796631,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 48,
+        "selected_layer": 27,
+        "test_auroc": 0.91015625
+      },
+      {
+        "cosine_to_full": 0.8109481334686279,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 49,
+        "selected_layer": 27,
+        "test_auroc": 0.8671875
+      },
+      {
+        "cosine_to_full": 0.8452475070953369,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 50,
+        "selected_layer": 27,
+        "test_auroc": 0.89453125
+      },
+      {
+        "cosine_to_full": 0.037980176508426666,
+        "hard_negative_auroc": 0.76171875,
+        "repetition": 51,
+        "selected_layer": 20,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.9385334253311157,
+        "hard_negative_auroc": 0.72265625,
+        "repetition": 52,
+        "selected_layer": 26,
+        "test_auroc": 0.8828125
+      },
+      {
+        "cosine_to_full": 0.10799331963062286,
+        "hard_negative_auroc": 0.74609375,
+        "repetition": 53,
+        "selected_layer": 22,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.8238590359687805,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 54,
+        "selected_layer": 27,
+        "test_auroc": 0.90234375
+      },
+      {
+        "cosine_to_full": 0.8168219327926636,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 55,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.9690224528312683,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 56,
+        "selected_layer": 26,
+        "test_auroc": 0.890625
+      },
+      {
+        "cosine_to_full": 0.9737211465835571,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 57,
+        "selected_layer": 26,
+        "test_auroc": 0.8125
+      },
+      {
+        "cosine_to_full": 0.8135833740234375,
+        "hard_negative_auroc": 0.71484375,
+        "repetition": 58,
+        "selected_layer": 27,
+        "test_auroc": 0.91015625
+      },
+      {
+        "cosine_to_full": 0.8181849122047424,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 59,
+        "selected_layer": 27,
+        "test_auroc": 0.90234375
+      },
+      {
+        "cosine_to_full": 0.11329459398984909,
+        "hard_negative_auroc": 0.75390625,
+        "repetition": 60,
+        "selected_layer": 22,
+        "test_auroc": 0.66796875
+      },
+      {
+        "cosine_to_full": 0.9686778783798218,
+        "hard_negative_auroc": 0.6796875,
+        "repetition": 61,
+        "selected_layer": 26,
+        "test_auroc": 0.8203125
+      },
+      {
+        "cosine_to_full": 0.09296229481697083,
+        "hard_negative_auroc": 0.76171875,
+        "repetition": 62,
+        "selected_layer": 22,
+        "test_auroc": 0.671875
+      },
+      {
+        "cosine_to_full": 0.05354341119527817,
+        "hard_negative_auroc": 0.81640625,
+        "repetition": 63,
+        "selected_layer": 21,
+        "test_auroc": 0.796875
+      },
+      {
+        "cosine_to_full": 0.969704270362854,
+        "hard_negative_auroc": 0.71484375,
+        "repetition": 64,
+        "selected_layer": 26,
+        "test_auroc": 0.796875
+      },
+      {
+        "cosine_to_full": 0.964880108833313,
+        "hard_negative_auroc": 0.71875,
+        "repetition": 65,
+        "selected_layer": 26,
+        "test_auroc": 0.8984375
+      },
+      {
+        "cosine_to_full": 0.031920175999403,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 66,
+        "selected_layer": 20,
+        "test_auroc": 0.71484375
+      },
+      {
+        "cosine_to_full": 0.11475196480751038,
+        "hard_negative_auroc": 0.8359375,
+        "repetition": 67,
+        "selected_layer": 22,
+        "test_auroc": 0.63671875
+      },
+      {
+        "cosine_to_full": 0.11472992599010468,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 68,
+        "selected_layer": 22,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.9742319583892822,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 69,
+        "selected_layer": 26,
+        "test_auroc": 0.84375
+      },
+      {
+        "cosine_to_full": 0.09908603131771088,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 70,
+        "selected_layer": 22,
+        "test_auroc": 0.671875
+      },
+      {
+        "cosine_to_full": 0.9782476425170898,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 71,
+        "selected_layer": 26,
+        "test_auroc": 0.828125
+      },
+      {
+        "cosine_to_full": 0.03855288773775101,
+        "hard_negative_auroc": 0.7890625,
+        "repetition": 72,
+        "selected_layer": 20,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.03556258976459503,
+        "hard_negative_auroc": 0.76953125,
+        "repetition": 73,
+        "selected_layer": 20,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.09728020429611206,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 74,
+        "selected_layer": 22,
+        "test_auroc": 0.6953125
+      },
+      {
+        "cosine_to_full": 0.9708319902420044,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 75,
+        "selected_layer": 26,
+        "test_auroc": 0.8671875
+      },
+      {
+        "cosine_to_full": 0.8221637606620789,
+        "hard_negative_auroc": 0.7265625,
+        "repetition": 76,
+        "selected_layer": 27,
+        "test_auroc": 0.984375
+      },
+      {
+        "cosine_to_full": 0.04302617162466049,
+        "hard_negative_auroc": 0.83203125,
+        "repetition": 77,
+        "selected_layer": 21,
+        "test_auroc": 0.7578125
+      },
+      {
+        "cosine_to_full": 0.09857410192489624,
+        "hard_negative_auroc": 0.734375,
+        "repetition": 78,
+        "selected_layer": 22,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.0965922623872757,
+        "hard_negative_auroc": 0.78515625,
+        "repetition": 79,
+        "selected_layer": 22,
+        "test_auroc": 0.67578125
+      },
+      {
+        "cosine_to_full": 0.11252027750015259,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 80,
+        "selected_layer": 22,
+        "test_auroc": 0.68359375
+      },
+      {
+        "cosine_to_full": 0.8256347179412842,
+        "hard_negative_auroc": 0.7265625,
+        "repetition": 81,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.9588521122932434,
+        "hard_negative_auroc": 0.7265625,
+        "repetition": 82,
+        "selected_layer": 26,
+        "test_auroc": 0.83984375
+      },
+      {
+        "cosine_to_full": 0.8230043053627014,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 83,
+        "selected_layer": 27,
+        "test_auroc": 0.94140625
+      },
+      {
+        "cosine_to_full": 0.10923121869564056,
+        "hard_negative_auroc": 0.73046875,
+        "repetition": 84,
+        "selected_layer": 22,
+        "test_auroc": 0.671875
+      },
+      {
+        "cosine_to_full": 0.04183844476938248,
+        "hard_negative_auroc": 0.76953125,
+        "repetition": 85,
+        "selected_layer": 20,
+        "test_auroc": 0.72265625
+      },
+      {
+        "cosine_to_full": 0.04279458522796631,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 86,
+        "selected_layer": 21,
+        "test_auroc": 0.76953125
+      },
+      {
+        "cosine_to_full": 0.0423106923699379,
+        "hard_negative_auroc": 0.80078125,
+        "repetition": 87,
+        "selected_layer": 20,
+        "test_auroc": 0.71875
+      },
+      {
+        "cosine_to_full": 0.0556182824075222,
+        "hard_negative_auroc": 0.83203125,
+        "repetition": 88,
+        "selected_layer": 21,
+        "test_auroc": 0.72265625
+      },
+      {
+        "cosine_to_full": 0.04571801424026489,
+        "hard_negative_auroc": 0.765625,
+        "repetition": 89,
+        "selected_layer": 20,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.11119373142719269,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 90,
+        "selected_layer": 22,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.8134311437606812,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 91,
+        "selected_layer": 27,
+        "test_auroc": 0.91015625
+      },
+      {
+        "cosine_to_full": 0.811597466468811,
+        "hard_negative_auroc": 0.66796875,
+        "repetition": 92,
+        "selected_layer": 27,
+        "test_auroc": 0.92578125
+      },
+      {
+        "cosine_to_full": 0.09795980155467987,
+        "hard_negative_auroc": 0.78515625,
+        "repetition": 93,
+        "selected_layer": 22,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.9695032238960266,
+        "hard_negative_auroc": 0.703125,
+        "repetition": 94,
+        "selected_layer": 26,
+        "test_auroc": 0.85546875
+      },
+      {
+        "cosine_to_full": 0.95225590467453,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 95,
+        "selected_layer": 26,
+        "test_auroc": 0.87109375
+      },
+      {
+        "cosine_to_full": 0.03857124224305153,
+        "hard_negative_auroc": 0.76953125,
+        "repetition": 96,
+        "selected_layer": 20,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.038869164884090424,
+        "hard_negative_auroc": 0.7421875,
+        "repetition": 97,
+        "selected_layer": 20,
+        "test_auroc": 0.6953125
+      },
+      {
+        "cosine_to_full": 0.0329771488904953,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 98,
+        "selected_layer": 20,
+        "test_auroc": 0.6875
+      },
+      {
+        "cosine_to_full": 0.974316418170929,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 99,
+        "selected_layer": 26,
+        "test_auroc": 0.83203125
+      },
+      {
+        "cosine_to_full": 0.09810695797204971,
+        "hard_negative_auroc": 0.7890625,
+        "repetition": 100,
+        "selected_layer": 22,
+        "test_auroc": 0.64453125
+      },
+      {
+        "cosine_to_full": 0.03809726983308792,
+        "hard_negative_auroc": 0.77734375,
+        "repetition": 101,
+        "selected_layer": 20,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.8140625953674316,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 102,
+        "selected_layer": 27,
+        "test_auroc": 0.8984375
+      },
+      {
+        "cosine_to_full": 0.05744336545467377,
+        "hard_negative_auroc": 0.8359375,
+        "repetition": 103,
+        "selected_layer": 21,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.9631370306015015,
+        "hard_negative_auroc": 0.67578125,
+        "repetition": 104,
+        "selected_layer": 26,
+        "test_auroc": 0.87890625
+      },
+      {
+        "cosine_to_full": 0.8381233215332031,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 105,
+        "selected_layer": 27,
+        "test_auroc": 0.91796875
+      },
+      {
+        "cosine_to_full": 0.8317943215370178,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 106,
+        "selected_layer": 27,
+        "test_auroc": 0.90234375
+      },
+      {
+        "cosine_to_full": 0.1013810858130455,
+        "hard_negative_auroc": 0.734375,
+        "repetition": 107,
+        "selected_layer": 22,
+        "test_auroc": 0.671875
+      },
+      {
+        "cosine_to_full": 0.9731215238571167,
+        "hard_negative_auroc": 0.65234375,
+        "repetition": 108,
+        "selected_layer": 26,
+        "test_auroc": 0.84765625
+      },
+      {
+        "cosine_to_full": 0.8244512677192688,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 109,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.8311114311218262,
+        "hard_negative_auroc": 0.67578125,
+        "repetition": 110,
+        "selected_layer": 27,
+        "test_auroc": 0.953125
+      },
+      {
+        "cosine_to_full": 0.10847830772399902,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 111,
+        "selected_layer": 22,
+        "test_auroc": 0.68359375
+      },
+      {
+        "cosine_to_full": 0.8187217116355896,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 112,
+        "selected_layer": 27,
+        "test_auroc": 0.9453125
+      },
+      {
+        "cosine_to_full": 0.10541325807571411,
+        "hard_negative_auroc": 0.8125,
+        "repetition": 113,
+        "selected_layer": 22,
+        "test_auroc": 0.71484375
+      },
+      {
+        "cosine_to_full": 0.11621364206075668,
+        "hard_negative_auroc": 0.7890625,
+        "repetition": 114,
+        "selected_layer": 22,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.9761059284210205,
+        "hard_negative_auroc": 0.71484375,
+        "repetition": 115,
+        "selected_layer": 26,
+        "test_auroc": 0.84765625
+      },
+      {
+        "cosine_to_full": 0.09424178302288055,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 116,
+        "selected_layer": 22,
+        "test_auroc": 0.67578125
+      },
+      {
+        "cosine_to_full": 0.9695352911949158,
+        "hard_negative_auroc": 0.703125,
+        "repetition": 117,
+        "selected_layer": 26,
+        "test_auroc": 0.85546875
+      },
+      {
+        "cosine_to_full": 0.04480808600783348,
+        "hard_negative_auroc": 0.82421875,
+        "repetition": 118,
+        "selected_layer": 21,
+        "test_auroc": 0.74609375
+      },
+      {
+        "cosine_to_full": 0.09822824597358704,
+        "hard_negative_auroc": 0.73828125,
+        "repetition": 119,
+        "selected_layer": 22,
+        "test_auroc": 0.6953125
+      },
+      {
+        "cosine_to_full": 0.831812858581543,
+        "hard_negative_auroc": 0.6796875,
+        "repetition": 120,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.801494836807251,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 121,
+        "selected_layer": 27,
+        "test_auroc": 0.9375
+      },
+      {
+        "cosine_to_full": 0.8104719519615173,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 122,
+        "selected_layer": 27,
+        "test_auroc": 0.9296875
+      },
+      {
+        "cosine_to_full": 0.9819586873054504,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 123,
+        "selected_layer": 26,
+        "test_auroc": 0.8359375
+      },
+      {
+        "cosine_to_full": 0.10366292297840118,
+        "hard_negative_auroc": 0.78515625,
+        "repetition": 124,
+        "selected_layer": 22,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.9550193548202515,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 125,
+        "selected_layer": 26,
+        "test_auroc": 0.84765625
+      },
+      {
+        "cosine_to_full": 0.11230003833770752,
+        "hard_negative_auroc": 0.80078125,
+        "repetition": 126,
+        "selected_layer": 22,
+        "test_auroc": 0.6953125
+      },
+      {
+        "cosine_to_full": 0.10897810757160187,
+        "hard_negative_auroc": 0.73046875,
+        "repetition": 127,
+        "selected_layer": 22,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.7960788607597351,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 128,
+        "selected_layer": 27,
+        "test_auroc": 0.92578125
+      },
+      {
+        "cosine_to_full": 0.044819436967372894,
+        "hard_negative_auroc": 0.77734375,
+        "repetition": 129,
+        "selected_layer": 20,
+        "test_auroc": 0.6875
+      },
+      {
+        "cosine_to_full": 0.09249676764011383,
+        "hard_negative_auroc": 0.7265625,
+        "repetition": 130,
+        "selected_layer": 22,
+        "test_auroc": 0.69140625
+      },
+      {
+        "cosine_to_full": 0.047165848314762115,
+        "hard_negative_auroc": 0.828125,
+        "repetition": 131,
+        "selected_layer": 21,
+        "test_auroc": 0.7890625
+      },
+      {
+        "cosine_to_full": 0.03553842753171921,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 132,
+        "selected_layer": 20,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.9546416997909546,
+        "hard_negative_auroc": 0.65625,
+        "repetition": 133,
+        "selected_layer": 26,
+        "test_auroc": 0.8359375
+      },
+      {
+        "cosine_to_full": 0.9498273134231567,
+        "hard_negative_auroc": 0.703125,
+        "repetition": 134,
+        "selected_layer": 26,
+        "test_auroc": 0.9140625
+      },
+      {
+        "cosine_to_full": 0.9726451635360718,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 135,
+        "selected_layer": 26,
+        "test_auroc": 0.875
+      },
+      {
+        "cosine_to_full": 0.10114847123622894,
+        "hard_negative_auroc": 0.796875,
+        "repetition": 136,
+        "selected_layer": 22,
+        "test_auroc": 0.6875
+      },
+      {
+        "cosine_to_full": 0.8317289352416992,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 137,
+        "selected_layer": 27,
+        "test_auroc": 0.9140625
+      },
+      {
+        "cosine_to_full": 0.8246793746948242,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 138,
+        "selected_layer": 27,
+        "test_auroc": 0.921875
+      },
+      {
+        "cosine_to_full": 0.8088077306747437,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 139,
+        "selected_layer": 27,
+        "test_auroc": 0.9140625
+      },
+      {
+        "cosine_to_full": 0.8339850306510925,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 140,
+        "selected_layer": 27,
+        "test_auroc": 0.875
+      },
+      {
+        "cosine_to_full": 0.8526118993759155,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 141,
+        "selected_layer": 27,
+        "test_auroc": 0.8828125
+      },
+      {
+        "cosine_to_full": 0.14590546488761902,
+        "hard_negative_auroc": 0.7421875,
+        "repetition": 142,
+        "selected_layer": 29,
+        "test_auroc": 0.87109375
+      },
+      {
+        "cosine_to_full": 0.9713162183761597,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 143,
+        "selected_layer": 26,
+        "test_auroc": 0.8203125
+      },
+      {
+        "cosine_to_full": 0.8266919851303101,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 144,
+        "selected_layer": 27,
+        "test_auroc": 0.9140625
+      },
+      {
+        "cosine_to_full": 0.8367652893066406,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 145,
+        "selected_layer": 27,
+        "test_auroc": 0.921875
+      },
+      {
+        "cosine_to_full": 0.961983323097229,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 146,
+        "selected_layer": 26,
+        "test_auroc": 0.87109375
+      },
+      {
+        "cosine_to_full": 0.960309624671936,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 147,
+        "selected_layer": 26,
+        "test_auroc": 0.796875
+      },
+      {
+        "cosine_to_full": 0.8325603008270264,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 148,
+        "selected_layer": 27,
+        "test_auroc": 0.93359375
+      },
+      {
+        "cosine_to_full": 0.9777977466583252,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 149,
+        "selected_layer": 26,
+        "test_auroc": 0.796875
+      },
+      {
+        "cosine_to_full": 0.10236647725105286,
+        "hard_negative_auroc": 0.82421875,
+        "repetition": 150,
+        "selected_layer": 22,
+        "test_auroc": 0.6796875
+      },
+      {
+        "cosine_to_full": 0.969679057598114,
+        "hard_negative_auroc": 0.66796875,
+        "repetition": 151,
+        "selected_layer": 26,
+        "test_auroc": 0.8671875
+      },
+      {
+        "cosine_to_full": 0.977832555770874,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 152,
+        "selected_layer": 26,
+        "test_auroc": 0.85546875
+      },
+      {
+        "cosine_to_full": 0.9818459749221802,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 153,
+        "selected_layer": 26,
+        "test_auroc": 0.83203125
+      },
+      {
+        "cosine_to_full": 0.05397840216755867,
+        "hard_negative_auroc": 0.84765625,
+        "repetition": 154,
+        "selected_layer": 21,
+        "test_auroc": 0.77734375
+      },
+      {
+        "cosine_to_full": 0.8493267297744751,
+        "hard_negative_auroc": 0.71875,
+        "repetition": 155,
+        "selected_layer": 27,
+        "test_auroc": 0.92578125
+      },
+      {
+        "cosine_to_full": 0.9779704809188843,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 156,
+        "selected_layer": 26,
+        "test_auroc": 0.875
+      },
+      {
+        "cosine_to_full": 0.8423079252243042,
+        "hard_negative_auroc": 0.69921875,
+        "repetition": 157,
+        "selected_layer": 27,
+        "test_auroc": 0.91796875
+      },
+      {
+        "cosine_to_full": 0.10194709151983261,
+        "hard_negative_auroc": 0.8046875,
+        "repetition": 158,
+        "selected_layer": 22,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.957131564617157,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 159,
+        "selected_layer": 26,
+        "test_auroc": 0.81640625
+      },
+      {
+        "cosine_to_full": 0.036041010171175,
+        "hard_negative_auroc": 0.6796875,
+        "repetition": 160,
+        "selected_layer": 8,
+        "test_auroc": 0.98046875
+      },
+      {
+        "cosine_to_full": 0.8289520144462585,
+        "hard_negative_auroc": 0.6640625,
+        "repetition": 161,
+        "selected_layer": 27,
+        "test_auroc": 0.9140625
+      },
+      {
+        "cosine_to_full": 0.08327338844537735,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 162,
+        "selected_layer": 22,
+        "test_auroc": 0.6796875
+      },
+      {
+        "cosine_to_full": 0.9699997901916504,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 163,
+        "selected_layer": 26,
+        "test_auroc": 0.8046875
+      },
+      {
+        "cosine_to_full": 0.10204267501831055,
+        "hard_negative_auroc": 0.76171875,
+        "repetition": 164,
+        "selected_layer": 22,
+        "test_auroc": 0.66015625
+      },
+      {
+        "cosine_to_full": 0.05367731675505638,
+        "hard_negative_auroc": 0.80859375,
+        "repetition": 165,
+        "selected_layer": 21,
+        "test_auroc": 0.78125
+      },
+      {
+        "cosine_to_full": 0.9540667533874512,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 166,
+        "selected_layer": 26,
+        "test_auroc": 0.8671875
+      },
+      {
+        "cosine_to_full": 0.9653097987174988,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 167,
+        "selected_layer": 26,
+        "test_auroc": 0.86328125
+      },
+      {
+        "cosine_to_full": 0.8302884101867676,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 168,
+        "selected_layer": 27,
+        "test_auroc": 0.875
+      },
+      {
+        "cosine_to_full": 0.9661340713500977,
+        "hard_negative_auroc": 0.71484375,
+        "repetition": 169,
+        "selected_layer": 26,
+        "test_auroc": 0.8359375
+      },
+      {
+        "cosine_to_full": 0.9566158652305603,
+        "hard_negative_auroc": 0.67578125,
+        "repetition": 170,
+        "selected_layer": 26,
+        "test_auroc": 0.8671875
+      },
+      {
+        "cosine_to_full": 0.8346761465072632,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 171,
+        "selected_layer": 27,
+        "test_auroc": 0.91796875
+      },
+      {
+        "cosine_to_full": 0.9395300149917603,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 172,
+        "selected_layer": 26,
+        "test_auroc": 0.82421875
+      },
+      {
+        "cosine_to_full": 0.8285048007965088,
+        "hard_negative_auroc": 0.671875,
+        "repetition": 173,
+        "selected_layer": 27,
+        "test_auroc": 0.92578125
+      },
+      {
+        "cosine_to_full": 0.03766677528619766,
+        "hard_negative_auroc": 0.7734375,
+        "repetition": 174,
+        "selected_layer": 20,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.04072568565607071,
+        "hard_negative_auroc": 0.7890625,
+        "repetition": 175,
+        "selected_layer": 20,
+        "test_auroc": 0.71484375
+      },
+      {
+        "cosine_to_full": 0.9769295454025269,
+        "hard_negative_auroc": 0.70703125,
+        "repetition": 176,
+        "selected_layer": 26,
+        "test_auroc": 0.87890625
+      },
+      {
+        "cosine_to_full": 0.8188138604164124,
+        "hard_negative_auroc": 0.69140625,
+        "repetition": 177,
+        "selected_layer": 27,
+        "test_auroc": 0.91796875
+      },
+      {
+        "cosine_to_full": 0.8177852630615234,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 178,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.8388058543205261,
+        "hard_negative_auroc": 0.66796875,
+        "repetition": 179,
+        "selected_layer": 27,
+        "test_auroc": 0.90234375
+      },
+      {
+        "cosine_to_full": 0.053310953080654144,
+        "hard_negative_auroc": 0.78125,
+        "repetition": 180,
+        "selected_layer": 21,
+        "test_auroc": 0.77734375
+      },
+      {
+        "cosine_to_full": 0.0413181334733963,
+        "hard_negative_auroc": 0.7578125,
+        "repetition": 181,
+        "selected_layer": 20,
+        "test_auroc": 0.6875
+      },
+      {
+        "cosine_to_full": 0.8162446022033691,
+        "hard_negative_auroc": 0.703125,
+        "repetition": 182,
+        "selected_layer": 27,
+        "test_auroc": 0.94921875
+      },
+      {
+        "cosine_to_full": 0.8152528405189514,
+        "hard_negative_auroc": 0.703125,
+        "repetition": 183,
+        "selected_layer": 27,
+        "test_auroc": 0.91796875
+      },
+      {
+        "cosine_to_full": 0.8351656198501587,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 184,
+        "selected_layer": 27,
+        "test_auroc": 0.921875
+      },
+      {
+        "cosine_to_full": 0.8451086282730103,
+        "hard_negative_auroc": 0.72265625,
+        "repetition": 185,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.04926565662026405,
+        "hard_negative_auroc": 0.796875,
+        "repetition": 186,
+        "selected_layer": 20,
+        "test_auroc": 0.703125
+      },
+      {
+        "cosine_to_full": 0.9700127840042114,
+        "hard_negative_auroc": 0.71875,
+        "repetition": 187,
+        "selected_layer": 26,
+        "test_auroc": 0.87109375
+      },
+      {
+        "cosine_to_full": 0.8275085091590881,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 188,
+        "selected_layer": 27,
+        "test_auroc": 0.8828125
+      },
+      {
+        "cosine_to_full": 0.09876802563667297,
+        "hard_negative_auroc": 0.7578125,
+        "repetition": 189,
+        "selected_layer": 22,
+        "test_auroc": 0.66796875
+      },
+      {
+        "cosine_to_full": 0.8272481560707092,
+        "hard_negative_auroc": 0.7109375,
+        "repetition": 190,
+        "selected_layer": 27,
+        "test_auroc": 0.90625
+      },
+      {
+        "cosine_to_full": 0.05175542086362839,
+        "hard_negative_auroc": 0.80078125,
+        "repetition": 191,
+        "selected_layer": 21,
+        "test_auroc": 0.7578125
+      },
+      {
+        "cosine_to_full": 0.9695055484771729,
+        "hard_negative_auroc": 0.6953125,
+        "repetition": 192,
+        "selected_layer": 26,
+        "test_auroc": 0.8046875
+      },
+      {
+        "cosine_to_full": 0.09827671945095062,
+        "hard_negative_auroc": 0.80859375,
+        "repetition": 193,
+        "selected_layer": 22,
+        "test_auroc": 0.6875
+      },
+      {
+        "cosine_to_full": 0.10503147542476654,
+        "hard_negative_auroc": 0.734375,
+        "repetition": 194,
+        "selected_layer": 22,
+        "test_auroc": 0.70703125
+      },
+      {
+        "cosine_to_full": 0.10083100199699402,
+        "hard_negative_auroc": 0.75,
+        "repetition": 195,
+        "selected_layer": 22,
+        "test_auroc": 0.69921875
+      },
+      {
+        "cosine_to_full": 0.8259109258651733,
+        "hard_negative_auroc": 0.71484375,
+        "repetition": 196,
+        "selected_layer": 27,
+        "test_auroc": 0.91015625
+      },
+      {
+        "cosine_to_full": 0.8169659376144409,
+        "hard_negative_auroc": 0.6875,
+        "repetition": 197,
+        "selected_layer": 27,
+        "test_auroc": 0.94140625
+      },
+      {
+        "cosine_to_full": 0.9755655527114868,
+        "hard_negative_auroc": 0.68359375,
+        "repetition": 198,
+        "selected_layer": 26,
+        "test_auroc": 0.77734375
+      },
+      {
+        "cosine_to_full": 0.04520102217793465,
+        "hard_negative_auroc": 0.75390625,
+        "repetition": 199,
+        "selected_layer": 20,
+        "test_auroc": 0.71484375
+      }
+    ],
+    "reps": 200,
+    "selected_layer_counts": {
+      "20": 23,
+      "21": 13,
+      "22": 43,
+      "26": 52,
+      "27": 67,
+      "29": 1,
+      "8": 1
+    },
+    "test_auroc": {
+      "median": 0.837890625,
+      "minimum": 0.63671875
+    }
+  },
+  "family_and_task_blocked": {
+    "fold_count": 56,
+    "folds": [
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 3.348150212295294e-49,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          1,
+          9
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0002034232634809437,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.2508769963895558,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 42,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          12,
+          2
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 0.8333333333333333,
+        "auroc": 0.75,
+        "brier": 0.24975199320398733,
+        "fpr_at_80_tpr": 0.5,
+        "selected_layer": 44,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          11,
+          16
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 0.8333333333333333,
+        "auroc": 0.75,
+        "brier": 0.3365241327613242,
+        "fpr_at_80_tpr": 0.5,
+        "selected_layer": 42,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          1,
+          9
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          3,
+          15
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 4.254618389913498e-06,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          13,
+          6
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.46998955850996627,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 27,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "test_tasks": [
+          12,
+          2
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 0.8333333333333333,
+        "auroc": 0.75,
+        "brier": 0.20641536768105073,
+        "fpr_at_80_tpr": 0.5,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          14,
+          10
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          1,
+          9
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.12363747626273923,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          11,
+          16
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.18109648477662685,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          1,
+          9
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 1.8633624760533315e-05,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          12,
+          2
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.2379644556563898,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          14,
+          10
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          13,
+          6
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.2495620351610997,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0003305313174240562,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 44,
+        "test_family": "customer_support_vs_qa_review",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          1,
+          9
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 6.2406753996474995e-34,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          8,
+          7
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.24834852869668467,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          11,
+          16
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          12,
+          2
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0005977966890422792,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          8,
+          7
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.22337112665719694,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 39,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0015390011018912297,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          1,
+          9
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.2772843395002572,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 42,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.028512369210229527,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "deployment_status_vs_eval_mode",
+        "test_tasks": [
+          1,
+          9
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 7.447323505554375e-29,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          1,
+          9
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.24525610735682069,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          14,
+          10
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          8,
+          7
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0001489904061737114,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 8.412985944830628e-36,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          12,
+          2
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.1730681845743338,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 20,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.2372699580083031,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          3,
+          15
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.03970359282069152,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "direct_real_user_vs_benchmark",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 4.375143320922124e-53,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          12,
+          2
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 2.6971140507114017e-49,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 2.617274342471227e-48,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          12,
+          2
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.24999997309886607,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          8,
+          7
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.13376387839947387,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.23404540760481676,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          1,
+          9
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.008387853528269476,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 20,
+        "test_family": "live_service_vs_internal_assessment",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0842891685416479,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.2503911675232604,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          11,
+          16
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          13,
+          6
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.24985705869756547,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 1.6319678994864613e-25,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.24949876780706237,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          8,
+          7
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.25,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          14,
+          10
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          3,
+          15
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.4796762238717136,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 38,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 6.825488918171973e-25,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          8,
+          7
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.06105321709344223,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          11,
+          16
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          3,
+          15
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.4995876645584868,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.1963636650821006,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 16,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          12,
+          2
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.4679030928224053,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 44,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.24751458502285661,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          8,
+          7
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.00048474432175798533,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 43,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "test_tasks": [
+          12,
+          2
+        ],
+        "val_family": "release_rollout_vs_capability_test",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.040681801729705924,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          1,
+          9
+        ],
+        "val_family": "api_gateway_prod_vs_eval_harness",
+        "val_tasks": [
+          14,
+          10
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.44537944597516776,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 16,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          14,
+          10
+        ],
+        "val_family": "customer_support_vs_qa_review",
+        "val_tasks": [
+          13,
+          6
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.15963532198243768,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 12,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          3,
+          15
+        ],
+        "val_family": "deployment_status_vs_eval_mode",
+        "val_tasks": [
+          11,
+          16
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.26790817255025445,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          11,
+          16
+        ],
+        "val_family": "direct_real_user_vs_benchmark",
+        "val_tasks": [
+          13,
+          6
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.4137859482712106,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 40,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          13,
+          6
+        ],
+        "val_family": "live_service_vs_internal_assessment",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.012039048189136727,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          1,
+          9
+        ],
+        "val_family": "operator_log_live_vs_benchmark_log",
+        "val_tasks": [
+          5,
+          4
+        ]
+      },
+      {
+        "auprc": 0.8333333333333333,
+        "auroc": 0.75,
+        "brier": 0.41238712900420693,
+        "fpr_at_80_tpr": 0.5,
+        "selected_layer": 1,
+        "test_family": "release_rollout_vs_capability_test",
+        "test_tasks": [
+          5,
+          4
+        ],
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_tasks": [
+          8,
+          7
+        ]
+      }
+    ],
+    "fraction_perfect": 0.9285714285714286,
+    "mean_auroc": 0.9821428571428571,
+    "median_auroc": 1.0,
+    "method": "paired_mean_full_layer_selection",
+    "minimum_auroc": 0.75
+  },
+  "fixed_split_trainer_comparison": {
+    "cross_method_direction_geometry": {
+      "reason": "Validation-selected methods chose different layers; cross-layer coordinate cosines are not interpretable.",
+      "status": "not_computed"
+    },
+    "historical_full_batch": {
+      "detail": {
+        "epochs": 200,
+        "lr": 0.001
+      },
+      "holdout_hardneg": {
+        "auprc": 0.7786362311896535,
+        "auroc": 0.6875,
+        "brier": 0.22137388897988558,
+        "fpr_at_80_tpr": 0.625,
+        "neutral_false_positive_rate": 0.71875
+      },
+      "holdout_mats_aux": {
+        "auprc": 0.8519968447833437,
+        "auroc": 0.833984375,
+        "brier": 0.24354117098956074,
+        "fpr_at_80_tpr": 0.40625
+      },
+      "holdout_realism": {
+        "auprc": 0.956616778796539,
+        "auroc": 0.95703125,
+        "brier": 0.17388328539207287,
+        "fpr_at_80_tpr": 0.125
+      },
+      "raw_direction_sha256": "cf3f45b1a1708249015e1791d5d4d1c725965b62fc1fd1efb2d93158b6f58b15",
+      "selected_layer": 42,
+      "test": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.162671163836978,
+        "fpr_at_80_tpr": 0.0
+      },
+      "validation_auroc": 1.0,
+      "validation_brier": 0.15764039366226218,
+      "weight_norm_standardized": 0.20563878118991852
+    },
+    "paired_mean": {
+      "detail": {},
+      "holdout_hardneg": {
+        "auprc": 0.7578531954765508,
+        "auroc": 0.6953125,
+        "brier": 0.3082494603431616,
+        "fpr_at_80_tpr": 0.5625,
+        "neutral_false_positive_rate": 0.28125
+      },
+      "holdout_mats_aux": {
+        "auprc": 0.863391807196874,
+        "auroc": 0.8505859375,
+        "brier": 0.3875157897549172,
+        "fpr_at_80_tpr": 0.40625
+      },
+      "holdout_realism": {
+        "auprc": 0.9357912155246715,
+        "auroc": 0.93359375,
+        "brier": 0.12153814062822624,
+        "fpr_at_80_tpr": 0.1875
+      },
+      "raw_direction_sha256": "0813abebbf82cf6f45349789900f5c32d4bc0c49cd1d0c527f8a2d3c0247faf1",
+      "selected_layer": 26,
+      "test": {
+        "auprc": 0.8859719851012421,
+        "auroc": 0.875,
+        "brier": 0.20536169208985605,
+        "fpr_at_80_tpr": 0.25
+      },
+      "validation_auroc": 1.0,
+      "validation_brier": 0.01768838779028429,
+      "weight_norm_standardized": 2.768975019454956
+    },
+    "pca_ridge": {
+      "detail": {
+        "C": 10.0,
+        "dimensions": 32
+      },
+      "holdout_hardneg": {
+        "auprc": 0.7809812970210567,
+        "auroc": 0.69921875,
+        "brier": 0.3339390525571659,
+        "fpr_at_80_tpr": 0.5625,
+        "neutral_false_positive_rate": 0.28125
+      },
+      "holdout_mats_aux": {
+        "auprc": 0.9231307476378097,
+        "auroc": 0.9208984375,
+        "brier": 0.1329452356401455,
+        "fpr_at_80_tpr": 0.1875
+      },
+      "holdout_realism": {
+        "auprc": 0.9757106608669109,
+        "auroc": 0.9765625,
+        "brier": 0.05435950985399693,
+        "fpr_at_80_tpr": 0.0625
+      },
+      "raw_direction_sha256": "572399ef05fe13e58a15afb3c7efb78f3ab5557f5673e8f0d8429c5212421c18",
+      "selected_layer": 27,
+      "test": {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.05005560168865235,
+        "fpr_at_80_tpr": 0.0
+      },
+      "validation_auroc": 1.0,
+      "validation_brier": 5.5239362544776336e-05,
+      "weight_norm_standardized": 5.484542977033516
+    },
+    "ridge_logistic": {
+      "detail": {
+        "C": 10.0
+      },
+      "holdout_hardneg": {
+        "auprc": 0.7450860250860251,
+        "auroc": 0.64453125,
+        "brier": 0.2920847994014997,
+        "fpr_at_80_tpr": 0.75,
+        "neutral_false_positive_rate": 0.0625
+      },
+      "holdout_mats_aux": {
+        "auprc": 0.8620467267491267,
+        "auroc": 0.8662109375,
+        "brier": 0.38367518050784666,
+        "fpr_at_80_tpr": 0.25
+      },
+      "holdout_realism": {
+        "auprc": 0.956616778796539,
+        "auroc": 0.95703125,
+        "brier": 0.1138543346204269,
+        "fpr_at_80_tpr": 0.125
+      },
+      "raw_direction_sha256": "247fd5347480497c40ccaa16c0f57ed72256b36fd18840ee8d6862a6dbec68e6",
+      "selected_layer": 26,
+      "test": {
+        "auprc": 0.9924172794117647,
+        "auroc": 0.9921875,
+        "brier": 0.24788401612774214,
+        "fpr_at_80_tpr": 0.0
+      },
+      "validation_auroc": 1.0,
+      "validation_brier": 0.00015881203888400564,
+      "weight_norm_standardized": 6.074302091116081
+    },
+    "shrinkage_lda": {
+      "detail": {},
+      "holdout_hardneg": {
+        "auprc": 0.7777720844579398,
+        "auroc": 0.68359375,
+        "brier": 0.25589442243970284,
+        "fpr_at_80_tpr": 0.75,
+        "neutral_false_positive_rate": 0.03125
+      },
+      "holdout_mats_aux": {
+        "auprc": 0.7757065864245138,
+        "auroc": 0.798828125,
+        "brier": 0.23564050180352986,
+        "fpr_at_80_tpr": 0.34375
+      },
+      "holdout_realism": {
+        "auprc": 0.9797149122807018,
+        "auroc": 0.9765625,
+        "brier": 0.0779015182131976,
+        "fpr_at_80_tpr": 0.0
+      },
+      "raw_direction_sha256": "67143316b21f8257832c2057b30c8b7c788888e36d61bc923020ea0b6b8e7db4",
+      "selected_layer": 27,
+      "test": {
+        "auprc": 0.9701551053113553,
+        "auroc": 0.96875,
+        "brier": 0.12311346376240774,
+        "fpr_at_80_tpr": 0.0625
+      },
+      "validation_auroc": 1.0,
+      "validation_brier": 0.026036696642264164,
+      "weight_norm_standardized": 2.866509149468381
+    },
+    "v9_adamw": {
+      "detail": {
+        "best_epoch": 180,
+        "seed": 20260905
+      },
+      "holdout_hardneg": {
+        "auprc": 0.7907912048391925,
+        "auroc": 0.71875,
+        "brier": 0.32541538875861553,
+        "fpr_at_80_tpr": 0.5,
+        "neutral_false_positive_rate": 0.5
+      },
+      "holdout_mats_aux": {
+        "auprc": 0.9412214985542052,
+        "auroc": 0.92578125,
+        "brier": 0.11940921387674719,
+        "fpr_at_80_tpr": 0.125
+      },
+      "holdout_realism": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.03954063867353831,
+        "fpr_at_80_tpr": 0.0
+      },
+      "raw_direction_sha256": "481d1931991221948343752d96d86424c79ce964a54502a8cd70d802b2754e3c",
+      "selected_layer": 44,
+      "test": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.016974110281630747,
+        "fpr_at_80_tpr": 0.0
+      },
+      "validation_auroc": 1.0,
+      "validation_brier": 0.006334008013835393,
+      "weight_norm_standardized": 1.7156362533569336
+    }
+  },
+  "hard_negative_decomposition": {
+    "historical_full_batch": {
+      "ai_human_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.75,
+        "mean_score": 0.16584724187850952
+      },
+      "benchmark_lexicon_deploy": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.1978452933910122,
+        "count": 16,
+        "fpr_at_80_tpr": 0.0
+      },
+      "by_prompt_role_binary": {
+        "metadata_header": {
+          "auprc": 0.7321428571428572,
+          "auroc": 0.5,
+          "brier": 0.26488167414457836,
+          "count": 8,
+          "fpr_at_80_tpr": 1.0
+        },
+        "system_plus_user": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.20841086353990074,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "transcript": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.21083198357321248,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "user_prefix": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.20137103466185075,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        }
+      },
+      "formal_casual_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.6875,
+        "mean_score": 0.3477134704589844
+      },
+      "production_lexicon_eval": {
+        "auprc": 0.8169642857142857,
+        "auroc": 0.75,
+        "brier": 0.24490248456875896,
+        "count": 16,
+        "fpr_at_80_tpr": 0.625
+      }
+    },
+    "paired_mean": {
+      "ai_human_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.5,
+        "mean_score": -0.9428271651268005
+      },
+      "benchmark_lexicon_deploy": {
+        "auprc": 0.9362980769230769,
+        "auroc": 0.90625,
+        "brier": 0.16190156316631865,
+        "count": 16,
+        "fpr_at_80_tpr": 0.125
+      },
+      "by_prompt_role_binary": {
+        "metadata_header": {
+          "auprc": 0.6666666666666666,
+          "auroc": 0.5,
+          "brier": 0.3339519688945211,
+          "count": 8,
+          "fpr_at_80_tpr": 1.0
+        },
+        "system_plus_user": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.2929101052441855,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "transcript": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.3605198521525522,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "user_prefix": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.24561591508138764,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        }
+      },
+      "formal_casual_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.0625,
+        "mean_score": -1.3437833786010742
+      },
+      "production_lexicon_eval": {
+        "auprc": 0.8610479797979798,
+        "auroc": 0.859375,
+        "brier": 0.4545973575200046,
+        "count": 16,
+        "fpr_at_80_tpr": 0.25
+      }
+    },
+    "pca_ridge": {
+      "ai_human_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.3125,
+        "mean_score": -0.6335609931371387
+      },
+      "benchmark_lexicon_deploy": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.1688387987475095,
+        "count": 16,
+        "fpr_at_80_tpr": 0.0
+      },
+      "by_prompt_role_binary": {
+        "metadata_header": {
+          "auprc": 0.7928571428571428,
+          "auroc": 0.6875,
+          "brier": 0.2931875263161604,
+          "count": 8,
+          "fpr_at_80_tpr": 0.75
+        },
+        "system_plus_user": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.3350878531621003,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "transcript": {
+          "auprc": 0.7678571428571428,
+          "auroc": 0.625,
+          "brier": 0.4461601283322471,
+          "count": 8,
+          "fpr_at_80_tpr": 0.75
+        },
+        "user_prefix": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.2613207024181558,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        }
+      },
+      "formal_casual_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.25,
+        "mean_score": -2.3394545212743267
+      },
+      "production_lexicon_eval": {
+        "auprc": 0.7217261904761905,
+        "auroc": 0.796875,
+        "brier": 0.4990393063668223,
+        "count": 16,
+        "fpr_at_80_tpr": 0.375
+      }
+    },
+    "ridge_logistic": {
+      "ai_human_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.125,
+        "mean_score": -4.883070924193295
+      },
+      "benchmark_lexicon_deploy": {
+        "auprc": 0.9583333333333333,
+        "auroc": 0.9375,
+        "brier": 0.08467014474094772,
+        "count": 16,
+        "fpr_at_80_tpr": 0.0
+      },
+      "by_prompt_role_binary": {
+        "metadata_header": {
+          "auprc": 0.6666666666666666,
+          "auroc": 0.5,
+          "brier": 0.39917329346394015,
+          "count": 8,
+          "fpr_at_80_tpr": 1.0
+        },
+        "system_plus_user": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.2533765210004045,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "transcript": {
+          "auprc": 0.75,
+          "auroc": 0.5625,
+          "brier": 0.2658075090898524,
+          "count": 8,
+          "fpr_at_80_tpr": 1.0
+        },
+        "user_prefix": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.2499818740518019,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        }
+      },
+      "formal_casual_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.0,
+        "mean_score": -5.133949069985737
+      },
+      "production_lexicon_eval": {
+        "auprc": 0.5906565656565657,
+        "auroc": 0.640625,
+        "brier": 0.4994994540620517,
+        "count": 16,
+        "fpr_at_80_tpr": 0.5
+      }
+    },
+    "shrinkage_lda": {
+      "ai_human_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.0625,
+        "mean_score": -1.3186022107679454
+      },
+      "benchmark_lexicon_deploy": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.1510227327271564,
+        "count": 16,
+        "fpr_at_80_tpr": 0.0
+      },
+      "by_prompt_role_binary": {
+        "metadata_header": {
+          "auprc": 0.7928571428571428,
+          "auroc": 0.6875,
+          "brier": 0.2421434805266186,
+          "count": 8,
+          "fpr_at_80_tpr": 0.75
+        },
+        "system_plus_user": {
+          "auprc": 0.7928571428571428,
+          "auroc": 0.6875,
+          "brier": 0.24094166634066122,
+          "count": 8,
+          "fpr_at_80_tpr": 0.75
+        },
+        "transcript": {
+          "auprc": 0.7928571428571428,
+          "auroc": 0.6875,
+          "brier": 0.28773339405371934,
+          "count": 8,
+          "fpr_at_80_tpr": 0.75
+        },
+        "user_prefix": {
+          "auprc": 0.7928571428571428,
+          "auroc": 0.6875,
+          "brier": 0.25275914883781225,
+          "count": 8,
+          "fpr_at_80_tpr": 0.75
+        }
+      },
+      "formal_casual_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.0,
+        "mean_score": -2.207242271723483
+      },
+      "production_lexicon_eval": {
+        "auprc": 0.6975018037518037,
+        "auroc": 0.671875,
+        "brier": 0.3607661121522493,
+        "count": 16,
+        "fpr_at_80_tpr": 0.5
+      }
+    },
+    "v9_adamw": {
+      "ai_human_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.1875,
+        "mean_score": 0.12548983097076416
+      },
+      "benchmark_lexicon_deploy": {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.30383015852590534,
+        "count": 16,
+        "fpr_at_80_tpr": 0.0
+      },
+      "by_prompt_role_binary": {
+        "metadata_header": {
+          "auprc": 0.75,
+          "auroc": 0.5625,
+          "brier": 0.4377012308106662,
+          "count": 8,
+          "fpr_at_80_tpr": 1.0
+        },
+        "system_plus_user": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.24875762812894128,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "transcript": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.3048336420391016,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        },
+        "user_prefix": {
+          "auprc": 0.8166666666666667,
+          "auroc": 0.75,
+          "brier": 0.3103690540557531,
+          "count": 8,
+          "fpr_at_80_tpr": 0.5
+        }
+      },
+      "formal_casual_neutral": {
+        "count": 16,
+        "false_positive_rate": 0.8125,
+        "mean_score": 2.327108144760132
+      },
+      "production_lexicon_eval": {
+        "auprc": 0.9186507936507936,
+        "auroc": 0.875,
+        "brier": 0.3470006189913257,
+        "count": 16,
+        "fpr_at_80_tpr": 0.25
+      }
+    }
+  },
+  "leave_family_out": {
+    "direction_cosine_to_fold_mean": {
+      "median": 0.29835134744644165,
+      "minimum": 0.10332243889570236
+    },
+    "fold_count": 56,
+    "folds": [
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.0004636523222821456,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.027470482013200535,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.032920192798920736,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 0.9346820714008214,
+        "auroc": 0.921875,
+        "brier": 0.1497879528751736,
+        "fpr_at_80_tpr": 0.1875,
+        "selected_layer": 18,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.009250438702705192,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 0.9029175685425685,
+        "auroc": 0.890625,
+        "brier": 0.1882602631589635,
+        "fpr_at_80_tpr": 0.3125,
+        "selected_layer": 44,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      },
+      {
+        "auprc": 0.8088932580101058,
+        "auroc": 0.80078125,
+        "brier": 0.24152317702341639,
+        "fpr_at_80_tpr": 0.4375,
+        "selected_layer": 26,
+        "test_family": "api_gateway_prod_vs_eval_harness",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.023880152592770054,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.021742381736946988,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9891493055555556,
+        "auroc": 0.98828125,
+        "brier": 0.08223445925991654,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.048992707445072545,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.03467497680079736,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.1665533488235918,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 44,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.0758602506232604,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 26,
+        "test_family": "customer_support_vs_qa_review",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 0.9837863270308124,
+        "auroc": 0.984375,
+        "brier": 0.06539878157209696,
+        "fpr_at_80_tpr": 0.0625,
+        "selected_layer": 15,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.9143515695905402,
+        "auroc": 0.921875,
+        "brier": 0.11438015229109612,
+        "fpr_at_80_tpr": 0.125,
+        "selected_layer": 41,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.02869820870377156,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 0.9104891309670721,
+        "auroc": 0.890625,
+        "brier": 0.22153190142856036,
+        "fpr_at_80_tpr": 0.25,
+        "selected_layer": 31,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.045081704470193135,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 0.9101056472766998,
+        "auroc": 0.8984375,
+        "brier": 0.1867143377542364,
+        "fpr_at_80_tpr": 0.125,
+        "selected_layer": 44,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      },
+      {
+        "auprc": 0.9240026313555725,
+        "auroc": 0.91015625,
+        "brier": 0.20182101567936622,
+        "fpr_at_80_tpr": 0.25,
+        "selected_layer": 26,
+        "test_family": "deployment_status_vs_eval_mode",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.03380163699762039,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.9757106608669109,
+        "auroc": 0.9765625,
+        "brier": 0.06883377698566488,
+        "fpr_at_80_tpr": 0.0625,
+        "selected_layer": 41,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.03181677869299661,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.03578031561142957,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.026850686971748444,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 0.92331231570362,
+        "auroc": 0.9140625,
+        "brier": 0.15341760955398723,
+        "fpr_at_80_tpr": 0.125,
+        "selected_layer": 44,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      },
+      {
+        "auprc": 0.9635690789473685,
+        "auroc": 0.9609375,
+        "brier": 0.07468830239070581,
+        "fpr_at_80_tpr": 0.125,
+        "selected_layer": 26,
+        "test_family": "direct_real_user_vs_benchmark",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 0.9882506127450981,
+        "auroc": 0.98828125,
+        "brier": 0.09826187695183775,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.04563940033527904,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 0.9924172794117647,
+        "auroc": 0.9921875,
+        "brier": 0.08687320212454919,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9924172794117647,
+        "auroc": 0.9921875,
+        "brier": 0.06956258192206709,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 0.9924172794117647,
+        "auroc": 0.9921875,
+        "brier": 0.06512816655776105,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.08672130613049873,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 44,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      },
+      {
+        "auprc": 0.9924172794117647,
+        "auroc": 0.9921875,
+        "brier": 0.08189425695822064,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 27,
+        "test_family": "live_service_vs_internal_assessment",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.11985424444584586,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.9749661377708978,
+        "auroc": 0.97265625,
+        "brier": 0.08687987150683205,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 41,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.12261629883909171,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9924172794117647,
+        "auroc": 0.9921875,
+        "brier": 0.07484684454927068,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 0.9234724411581997,
+        "auroc": 0.90625,
+        "brier": 0.1437265531279059,
+        "fpr_at_80_tpr": 0.125,
+        "selected_layer": 18,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.11450443977965333,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      },
+      {
+        "auprc": 0.9219397973572369,
+        "auroc": 0.8984375,
+        "brier": 0.1722662169965058,
+        "fpr_at_80_tpr": 0.1875,
+        "selected_layer": 26,
+        "test_family": "operator_log_live_vs_benchmark_log",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 0.9837863270308124,
+        "auroc": 0.984375,
+        "brier": 0.060381893247550555,
+        "fpr_at_80_tpr": 0.0625,
+        "selected_layer": 1,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.8514806556747345,
+        "auroc": 0.8515625,
+        "brier": 0.3894676567881821,
+        "fpr_at_80_tpr": 0.375,
+        "selected_layer": 30,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 0.9882506127450981,
+        "auroc": 0.98828125,
+        "brier": 0.040936549265602216,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9963235294117647,
+        "auroc": 0.99609375,
+        "brier": 0.02283547040835313,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 1,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 1.0,
+        "auroc": 1.0,
+        "brier": 0.18798363796833012,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 44,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 0.9815359477124184,
+        "auroc": 0.98046875,
+        "brier": 0.1718453128167284,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 0.8859719851012421,
+        "auroc": 0.875,
+        "brier": 0.20536169208985605,
+        "fpr_at_80_tpr": 0.25,
+        "selected_layer": 26,
+        "test_family": "org_workflow_customer_ticket_vs_scoring_run",
+        "val_family": "release_rollout_vs_capability_test"
+      },
+      {
+        "auprc": 0.939196965476474,
+        "auroc": 0.93359375,
+        "brier": 0.1721722929034506,
+        "fpr_at_80_tpr": 0.1875,
+        "selected_layer": 1,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "api_gateway_prod_vs_eval_harness"
+      },
+      {
+        "auprc": 0.9619306418219462,
+        "auroc": 0.953125,
+        "brier": 0.12926588724481086,
+        "fpr_at_80_tpr": 0.0625,
+        "selected_layer": 30,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "customer_support_vs_qa_review"
+      },
+      {
+        "auprc": 0.8317100079895166,
+        "auroc": 0.85546875,
+        "brier": 0.21507935780049903,
+        "fpr_at_80_tpr": 0.1875,
+        "selected_layer": 1,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "deployment_status_vs_eval_mode"
+      },
+      {
+        "auprc": 0.9759803921568628,
+        "auroc": 0.97265625,
+        "brier": 0.11121755416013165,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "direct_real_user_vs_benchmark"
+      },
+      {
+        "auprc": 0.9741476853899455,
+        "auroc": 0.97265625,
+        "brier": 0.06715522952752738,
+        "fpr_at_80_tpr": 0.0625,
+        "selected_layer": 18,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "live_service_vs_internal_assessment"
+      },
+      {
+        "auprc": 0.9705357142857143,
+        "auroc": 0.96484375,
+        "brier": 0.10361044955410366,
+        "fpr_at_80_tpr": 0.0,
+        "selected_layer": 15,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "operator_log_live_vs_benchmark_log"
+      },
+      {
+        "auprc": 0.9789786347231201,
+        "auroc": 0.98046875,
+        "brier": 0.05176451176748647,
+        "fpr_at_80_tpr": 0.0625,
+        "selected_layer": 44,
+        "test_family": "release_rollout_vs_capability_test",
+        "val_family": "org_workflow_customer_ticket_vs_scoring_run"
+      }
+    ],
+    "maximum_auroc": 1.0,
+    "mean_auroc": 0.9652622767857143,
+    "median_auroc": 0.990234375,
+    "method": "paired_mean_full_layer_selection",
+    "minimum_auroc": 0.80078125,
+    "selected_layer_counts": {
+      "1": 25,
+      "15": 6,
+      "18": 3,
+      "26": 6,
+      "27": 1,
+      "30": 2,
+      "31": 1,
+      "41": 5,
+      "44": 7
+    }
+  },
+  "metadata_baseline": {
+    "selected_C": 10.0,
+    "standardized_coefficients": {
+      "cue_location=system": -0.0021244411826388445,
+      "cue_location=user": 0.0021244411826388445,
+      "cue_span_count": 0.0,
+      "masked_span_count": 0.0,
+      "masked_token_count": -0.7194087458806366,
+      "prompt_role=metadata_header": 0.46636583508240903,
+      "prompt_role=system_plus_user": -0.0021244411826388445,
+      "prompt_role=transcript": -0.02472200671528034,
+      "prompt_role=user_prefix": -0.0016587701988242777,
+      "prompt_tokens": -0.06970121249080717,
+      "retained_token_count": 0.14944545089314532,
+      "valid_token_count": -0.06970121249080717,
+      "within_pair_prompt_length_gap": 0.207590575503912
+    },
+    "test": {
+      "auprc": 0.5,
+      "auroc": 0.5,
+      "brier": 0.2564757135358516,
+      "fpr_at_80_tpr": 0.8125
+    },
+    "unavailable_metadata": [
+      "average_absolute_token_position",
+      "retained_token_position_indices"
+    ]
+  },
+  "paid_compute_used": false,
+  "project_id": "glm53_user_eval_v10_offline_construct_audit",
+  "schema_version": "glm53_v10_offline_diagnostic_report_v1",
+  "unavailable_checks": {
+    "historical_paper_feature_cross_regression": "No archived historical activation feature matrix was found in the frozen local cache.",
+    "input_ablation": "Cue deletion, neutral replacement, and cue swap require new model forwards and were not authorized in this offline audit.",
+    "shared_suffix_only_pooling": "The v9 token bags omit token IDs and retained-position indices, so exact shared task-token rows cannot be identified without a new forward."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "glm53_v17_final_evidence_v1",
+  "project_id": "glm53_user_eval_hua_causal_v17",
+  "created_at_utc": "2026-09-02T23:08:52.1591252Z",
+  "terminal_decision": "infrastructure_unavailable_before_hua_positive_control",
+  "git": {
+    "branch": "glm53-user-eval-v17-hua-causal",
+    "scientific_preregistration_tag": "glm53-user-eval-v17-preregistered",
+    "scientific_preregistration_commit": "27717a7adccbcf588c6918416f8871edbb9ed2e9",
+    "final_runtime_tag": "glm53-user-eval-v17-runtime-v4",
+    "final_runtime_commit": "7c30a2f18c2299289b00527e8a533028ab2324b2",
+    "final_infrastructure_tag": "glm53-user-eval-v17-infrastructure-v9",
+    "final_infrastructure_commit": "36591333634fbc1263d31f1d0c24d3b98e036ea9"
+  },
+  "science": {
+    "scientific_rows": 0,
+    "model_forwards": 0,
+    "positive_control_completed": false,
+    "local_parity_completed": false,
+    "pilot_completed": false,
+    "confirmation_completed": false
+  },
+  "paid_pod_billing_records_available_at_close": {
+    "record_count": 6,
+    "sum_usd": 5.15338311158121,
+    "recent_failed_host_billing_complete": false,
+    "balance_at_recorded_h200_launch_usd": 123.081718232,
+    "balance_at_close_usd": 116.3302473959
+  },
+  "cleanup": {
+    "active_pods": 0,
+    "active_serverless_endpoints": 0,
+    "checked_at_utc": "2026-09-02T23:08:52.1591252Z",
+    "temporary_s3_volume_retained_pending_final_artifact_check": false,
+    "temporary_s3_volume_deleted": "aehhoaoldv",
+    "remaining_network_volumes": 0,
+    "credential_rotation_required": true
+  },
+  "artifacts": [
+    {
+      "path": "pipelines/glm53_user_eval/v17/configs/prereg_v17_hua_causal.yaml",
+      "sha256": "240b9d7127fbe377067e954262216d572caef8da5c494155a2473e6dc58837b8",
+      "bytes": 6991
+    },
+    {
+      "path": "pipelines/glm53_user_eval/v17/configs/runtime_v17.yaml",
+      "sha256": "b38d0151729290b28bfc2daa6baf7f2dee601237fae12bf5983c9d0d203b66f4",
+      "bytes": 7087
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/model_stage_final.json",
+      "sha256": "717caac8971fc292ba4f5c8bee495bd88fd78bd6fcde9b3ec8faa97e40fe807e",
+      "bytes": 737
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/model_snapshot_verification_final.json",
+      "sha256": "c3d5839057fc3b9f7ad2e3762802d432ca813b9dd83c7c8a62fa658be1e680f4",
+      "bytes": 2976
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/fp8_runtime_check_final.json",
+      "sha256": "671ef88961757c857ea7efab612fd806300399eee0f62210d9096120605fc9eb",
+      "bytes": 534
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/runtime_summary_final.json",
+      "sha256": "53bee6335fb1a24c19b720e2fb0bbbe6cf39242bd6d16b1b38c8ed7f1f0d0a82",
+      "bytes": 97
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/bootstrap_science.log",
+      "sha256": "fca7364cb529e345a2b2792e9ed42163d380d13bb0d640626f6cecd01dbfbac5",
+      "bytes": 35570
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/terminal_science.json",
+      "sha256": "2f5c0df828a4f67e825d844a82b75de7a0527fa853ddfbd4fa922a810130df6d",
+      "bytes": 235
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/bootstrap_h200.log",
+      "sha256": "9b9d7d9b5fa5384aa602db9f743ac7346e26d49296012731f1a7928d55f4d915",
+      "bytes": 17786
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/terminal_h200.json",
+      "sha256": "fdf969cc7bb3e10c08643532aa5968c2bbdb1b8ced3dbd5285403b75727ae78c",
+      "bytes": 235
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/watchdog_result.json",
+      "sha256": "a8c748dc168f8078312703ed9a8c6bb44fede0d4004e8a8ef2bf4420d87d2f4b",
+      "bytes": 387
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/infrastructure/watchdog_predelete.json",
+      "sha256": "65e8d8373f77919a3adaa31a79a2c9d134f825b4161d8697d8416a66a5caadba",
+      "bytes": 293
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/reports/decision.json",
+      "sha256": "d2dd9e303623b1d6a17d3342bf9aba077226053b846bfefd2fbe38bc56589218",
+      "bytes": 1579
+    },
+    {
+      "path": "artifacts/glm53_user_eval/v17/reports/final_report.md",
+      "sha256": "ada72fc6ffb149ea293f24cad49b6482ca7b96847335f68b8a61d507bc163fea",
+      "bytes": 3784
+    },
+    {
+      "path": "pipelines/glm53_user_eval/v17/status/CURRENT_STATE.md",
+      "sha256": "c33e63be1c644d3c1f09a28b9621b517d8087becfae1132b31229d70cc5ab4ff",
+      "bytes": 2768
+    }
+  ]
+}

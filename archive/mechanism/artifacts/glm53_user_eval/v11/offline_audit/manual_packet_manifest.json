@@ -1,0 +1,9 @@
+{
+  "factorial_calibration_rows": 32,
+  "final_counterfactual_rows": 64,
+  "final_neutral_rows": 32,
+  "labels_blinded": true,
+  "packet_sha256": "4f61f85e082262d47694954a8b5626d488b570172662c61b12c722dc07af69dd",
+  "row_count": 128,
+  "schema_version": "contrastive_prompts_v3_manual_packet_v1"
+}

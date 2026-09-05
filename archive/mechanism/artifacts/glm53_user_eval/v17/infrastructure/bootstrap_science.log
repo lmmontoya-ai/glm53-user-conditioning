@@ -1,0 +1,699 @@
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:2 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64  InRelease [1578 B]
+Get:3 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+Get:4 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu noble InRelease [17.8 kB]
+Get:5 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64  Packages [1759 kB]
+Get:6 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu noble/main amd64 Packages [46.2 kB]
+Get:7 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1730 kB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [50.0 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1211 kB]
+Get:10 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1529 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+Get:15 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1529 kB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [55.8 kB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1847 kB]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [2150 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [48.9 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Packages [671 B]
+Get:23 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [35.9 kB]
+Fetched 34.2 MB in 2s (14.1 MB/s)
+Reading package lists...
+W: https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+jq is already the newest version (1.7.1-3ubuntu0.24.04.2).
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+tmux is already the newest version (3.4-1ubuntu0.1).
+zstd is already the newest version (1.5.5+dfsg2-2build1.1).
+The following additional packages will be installed:
+  libcurl3t64-gnutls libcurl4-openssl-dev libcurl4t64 libnl-genl-3-200
+Suggested packages:
+  lm-sensors strace libcurl4-doc libidn-dev libkrb5-dev libldap2-dev
+  librtmp-dev libssh2-1-dev pkg-config
+The following NEW packages will be installed:
+  git-lfs htop libnl-genl-3-200 nvtop
+The following packages will be upgraded:
+  curl libcurl3t64-gnutls libcurl4-openssl-dev libcurl4t64
+4 upgraded, 4 newly installed, 0 to remove and 107 not upgraded.
+Need to get 5504 kB of archives.
+After this operation, 12.4 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4-openssl-dev amd64 8.5.0-2ubuntu10.13 [446 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.13 [226 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.13 [343 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 git-lfs amd64 3.4.1-1ubuntu0.4 [3908 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnl-genl-3-200 amd64 3.7.0-0.3build1.1 [12.2 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble/main amd64 htop amd64 3.3.0-4build1 [171 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl3t64-gnutls amd64 8.5.0-2ubuntu10.13 [335 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 nvtop amd64 3.0.2-1 [62.8 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 5504 kB in 1s (4109 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 49738 files and directories currently installed.)
+Preparing to unpack .../0-libcurl4-openssl-dev_8.5.0-2ubuntu10.13_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (8.5.0-2ubuntu10.13) over (8.5.0-2ubuntu10.9) ...
+Preparing to unpack .../1-curl_8.5.0-2ubuntu10.13_amd64.deb ...
+Unpacking curl (8.5.0-2ubuntu10.13) over (8.5.0-2ubuntu10.9) ...
+Preparing to unpack .../2-libcurl4t64_8.5.0-2ubuntu10.13_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.13) over (8.5.0-2ubuntu10.9) ...
+Selecting previously unselected package git-lfs.
+Preparing to unpack .../3-git-lfs_3.4.1-1ubuntu0.4_amd64.deb ...
+Unpacking git-lfs (3.4.1-1ubuntu0.4) ...
+Selecting previously unselected package libnl-genl-3-200:amd64.
+Preparing to unpack .../4-libnl-genl-3-200_3.7.0-0.3build1.1_amd64.deb ...
+Unpacking libnl-genl-3-200:amd64 (3.7.0-0.3build1.1) ...
+Selecting previously unselected package htop.
+Preparing to unpack .../5-htop_3.3.0-4build1_amd64.deb ...
+Unpacking htop (3.3.0-4build1) ...
+Preparing to unpack .../6-libcurl3t64-gnutls_8.5.0-2ubuntu10.13_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.13) over (8.5.0-2ubuntu10.9) ...
+Selecting previously unselected package nvtop.
+Preparing to unpack .../7-nvtop_3.0.2-1_amd64.deb ...
+Unpacking nvtop (3.0.2-1) ...
+Setting up nvtop (3.0.2-1) ...
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.13) ...
+Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.13) ...
+Setting up libcurl4-openssl-dev:amd64 (8.5.0-2ubuntu10.13) ...
+Setting up libnl-genl-3-200:amd64 (3.7.0-0.3build1.1) ...
+Setting up curl (8.5.0-2ubuntu10.13) ...
+Setting up git-lfs (3.4.1-1ubuntu0.4) ...
+Setting up htop (3.3.0-4build1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+downloading uv 0.9.26 x86_64-unknown-linux-gnu
+no checksums to verify
+installing to /root/.local/bin
+  uv
+  uvx
+everything's installed!
+WARN: The following commands are shadowed by other commands in your PATH: uv uvx
+/tmp/glm53-v17-preregistered-repo.tar.gz.partial: OK
+tar: Ignoring unknown extended header keyword 'SCHILY.fflags'
+tar: Ignoring unknown extended header keyword 'SCHILY.fflags'
+tar: Ignoring unknown extended header keyword 'SCHILY.fflags'
+tar: Ignoring unknown extended header keyword 'SCHILY.fflags'
+HEAD is now at 27717a7 Preregister GLM-5.3 Hua causal transfer study
+Using CPython 3.11.15 interpreter at: /usr/bin/python3.11
+Creating virtual environment at: /tmp/glm53-v17-venv
+Downloading ruff (9.8MiB)
+Downloading scikit-learn (9.3MiB)
+Downloading sympy (6.0MiB)
+Downloading lxml (5.0MiB)
+Downloading uvloop (3.6MiB)
+Downloading debugpy (3.0MiB)
+Downloading openai-harmony (2.9MiB)
+Downloading pycryptodomex (2.2MiB)
+Downloading torch (848.0MiB)
+Downloading pycountry (6.0MiB)
+Downloading hf-transfer (3.4MiB)
+Downloading hf-xet (3.0MiB)
+Downloading nvidia-nvjitlink-cu12 (37.4MiB)
+Downloading statsmodels (11.5MiB)
+Downloading pydantic-core (2.0MiB)
+Downloading tokenizers (3.1MiB)
+Downloading pillow (6.3MiB)
+Downloading torchvision (8.2MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (84.0MiB)
+Downloading numpy (16.0MiB)
+Downloading outlines-core (2.2MiB)
+Downloading mistral-common (6.2MiB)
+Downloading pandas (12.2MiB)
+Downloading wandb (19.0MiB)
+Downloading nvidia-cublas-cu12 (566.8MiB)
+Downloading nvidia-cusparse-cu12 (274.9MiB)
+Downloading xformers (111.8MiB)
+Downloading nvidia-cuda-cupti-cu12 (9.8MiB)
+Downloading llguidance (14.3MiB)
+Downloading opencv-python-headless (51.5MiB)
+Downloading matplotlib (8.3MiB)
+Downloading fonttools (4.7MiB)
+Downloading scipy (34.2MiB)
+Downloading nvidia-cusolver-cu12 (255.1MiB)
+Downloading pyarrow (40.8MiB)
+Downloading llvmlite (40.4MiB)
+Downloading nvidia-nccl-cu12 (307.4MiB)
+Downloading nvidia-curand-cu12 (60.7MiB)
+Downloading torchaudio (3.8MiB)
+Downloading numba (3.7MiB)
+Downloading xgrammar (8.3MiB)
+Downloading vllm (417.9MiB)
+Downloading transformers (11.4MiB)
+Downloading bitsandbytes (57.3MiB)
+Downloading triton (148.3MiB)
+Downloading nvidia-cudnn-cu12 (674.0MiB)
+Downloading cupy-cuda12x (107.8MiB)
+Downloading nvidia-cusparselt-cu12 (273.9MiB)
+Downloading nvidia-cufft-cu12 (184.2MiB)
+Downloading ray (67.8MiB)
+ Downloaded pydantic-core
+Downloading networkx (1.9MiB)
+ Downloaded outlines-core
+Downloading nvidia-cudnn-frontend (1.8MiB)
+ Downloaded pycryptodomex
+Downloading aiohttp (1.7MiB)
+ Downloaded openai-harmony
+Downloading jedi (1.5MiB)
+ Downloaded debugpy
+ Downloaded tokenizers
+Downloading kiwisolver (1.4MiB)
+Downloading sentencepiece (1.3MiB)
+ Downloaded hf-xet
+Downloading soundfile (1.3MiB)
+ Downloaded hf-transfer
+Downloading pygments (1.2MiB)
+ Downloaded uvloop
+ Downloaded numba
+ Downloaded torchaudio
+Downloading nvidia-cufile-cu12 (1.1MiB)
+Downloading tiktoken (1.1MiB)
+ Downloaded nvidia-cudnn-frontend
+ Downloaded aiohttp
+ Downloaded networkx
+ Downloaded kiwisolver
+ Downloaded jedi
+ Downloaded sentencepiece
+ Downloaded soundfile
+ Downloaded fonttools
+ Downloaded pygments
+ Downloaded tiktoken
+ Downloaded nvidia-cufile-cu12
+ Downloaded lxml
+ Downloaded pycountry
+ Downloaded sympy
+ Downloaded mistral-common
+ Downloaded pillow
+ Downloaded torchvision
+ Downloaded matplotlib
+ Downloaded xgrammar
+ Downloaded scikit-learn
+ Downloaded ruff
+ Downloaded nvidia-cuda-cupti-cu12
+ Downloaded statsmodels
+ Downloaded transformers
+   Building flashinfer-python==0.3.1.post1
+ Downloaded pandas
+ Downloaded llguidance
+ Downloaded numpy
+ Downloaded wandb
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink-cu12
+ Downloaded pyarrow
+ Downloaded llvmlite
+ Downloaded opencv-python-headless
+ Downloaded torch
+ Downloaded bitsandbytes
+ Downloaded nvidia-curand-cu12
+ Downloaded ray
+ Downloaded nvidia-cuda-nvrtc-cu12
+ Downloaded cupy-cuda12x
+ Downloaded xformers
+ Downloaded triton
+ Downloaded nvidia-cufft-cu12
+ Downloaded nvidia-cusolver-cu12
+ Downloaded nvidia-cusparselt-cu12
+ Downloaded nvidia-cusparse-cu12
+ Downloaded nvidia-nccl-cu12
+ Downloaded vllm
+ Downloaded nvidia-cublas-cu12
+      Built flashinfer-python==0.3.1.post1
+ Downloaded nvidia-cudnn-cu12
+Prepared 220 packages in 1m 17s
+Installed 220 packages in 338ms
+ + accelerate==1.11.0
+ + aiohappyeyeballs==2.6.1
+ + aiohttp==3.13.1
+ + aiosignal==1.4.0
+ + annotated-doc==0.0.3
+ + annotated-types==0.7.0
+ + anyio==4.11.0
+ + astor==0.8.1
+ + asttokens==3.0.0
+ + attrs==25.4.0
+ + bitsandbytes==0.48.1
+ + blake3==1.0.8
+ + blobfile==3.2.0
+ + cachetools==6.2.1
+ + cbor2==5.7.1
+ + certifi==2022.12.7
+ + cffi==2.0.0
+ + charset-normalizer==2.1.1
+ + chz==0.4.0
+ + click==8.2.1
+ + cloudpickle==3.1.1
+ + comm==0.2.3
+ + compressed-tensors==0.11.0
+ + contourpy==1.3.3
+ + cupy-cuda12x==13.6.0
+ + cycler==0.12.1
+ + datasets==4.2.0
+ + debugpy==1.8.17
+ + decorator==5.2.1
+ + depyf==0.19.0
+ + dill==0.3.8
+ + diskcache==5.6.3
+ + distro==1.9.0
+ + dnspython==2.8.0
+ + dotenv==0.9.9
+ + einops==0.8.1
+ + email-validator==2.3.0
+ + executing==2.2.1
+ + fastapi==0.120.0
+ + fastapi-cli==0.0.14
+ + fastapi-cloud-cli==0.3.1
+ + fastrlock==0.8.3
+ + filelock==3.19.1
+ + fire==0.7.1
+ + flashinfer-python==0.3.1.post1
+ + fonttools==4.60.1
+ + formulaic==1.2.2
+ + frozendict==2.4.6
+ + frozenlist==1.8.0
+ + fsspec==2024.2.0
+ + gguf==0.17.1
+ + gitdb==4.0.12
+ + gitpython==3.1.45
+ + h11==0.16.0
+ + h2==4.3.0
+ + hf-transfer==0.1.9
+ + hf-xet==1.1.10
+ + hpack==4.1.0
+ + httpcore==1.0.9
+ + httptools==0.7.1
+ + httpx==0.28.1
+ + huggingface-hub==0.35.3
+ + hyperframe==6.1.0
+ + idna==3.4
+ + iniconfig==2.3.0
+ + interegular==0.3.3
+ + interface-meta==2.0.1
+ + ipykernel==7.0.1
+ + ipython==9.6.0
+ + ipython-pygments-lexers==1.1.1
+ + jedi==0.19.2
+ + jinja2==3.1.6
+ + jiter==0.11.1
+ + joblib==1.5.2
+ + jsonschema==4.25.1
+ + jsonschema-specifications==2025.9.1
+ + jupyter-client==8.6.3
+ + jupyter-core==5.9.1
+ + kiwisolver==1.4.9
+ + lark==1.2.2
+ + llguidance==0.7.30
+ + llvmlite==0.44.0
+ + lm-format-enforcer==0.11.3
+ + lxml==6.1.0
+ + markdown-it-py==4.0.0
+ + markupsafe==3.0.2
+ + matplotlib==3.10.7
+ + matplotlib-inline==0.1.7
+ + mdurl==0.1.2
+ + mistral-common==1.8.5
+ + mpmath==1.3.0
+ + msgpack==1.1.2
+ + msgspec==0.19.0
+ + multidict==6.7.0
+ + multiprocess==0.70.16
+ + narwhals==2.25.0
+ + nest-asyncio==1.6.0
+ + networkx==3.5
+ + ninja==1.13.0
+ + numba==0.61.2
+ + numpy==2.2.6
+ + nvidia-cublas-cu12==12.8.4.1
+ + nvidia-cuda-cupti-cu12==12.8.90
+ + nvidia-cuda-nvrtc-cu12==12.8.93
+ + nvidia-cuda-runtime-cu12==12.8.90
+ + nvidia-cudnn-cu12==9.10.2.21
+ + nvidia-cudnn-frontend==1.15.0
+ + nvidia-cufft-cu12==11.3.3.83
+ + nvidia-cufile-cu12==1.13.1.3
+ + nvidia-curand-cu12==10.3.9.90
+ + nvidia-cusolver-cu12==11.7.3.90
+ + nvidia-cusparse-cu12==12.5.8.93
+ + nvidia-cusparselt-cu12==0.7.1
+ + nvidia-ml-py==13.580.82
+ + nvidia-nccl-cu12==2.27.3
+ + nvidia-nvjitlink-cu12==12.8.93
+ + nvidia-nvtx-cu12==12.8.90
+ + openai==2.6.1
+ + openai-harmony==0.0.4
+ + opencv-python-headless==4.12.0.88
+ + orjson==3.11.8
+ + outlines-core==0.2.11
+ + packaging==25.0
+ + pandas==2.3.3
+ + parso==0.8.5
+ + partial-json-parser==0.2.1.1.post6
+ + patsy==1.0.2
+ + peft==0.17.1
+ + pexpect==4.9.0
+ + pillow==11.3.0
+ + platformdirs==4.5.0
+ + pluggy==1.6.0
+ + prometheus-client==0.23.1
+ + prometheus-fastapi-instrumentator==7.1.0
+ + prompt-toolkit==3.0.52
+ + propcache==0.4.1
+ + protobuf==6.33.0
+ + psutil==7.1.1
+ + ptyprocess==0.7.0
+ + pure-eval==0.2.3
+ + py-cpuinfo==9.0.0
+ + pyarrow==21.0.0
+ + pybase64==1.4.2
+ + pycountry==24.6.1
+ + pycparser==2.23
+ + pycryptodomex==3.23.0
+ + pydantic==2.12.3
+ + pydantic-core==2.41.4
+ + pydantic-extra-types==2.10.6
+ + pygments==2.19.2
+ + pynvml==13.0.1
+ + pyparsing==3.2.5
+ + pytest==9.1.1
+ + python-dateutil==2.9.0.post0
+ + python-dotenv==1.1.1
+ + python-json-logger==4.0.0
+ + python-multipart==0.0.20
+ + pytz==2025.2
+ + pyyaml==6.0.3
+ + pyzmq==27.1.0
+ + ray==2.50.1
+ + referencing==0.37.0
+ + regex==2025.9.18
+ + requests==2.32.5
+ + rich==14.2.0
+ + rich-toolkit==0.15.1
+ + rignore==0.7.1
+ + rpds-py==0.28.0
+ + ruff==0.16.5
+ + safetensors==0.6.2
+ + scikit-learn==1.7.2
+ + scipy==1.16.2
+ + sentence-transformers==5.1.2
+ + sentencepiece==0.2.1
+ + sentry-sdk==2.42.1
+ + setproctitle==1.3.7
+ + setuptools==70.2.0
+ + shellingham==1.5.4
+ + six==1.17.0
+ + smmap==5.0.2
+ + sniffio==1.3.1
+ + soundfile==0.13.1
+ + soxr==1.0.0
+ + stack-data==0.6.3
+ + starlette==0.48.0
+ + statsmodels==0.15.0
+ + sympy==1.14.0
+ + tabulate==0.9.0
+ + termcolor==3.1.0
+ + threadpoolctl==3.6.0
+ + tiktoken==0.12.0
+ + tinker==0.18.2
+ + tinker-cookbook==0.3.0
+ + tokenizers==0.22.1
+ + torch==2.8.0+cu128
+ + torchaudio==2.8.0
+ + torchvision==0.23.0
+ + tornado==6.5.2
+ + tqdm==4.66.5
+ + traitlets==5.14.3
+ + transformers==4.57.6
+ + triton==3.4.0
+ + trl==0.17.0
+ + typer==0.20.0
+ + typing-extensions==4.15.0
+ + typing-inspection==0.4.2
+ + tzdata==2025.2
+ + urllib3==2.6.3
+ + uvicorn==0.38.0
+ + uvloop==0.22.1
+ + vllm==0.11.0
+ + wandb==0.22.2
+ + watchfiles==1.1.1
+ + wcwidth==0.2.14
+ + websockets==15.0.1
+ + wrapt==2.3.0
+ + xformers==0.0.32.post1
+ + xgrammar==0.1.25
+ + xxhash==3.6.0
+ + yarl==1.22.0
+Using Python 3.11.15 environment at: /tmp/glm53-v17-venv
+Resolved 32 packages in 366ms
+Downloading nvidia-nccl-cu13 (196.4MiB)
+Downloading nvidia-cudnn-cu13 (349.2MiB)
+Downloading torch (502.2MiB)
+Downloading triton (188.5MiB)
+Downloading torchvision (7.3MiB)
+ Downloaded torchvision
+ Downloaded nvidia-nccl-cu13
+ Downloaded triton
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 5 packages in 18.13s
+Uninstalled 4 packages in 131ms
+Installed 22 packages in 155ms
+ + cuda-bindings==13.3.1
+ + cuda-pathfinder==1.8.1
+ + cuda-toolkit==13.0.3.0
+ + nvidia-cublas==13.1.1.3
+ + nvidia-cuda-cupti==13.0.85
+ + nvidia-cuda-nvrtc==13.0.88
+ + nvidia-cuda-runtime==13.0.96
+ + nvidia-cudnn-cu13==9.20.0.48
+ + nvidia-cufft==12.0.0.61
+ + nvidia-cufile==1.15.1.6
+ + nvidia-curand==10.4.0.35
+ + nvidia-cusolver==12.0.4.66
+ + nvidia-cusparse==12.6.3.3
+ + nvidia-cusparselt-cu13==0.8.1
+ + nvidia-nccl-cu13==2.29.7
+ + nvidia-nvjitlink==13.3.33
+ + nvidia-nvshmem-cu13==3.4.5
+ + nvidia-nvtx==13.0.85
+ - setuptools==70.2.0
+ + setuptools==84.0.0
+ - torch==2.8.0+cu128
+ + torch==2.13.0
+ - torchvision==0.23.0
+ + torchvision==0.28.0
+ - triton==3.4.0
+ + triton==3.7.1
+Using Python 3.11.15 environment at: /tmp/glm53-v17-venv
+Uninstalled 1 package in 5ms
+ - torchaudio==2.8.0
+Using Python 3.11.15 environment at: /tmp/glm53-v17-venv
+   Updating https://github.com/huggingface/transformers.git (805a9e939fa8c1bff8d8ffdf041c051b71a914aa)
+    Updated https://github.com/huggingface/transformers.git (805a9e939fa8c1bff8d8ffdf041c051b71a914aa)
+Resolved 54 packages in 22.03s
+   Building transformers @ git+https://github.com/huggingface/transformers.git@805a9e939fa8c1bff8d8ffdf041c051b71a914aa
+Downloading tokenizers (3.2MiB)
+Downloading rfc3161-client (2.3MiB)
+Downloading cryptography (4.5MiB)
+Downloading pydantic-core (2.0MiB)
+Downloading hf-xet (4.3MiB)
+Downloading pygments (1.2MiB)
+Downloading kernels-data (1.2MiB)
+ Downloaded pygments
+ Downloaded kernels-data
+ Downloaded pydantic-core
+ Downloaded rfc3161-client
+ Downloaded tokenizers
+ Downloaded hf-xet
+ Downloaded cryptography
+      Built transformers @ git+https://github.com/huggingface/transformers.git@805a9e939fa8c1bff8d8ffdf041c051b71a914aa
+Prepared 54 packages in 1.97s
+Uninstalled 39 packages in 61ms
+Installed 54 packages in 69ms
+ - annotated-doc==0.0.3
+ + annotated-doc==0.0.5
+ - annotated-types==0.7.0
+ + annotated-types==0.8.0
+ - anyio==4.11.0
+ + anyio==4.14.2
+ - certifi==2022.12.7
+ + certifi==2026.7.22
+ - cffi==2.0.0
+ + cffi==2.1.1
+ - charset-normalizer==2.1.1
+ + charset-normalizer==3.5.1
+ - click==8.2.1
+ + click==8.5.0
+ + cryptography==50.0.1
+ ~ dnspython==2.8.0
+ ~ email-validator==2.3.0
+ - filelock==3.19.1
+ + filelock==3.32.5
+ - fsspec==2024.2.0
+ + fsspec==2026.7.0
+ ~ h11==0.16.0
+ - hf-xet==1.1.10
+ + hf-xet==1.6.0
+ ~ httpcore==1.0.9
+ ~ httpx==0.28.1
+ - huggingface-hub==0.35.3
+ + huggingface-hub==1.29.0
+ + id==1.6.1
+ - idna==3.4
+ + idna==3.19
+ + kernels==0.16.0
+ + kernels-data==0.16.1
+ - markdown-it-py==4.0.0
+ + markdown-it-py==4.2.0
+ ~ mdurl==0.1.2
+ - numpy==2.2.6
+ + numpy==2.4.6
+ - packaging==25.0
+ + packaging==26.3
+ - platformdirs==4.5.0
+ + platformdirs==4.11.7
+ + pyasn1==0.6.4
+ - pycparser==2.23
+ + pycparser==3.0
+ - pydantic==2.12.3
+ + pydantic==2.13.5
+ - pydantic-core==2.41.4
+ + pydantic-core==2.46.5
+ - pygments==2.19.2
+ + pygments==2.21.0
+ + pyjwt==2.13.0
+ + pyopenssl==26.4.0
+ ~ pyyaml==6.0.3
+ - regex==2025.9.18
+ + regex==2026.9.3
+ - requests==2.32.5
+ + requests==2.34.2
+ + rfc3161-client==1.0.8
+ + rfc8785==0.1.4
+ - rich==14.2.0
+ + rich==15.0.0
+ - safetensors==0.6.2
+ + safetensors==0.8.0
+ + securesystemslib==1.4.0
+ ~ shellingham==1.5.4
+ + sigstore==4.5.0
+ + sigstore-models==0.0.6
+ + sigstore-rekor-types==0.0.18
+ - tokenizers==0.22.1
+ + tokenizers==0.23.1
+ + tomlkit==0.15.1
+ - tqdm==4.66.5
+ + tqdm==4.70.0
+ - transformers==4.57.6
+ + transformers==5.16.0.dev0 (from git+https://github.com/huggingface/transformers.git@805a9e939fa8c1bff8d8ffdf041c051b71a914aa)
+ + tuf==7.0.1
+ - typer==0.20.0
+ + typer==0.27.2
+ - typing-extensions==4.15.0
+ + typing-extensions==4.16.0
+ - typing-inspection==0.4.2
+ + typing-inspection==0.4.4
+ - urllib3==2.6.3
+ + urllib3==2.7.0
+/tmp/glm53-v17-venv/lib/python3.11/site-packages/torch/cuda/__init__.py:64: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+{
+  "transformers_commit": "805a9e939fa8c1bff8d8ffdf041c051b71a914aa",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "gpu_count": 2,
+  "gpu_names": [
+    "NVIDIA B300 SXM6 AC",
+    "NVIDIA B300 SXM6 AC"
+  ]
+}
+{"event": "hub_stage_started", "model_id": "zai-org/GLM-5.3-Flash", "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0", "target": "/runpod-local/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0", "weight_bytes": 328337455672, "weight_shards": 62, "download_workers": 8}
+Fetching 72 files:   0%|          | 0/72 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 72 files:   1%|▏         | 1/72 [00:00<00:12,  5.52it/s]Fetching 72 files:   4%|▍         | 3/72 [00:00<00:06, 10.28it/s]Fetching 72 files:   8%|▊         | 6/72 [00:00<00:03, 16.59it/s]Fetching 72 files:  11%|█         | 8/72 [00:14<02:48,  2.63s/it]Fetching 72 files:  12%|█▎        | 9/72 [00:15<02:28,  2.36s/it]Fetching 72 files:  15%|█▌        | 11/72 [00:17<01:46,  1.75s/it]Fetching 72 files:  17%|█▋        | 12/72 [00:17<01:24,  1.41s/it]Fetching 72 files:  18%|█▊        | 13/72 [00:17<01:05,  1.12s/it]Fetching 72 files:  19%|█▉        | 14/72 [00:18<01:08,  1.18s/it]Fetching 72 files:  21%|██        | 15/72 [00:19<00:58,  1.03s/it]Fetching 72 files:  22%|██▏       | 16/72 [00:20<01:04,  1.14s/it]Fetching 72 files:  24%|██▎       | 17/72 [00:22<01:06,  1.20s/it]Fetching 72 files:  25%|██▌       | 18/72 [00:25<01:31,  1.69s/it]Fetching 72 files:  26%|██▋       | 19/72 [00:26<01:20,  1.53s/it]Fetching 72 files:  28%|██▊       | 20/72 [00:27<01:06,  1.27s/it]Fetching 72 files:  29%|██▉       | 21/72 [00:27<00:54,  1.08s/it]Fetching 72 files:  31%|███       | 22/72 [00:31<01:42,  2.04s/it]Fetching 72 files:  32%|███▏      | 23/72 [00:33<01:36,  1.97s/it]Fetching 72 files:  33%|███▎      | 24/72 [00:36<01:38,  2.06s/it]Fetching 72 files:  35%|███▍      | 25/72 [00:37<01:21,  1.74s/it]Fetching 72 files:  36%|███▌      | 26/72 [00:37<00:58,  1.28s/it]Fetching 72 files:  38%|███▊      | 27/72 [00:40<01:29,  1.98s/it]Fetching 72 files:  39%|███▉      | 28/72 [00:41<01:06,  1.52s/it]Fetching 72 files:  40%|████      | 29/72 [00:42<01:05,  1.51s/it]Fetching 72 files:  42%|████▏     | 30/72 [00:44<00:59,  1.43s/it]Fetching 72 files:  43%|████▎     | 31/72 [00:45<00:59,  1.45s/it]Fetching 72 files:  44%|████▍     | 32/72 [00:45<00:42,  1.07s/it]Fetching 72 files:  46%|████▌     | 33/72 [00:46<00:43,  1.12s/it]Fetching 72 files:  47%|████▋     | 34/72 [00:47<00:38,  1.02s/it]Fetching 72 files:  49%|████▊     | 35/72 [00:48<00:39,  1.07s/it]Fetching 72 files:  50%|█████     | 36/72 [00:51<00:56,  1.56s/it]Fetching 72 files:  51%|█████▏    | 37/72 [00:55<01:16,  2.19s/it]Fetching 72 files:  53%|█████▎    | 38/72 [00:57<01:15,  2.22s/it]Fetching 72 files:  57%|█████▋    | 41/72 [00:58<00:36,  1.16s/it]Fetching 72 files:  58%|█████▊    | 42/72 [00:59<00:34,  1.15s/it]Fetching 72 files:  61%|██████    | 44/72 [01:00<00:23,  1.17it/s]Fetching 72 files:  64%|██████▍   | 46/72 [01:02<00:23,  1.08it/s]Fetching 72 files:  65%|██████▌   | 47/72 [01:06<00:36,  1.46s/it]Fetching 72 files:  67%|██████▋   | 48/72 [01:07<00:33,  1.38s/it]Fetching 72 files:  69%|██████▉   | 50/72 [01:10<00:30,  1.40s/it]Fetching 72 files:  74%|███████▎  | 53/72 [01:10<00:15,  1.22it/s]Fetching 72 files:  75%|███████▌  | 54/72 [01:11<00:14,  1.21it/s]Fetching 72 files:  76%|███████▋  | 55/72 [01:12<00:13,  1.25it/s]Fetching 72 files:  78%|███████▊  | 56/72 [01:13<00:14,  1.12it/s]Fetching 72 files:  79%|███████▉  | 57/72 [01:14<00:15,  1.05s/it]Fetching 72 files:  81%|████████  | 58/72 [01:15<00:15,  1.08s/it]Fetching 72 files:  82%|████████▏ | 59/72 [01:16<00:13,  1.06s/it]Fetching 72 files:  83%|████████▎ | 60/72 [01:18<00:12,  1.06s/it]Fetching 72 files:  85%|████████▍ | 61/72 [01:18<00:11,  1.04s/it]Fetching 72 files:  86%|████████▌ | 62/72 [01:19<00:09,  1.07it/s]Fetching 72 files:  88%|████████▊ | 63/72 [01:19<00:06,  1.38it/s]Fetching 72 files:  90%|█████████ | 65/72 [01:20<00:03,  1.96it/s]Fetching 72 files:  93%|█████████▎| 67/72 [01:20<00:01,  2.72it/s]Fetching 72 files:  94%|█████████▍| 68/72 [01:21<00:01,  2.16it/s]Fetching 72 files:  96%|█████████▌| 69/72 [01:22<00:01,  1.89it/s]Fetching 72 files:  97%|█████████▋| 70/72 [01:22<00:01,  1.97it/s]Fetching 72 files:  99%|█████████▊| 71/72 [01:22<00:00,  2.49it/s]Fetching 72 files: 100%|██████████| 72/72 [01:23<00:00,  2.20it/s]Fetching 72 files: 100%|██████████| 72/72 [01:23<00:00,  1.16s/it]
+{"event": "hub_download_completed"}
+{"event": "local_hash_verification_completed"}
+{"event": "local_stage_completed", "target": "/runpod-local/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0"}
+{
+  "elapsed_seconds": 107.6054810679052,
+  "model_id": "zai-org/GLM-5.3-Flash",
+  "passed": true,
+  "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "runtime_link": "/workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "schema_version": "glm53_v8_hf_local_stage_v1",
+  "sentinel": {
+    "download_source": "zai-org/GLM-5.3-Flash",
+    "manifest_sha256": "28d8a5842d8be519fb23d031ddd9b91d0a814b7e679b748f0ea7fd46f03434ca",
+    "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+    "schema_version": "glm53_local_stage_v1",
+    "weight_bytes": 328337455672,
+    "weight_shards": 62
+  },
+  "target": "/runpod-local/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "workers": 8
+}
+{
+  "schema_version": "glm53_v17_prereg_validation_v1",
+  "passed": true,
+  "prereg_sha256": "6aa488c9f02c1217116dd560a14a9e698be43c2adb61d01be68060379545a814",
+  "checks": {
+    "input_v7_decision": true,
+    "input_v16_decision": true,
+    "input_hua16": true,
+    "input_v15_dataset": true,
+    "input_proxy_token_contract": true,
+    "input_proxy_codebooks": true,
+    "input_downstream_manifest": true,
+    "input_formality_pairs": true,
+    "input_neutral_damage_prompts": true,
+    "input_positive_control_manifest": true,
+    "input_causal_schedule": true,
+    "input_runtime": true,
+    "input_model_stage": true,
+    "v16_stopped": true,
+    "v7_behavior_confirmed": true,
+    "v16_readout_excluded": true,
+    "no_cot": true,
+    "no_generation": true,
+    "budget": true
+  }
+}
+/tmp/glm53-v17-venv/lib/python3.11/site-packages/torch/cuda/__init__.py:64: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Loading weights:   0%|          | 0/1872 [00:00<?, ?it/s]Loading weights:   5%|▍         | 91/1872 [00:00<00:06, 265.67it/s]Loading weights:   6%|▋         | 118/1872 [00:00<00:15, 111.00it/s]Loading weights:   9%|▊         | 162/1872 [00:01<00:15, 107.75it/s]Loading weights:  10%|█         | 195/1872 [00:01<00:18, 92.96it/s] Loading weights:  11%|█         | 206/1872 [00:01<00:17, 93.96it/s]Loading weights:  12%|█▏        | 228/1872 [00:02<00:19, 83.25it/s]Loading weights:  13%|█▎        | 237/1872 [00:02<00:19, 81.78it/s]Loading weights:  14%|█▍        | 266/1872 [00:02<00:19, 81.53it/s]Loading weights:  16%|█▌        | 299/1872 [00:03<00:19, 80.71it/s]Loading weights:  18%|█▊        | 332/1872 [00:03<00:18, 83.83it/s]Loading weights:  19%|█▉        | 365/1872 [00:03<00:17, 84.63it/s]Loading weights:  22%|██▏       | 403/1872 [00:04<00:16, 87.40it/s]Loading weights:  23%|██▎       | 436/1872 [00:04<00:16, 86.45it/s]Loading weights:  25%|██▌       | 469/1872 [00:05<00:16, 86.50it/s]Loading weights:  27%|██▋       | 502/1872 [00:05<00:16, 82.60it/s]Loading weights:  29%|██▉       | 540/1872 [00:05<00:15, 83.36it/s]Loading weights:  31%|███       | 573/1872 [00:06<00:15, 81.55it/s]Loading weights:  32%|███▏      | 606/1872 [00:06<00:16, 77.77it/s]Loading weights:  33%|███▎      | 614/1872 [00:06<00:16, 76.59it/s]Loading weights:  34%|███▍      | 639/1872 [00:07<00:17, 71.72it/s]Loading weights:  36%|███▌      | 677/1872 [00:07<00:15, 76.24it/s]Loading weights:  37%|███▋      | 685/1872 [00:07<00:15, 74.68it/s]Loading weights:  38%|███▊      | 710/1872 [00:08<00:17, 66.31it/s]Loading weights:  38%|███▊      | 717/1872 [00:08<00:17, 65.79it/s]Loading weights:  40%|███▉      | 743/1872 [00:08<00:17, 65.82it/s]Loading weights:  41%|████▏     | 776/1872 [00:09<00:16, 66.18it/s]Loading weights:  43%|████▎     | 814/1872 [00:10<00:15, 66.96it/s]Loading weights:  44%|████▍     | 821/1872 [00:10<00:15, 66.63it/s]Loading weights:  45%|████▌     | 847/1872 [00:10<00:17, 60.21it/s]Loading weights:  47%|████▋     | 880/1872 [00:11<00:16, 60.33it/s]Loading weights:  47%|████▋     | 887/1872 [00:11<00:17, 57.32it/s]Loading weights:  49%|████▉     | 913/1872 [00:11<00:15, 63.46it/s]Loading weights:  51%|█████     | 951/1872 [00:12<00:13, 70.54it/s]Loading weights:  53%|█████▎    | 984/1872 [00:12<00:12, 73.18it/s]Loading weights:  53%|█████▎    | 992/1872 [00:12<00:12, 73.04it/s]Loading weights:  54%|█████▍    | 1017/1872 [00:13<00:11, 71.64it/s]Loading weights:  55%|█████▍    | 1025/1872 [00:13<00:12, 70.07it/s]Loading weights:  56%|█████▌    | 1050/1872 [00:13<00:11, 70.29it/s]Loading weights:  56%|█████▋    | 1057/1872 [00:13<00:11, 69.64it/s]Loading weights:  58%|█████▊    | 1088/1872 [00:14<00:10, 74.12it/s]Loading weights:  59%|█████▊    | 1096/1872 [00:14<00:10, 74.77it/s]Loading weights:  60%|█████▉    | 1121/1872 [00:14<00:10, 72.23it/s]Loading weights:  60%|██████    | 1129/1872 [00:14<00:10, 72.69it/s]Loading weights:  62%|██████▏   | 1154/1872 [00:14<00:10, 68.37it/s]Loading weights:  62%|██████▏   | 1162/1872 [00:15<00:10, 65.50it/s]Loading weights:  63%|██████▎   | 1187/1872 [00:15<00:09, 72.95it/s]Loading weights:  64%|██████▍   | 1195/1872 [00:15<00:09, 73.69it/s]Loading weights:  65%|██████▌   | 1225/1872 [00:15<00:08, 75.29it/s]Loading weights:  66%|██████▌   | 1233/1872 [00:16<00:08, 75.18it/s]Loading weights:  67%|██████▋   | 1258/1872 [00:16<00:08, 70.79it/s]Loading weights:  68%|██████▊   | 1266/1872 [00:16<00:08, 71.08it/s]Loading weights:  69%|██████▉   | 1291/1872 [00:16<00:08, 71.74it/s]Loading weights:  71%|███████   | 1324/1872 [00:17<00:07, 73.58it/s]Loading weights:  71%|███████   | 1332/1872 [00:17<00:07, 70.72it/s]Loading weights:  73%|███████▎  | 1362/1872 [00:17<00:06, 76.50it/s]Loading weights:  73%|███████▎  | 1370/1872 [00:17<00:06, 75.83it/s]Loading weights:  75%|███████▍  | 1395/1872 [00:18<00:06, 72.38it/s]Loading weights:  76%|███████▋  | 1428/1872 [00:18<00:06, 70.69it/s]Loading weights:  77%|███████▋  | 1436/1872 [00:18<00:06, 70.61it/s]Loading weights:  78%|███████▊  | 1461/1872 [00:19<00:06, 67.09it/s]Loading weights:  78%|███████▊  | 1468/1872 [00:19<00:07, 57.63it/s]Loading weights:  80%|████████  | 1499/1872 [00:19<00:04, 79.04it/s]Loading weights: 100%|██████████| 1872/1872 [00:19<00:00, 94.66it/s]
+[transformers] [1mGlm5NextForConditionalGeneration LOAD REPORT[0m from: /workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0
+Key                                                                                  | Status  | 
+-------------------------------------------------------------------------------------+---------+-
+model.language_model.layers.{0...44}.self_attn.forget_gate.f_a_proj.weight_scale_inv | MISSING | 
+model.language_model.layers.{0...44}.self_attn.forget_gate.f_b_proj.weight_scale_inv | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[transformers] The following generation flags are not valid and may be ignored: ['top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] This FP8 model spans multiple CUDA devices in one process; routing its FP8 linear and experts layers through Triton/grouped_mm instead of DeepGEMM (DeepGEMM's cached kernels are bound to a single CUDA context and corrupt across devices). Run tensor/expert parallel (one device per process) to use the faster DeepGEMM path.
+Traceback (most recent call last):
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v17/run.py", line 166, in <module>
+    main()
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v17/run.py", line 162, in main
+    commands[args.command](args)
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/pipelines/glm53_user_eval/v17/run.py", line 123, in command_paid
+    result = run_paid_ladder(
+             ^^^^^^^^^^^^^^^^
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/supervisor.py", line 453, in run_paid_ladder
+    calibration = calibrate_runtime(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/supervisor.py", line 107, in calibrate_runtime
+    references = [
+                 ^
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/supervisor.py", line 108, in <listcomp>
+    runtime.forward_intervened_batch(
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/runtime.py", line 216, in forward_intervened_batch
+    [
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/runtime.py", line 217, in <listcomp>
+    intervention_mask(text, messages, row_offsets, row_attention, scope=scope)
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/runtime.py", line 80, in intervention_mask
+    for start, end in content_character_spans(rendered, messages, scope=scope):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mats-glm53-v17/repo/Non-verbal-Eval-Awareness/src/glm53_user_eval/v17/runtime.py", line 58, in content_character_spans
+    raise ValueError(f"message {index} content is absent from rendered prompt")
+ValueError: message 2 content is absent from rendered prompt

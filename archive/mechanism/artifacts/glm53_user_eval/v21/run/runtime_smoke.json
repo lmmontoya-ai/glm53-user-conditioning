@@ -1,0 +1,19 @@
+{
+  "alpha_zero_max_full_logit_error": 0.0,
+  "benchmark_rows": 16,
+  "benchmark_seconds": 7.10165798291564,
+  "fits_deadline_with_backup_reserve": true,
+  "passed": true,
+  "projected_new_science_seconds_with_headroom": 4208.620062125381,
+  "prompts_per_second": 2.2529950102484486,
+  "sample_ids": [
+    "dd_0090-fai2_neel_nanda-plain",
+    "dd_0083-uai2_anthropic_005_nicole_lewis-plain",
+    "dd_0042-fam2_007_rosario_dawson-plain",
+    "dd_0040-gen2_048_judith_castillo-plain"
+  ],
+  "schema_version": "glm53_v21_runtime_smoke_v1",
+  "v20_baseline_max_allowed_logit_error": 0.0,
+  "v20_baseline_max_full_logsumexp_error": 0.0,
+  "v20_baseline_metadata_equal": true
+}

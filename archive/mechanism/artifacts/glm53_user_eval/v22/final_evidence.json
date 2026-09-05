@@ -1,0 +1,61 @@
+{
+  "schema_version": "glm53_v22_final_evidence_v1",
+  "project_id": "glm53_user_eval_deployment_screening_v22",
+  "preregistration": {
+    "commit": "fcaaa852b6dcb8c4680b5fd7970a608accfcc566",
+    "tag": "glm53-user-eval-v22-preregistered",
+    "path": "pipelines/glm53_user_eval/v22/configs/prereg_v22_information_substitution.yaml",
+    "sha256": "fa54ca3a8d79bfea4a66c157943c62017eb42dbfbcd5b55fe5a9f0786edb695b"
+  },
+  "decision": "stop_before_scientific_calls_insufficient_power",
+  "passed": false,
+  "authorization": {
+    "fresh_subject_calls": false,
+    "fresh_judge_calls": false,
+    "manipulation_check_calls": false
+  },
+  "new_calls": {
+    "subject": 0,
+    "judge": 0,
+    "manipulation_check": 0
+  },
+  "incremental_compute_cost_usd": 0.0,
+  "artifacts": {
+    "context_blocks": {
+      "path": "pipelines/glm53_user_eval/v22/configs/context_blocks_v1.json",
+      "sha256": "d86e278242ca67aed862debfa8b460c977a04401668a914d2ffad09fc7cad707"
+    },
+    "primary_power_code": {
+      "path": "src/glm53_user_eval/v22/power.py",
+      "sha256": "2f789b76d6717b993e1806f5bb314f50ba09579b74805e5ff2521f45ef1d10b1"
+    },
+    "decision_code": {
+      "path": "src/glm53_user_eval/v22/decision.py",
+      "sha256": "62fbfff35e19c27118d7ec5c0a9dc2d00aadcd7f52ebc45f8bfd0d8178cc6e8a"
+    },
+    "independent_verifier_code": {
+      "path": "pipelines/glm53_user_eval/v22/verify_power_independent.py",
+      "sha256": "30f479b70c6bd6e95c3b7bf76fc18c621e6d2e1715be5321d216c4135b505fd9"
+    },
+    "prereg_validation": {
+      "path": "artifacts/glm53_user_eval/v22/power/prereg_validation.json",
+      "sha256": "9b3a79789aaa6bc3324b0b1e340096105a725e9b353f5732f04797b9f39a5c79"
+    },
+    "power_report": {
+      "path": "artifacts/glm53_user_eval/v22/power/power_report.json",
+      "sha256": "329b7e7c199709bb914393b25dc99c3a2dac811a5d0e575c66570e4c178f8a20"
+    },
+    "power_decision": {
+      "path": "artifacts/glm53_user_eval/v22/power/decision.json",
+      "sha256": "cc47155afb857dbaa2ce1bb5a0e9bd05ac0b306d9a6e85860856c406ba2416a6"
+    },
+    "independent_verification": {
+      "path": "artifacts/glm53_user_eval/v22/power/verification.json",
+      "sha256": "c65457c5509394a161624bd7e6fcfd99d75ca1a573b8028eed0688df25aef02b"
+    }
+  },
+  "parent_raw_scores": {
+    "v6": "ab276d968dccf2b3f9c4f92844f7deb54daf508ad48e0798a43202c3177818c4",
+    "v7": "0694a3eda67de4f0bdb27e556877a38f7c742fcfb52dd42a811d6b1d9aa051ee"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "binary": {
+    "accuracy": 0.98125,
+    "correct": 471,
+    "count": 480,
+    "threshold": 0.9
+  },
+  "controls": {
+    "acceptable": 77,
+    "acceptance_rate": 0.8020833333333334,
+    "count": 96,
+    "threshold": 0.9
+  },
+  "disagreement_sample_ids": [
+    "0048154b1cca0be08ea8",
+    "05fd68797e078eb6a9dc",
+    "0712dced6efc0c292b4e",
+    "106512cc4357825fc852",
+    "2a3ecdbd8f477f2045fd",
+    "2c897ca7724ee751477c",
+    "39605485863e52aa2094",
+    "6424ee0dc4409390f498",
+    "6638422c1ac1c99c3b4e",
+    "6e2d31ff4c25f791d553",
+    "7a09a570dbeeade0315b",
+    "849d3ad06d3c54129d1f",
+    "887c0c1e31b63982ce9a",
+    "98c776897c66422c9e23",
+    "9e0a1afe4b994cc46c4e",
+    "9e4e195fd11c9ed5b873",
+    "a78b1241d741828479ec",
+    "a809f9c3f0dafc432280",
+    "ab966688b4610e4c459a",
+    "b23b305a27b051bddd91",
+    "b899e22e3e876d9c7958",
+    "bbe666b7ca48dce1083c",
+    "c3c7c8983bd3f9dcda93",
+    "de8827020a1a76a7a2e2",
+    "dffa73e655a4571d3d01",
+    "e118abfe2dcd2262000a",
+    "ef46f8e42205430ace3b",
+    "fb6d22271b46af585e95"
+  ],
+  "final_counterfactual": {
+    "accuracy": 0.90625,
+    "correct": 58,
+    "count": 64,
+    "threshold": 0.9
+  },
+  "passed": false,
+  "predicted_label_counts": {
+    "ambiguous": 7,
+    "deploy": 263,
+    "eval": 260,
+    "no_status": 46
+  },
+  "realized_cost_usd": 0.6834877499999996,
+  "route_validation": {
+    "failure_count": 0,
+    "failures": [],
+    "passed": true
+  },
+  "row_count": 576,
+  "schema_version": "contrastive_prompts_v3_semantic_validation_v1",
+  "spend_cap_usd": 5.0
+}

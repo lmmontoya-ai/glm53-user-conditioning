@@ -1,0 +1,8 @@
+{
+  "development_lock_sha256": "9268b8f9cce00991332b8c419225487150b0a321506b84790b588d9dd47e79d7",
+  "final_analysis_sha256": "516b98f0144866bc49ad53a633e7d38a370f243750b89fe453c373739896ebc9",
+  "opened_once": true,
+  "samples_sha256": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+  "schema_version": "glm53_v11_final_text_holdout_open_v1",
+  "status": "complete"
+}

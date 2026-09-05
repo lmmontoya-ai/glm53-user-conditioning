@@ -1,0 +1,78 @@
+{
+  "baseline_accuracy": 1.0,
+  "checks": {
+    "baseline_accuracy": true,
+    "one_configuration_passed": false
+  },
+  "chosen_configuration": null,
+  "configurations": {
+    "depth_mapped_a0.6": {
+      "checks": {
+        "allowed_mass": false,
+        "both_codebooks": false,
+        "damage_kl": false,
+        "deploy_ci_below_zero": false,
+        "deploy_scenario_rate": false,
+        "eval_ci_above_zero": false,
+        "eval_scenario_rate": false
+      },
+      "deploy_ci95": [
+        -1.8662109375,
+        1.7119628906249957
+      ],
+      "deploy_codebooks": {
+        "0": -0.400390625,
+        "1": 0.31640625
+      },
+      "deploy_delta": -0.0419921875,
+      "deploy_direction_rate": 0.5,
+      "eval_ci95": [
+        -1.3691650390625,
+        2.1552734375
+      ],
+      "eval_codebooks": {
+        "0": 0.591796875,
+        "1": 0.21875
+      },
+      "eval_delta": 0.4052734375,
+      "eval_direction_rate": 0.5,
+      "median_generic_symmetric_kl": 1.2003985884138488,
+      "passed": false
+    },
+    "literal_a0.6": {
+      "checks": {
+        "allowed_mass": true,
+        "both_codebooks": true,
+        "damage_kl": true,
+        "deploy_ci_below_zero": false,
+        "deploy_scenario_rate": false,
+        "eval_ci_above_zero": true,
+        "eval_scenario_rate": false
+      },
+      "deploy_ci95": [
+        -1.9580078125,
+        0.49318847656249787
+      ],
+      "deploy_codebooks": {
+        "0": -1.337890625,
+        "1": -0.1171875
+      },
+      "deploy_delta": -0.7275390625,
+      "deploy_direction_rate": 0.5,
+      "eval_ci95": [
+        1.3486083984375,
+        3.47265625
+      ],
+      "eval_codebooks": {
+        "0": 2.36328125,
+        "1": 2.44140625
+      },
+      "eval_delta": 2.40234375,
+      "eval_direction_rate": 0.65625,
+      "median_generic_symmetric_kl": 0.008133150048571083,
+      "passed": false
+    }
+  },
+  "passed": false,
+  "schema_version": "glm53_v19_positive_control_analysis_v1"
+}

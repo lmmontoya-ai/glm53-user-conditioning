@@ -1,0 +1,28 @@
+{
+  "schema_version": "glm53_v12_runpod_post_delete_v1",
+  "captured_at_utc": "2026-09-01T13:17:56.4382217Z",
+  "project_id": "glm53_user_eval_fact_validator_v12",
+  "deletion": {
+    "kind": "runpod_network_volume",
+    "id": "a9diryunoj",
+    "deleted": true,
+    "recoverable": false
+  },
+  "verified_runpod_state": {
+    "network_volume_count": 0,
+    "pod_count": 0,
+    "serverless_endpoint_count": 0,
+    "client_balance_usd": 44.0551634707,
+    "current_spend_per_hour_usd": 0.0
+  },
+  "evidence_preserved": {
+    "git_commit_before_cleanup_record": "9d50ceebd87894ea063b8be9061b72558da0dd1f",
+    "final_tag": "glm53-user-eval-v12-final",
+    "final_evidence_sha256": "c6cb35446decd42c6369ed715e1f6142d2b37b85aaa7efe90ab1954547d62d7d",
+    "raw_bundle_manifest_sha256": "0e3b5a759c7ccd679c8abf323d65bb459299f6df1796f908a6b2cb8b7b4ff142"
+  },
+  "credential_rotation": {
+    "status": "pending_user_action",
+    "instruction": "Rotate the OpenRouter, RunPod, and RunPod S3 credentials now that the project is terminal."
+  }
+}

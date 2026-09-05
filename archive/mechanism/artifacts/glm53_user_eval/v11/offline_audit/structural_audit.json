@@ -1,0 +1,234 @@
+{
+  "independent_contract": {
+    "binary_balance": {
+      "development_counterfactual": {
+        "generator_families": [
+          "interface_trace",
+          "support_ticket"
+        ],
+        "metadata_signature_balanced": true,
+        "rows_per_label": 32,
+        "task_count": 4,
+        "task_domain_count": 4
+      },
+      "final_counterfactual": {
+        "generator_families": [
+          "independent_manual_source"
+        ],
+        "metadata_signature_balanced": true,
+        "rows_per_label": 32,
+        "task_count": 4,
+        "task_domain_count": 4
+      },
+      "ordinary_test": {
+        "generator_families": [
+          "policy_excerpt"
+        ],
+        "metadata_signature_balanced": true,
+        "rows_per_label": 24,
+        "task_count": 4,
+        "task_domain_count": 4
+      },
+      "train": {
+        "generator_families": [
+          "chat_fragment",
+          "operations_brief",
+          "short_narrative",
+          "structured_record"
+        ],
+        "metadata_signature_balanced": true,
+        "rows_per_label": 128,
+        "task_count": 12,
+        "task_domain_count": 12
+      },
+      "validation": {
+        "generator_families": [
+          "email_thread"
+        ],
+        "metadata_signature_balanced": true,
+        "rows_per_label": 24,
+        "task_count": 4,
+        "task_domain_count": 4
+      }
+    },
+    "generator_task_domain_disjoint": true,
+    "pair_contract_passed": true,
+    "passed": true,
+    "row_count": 576,
+    "sample_ids_recomputed": true,
+    "schema_version": "contrastive_prompts_v3_structure_audit_v1",
+    "split_counts": {
+      "development_counterfactual": 64,
+      "factorial_calibration": 32,
+      "final_counterfactual": 64,
+      "neutral_controls": 64,
+      "ordinary_test": 48,
+      "train": 256,
+      "validation": 48
+    }
+  },
+  "passed": true,
+  "primary": {
+    "counterbalance": {
+      "development_counterfactual": {
+        "interface_trace": {
+          "factor_true_counts": {
+            "ai_vocabulary": 8,
+            "benchmark_vocabulary": 8,
+            "formal_register": 8,
+            "human_review": 8,
+            "logging": 8,
+            "production_vocabulary": 8
+          },
+          "pair_count": 16,
+          "variant_order_counts": {
+            "deploy_first": 8,
+            "eval_first": 8
+          }
+        },
+        "support_ticket": {
+          "factor_true_counts": {
+            "ai_vocabulary": 8,
+            "benchmark_vocabulary": 8,
+            "formal_register": 8,
+            "human_review": 8,
+            "logging": 8,
+            "production_vocabulary": 8
+          },
+          "pair_count": 16,
+          "variant_order_counts": {
+            "deploy_first": 8,
+            "eval_first": 8
+          }
+        }
+      },
+      "final_counterfactual": {
+        "independent_manual_source": {
+          "factor_true_counts": {
+            "ai_vocabulary": 16,
+            "benchmark_vocabulary": 16,
+            "formal_register": 16,
+            "human_review": 16,
+            "logging": 16,
+            "production_vocabulary": 16
+          },
+          "pair_count": 32,
+          "variant_order_counts": {
+            "deploy_first": 16,
+            "eval_first": 16
+          }
+        }
+      },
+      "ordinary_test": {
+        "policy_excerpt": {
+          "factor_true_counts": {
+            "ai_vocabulary": 12,
+            "benchmark_vocabulary": 12,
+            "formal_register": 12,
+            "human_review": 12,
+            "logging": 12,
+            "production_vocabulary": 12
+          },
+          "pair_count": 24,
+          "variant_order_counts": {
+            "deploy_first": 12,
+            "eval_first": 12
+          }
+        }
+      },
+      "train": {
+        "chat_fragment": {
+          "factor_true_counts": {
+            "ai_vocabulary": 16,
+            "benchmark_vocabulary": 16,
+            "formal_register": 16,
+            "human_review": 16,
+            "logging": 16,
+            "production_vocabulary": 16
+          },
+          "pair_count": 32,
+          "variant_order_counts": {
+            "deploy_first": 16,
+            "eval_first": 16
+          }
+        },
+        "operations_brief": {
+          "factor_true_counts": {
+            "ai_vocabulary": 16,
+            "benchmark_vocabulary": 16,
+            "formal_register": 16,
+            "human_review": 16,
+            "logging": 16,
+            "production_vocabulary": 16
+          },
+          "pair_count": 32,
+          "variant_order_counts": {
+            "deploy_first": 16,
+            "eval_first": 16
+          }
+        },
+        "short_narrative": {
+          "factor_true_counts": {
+            "ai_vocabulary": 16,
+            "benchmark_vocabulary": 16,
+            "formal_register": 16,
+            "human_review": 16,
+            "logging": 16,
+            "production_vocabulary": 16
+          },
+          "pair_count": 32,
+          "variant_order_counts": {
+            "deploy_first": 16,
+            "eval_first": 16
+          }
+        },
+        "structured_record": {
+          "factor_true_counts": {
+            "ai_vocabulary": 16,
+            "benchmark_vocabulary": 16,
+            "formal_register": 16,
+            "human_review": 16,
+            "logging": 16,
+            "production_vocabulary": 16
+          },
+          "pair_count": 32,
+          "variant_order_counts": {
+            "deploy_first": 16,
+            "eval_first": 16
+          }
+        }
+      },
+      "validation": {
+        "email_thread": {
+          "factor_true_counts": {
+            "ai_vocabulary": 12,
+            "benchmark_vocabulary": 12,
+            "formal_register": 12,
+            "human_review": 12,
+            "logging": 12,
+            "production_vocabulary": 12
+          },
+          "pair_count": 24,
+          "variant_order_counts": {
+            "deploy_first": 12,
+            "eval_first": 12
+          }
+        }
+      }
+    },
+    "passed": true,
+    "row_count": 576,
+    "schema_version": "contrastive_prompts_v3_structural_audit_v1",
+    "split_counts": {
+      "development_counterfactual": 64,
+      "factorial_calibration": 32,
+      "final_counterfactual": 64,
+      "neutral_controls": 64,
+      "ordinary_test": 48,
+      "train": 256,
+      "validation": 48
+    }
+  },
+  "samples_sha256": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+  "schema_version": "contrastive_prompts_v3_combined_structure_audit_v1"
+}

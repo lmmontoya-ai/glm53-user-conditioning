@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "baseline": true,
+    "bootstrap_ci": true,
+    "empirical_p": true,
+    "full_arms": true,
+    "full_keys_unique": true,
+    "full_rows": true,
+    "null_arms": true,
+    "null_keys_unique": true,
+    "null_points": true,
+    "null_rows": true,
+    "pilot_candidate": true,
+    "points": true
+  },
+  "independent_candidate_ci95_pp": [
+    -1.0558277365916762,
+    1.6741150978823283
+  ],
+  "passed": true,
+  "recomputed_decision": "no_resolved_deployment_attenuation",
+  "recomputed_decision_checks": {
+    "baseline_negative": true,
+    "both_codebooks": true,
+    "deployment_ci_above_zero": false,
+    "independent_verification": true,
+    "meaningful_attenuation": true,
+    "not_actor_only": false,
+    "not_formality": false,
+    "output_integrity": false,
+    "reverse_direction": false,
+    "signflip_specificity": false,
+    "status_support": true,
+    "target_pair_change_dominates": false
+  },
+  "schema_version": "glm53_v20_causal_verification_v1"
+}

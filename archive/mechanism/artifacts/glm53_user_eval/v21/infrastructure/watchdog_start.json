@@ -1,0 +1,9 @@
+{
+  "schema_version": "glm53_v20_watchdog_v1",
+  "pod_id": "f5xb6t7a5x3fuu",
+  "run_id": "glm53-v21-hua-20260903T150057Z-6fc53150",
+  "started_at_utc": "2026-09-03T15:02:00.5522534Z",
+  "deadline_utc": "2026-09-03T17:51:52.4987721Z",
+  "balance_floor_usd": 10.2219872075,
+  "heartbeat_delete_after_seconds": 600
+}

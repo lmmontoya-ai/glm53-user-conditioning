@@ -1,0 +1,14 @@
+{
+  "canonical_results_sha256": "d07c81cb5a1d142e10f40d5dd63b8d5dc0944209d8a43eab8672d10865b9ebba",
+  "canonical_row_count": 1741,
+  "duplicate_sample_id_count": 1070,
+  "effects_inspected": false,
+  "excluded_duplicate_row_count": 1070,
+  "incident_id": "concurrent_writers_c32_20260829",
+  "original_results_sha256": "0940fcfe118862ecd4d99c1095c0419f9366212ce2dd1f6159c94d4f8d92eda8",
+  "original_row_count": 2811,
+  "preserved_original_path": "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_discovery\\incidents\\concurrent_writers_c32_20260829\\results_original.jsonl",
+  "preserved_original_sha256": "0940fcfe118862ecd4d99c1095c0419f9366212ce2dd1f6159c94d4f8d92eda8",
+  "schema_version": "glm53_behavior_ledger_reconciliation_v1",
+  "selection_rule": "unique_ledger_row_equal_to_atomically_saved_raw_response_result"
+}

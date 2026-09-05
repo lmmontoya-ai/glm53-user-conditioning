@@ -1,0 +1,155 @@
+{
+  "analysis_role": "combined_offline_analysis_no_authorization",
+  "authorization": {
+    "new_glm_forwards": false,
+    "runpod_compute": false,
+    "source_activation_extraction": false,
+    "steering": false,
+    "user_recruitment": false
+  },
+  "authorization_note": "This analysis artifact cannot authorize paid work. The separate machine text-decision command owns that decision.",
+  "checks": {
+    "lexical_gate": true,
+    "manual_review_complete": false,
+    "manual_validation": false,
+    "semantic_validation": false,
+    "structural_audit": true,
+    "tokenizer_audit": true
+  },
+  "components": {
+    "development_text": {
+      "development_lock_sha256": "9268b8f9cce00991332b8c419225487150b0a321506b84790b588d9dd47e79d7",
+      "final_holdout_evaluated": false,
+      "fit_splits": [
+        "train"
+      ],
+      "model_bundle_sha256": "811fc471ba2db634698d22dc575cfcd60b62c10d21e63b365fcc1cd24ee666fa",
+      "post_selection_report_splits": [
+        "ordinary_test"
+      ],
+      "schema_version": "contrastive_prompts_v3_development_text_audit_v1",
+      "selection_splits": [
+        "validation",
+        "development_counterfactual"
+      ]
+    },
+    "final_lexical": {
+      "evaluated_split": "final_counterfactual",
+      "holdout_opened_once": true,
+      "row_count": 64,
+      "schema_version": "contrastive_prompts_v3_final_text_audit_v1",
+      "selection_performed": false
+    },
+    "lexical_decision": {
+      "checks": {
+        "char_final_le_065": true,
+        "deleted_char_final_le_060": true,
+        "deleted_word_final_le_060": true,
+        "keyword_final_le_060": true,
+        "metadata_final_le_060": true,
+        "metadata_ordinary_le_060": true,
+        "structural": true,
+        "tokenizer": true,
+        "word_final_le_065": true
+      },
+      "decision": "lexical_baselines_pass_semantic_review_unlocked",
+      "passed": true,
+      "schema_version": "glm53_v11_lexical_gate_decision_v1"
+    },
+    "primary_manual_review": {
+      "audit_present": false,
+      "completed_review_present": false,
+      "failure_count": null,
+      "gating": true,
+      "inputs": {
+        "manual_packet": "4f61f85e082262d47694954a8b5626d488b570172662c61b12c722dc07af69dd",
+        "manual_packet_lock": "01ce7c3513b2db75f35059fba4a85de9f82344570f8c64c44eadedea358d02fa",
+        "manual_packet_manifest": "9f88a0e6e3bcd5256e3dc209028270daea43cab9089522b7c2e0f35c0d02852e"
+      },
+      "passed": null,
+      "reviewer_disagreement_count": null,
+      "row_count": 128,
+      "status": "pending_two_human_review"
+    },
+    "semantic_validation": {
+      "binary": {
+        "accuracy": 0.98125,
+        "correct": 471,
+        "count": 480,
+        "threshold": 0.9
+      },
+      "controls": {
+        "acceptable": 77,
+        "acceptance_rate": 0.8020833333333334,
+        "count": 96,
+        "threshold": 0.9
+      },
+      "final_counterfactual": {
+        "accuracy": 0.90625,
+        "correct": 58,
+        "count": 64,
+        "threshold": 0.9
+      },
+      "passed": false,
+      "realized_cost_usd": 0.6834877499999996,
+      "route_validation": {
+        "failure_count": 0,
+        "failures": [],
+        "passed": true
+      },
+      "row_count": 576,
+      "schema_version": "contrastive_prompts_v3_semantic_validation_v1"
+    },
+    "structure": {
+      "passed": true,
+      "row_count": 576,
+      "schema_version": "contrastive_prompts_v3_combined_structure_audit_v1"
+    },
+    "supplemental_manual_review": {
+      "changes_paid_authorization": false,
+      "changes_preregistered_gate": false,
+      "changes_semantic_metrics": false,
+      "completed_review_present": false,
+      "gating": false,
+      "inputs": {
+        "supplemental_packet": "0ce732ac146d014c0644888b586a3072d48c405ae48bec89308f4f5f36489edc",
+        "supplemental_packet_manifest": "86d623566994f4c647638fc6e71d201d95df384d02c5cf84be6861c1577ab3cb",
+        "supplemental_packet_manifest_digest": "5c22faf3121d53de31882bdb44154d7064cfd0e56f5ce9f33d9bcbd44ecc1a1f"
+      },
+      "passed_review_integrity": null,
+      "report_present": false,
+      "row_count": 6,
+      "scientific_role": "supplemental_non_gating_diagnostic",
+      "status": "pending_two_human_review"
+    },
+    "tokenizer": {
+      "checked_pair_count": 240,
+      "passed": true,
+      "row_count": 576,
+      "schema_version": "glm53_v11_tokenizer_audit_v1"
+    }
+  },
+  "inputs": {
+    "dataset_manifest": "431513461d89b3219cec2760295256dd5a612a14215555b105beefa8ea8a5e27",
+    "development_analysis": "a64599beae22dfd52a1d76238b1562d4fca1768bc5f31ffe78ff1640451ecd68",
+    "final_holdout_marker": "4d6729c20bd42c8713bce8568119a530f6bd1e3b4af7ad3252adb68b57b41c51",
+    "final_text_analysis": "516b98f0144866bc49ad53a633e7d38a370f243750b89fe453c373739896ebc9",
+    "lexical_decision": "0e5523b240f92564ed127a913ab927cd8b7613e56f85c9f95f710912c47526b8",
+    "manual_packet": "4f61f85e082262d47694954a8b5626d488b570172662c61b12c722dc07af69dd",
+    "manual_packet_lock": "01ce7c3513b2db75f35059fba4a85de9f82344570f8c64c44eadedea358d02fa",
+    "manual_packet_manifest": "9f88a0e6e3bcd5256e3dc209028270daea43cab9089522b7c2e0f35c0d02852e",
+    "preregistration": "cd119737222fda4a859d02526955d9beabc20fbf20a944fc3a9b7dc5be0edc2a",
+    "samples": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+    "semantic_validation": "1c57cb00b19962d7f6d1565471bdfe977788f6ce44d7f00174eb3d4d13d95d9c",
+    "structural_audit": "e9cc24484fe2f7b876262c31c677835620348e6782276df4800f74f4baeeceb8",
+    "supplemental_packet": "0ce732ac146d014c0644888b586a3072d48c405ae48bec89308f4f5f36489edc",
+    "supplemental_packet_manifest": "86d623566994f4c647638fc6e71d201d95df384d02c5cf84be6861c1577ab3cb",
+    "supplemental_packet_manifest_digest": "5c22faf3121d53de31882bdb44154d7064cfd0e56f5ce9f33d9bcbd44ecc1a1f",
+    "tokenizer_audit": "a285ea7c6bccbf4cc1fb2bd0083d2317076321f81d424ccac934105c0693de45"
+  },
+  "passed": false,
+  "project_id": "glm53_user_eval_source_instrument_v11",
+  "registered_output": "artifacts/glm53_user_eval/v11/offline_audit/analysis.json",
+  "schema_version": "glm53_v11_combined_offline_analysis_v1",
+  "state": "semantic_validation_failed_manual_review_pending"
+}

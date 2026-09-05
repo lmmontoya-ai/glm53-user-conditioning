@@ -1,0 +1,72 @@
+{
+  "schema_version": "glm53_v21_runpod_launch_v1",
+  "created_at_utc": "2026-09-03T15:03:00.1218903Z",
+  "run_id": "glm53-v21-hua-20260903T150057Z-6fc53150",
+  "git_commit": "c2db4715573719cd152d3e73c89525d9571be395",
+  "prereg_tag": "glm53-user-eval-v21-preregistered",
+  "infrastructure_amendment_tag": "glm53-user-eval-v21-runtime",
+  "scientific_commit": "9bec01652fe5ae1e87da238777820b4577704087",
+  "runtime_patch_commit": "9bec01652fe5ae1e87da238777820b4577704087",
+  "runtime_patch_sha256": "ae61b3717ff1b89dddb4e5b56af5de6bea22b9720a5cf6728f1e467b8b968beb",
+  "v19_decision_sha256": "c6f58de21bf8b6a7622c68d3601bbd8fc216de52036799f9ef44daf90c07cc39",
+  "runtime_config_sha256": "0d99a047141cff16a2be1476238a9b2893cdec790c1f6933af8de1b2d02df0fb",
+  "bootstrap_sha256": "e0c1b8d98826ce0fd9e0e8d930e1369ea4b29077765f337cfe704a2a08b736ac",
+  "bootstrap_source": "infra/runpod/bootstrap_glm53_v20.sh@glm53-user-eval-v21-runtime",
+  "bootstrap_start": "observed_bound_heartbeat",
+  "bootstrap_delivery": "direct_pod_rest_body_without_template",
+  "external_watchdog_start_observed": true,
+  "external_watchdog_process_id": 46856,
+  "parent_decision": {
+    "decision": "stop_local_parity_failed",
+    "sha256": "46e1af89ed7b396301f1d2510acc6b381390201523664e0b5f7f6884f2a3a2de"
+  },
+  "input_bundle": {
+    "object_prefix": "glm53-v21-inputs/glm53-v21-hua-20260903T150057Z-6fc53150",
+    "manifest_sha256": "331a31656b6a596500f443c2d700d70d04c14c07d6e379e4e1bef6888ee70c71",
+    "signature_sha256": "52fdaf3139973680994bde90cb8cecc53a48b73d2129b3117054a414956568c6",
+    "file_count": 31,
+    "roundtrip_verified": true,
+    "source_transport": {
+      "object_key": "glm53-v21-inputs/glm53-v21-hua-20260903T150057Z-6fc53150/v21_science_repo.tar.gz",
+      "sha256": "b1e01cd820eb45c25c8555aa443e29f74c41a0e551a3ae2ec5ae53ff74bbbbc8",
+      "scientific_commit": "9bec01652fe5ae1e87da238777820b4577704087",
+      "roundtrip_verified": true
+    }
+  },
+  "s3_credentials_validated": true,
+  "s3_credential_session_attested_at_utc": "2026-09-03T15:00:50.8327301Z",
+  "s3_credential_read_write_probe_passed": true,
+  "s3_credential_rotation_required_after_project": true,
+  "pod_scoped_api_deadline_delete_required": true,
+  "pod": {
+    "id": "f5xb6t7a5x3fuu",
+    "name": "mats-glm53-v21-glm53-v21-hua-20260903T150057Z-6fc53150",
+    "desired_status": "RUNNING",
+    "runtime_status": "initializing",
+    "gpu_count": 2,
+    "gpu_id": "NVIDIA B300 SXM6 AC",
+    "secure_cloud": true,
+    "data_center_id": "EUR-IS-1",
+    "cost_per_hour_usd": 15.78,
+    "container_disk_gb": 450,
+    "persistent_volume_gb": 0,
+    "image": "runpod/pytorch@sha256:f40e33a190d6823439541d1dde52003fbed66539a7af998f38e29f499ca5bdd6",
+    "ports": [
+      "22/tcp"
+    ],
+    "uptime_seconds": 0
+  },
+  "network_volume_attached": false,
+  "local_model_staging": "huggingface_xet_to_container_disk",
+  "live_balance_usd": 55.2219872075,
+  "live_aggregate_rate_usd_per_hour": 15.78,
+  "projected_compute_usd": 44.709999999999999999999999999,
+  "configured_compute_hard_cap_usd": 45.0,
+  "effective_compute_hard_cap_usd": 45.0,
+  "storage_allowance_usd": 0.1,
+  "balance_floor_usd": 10.2219872075,
+  "minimum_reserve_usd": 8.0,
+  "deadline_utc": "2026-09-03T17:51:52.4987721Z",
+  "heartbeat_key": "glm53-v21-results/glm53-v21-hua-20260903T150057Z-6fc53150/heartbeat.json",
+  "terminal_key": "glm53-v21-results/glm53-v21-hua-20260903T150057Z-6fc53150/terminal.json"
+}

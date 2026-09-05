@@ -1,0 +1,126 @@
+{
+  "schema_version": "glm53_v21_final_evidence_v1",
+  "project_id": "glm53_user_eval_hua_exploratory_continuation_v21",
+  "run_id": "glm53-v21-hua-20260903T150057Z-6fc53150",
+  "scientific_commit": "9bec01652fe5ae1e87da238777820b4577704087",
+  "runtime_commit": "c2db4715573719cd152d3e73c89525d9571be395",
+  "prereg_tag": "glm53-user-eval-v21-preregistered",
+  "runtime_tag": "glm53-user-eval-v21-runtime",
+  "decision": "no_resolved_deployment_attenuation",
+  "scope": "exploratory_post_failed_local_parity_gate",
+  "files": {
+    "preregistration": {
+      "path": "pipelines/glm53_user_eval/v21/configs/prereg_v21_exploratory_continuation.yaml",
+      "sha256": "1b2e47b832c0f27729921d800e857563fcf2047f977c590ca0a7a64f5de8bc09"
+    },
+    "runtime_config": {
+      "path": "pipelines/glm53_user_eval/v21/configs/runtime_v21.yaml",
+      "sha256": "0d99a047141cff16a2be1476238a9b2893cdec790c1f6933af8de1b2d02df0fb"
+    },
+    "v20_baseline_raw_scores": {
+      "path": "artifacts/glm53_user_eval/v20/recovered/glm53-v20-hua-20260903T134930Z-3eb64df2/artifacts/run/local_proxy/raw_scores.jsonl",
+      "sha256": "91702099d664bf19626c1f3f944e667e26f5e6bb379a9284dbc14a7449af2ce3"
+    },
+    "full_rows": {
+      "path": "artifacts/glm53_user_eval/v21/run/causal/full_rows.jsonl",
+      "sha256": "ea44d579097437be3b2f2415f31117874f55fd6c1fd1ce34eedb9efab29bcd8d"
+    },
+    "null_rows": {
+      "path": "artifacts/glm53_user_eval/v21/run/causal/null_rows.jsonl",
+      "sha256": "31c2d2e03a036c5f8e49f890eca60a81f1bb61e341c47806962bf140d658946d"
+    },
+    "analysis": {
+      "path": "artifacts/glm53_user_eval/v21/run/causal/analysis.json",
+      "sha256": "6e46334514aefbf6b816f9085b45284d73bdf8c2dbc7c25852f2ec4a4e0310ca"
+    },
+    "pod_verification": {
+      "path": "artifacts/glm53_user_eval/v21/run/causal/verification.json",
+      "sha256": "e83a1cfb940bde67df5ec1e5be16fadd5d1fe7c237786a18ac95c3fe78caf811"
+    },
+    "machine_decision": {
+      "path": "artifacts/glm53_user_eval/v21/run/decision.json",
+      "sha256": "82b9048450e67162b442d8fdd62362b3ee832f508f9b2ec500fdb313e5714fdd"
+    },
+    "runtime_smoke": {
+      "path": "artifacts/glm53_user_eval/v21/run/runtime_smoke.json",
+      "sha256": "f7904db6151cd2f0a272c64287e008840132aee43b030a46da63e46f246b7881"
+    },
+    "baseline_binding": {
+      "path": "artifacts/glm53_user_eval/v21/run/baseline_binding.json",
+      "sha256": "95bb98a0c3f97e4253cb5d5816ff676bfcc256b4b99ff9e552a627045fc79c4e"
+    },
+    "fp8_runtime_check": {
+      "path": "artifacts/glm53_user_eval/v21/run/fp8_runtime_check.json",
+      "sha256": "671ef88961757c857ea7efab612fd806300399eee0f62210d9096120605fc9eb"
+    },
+    "runtime_proxy_token_validation": {
+      "path": "artifacts/glm53_user_eval/v21/run/runtime_proxy_token_validation.json",
+      "sha256": "b24b65e07ceeba115b8df11ac5af03f943ef80ab7575fb2a9483b7f5c504d738"
+    },
+    "runtime_summary": {
+      "path": "artifacts/glm53_user_eval/v21/run/runtime_summary.json",
+      "sha256": "1693c370d121eac9f8d3186b8570943829fe5e614bc8185ca368566cf87e58d3"
+    },
+    "checkpoint_verification": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/model_snapshot_verification.json",
+      "sha256": "c3d5839057fc3b9f7ad2e3762802d432ca813b9dd83c7c8a62fa658be1e680f4"
+    },
+    "pod_evidence_manifest": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/evidence_manifest.json",
+      "sha256": "28d5a25f939ddb73f2cba3e4ed299a7bd17db7ac030cf1781e909c9ac8cd94f3",
+      "entries": 575,
+      "locally_verified": 575,
+      "missing": 0,
+      "hash_mismatches": 0
+    },
+    "terminal_state": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/terminal_state.json",
+      "sha256": "0c76f8d8bc0f1abf2c623ad00acf85cf26272e04847ffc556d165025761e69eb"
+    },
+    "launch_record": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/launch.json",
+      "sha256": "aeb5fda0f6349f14e9d915797cdc4a7d7d0e8c20f331ba75a67143b3367e2920"
+    },
+    "paid_plan": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/paid_plan.json",
+      "sha256": "d6d26cf887089c824d3cc20641f39f49c57379b4c02669e387b5c85695ccfa53"
+    },
+    "watchdog_start": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/watchdog_start.json",
+      "sha256": "755da6faee758e58c657046ad6c21f0b65bcc553de5fab94f03b0c3e242bad26"
+    },
+    "watchdog_predelete": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/watchdog_predelete.json",
+      "sha256": "47c8fac35b6fd336e480e6ef571da32fcf635f28a7ebc95b88f3028b478f8bcd"
+    },
+    "watchdog_result": {
+      "path": "artifacts/glm53_user_eval/v21/infrastructure/watchdog_result.json",
+      "sha256": "a7650f00c4fa68d28b6ae00e96c8b627c12067416b54e033720325429d4d19c4"
+    },
+    "final_report": {
+      "path": "pipelines/glm53_user_eval/v21/status/FINAL_REPORT.md",
+      "sha256": "45f5da5edcc17acf1982c99ffac8f11b726353fb18f172a681787dfd910048ae"
+    },
+    "final_state": {
+      "path": "pipelines/glm53_user_eval/v21/status/final_state_20260903.json",
+      "sha256": "d086e18de4739075a395126b5275705b84a790a75f431e84c5b96f96a116ad26"
+    },
+    "storage_cleanup": {
+      "path": "pipelines/glm53_user_eval/v21/status/storage_cleanup_20260903.json",
+      "sha256": "5e428b12c5667a4294cc4c9e799406cd75e76541c40c64dca79fd6ab86fb64ff"
+    },
+    "local_verification_rerun": {
+      "path": "pipelines/glm53_user_eval/v21/status/local_verification_rerun_20260903.json",
+      "sha256": "c4c7ec79d0c0e34fc040d13b4e6d65653896cacd7bfc49292a7833b4ee6b4062"
+    }
+  },
+  "raw_evidence_committed": false,
+  "raw_evidence_retained_locally": true,
+  "complete_recovery_copy": "artifacts/glm53_user_eval/v21/recovered/glm53-v21-hua-20260903T150057Z-6fc53150",
+  "resources_after_cleanup": {
+    "pods": 0,
+    "serverless_endpoints": 0,
+    "network_volumes": 0
+  },
+  "credentials_rotation_required": true
+}

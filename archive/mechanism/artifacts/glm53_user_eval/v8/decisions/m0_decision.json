@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "causal_schedule": true,
+    "codebooks": true,
+    "direction_dataset": true,
+    "direction_splits": true,
+    "hundred_logs": true,
+    "parent": true,
+    "runtime": true
+  },
+  "decision": "proceed",
+  "estimates": {
+    "direction_dataset_hashes": {
+      "artifacts/datasets/contrastive_prompts_v2/samples.csv": "10e7e11016f913884a4729ce81b117c96c1b606b377f4bebdd5c6f6a146bab60",
+      "artifacts/datasets/contrastive_prompts_v2/splits.csv": "816f8df208e9c10b359bfd35728229f01095dd409679b5ebbe91001a2cd4feb5",
+      "artifacts/datasets/contrastive_prompts_v2/summary.json": "7f9c138d845b05d87d2feb6b61dfe594f6e78aa4bb73dcf2838f87ec129b31cb"
+    },
+    "recognized_v7_logs": 100
+  },
+  "gate": "M0",
+  "inputs": {
+    "parent_commit": "2b21609c67f9921fb36426cd95c2d0c2faec9c60",
+    "prereg_sha256": "31a6e8b5e368f3742a3a10303a0a4fccf3f94f42f5239d5958ab7cbbc793d80a"
+  },
+  "passed": true,
+  "schema_version": "glm53_v8_decision_v1"
+}

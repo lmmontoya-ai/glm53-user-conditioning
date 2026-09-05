@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "luna_max_0": true,
+    "luna_max_0_nonfast": true,
+    "luna_max_1": true,
+    "luna_max_1_nonfast": true,
+    "luna_max_2": true,
+    "luna_max_2_nonfast": true,
+    "luna_max_3": true,
+    "luna_max_3_nonfast": true,
+    "luna_max_count": true,
+    "terra_high_0": true,
+    "terra_high_0_nonfast": true,
+    "terra_high_1": true,
+    "terra_high_1_nonfast": true,
+    "terra_high_2": true,
+    "terra_high_2_nonfast": true,
+    "terra_high_3": true,
+    "terra_high_3_nonfast": true,
+    "terra_high_count": true
+  },
+  "passed": true,
+  "schema_version": "glm53_v15_route_smoke_v1",
+  "scientific_rows": 0
+}

@@ -1,0 +1,25 @@
+{
+  "authorization": {
+    "exact_fp8_source_extraction": false,
+    "first_cot_transfer": false,
+    "further_dataset_repair_before_application": false,
+    "local_proxy_parity": false,
+    "prompt_recruitment": false,
+    "runpod_compute": false,
+    "steering": false
+  },
+  "checks": {
+    "fast_inference_disabled": true,
+    "luna_max_independently_passed": false,
+    "manual_override_absent": true,
+    "technical_contract_passed": true,
+    "terra_high_independently_passed": false,
+    "verification_agreed": true
+  },
+  "decision": "final_semantic_stop_both_judges_failed",
+  "interpretation": "The final balanced repair did not pass both independent semantic judges. No GPU work or further pre-application dataset repair is authorized.",
+  "manual_or_ai_override_allowed": false,
+  "passed": false,
+  "project_id": "glm53_user_eval_balanced_repair_v14",
+  "schema_version": "glm53_v14_balanced_repair_decision_v1"
+}

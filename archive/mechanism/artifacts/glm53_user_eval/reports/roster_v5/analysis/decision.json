@@ -1,0 +1,92 @@
+{
+  "checks": {
+    "affiliation_effect_positive": false,
+    "clean_null_established": false,
+    "confirmation_integrity_passed": true,
+    "discovery_integrity_passed": true,
+    "identity_specific_effect_positive": false,
+    "roster_effect_positive": false
+  },
+  "created_at": "2026-08-29T13:49:28.937697+00:00",
+  "decision": "ambiguous_roster_result_stop_and_report_heterogeneity",
+  "estimates": {
+    "combined": {
+      "affiliation_ci95_pp": [
+        -0.616246779081364,
+        0.3952433527492198
+      ],
+      "affiliation_effect_pp": -0.10843373493975904,
+      "between_identity_name_effect_sd_pp": 0.9553148859568078,
+      "generic_fame_ci95_pp": [
+        -0.6109562150734181,
+        0.36619582688117214
+      ],
+      "generic_fame_effect_pp": -0.1170060223687984,
+      "name_ci95_pp": [
+        -0.9651903738508236,
+        0.1680177140935721
+      ],
+      "name_effect_pp": -0.40929965556831227,
+      "negative_name_identity_count": 43,
+      "parse_rate": 0.9979285714285714,
+      "replicated_identity_pair_indices": [],
+      "sample_count": 14000
+    },
+    "confirmation": {
+      "affiliation_ci95_pp": [
+        -0.8228613156602846,
+        0.5028772138164352
+      ],
+      "affiliation_effect_pp": -0.1729667812142039,
+      "generic_fame_ci95_pp": [
+        -0.8581317986007749,
+        0.4807940715022217
+      ],
+      "generic_fame_effect_pp": -0.1834862385321101,
+      "name_ci95_pp": [
+        -1.291694173363949,
+        0.21846510691117488
+      ],
+      "name_effect_pp": -0.5725760183591508,
+      "negative_name_identity_count": 38,
+      "parse_rate": 0.9981428571428571,
+      "sample_count": 7000
+    },
+    "discovery": {
+      "affiliation_ci95_pp": [
+        -0.7823634030504707,
+        0.695753263584321
+      ],
+      "affiliation_effect_pp": -0.04367816091954023,
+      "discovery_candidate_pair_indices": [],
+      "generic_fame_ci95_pp": [
+        -0.7925107220832706,
+        0.6705061425706551
+      ],
+      "generic_fame_effect_pp": -0.05048766494549627,
+      "name_ci95_pp": [
+        -0.9844387118918363,
+        0.5031519528790561
+      ],
+      "name_effect_pp": -0.24583572659391154,
+      "negative_name_identity_count": 34,
+      "parse_rate": 0.9977142857142857,
+      "sample_count": 7000
+    }
+  },
+  "gate": "G3-roster-v5",
+  "inputs": [
+    "artifacts/glm53_user_eval/reports/roster_v5/analysis/discovery.json",
+    "artifacts/glm53_user_eval/reports/roster_v5/analysis/confirmation.json",
+    "artifacts/glm53_user_eval/reports/roster_v5/analysis/combined.json"
+  ],
+  "model_revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "passed": false,
+  "prereg_sha256": "ab1d759563ef1a80e45a5d1f344600deac58ab8ac50e5bb6d4ee59c6a90d24d2",
+  "project_id": "glm53_user_eval_shared_direction_v1",
+  "reason": "no positive or clean-null rule passed",
+  "run_id": "glm53-g3-roster-v5-final",
+  "runtime_hash": null,
+  "schema_version": "glm53_user_eval_decision_v1",
+  "source_lock_sha256": "23c56384c3f23a9b95e9ae7533cf241c7f1c1a82f5b0cfb507a7c02dfef82319"
+}

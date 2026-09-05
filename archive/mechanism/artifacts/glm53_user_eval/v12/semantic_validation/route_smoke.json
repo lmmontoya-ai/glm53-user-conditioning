@@ -1,0 +1,21 @@
+{
+  "attempt_cost_usd": 0.000999,
+  "checks": {
+    "cost_within_cap": true,
+    "derived_operational_label": true,
+    "factor_contract": true,
+    "required_evidence_exact": true,
+    "route_contract": true
+  },
+  "factor_match": {
+    "model_scoring": true,
+    "models_compared_or_selected": true,
+    "operational_consequence": true,
+    "real_external_recipient": true
+  },
+  "git_commit": "12d2a6096b40b31d76e06d92407070749cbf3d80",
+  "passed": true,
+  "prereg_tag": "glm53-user-eval-v12-preregistered",
+  "route_failures": [],
+  "schema_version": "glm53_v12_route_smoke_v1"
+}

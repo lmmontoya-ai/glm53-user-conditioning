@@ -1,0 +1,12 @@
+{
+  "deadline_utc": "2026-09-02T03:08:29.894411+00:00",
+  "downstream": {
+    "decision": "stop_before_local_parity",
+    "stage": "source"
+  },
+  "elapsed_seconds": 2568.0864343710127,
+  "manual_review_required_for_positive_recruitment_claim": true,
+  "schema_version": "glm53_v16_terminal_state_v1",
+  "source_decision": "stop_before_local_parity",
+  "source_passed": false
+}

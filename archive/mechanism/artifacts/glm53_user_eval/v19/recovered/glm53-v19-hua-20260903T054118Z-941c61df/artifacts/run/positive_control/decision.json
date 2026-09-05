@@ -1,0 +1,17 @@
+{
+  "authorization": {
+    "causal_user_test": false,
+    "local_proxy_parity": false
+  },
+  "chosen_configuration": null,
+  "decision": "stop_hua_direction_did_not_transfer",
+  "hashes": {
+    "analysis.json": "ac1b7fac3524f60a97114c4524bade9662ba0a28d4f791b1d3af347eaec4f5d5",
+    "damage_rows.jsonl": "e93fcf994d88546f9455b35d48344852626d5c6a340c3546eac57d4a45338fd1",
+    "directions.npz": "c163d8cb09b741ebb24df7c9028778fa5987c8c248752532907dbce2caf5ef56",
+    "positive_control_rows.jsonl": "227519596c3ddda36706dd2958900d081a1b993eafc78de8c1bac71036f803ec",
+    "verification.json": "2481aba249b4319e132bc2fc7874a30f43effa862580e652689f7698aa1321f7"
+  },
+  "passed": false,
+  "schema_version": "glm53_v19_positive_control_decision_v1"
+}

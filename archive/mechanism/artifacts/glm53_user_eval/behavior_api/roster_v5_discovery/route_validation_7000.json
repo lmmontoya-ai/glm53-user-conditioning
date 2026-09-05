@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_judges_first_party_openai": true,
+    "all_rows_first_party_zai": true,
+    "completed_rows_present": true,
+    "reasoning_observed": true
+  },
+  "expected_model": "z-ai/glm-5.3-flash",
+  "failures": [],
+  "passed": true,
+  "reasoning_row_count": 7000,
+  "row_count": 7000,
+  "schema_version": "glm53_openrouter_route_validation_v1"
+}

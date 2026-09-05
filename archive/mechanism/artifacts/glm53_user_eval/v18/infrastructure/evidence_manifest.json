@@ -1,0 +1,13 @@
+{
+  "files": {
+    "infrastructure/model_snapshot_verification.json": "c3d5839057fc3b9f7ad2e3762802d432ca813b9dd83c7c8a62fa658be1e680f4",
+    "infrastructure/model_stage.json": "bb78006d9995e3dfbc5eecd6f7b19485a679b20efec4f9c1a5dec647f5fade0f",
+    "infrastructure/terminal_state.json": "dac3515784daed10d49e7006c7be5a21f709b47f60a86b0bbd6e90651ee514a1",
+    "run/fp8_runtime_check.json": "671ef88961757c857ea7efab612fd806300399eee0f62210d9096120605fc9eb",
+    "run/runtime_calibration.json": "47febf174bde218215fdc7cbdd6a353768cdfc900b73e7569cf8e33f1aa4a873",
+    "run/runtime_summary.json": "005c3d8467aac4113d02f99b3679c0be5f5e2b15e9635b478796ded0676cf25c"
+  },
+  "pod_id": "ydk1ymzyil9ais",
+  "run_id": "glm53-v17-hua-20260903T003644Z-3bda5f30",
+  "schema_version": "glm53_v17_evidence_manifest_v1"
+}

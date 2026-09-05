@@ -1,0 +1,106 @@
+{
+  "authorization": {
+    "new_glm_forwards": false,
+    "runpod_compute": false
+  },
+  "combined_offline_analysis": {
+    "all_authorizations_false": true,
+    "input_hashes_verified": true,
+    "lexical_component_verified": true,
+    "semantic_component_verified": true,
+    "state": "semantic_validation_failed_manual_review_pending"
+  },
+  "credential_scan": {
+    "passed": true,
+    "patterns_checked": [
+      "named_api_key_assignment",
+      "aws_credential_assignment",
+      "openrouter_key",
+      "openai_key",
+      "aws_access_key",
+      "authorization_bearer",
+      "private_key_block"
+    ],
+    "scanned_file_count": 598
+  },
+  "evidence_manifest": {
+    "path": "artifacts/glm53_user_eval/v11/offline_audit/semantic_stop_evidence_manifest.json",
+    "sha256": "1d6d122ed7af4f34dc91ea3bd3807ffa38467fd8f04b8a1c8f58d4b2abdb467a"
+  },
+  "lexical_gate": {
+    "decision": "lexical_baselines_pass_semantic_review_unlocked",
+    "passed": true
+  },
+  "manual_review": {
+    "completed_review_present": false,
+    "packet_row_count": 128,
+    "packet_sha256": "4f61f85e082262d47694954a8b5626d488b570172662c61b12c722dc07af69dd",
+    "status": "pending_two_human_review"
+  },
+  "offline_chain": {
+    "dataset_manifest_bound": true,
+    "development_holdout_closed_during_fit": true,
+    "development_model_bundle_bound": true,
+    "final_holdout_marker_bound": true,
+    "lexical_inputs_bound": true,
+    "structural_audit_passed": true,
+    "tokenizer_audit_passed": true
+  },
+  "passed": false,
+  "preregistration": {
+    "annotated_tag": "glm53-user-eval-v11-preregistered",
+    "prereg_sha256": "cd119737222fda4a859d02526955d9beabc20fbf20a944fc3a9b7dc5be0edc2a",
+    "target_commit_sha": "10f9dcc2187fa59bd50a3d45a97ac2e1f22016e6"
+  },
+  "project_id": "glm53_user_eval_source_instrument_v11",
+  "provenance_warnings": [
+    {
+      "affected_valid_rows": 27,
+      "code": "initial_rows_precede_preserved_attempt_logs",
+      "message": "The first 27 valid row files predate the preserved bounded-resume attempt logs. Their files and request records are hashed, but no saved attempt log covers their creation."
+    },
+    {
+      "code": "failed_malformed_response_cost_unavailable",
+      "message": "The saved artifacts do not contain the API cost of failed malformed responses. The realized semantic cost covers the 576 preserved valid rows only."
+    }
+  ],
+  "schema_version": "glm53_v11_semantic_stop_summary_v1",
+  "semantic_gate": {
+    "binary": {
+      "accuracy": 0.98125,
+      "correct": 471,
+      "count": 480,
+      "threshold": 0.9
+    },
+    "controls": {
+      "acceptable": 77,
+      "acceptance_rate": 0.8020833333333334,
+      "count": 96,
+      "threshold": 0.9
+    },
+    "final_counterfactual": {
+      "accuracy": 0.90625,
+      "correct": 58,
+      "count": 64,
+      "threshold": 0.9
+    },
+    "passed": false,
+    "realized_valid_row_cost_usd": 0.6834877499999996,
+    "route_validation": {
+      "failure_count": 0,
+      "failures": [],
+      "passed": true
+    },
+    "row_count": 576
+  },
+  "state": "semantic_gate_failed_paid_compute_locked",
+  "supplemental_review": {
+    "digest_matches_manifest": true,
+    "manifest_sha256": "86d623566994f4c647638fc6e71d201d95df384d02c5cf84be6861c1577ab3cb",
+    "non_gating": true,
+    "packet_sha256": "0ce732ac146d014c0644888b586a3072d48c405ae48bec89308f4f5f36489edc",
+    "row_count": 6,
+    "source_hashes_verified": true,
+    "status": "pending_two_human_review"
+  }
+}

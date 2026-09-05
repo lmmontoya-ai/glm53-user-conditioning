@@ -1,0 +1,7 @@
+{
+  "reused_without_rescoring": true,
+  "rows": 1404,
+  "schema_version": "glm53_v21_baseline_binding_v1",
+  "sha256": "91702099d664bf19626c1f3f944e667e26f5e6bb379a9284dbc14a7449af2ce3",
+  "v20_decision": "stop_local_parity_failed"
+}

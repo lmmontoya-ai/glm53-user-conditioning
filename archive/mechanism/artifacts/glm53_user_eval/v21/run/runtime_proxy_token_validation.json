@@ -1,0 +1,39 @@
+{
+  "contexts": {
+    "0": {
+      "base_token_count": 280,
+      "label_ids": {
+        "A": 362,
+        "B": 425,
+        "C": 356,
+        "D": 422,
+        "E": 468,
+        "F": 434,
+        "G": 479,
+        "H": 472,
+        "I": 358,
+        "J": 619,
+        "K": 730
+      }
+    },
+    "1": {
+      "base_token_count": 280,
+      "label_ids": {
+        "A": 362,
+        "B": 425,
+        "C": 356,
+        "D": 422,
+        "E": 468,
+        "F": 434,
+        "G": 479,
+        "H": 472,
+        "I": 358,
+        "J": 619,
+        "K": 730
+      }
+    }
+  },
+  "passed": true,
+  "schema_version": "glm53_v11_proxy_runtime_token_validation_v1",
+  "validation_sample_id": "dd_0000-fai2_neel_nanda-plain"
+}

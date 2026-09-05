@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "blocked_median": true,
+    "blocked_minimum": true,
+    "lofo_median": true,
+    "lofo_minimum": true,
+    "v9_hard_auroc": true,
+    "v9_hard_fpr": true,
+    "v9_test_auroc": true
+  },
+  "independent_recomputation": {
+    "family_task_blocked": {
+      "fold_count": 56,
+      "median_auroc": 1.0,
+      "minimum_auroc": 0.75
+    },
+    "leave_family_out": {
+      "fold_count": 56,
+      "median_auroc": 0.990234375,
+      "minimum_auroc": 0.80078125
+    },
+    "v9": {
+      "hard_negative_auroc": 0.71875,
+      "hard_negative_fpr_at_80_tpr": 0.5,
+      "neutral_false_positive_rate": 0.5,
+      "selected_layer": 44,
+      "test_auroc": 1.0
+    }
+  },
+  "inputs": {
+    "analysis": "e6d1dae96e2577ccbdf15435f4dc88d57ac172995f59483503e6722a886c4b56",
+    "fixed_features": "d1d95c068aaeff2b2cfe35182b80c2d52880aaa47259000368223c07721defbe",
+    "metadata": "56d098da8b663dccee42d66736c9cf98587e9c3d3e7838797318d75ac33de0fe"
+  },
+  "passed": true,
+  "schema_version": "glm53_v10_independent_verification_v1"
+}

@@ -1,0 +1,18 @@
+{
+  "judges": {
+    "luna_max": {
+      "attempt_files": 648,
+      "completed_rows": 576,
+      "expected_rows": 576,
+      "mean_completed_call_seconds": 48.45489423804813
+    },
+    "terra_high": {
+      "attempt_files": 776,
+      "completed_rows": 576,
+      "expected_rows": 576,
+      "mean_completed_call_seconds": 14.414355682830015
+    }
+  },
+  "schema_version": "glm53_v13_codex_cohort_status_v1",
+  "semantic_values_hidden": true
+}

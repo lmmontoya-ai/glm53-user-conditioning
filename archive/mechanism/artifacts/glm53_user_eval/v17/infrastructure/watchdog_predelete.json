@@ -1,0 +1,7 @@
+{
+  "schema_version": "glm53_v17_watchdog_predelete_v1",
+  "captured_at_utc": "2026-09-02T23:02:34.0514237Z",
+  "reason": "launch_failed",
+  "pod": null,
+  "pod_get_error": "runpodctl failed with exit code 1: pod get rf4a2ghim7oqfs --include-machine --include-network-volume -o json"
+}

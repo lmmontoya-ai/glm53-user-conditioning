@@ -1,0 +1,23 @@
+{
+  "block_counts": {
+    "0": 8,
+    "1": 8,
+    "2": 8,
+    "3": 8,
+    "4": 8
+  },
+  "condition_counts": {
+    "famous_coherent": 10,
+    "famous_nonai_control": 10,
+    "unknown_general": 10,
+    "unknown_same_org": 10
+  },
+  "packet_sha256": "295846787cf38e7ddda84265b125179dc99dd3d6c3edd20f68864007cc800d2d",
+  "reading_log_sha256_before_review": "a4cf355035864c4957ea15c712294930fc12d366e3f7b7dbbe0c8422e3e762e3",
+  "results_sha256": "2f08bc1548e22c65c9c63e785f850a6a86c3fbd32856fd5c3c38a0f0d8268c81",
+  "sample_size": 40,
+  "schedule_sha256": "b8c49edbf3bad55b4ce979883172bb8695601c2c0410266c7e4f93013e38fbbf",
+  "schema_version": "glm53_roster_manual_audit_packet_v1",
+  "seed": 20260830,
+  "selection": "equal_count_per_condition_by_analysis_block"
+}

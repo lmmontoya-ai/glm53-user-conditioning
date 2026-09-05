@@ -1,0 +1,25 @@
+{
+  "analysis_sha256": "6e46334514aefbf6b816f9085b45284d73bdf8c2dbc7c25852f2ec4a4e0310ca",
+  "baseline_sha256": "91702099d664bf19626c1f3f944e667e26f5e6bb379a9284dbc14a7449af2ce3",
+  "checks": {
+    "baseline_negative": true,
+    "both_codebooks": true,
+    "deployment_ci_above_zero": false,
+    "independent_verification": true,
+    "meaningful_attenuation": true,
+    "not_actor_only": false,
+    "not_formality": false,
+    "output_integrity": false,
+    "reverse_direction": false,
+    "signflip_specificity": false,
+    "status_support": true,
+    "target_pair_change_dominates": false
+  },
+  "completed": true,
+  "decision": "no_resolved_deployment_attenuation",
+  "positive_under_v20_causal_rules": false,
+  "schema_version": "glm53_v21_exploratory_decision_v1",
+  "scope": "exploratory_post_failed_local_parity_gate",
+  "v20_local_parity_remains_failed": true,
+  "verification_sha256": "e83a1cfb940bde67df5ec1e5be16fadd5d1fe7c237786a18ac95c3fe78caf811"
+}

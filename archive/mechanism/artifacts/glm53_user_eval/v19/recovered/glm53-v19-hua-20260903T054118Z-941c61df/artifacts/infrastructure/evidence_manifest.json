@@ -1,0 +1,23 @@
+{
+  "files": {
+    "infrastructure/model_snapshot_verification.json": "c3d5839057fc3b9f7ad2e3762802d432ca813b9dd83c7c8a62fa658be1e680f4",
+    "infrastructure/model_stage.json": "3a133b21e17abe489da550dd4936e7110dd630e1f1a7762bae0bd68cd7eb6c5e",
+    "infrastructure/terminal_state.json": "2c1644c7107959a80d895b3afa851862437dde59a92e4a50f8f30bb8aebbdcc1",
+    "run/downstream_preflight.json": "9b4fa357fc59b34cbcdd8598488c32bcd6c3abe3e165f80928f243650cf2e1d2",
+    "run/fp8_runtime_check.json": "671ef88961757c857ea7efab612fd806300399eee0f62210d9096120605fc9eb",
+    "run/positive_control/analysis.json": "ac1b7fac3524f60a97114c4524bade9662ba0a28d4f791b1d3af347eaec4f5d5",
+    "run/positive_control/damage_rows.jsonl": "e93fcf994d88546f9455b35d48344852626d5c6a340c3546eac57d4a45338fd1",
+    "run/positive_control/decision.json": "c6f58de21bf8b6a7622c68d3601bbd8fc216de52036799f9ef44daf90c07cc39",
+    "run/positive_control/direction_prompt_metadata.jsonl": "a86209a67ca7f4d014b9c23274f66797beadf5695733b0043e589778e0eff286",
+    "run/positive_control/direction_stability.json": "f47bd7060c1330439128ac671730e10f07258fed1b2b8b9e905085b457892c40",
+    "run/positive_control/directions.npz": "c163d8cb09b741ebb24df7c9028778fa5987c8c248752532907dbce2caf5ef56",
+    "run/positive_control/positive_control_rows.jsonl": "227519596c3ddda36706dd2958900d081a1b993eafc78de8c1bac71036f803ec",
+    "run/positive_control/verification.json": "2481aba249b4319e132bc2fc7874a30f43effa862580e652689f7698aa1321f7",
+    "run/runtime_calibration.json": "3ea179cfd6487d7b42daeeb8a19d350ad436d863df677b7c0544e70a372e1716",
+    "run/runtime_proxy_token_validation.json": "b24b65e07ceeba115b8df11ac5af03f943ef80ab7575fb2a9483b7f5c504d738",
+    "run/runtime_summary.json": "16dbebef3552f2db5bc6e37034013a494ba1f774dfdb42eff7117ed42f97ca24"
+  },
+  "pod_id": "yalvgqvtbgb7op",
+  "run_id": "glm53-v19-hua-20260903T054118Z-941c61df",
+  "schema_version": "glm53_v19_evidence_manifest_v1"
+}

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "luna_max_four_rows": true,
+    "luna_max_v13_smoke_deploy": true,
+    "luna_max_v13_smoke_eval": true,
+    "luna_max_v13_smoke_mixed": true,
+    "luna_max_v13_smoke_none": true,
+    "terra_high_four_rows": true,
+    "terra_high_v13_smoke_deploy": true,
+    "terra_high_v13_smoke_eval": true,
+    "terra_high_v13_smoke_mixed": true,
+    "terra_high_v13_smoke_none": true
+  },
+  "git_commit": "ba5f49e85d49f127b4a557256dac9d2edb4b2fab",
+  "passed": true,
+  "schema_version": "glm53_v13_codex_route_smoke_v1",
+  "scientific_rows": 0
+}

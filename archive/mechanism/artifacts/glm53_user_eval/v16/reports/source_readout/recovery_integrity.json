@@ -1,0 +1,53 @@
+{
+  "schema_version": "glm53_v16_recovery_integrity_v1",
+  "run_id": "glm53-v16-source-20260902T015329Z-8c254763",
+  "local_raw_archive": "artifacts/glm53_user_eval/v16/recovery_runs/glm53-v16-source-20260902T015329Z-8c254763/artifacts/features/source/parts",
+  "activation_files": 576,
+  "row_manifest_files": 576,
+  "invalid_or_missing_pairs": 0,
+  "total_bytes": 851123314,
+  "aggregate_sorted_manifest_and_activation_sha256": "a80ce7d5615cd191f9fd8986450b79906c5af17cd587dbeead562830113f7435",
+  "large_raw_archive_committed_to_git": false,
+  "temporary_s3_transport_volume": {
+    "id": "yqs9l7a86w",
+    "size_gb": 20,
+    "deleted_after_verified_recovery": true
+  },
+  "runpod_cleanup": {
+    "active_pods": 0,
+    "active_serverless_endpoints": 0,
+    "remaining_network_volumes": 0,
+    "current_spend_per_hour_usd": 0,
+    "remaining_balance_usd": 26.6749540875
+  },
+  "compact_files": {
+    "signed_terminal_state": {
+      "sha256": "914606a9a1f64f017be56dc87b0c9ee4d59b026563ca7b24504a6bcc518a3019",
+      "bytes": 378
+    },
+    "signed_runtime_gate": {
+      "sha256": "613e54f58dd06d50c77789a8fad5557ed6e051647ff77c7c5c21ca7404f4b776",
+      "bytes": 5222
+    },
+    "signed_source_evidence_manifest": {
+      "sha256": "e6aa41ed738f2434e3d4a0392756ab877ac750b5de951f9d40a41b7e9eb6c35b",
+      "bytes": 162697
+    },
+    "signed_pod_final_evidence": {
+      "sha256": "e1496b1e1d9372a2e6e09321015a6b38e37b5828468dfb90e7b0f7fa703e0144",
+      "bytes": 269140
+    },
+    "recovered_analysis": {
+      "sha256": "25da3714bd7df8a69a0fa398b0073019fe7754472e688b4ded3b26ce2ac0b9e0",
+      "bytes": 90991
+    }
+  },
+  "pod_original_report_hashes": {
+    "source_final_analysis.json": "b45b8d98608a87b3c78560c0dee00367715021d1d4978e0b8505b230993fd021",
+    "decision.json": "8a5dcafadebd88dfc08fb30b1274189e8fd8c9c4124011781204a9565fe1e72e",
+    "verification.json": "6ead2e11df47f35dc0b2d759d3cfb9ac52767ed956c8b1faaab5e0b1312b3c63",
+    "permutation_analysis.json": "a02321cb299aceba4c6e3a4b2b18fff6252005718d05d590b52aca801f47de96",
+    "permutation_rows.jsonl": "2f3751d5108423a9f0faa31c1e912eddf6e6e6905df6303248e268e22556c930"
+  },
+  "transport_limitation": "The row-level archive was durably uploaded and recovered. The bootstrap uploader then attempted a consolidated file through a single PUT, received HTTP 413, and exited before uploading the smaller source-report files. The signed evidence manifest preserved their original hashes, and the final metrics were recomputed from the exact row-level activations."
+}

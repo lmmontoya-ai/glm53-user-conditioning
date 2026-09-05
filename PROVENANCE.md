@@ -96,3 +96,13 @@ user-facing document in this repository contains them.
 hashes. The Inspect eval logs themselves (300 shards) are kept locally under
 `outputs/positive_control/eval_logs/` and are not tracked; the extractor in `src/glm53/run_task.py`
 reproduces `raw_scores.jsonl` from them.
+
+## Completion of the archive (2026-09-04)
+
+Before the study's branches and tags were removed from the source repository, the 756 tracked
+files at tag `glm53-user-eval-v23-final` that had no copy here (the mechanism versions' artifact
+trees, the roster pilots, and the v11 offline audit; 65.6 MB) were copied byte-identically to
+`archive/mechanism/artifacts/glm53_user_eval/` with per-file sha256 in `COPY_MANIFEST.json`. With
+that copy, every one of the 1,283 files tracked at the final tag exists in this repository. The full
+git history of the study (the v23 branch and all 163 tags) is preserved as a bundle described in
+`archive/history/README.md` and attached to the `source-history` release of this repository.

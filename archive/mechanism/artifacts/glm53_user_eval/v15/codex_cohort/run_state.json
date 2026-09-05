@@ -1,0 +1,18 @@
+{
+  "judges": {
+    "luna_max": {
+      "completed_rows": 576,
+      "expected_rows": 576,
+      "fresh_completed_rows": 64,
+      "reused_rows": 512
+    },
+    "terra_high": {
+      "completed_rows": 576,
+      "expected_rows": 576,
+      "fresh_completed_rows": 64,
+      "reused_rows": 512
+    }
+  },
+  "schema_version": "glm53_v15_status_v1",
+  "semantic_values_hidden": true
+}

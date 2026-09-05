@@ -1,0 +1,20 @@
+{
+  "base_token_count": 309,
+  "cache_sha256": "18510279e618577e0366b0158d6cfe22aa4540ccc40687f1d05dbc8eda4c502c",
+  "codebook_sha256": "d4631439589ad64ef7aa0ddc56dff8a3879885eb98833df93ba0c6b22f8a7efd",
+  "label_ids": {
+    "A": 362,
+    "B": 425,
+    "C": 356,
+    "D": 422,
+    "E": 468,
+    "F": 434,
+    "G": 479,
+    "H": 472,
+    "I": 358,
+    "J": 619,
+    "K": 730
+  },
+  "passed": true,
+  "schema_version": "glm53_v8_proxy_contract_v1"
+}

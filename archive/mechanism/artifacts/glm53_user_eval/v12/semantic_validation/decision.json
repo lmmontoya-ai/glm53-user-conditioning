@@ -1,0 +1,33 @@
+{
+  "authorization": {
+    "exact_fp8_source_extraction": false,
+    "first_cot_transfer": false,
+    "local_proxy_parity": false,
+    "prompt_recruitment": false,
+    "runpod_compute_for_exact_fp8_source_extraction": false,
+    "steering": false
+  },
+  "checks": {
+    "independent_recomputation_passed": true,
+    "independent_scientific_classification_agrees": true,
+    "manual_override_absent": true,
+    "primary_gate_passed": false,
+    "second_pass_complete_and_route_valid": true,
+    "verifier_did_not_rescue_primary": true
+  },
+  "compute_limits_if_passed": {
+    "balance_floor_usd": 12.0,
+    "hard_cap_usd": 30.0,
+    "ordinary_pod_only": true,
+    "subject": "official_fp8_glm53_flash"
+  },
+  "created_at_utc": "2026-09-01T13:11:00.539669+00:00",
+  "dataset_sha256": "3efc88ee8c40de51521867bdb2896805e673b29aa470e5bf829ac33f89b7e46c",
+  "decision": "fact_extracted_semantic_validation_failed_stop_all_experiments",
+  "interpretation": "The frozen text did not pass the prospective four-fact validator. No further experimental branch is authorized before the application deadline.",
+  "manual_or_ai_review_override_allowed": false,
+  "passed": false,
+  "prereg_sha256": "03024dbf9984bda3ee3ca7c79605d42cac27ca58abe9c258e7568dae80a4d890",
+  "project_id": "glm53_user_eval_fact_validator_v12",
+  "schema_version": "glm53_v12_semantic_decision_v1"
+}

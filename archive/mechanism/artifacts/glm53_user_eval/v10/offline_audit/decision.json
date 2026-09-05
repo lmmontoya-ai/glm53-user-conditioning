@@ -1,0 +1,25 @@
+{
+  "authorization": {
+    "new_paid_compute": false,
+    "steering": false,
+    "user_recruitment": false
+  },
+  "checks": {
+    "bootstrap_has_unstable_tail": true,
+    "family_and_task_blocked_transfer_remains_high": true,
+    "historical_trainer_does_not_fix_gate": true,
+    "independent_verification": true,
+    "no_trainer_passes_hard_negative_gate": true,
+    "ordinary_family_transfer_remains_high": true,
+    "simple_metadata_is_not_predictive": true
+  },
+  "decision": "construct_overfit_source_instrument_invalid",
+  "inputs": {
+    "analysis": "e6d1dae96e2577ccbdf15435f4dc88d57ac172995f59483503e6722a886c4b56",
+    "verification": "eee821f62cb41a6dfea7041060f1c91200917e5bbdae08cdb0badda7b7c767cb"
+  },
+  "interpretation": "The core prompt distribution is easy across trainers, families, and blocked task identities, but every tested linear method fails the counterfactual hard-negative gate. The historical trainer does not repair the failure, and simple saved metadata is at chance. The source instrument decodes propagated explicit framing rather than a robust latent eval/deploy state.",
+  "passed": true,
+  "recommended_next": "Design and preregister contrastive_prompts_v3 with latent factorial scenarios, counterbalanced vocabulary, disjoint generators and tasks, and a fresh untouched counterfactual holdout.",
+  "schema_version": "glm53_v10_construct_decision_v1"
+}

@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "core_test_auroc": true,
+    "cue_mask_contract": true,
+    "hard_negative_fpr": false,
+    "permutation_p": true,
+    "realism_auroc": true,
+    "target_user_data_excluded": true
+  },
+  "decision": "stop_readout_branch",
+  "gate": "R3",
+  "inputs": {
+    "feature_manifest": "6cb3469a055d76dc975fb482abbe807a280b9f6feae5b3f331d49a42235af385",
+    "fixed_features": "d1d95c068aaeff2b2cfe35182b80c2d52880aaa47259000368223c07721defbe",
+    "metadata": "56d098da8b663dccee42d66736c9cf98587e9c3d3e7838797318d75ac33de0fe",
+    "probe_models": "e6a950609dbac7773f5fdb9935a703816782b4686017cc0acebf97a2d0c136fa",
+    "v8_prompt_final_equivalence": "18fab9ef1eb1592c952a447754bebc7be0b51aa5fec74070a40f86c074315a64"
+  },
+  "passed": false,
+  "schema_version": "glm53_v9_readout_decision_v1"
+}

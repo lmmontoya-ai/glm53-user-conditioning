@@ -1,0 +1,12 @@
+{
+  "argmax_metadata_equal": true,
+  "batch_seconds": 9.040530772996135,
+  "batch_size": 4,
+  "full_ladder_fits_deadline": false,
+  "max_alpha_zero_full_logit_error": 0.0,
+  "max_batch_allowed_logit_error": 1.25,
+  "passed": false,
+  "projected_full_ladder_seconds_with_30pct_headroom": 52299.47052178264,
+  "prompts_per_second": 0.44245189806199337,
+  "schema_version": "glm53_v17_runtime_calibration_v1"
+}

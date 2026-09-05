@@ -1,0 +1,44 @@
+{
+  "comparison": {
+    "all_headline_estimates_match": true,
+    "maximum_absolute_differences": {
+      "affiliation_ci95_pp": 0.0,
+      "affiliation_effect_pp": 0.0,
+      "generic_fame_ci95_pp": 1.1102230246251565e-16,
+      "generic_fame_effect_pp": 0.0,
+      "name_ci95_pp": 0.0,
+      "name_effect_pp": 0.0,
+      "negative_name_identity_count": 0.0,
+      "parse_rate": 0.0,
+      "sample_count": 0.0
+    }
+  },
+  "independent_estimates": {
+    "affiliation_ci95_pp": [
+      -0.616246779081364,
+      0.3952433527492198
+    ],
+    "affiliation_effect_pp": -0.10843373493975904,
+    "generic_fame_ci95_pp": [
+      -0.6109562150734182,
+      0.36619582688117214
+    ],
+    "generic_fame_effect_pp": -0.1170060223687984,
+    "name_ci95_pp": [
+      -0.9651903738508236,
+      0.1680177140935721
+    ],
+    "name_effect_pp": -0.40929965556831227,
+    "negative_name_identity_count": 43,
+    "parse_rate": 0.9979285714285714,
+    "sample_count": 14000
+  },
+  "input_hashes": {
+    "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_confirmation\\results.jsonl": "2f08bc1548e22c65c9c63e785f850a6a86c3fbd32856fd5c3c38a0f0d8268c81",
+    "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_confirmation_schedule\\schedule.jsonl": "b8c49edbf3bad55b4ce979883172bb8695601c2c0410266c7e4f93013e38fbbf",
+    "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_discovery\\results.jsonl": "53278f88d214c5d9d0308a32e6a66476768cb0891134dd494eb3e2320ef32fb7",
+    "artifacts\\glm53_user_eval\\behavior_api\\roster_v5_discovery_schedule\\schedule.jsonl": "9bd2a516ccdba5e1f777739b0501c44e9080617a18dedd0b32f5d621bbb25c0a",
+    "artifacts\\glm53_user_eval\\reports\\roster_v5\\analysis\\combined.json": "09b83f67a63959c355e1d239426f1ab040007f4f1f7f377b9e1e8e7423c19161"
+  },
+  "schema_version": "glm53_roster_independent_recompute_v1"
+}

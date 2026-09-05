@@ -21,3 +21,6 @@ outputs/*
 data/transcripts/v7_transcripts_all100.jsonl
 data/transcripts/v7_transcripts.jsonl
 data/transcripts/v7_annotation_packet.jsonl
+
+# git bundles are release assets, not tracked files
+archive/history/*.bundle

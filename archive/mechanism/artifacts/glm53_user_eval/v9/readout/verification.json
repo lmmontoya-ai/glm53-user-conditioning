@@ -1,0 +1,85 @@
+{
+  "checks": {
+    "classification_agrees": true,
+    "gate_checks_agree": true,
+    "mask_counts": true,
+    "metric_agreement": true,
+    "null_exceed_agreement": true,
+    "null_p_agreement": true,
+    "row_count": true,
+    "selected_layer": true
+  },
+  "inputs": {
+    "fixed_features_sha256": "d1d95c068aaeff2b2cfe35182b80c2d52880aaa47259000368223c07721defbe",
+    "metadata_sha256": "56d098da8b663dccee42d66736c9cf98587e9c3d3e7838797318d75ac33de0fe",
+    "probe_models_sha256": "e6a950609dbac7773f5fdb9935a703816782b4686017cc0acebf97a2d0c136fa",
+    "readout_decision_sha256": "56d216f89b959625e61c49fadaf93503096c5eb48f895ea0006e653f5b88d53d",
+    "readout_report_sha256": "54f11dfe240a0711bf69f73b13737adb277609387756129404d78ca83788f584"
+  },
+  "metric_absolute_differences": {
+    "holdout_hardneg.auprc": 0.0,
+    "holdout_hardneg.auroc": 0.0,
+    "holdout_hardneg.brier": 0.0,
+    "holdout_hardneg.fpr_at_80_tpr": 0.0,
+    "holdout_hardneg.neutral_count": 0.0,
+    "holdout_hardneg.neutral_false_positive_rate": 0.0,
+    "holdout_hardneg.neutral_mean_score": 0.0,
+    "holdout_mats_aux.auprc": 0.0,
+    "holdout_mats_aux.auroc": 0.0,
+    "holdout_mats_aux.brier": 0.0,
+    "holdout_mats_aux.fpr_at_80_tpr": 0.0,
+    "holdout_realism.auprc": 0.0,
+    "holdout_realism.auroc": 0.0,
+    "holdout_realism.brier": 0.0,
+    "holdout_realism.fpr_at_80_tpr": 0.0,
+    "test.auprc": 0.0,
+    "test.auroc": 0.0,
+    "test.brier": 0.0,
+    "test.fpr_at_80_tpr": 0.0
+  },
+  "passed": true,
+  "recomputed_gate_checks": {
+    "core_test_auroc": true,
+    "cue_mask_contract": true,
+    "hard_negative_fpr": false,
+    "permutation_p": true,
+    "realism_auroc": true,
+    "target_user_data_excluded": true
+  },
+  "recomputed_metrics": {
+    "holdout_hardneg": {
+      "auprc": 0.7907912048391925,
+      "auroc": 0.71875,
+      "brier": 0.32541538875861553,
+      "fpr_at_80_tpr": 0.5,
+      "neutral_count": 32,
+      "neutral_false_positive_rate": 0.5,
+      "neutral_mean_score": 1.2262990474700928
+    },
+    "holdout_mats_aux": {
+      "auprc": 0.9412214985542052,
+      "auroc": 0.92578125,
+      "brier": 0.11940921387674719,
+      "fpr_at_80_tpr": 0.125
+    },
+    "holdout_realism": {
+      "auprc": 1.0,
+      "auroc": 1.0,
+      "brier": 0.03954063867353831,
+      "fpr_at_80_tpr": 0.0
+    },
+    "test": {
+      "auprc": 1.0,
+      "auroc": 1.0,
+      "brier": 0.016974110281630747,
+      "fpr_at_80_tpr": 0.0
+    }
+  },
+  "recomputed_null": {
+    "empirical_p": 0.009900990099009901,
+    "exceed_count": 0
+  },
+  "recomputed_readout_passed": false,
+  "schema_version": "glm53_v9_independent_readout_verification_v1",
+  "selected_layer": 44
+}

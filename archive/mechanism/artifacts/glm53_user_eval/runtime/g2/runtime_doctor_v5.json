@@ -1,0 +1,421 @@
+{
+  "additive_test": {
+    "max_delta_error": 0.001953125,
+    "shape": [
+      1,
+      214,
+      4,
+      4096
+    ]
+  },
+  "checks": {
+    "additive_delta_within_bf16_tolerance": true,
+    "hooks_removed": true,
+    "hyper_head_exact": true,
+    "layer_shape_contract": true,
+    "twenty_prompts": true,
+    "zero_greedy_exact": true,
+    "zero_logits_exact": true
+  },
+  "cuda": {
+    "cuda_runtime": "12.8",
+    "device_count": 4,
+    "memory": [
+      {
+        "allocated_bytes": 78881439232,
+        "index": 0,
+        "max_allocated_bytes": 82551706624,
+        "name": "NVIDIA H100 NVL",
+        "reserved_bytes": 88560631808,
+        "total_bytes": 99949674496
+      },
+      {
+        "allocated_bytes": 82754210304,
+        "index": 1,
+        "max_allocated_bytes": 87552485888,
+        "name": "NVIDIA H100 NVL",
+        "reserved_bytes": 94845796352,
+        "total_bytes": 99949674496
+      },
+      {
+        "allocated_bytes": 82882992640,
+        "index": 2,
+        "max_allocated_bytes": 87681267200,
+        "name": "NVIDIA H100 NVL",
+        "reserved_bytes": 94969528320,
+        "total_bytes": 99949674496
+      },
+      {
+        "allocated_bytes": 76470729728,
+        "index": 3,
+        "max_allocated_bytes": 81268973568,
+        "name": "NVIDIA H100 NVL",
+        "reserved_bytes": 88554340352,
+        "total_bytes": 99949674496
+      }
+    ],
+    "torch_version": "2.8.0+cu128"
+  },
+  "deadline_minutes": 110,
+  "device_map": {
+    "lm_head": 3,
+    "model.language_model.embed_tokens": 0,
+    "model.language_model.hc_head": 3,
+    "model.language_model.layers.0": 0,
+    "model.language_model.layers.1": 0,
+    "model.language_model.layers.10": 0,
+    "model.language_model.layers.11": 0,
+    "model.language_model.layers.12": 0,
+    "model.language_model.layers.13": 1,
+    "model.language_model.layers.14": 1,
+    "model.language_model.layers.15": 1,
+    "model.language_model.layers.16": 1,
+    "model.language_model.layers.17": 1,
+    "model.language_model.layers.18": 1,
+    "model.language_model.layers.19": 1,
+    "model.language_model.layers.2": 0,
+    "model.language_model.layers.20": 1,
+    "model.language_model.layers.21": 1,
+    "model.language_model.layers.22": 1,
+    "model.language_model.layers.23": 1,
+    "model.language_model.layers.24": 2,
+    "model.language_model.layers.25": 2,
+    "model.language_model.layers.26": 2,
+    "model.language_model.layers.27": 2,
+    "model.language_model.layers.28": 2,
+    "model.language_model.layers.29": 2,
+    "model.language_model.layers.3": 0,
+    "model.language_model.layers.30": 2,
+    "model.language_model.layers.31": 2,
+    "model.language_model.layers.32": 2,
+    "model.language_model.layers.33": 2,
+    "model.language_model.layers.34": 2,
+    "model.language_model.layers.35": 3,
+    "model.language_model.layers.36": 3,
+    "model.language_model.layers.37": 3,
+    "model.language_model.layers.38": 3,
+    "model.language_model.layers.39": 3,
+    "model.language_model.layers.4": 0,
+    "model.language_model.layers.40": 3,
+    "model.language_model.layers.41": 3,
+    "model.language_model.layers.42": 3,
+    "model.language_model.layers.43": 3,
+    "model.language_model.layers.44": 3,
+    "model.language_model.layers.5": 0,
+    "model.language_model.layers.6": 0,
+    "model.language_model.layers.7": 0,
+    "model.language_model.layers.8": 0,
+    "model.language_model.layers.9": 0,
+    "model.language_model.norm": 3,
+    "model.visual": 0
+  },
+  "elapsed_seconds": 286.40721975499764,
+  "extraction_shapes": {
+    "prompt_0_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_0_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_0_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_10_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_10_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_10_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_11_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_11_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_11_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_12_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_12_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_12_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_13_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_13_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_13_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_14_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_14_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_14_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_15_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_15_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_15_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_16_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_16_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_16_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_17_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_17_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_17_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_18_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_18_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_18_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_19_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_19_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_19_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_1_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_1_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_1_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_2_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_2_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_2_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_3_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_3_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_3_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_4_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_4_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_4_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_5_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_5_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_5_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_6_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_6_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_6_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_7_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_7_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_7_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_8_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_8_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_8_layer_44": [
+      1,
+      4096
+    ],
+    "prompt_9_layer_0": [
+      1,
+      4096
+    ],
+    "prompt_9_layer_22": [
+      1,
+      4096
+    ],
+    "prompt_9_layer_44": [
+      1,
+      4096
+    ]
+  },
+  "forward_seconds": [
+    19.974252545041963,
+    0.41847415594384074,
+    1.12525674700737,
+    0.4261658650357276,
+    0.4181259551551193,
+    0.41374042606912553,
+    0.4123010849580169,
+    0.4126486189197749,
+    0.4181385519914329,
+    0.4182796929962933,
+    0.41173655120655894,
+    0.4126828929875046,
+    0.41347588086500764,
+    0.4179900318849832,
+    0.41263841604813933,
+    0.41901019494980574,
+    0.41413778509013355,
+    0.41217403789050877,
+    0.4139513710979372,
+    0.41486848308704793
+  ],
+  "hook_count_after": 0,
+  "hook_count_before": 0,
+  "hyper_head_max_error": 0.0,
+  "load_seconds": 232.01768460986204,
+  "loaded_layer_count": 45,
+  "model_path": "/workspace/mats-glm53/models/GLM-5.3-Flash/04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "passed": true,
+  "prompt_count": 20,
+  "prompts_sha256": "7646c0a4ad3acd01e40b0e7e326629987e782f1e3c662f020b7bd8f2e416b776",
+  "rendered_prompt_hashes": [
+    "05db4b44fbcde5130ecae64b6492a199b546fb039445b229e0c8da015fa6e751",
+    "68e17dad682b5175cc2d66ff78c0b2582ccdaa00cf2afb0e09d2609046a4ac79",
+    "e74dc29f148bade7a2aae5ff9ebc3744edfd9d8a9a4e04470fccb3da2d250bdc",
+    "30c9ad9bd13df74a32d74e9beef29591e95ed85913d7ae3747035821da348198",
+    "3ad5bcc224b87c257acf2f27f5e25bec86dc39937c7a0a7cb276e0da5c4a1410",
+    "8c75d9c4c29ff60a8c5e01816e06dfb2f2dbcdd691b51f5d0a6705ab663543de",
+    "eb096510c6e9a19e05cd5fb4d17b071f5e235ed1cf7029ada35d30699ad4bab7",
+    "1f9f34d1cae27c38aaed0f7aa73c55e7afb65c4da1d118fbd05bfc0c01ce40fd",
+    "7e19b9925088535d0304113f5100b0a1d03176f53f259ba87b8c1807ca68071d",
+    "e0706c155c58e2f76f47f9d02e7bd83e4a6d02e7d6c5459df75d92607543c618",
+    "441a840e5c1f97997fbb67143c2e6314f407123919c573c1018195adf7ffb8e7",
+    "da0ba6adcb3897c908e69f1605d1306f5ac8399cdf52443c7540e04d7968175d",
+    "8ab0d4281a8afc64588ae808c42b03979849a611c1617ff3b4630898c982d76d",
+    "924e8b6c2405267066b8213e07ffc8cc78966501466d4c01834639f8e4084847",
+    "52fab9995e4b44adbf1c83e6835670472e5955f835862450e76dd9005791d471",
+    "00dd349ff612e5854a9ebe95a2917a99f5e60e7b1e70ba5bd0a5190bbd19cc01",
+    "3e33cb66816018354140a73a2b011d16bbdac22e072ec86d2477b39a2530fc22",
+    "9f12ad9677db71ed63f04ec148f5291843578e22917c12796bca78e2e9eef355",
+    "e89da089f758a936e1bbf49d0a8af0bf49f0af48f755f0de4e71419ecbfbbe6e",
+    "c9919d6d349853d0d430f8597c901843d937b364522a576bf40d9c18ffdad481"
+  ],
+  "revision": "04c4e9e95c5da8862dced7e5056455116f83a7e0",
+  "run_id": "glm53-g2-runtime-doctor-v5",
+  "runtime_config_sha256": "db5d167de01de741a0833c206cd0124bc59d7f6c91bfb88150596e919e412c72",
+  "schema_version": "glm53_runtime_doctor_v2",
+  "source_lock_sha256": "23c56384c3f23a9b95e9ae7533cf241c7f1c1a82f5b0cfb507a7c02dfef82319",
+  "static_contract": {
+    "hc_mult": 4,
+    "hidden_size": 4096,
+    "text_layers": 45
+  },
+  "transformers_commit": "805a9e939fa8c1bff8d8ffdf041c051b71a914aa",
+  "zero_hook_greedy_equal": true,
+  "zero_hook_logit_max_error": 0.0
+}

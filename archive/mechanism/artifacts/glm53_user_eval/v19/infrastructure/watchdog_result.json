@@ -1,0 +1,12 @@
+{
+  "schema_version": "glm53_v19_watchdog_result_v1",
+  "pod_id": "yalvgqvtbgb7op",
+  "deleted_at_utc": "2026-09-03T06:00:41.6630163Z",
+  "reason": "terminal_marker",
+  "delete_exit_code": 0,
+  "pod_absent_after_delete": true,
+  "successful_list_checks": 1,
+  "final_list_error": "",
+  "delete_response_present": true,
+  "s3_credential_rotation_required_after_project": true
+}
